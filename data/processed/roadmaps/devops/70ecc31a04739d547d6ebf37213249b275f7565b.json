@@ -1,0 +1,3704 @@
+{
+  "roadmap_id": "devops",
+  "commit_hash": "70ecc31a04739d547d6ebf37213249b275f7565b",
+  "topics": [
+    {
+      "id": "v5FGKQc-_7NYEsWjmTEuq",
+      "label": "Learn a Programming Language",
+      "type": "topic",
+      "description": "# Learn a Language\n\nLearning a programming language is a valuable skill in today's world, opening doors to various opportunities, including automation, web development, data analysis, and more. Choosing the right language depends on your specific goals and interests. For beginners, Python is often recommended due to its easy-to-read syntax and wide range of applications. Learning a programming language is a rewarding journey. Start with a language that interests you and explore!",
+      "resources": [
+        {
+          "type": "article",
+          "title": "Guide to Picking a Language for DevOps",
+          "url": "https://cs.fyi/guide/programming-language-for-devops"
+        }
+      ],
+      "status": "required",
+      "y": 229.3007298193524,
+      "x": 1602.7802652868972,
+      "sequence_row": 1,
+      "sequence_col": 1
+    },
+    {
+      "id": "qe84v529VbCyydl0BKFk2",
+      "label": "Operating System",
+      "type": "topic",
+      "description": "# Operating System\n\nAn operating system is the foundational software that manages a computer's hardware and software resources, providing common services for various programs. It acts as an intermediary between users and hardware, handling tasks like process scheduling, memory management, file systems, and device control. By abstracting the complexity of physical components, it allows applications to run consistently across different environments.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "Operating Systems - Wiki",
+          "url": "https://en.wikipedia.org/wiki/Operating_system"
+        },
+        {
+          "type": "article",
+          "title": "Learn Operating Systems",
+          "url": "https://www.tutorialspoint.com/operating_system/os_overview.htm"
+        },
+        {
+          "type": "video",
+          "title": "What are Operating Systems?",
+          "url": "https://www.youtube.com/watch?v=pVzRTmdd9j0"
+        },
+        {
+          "type": "video",
+          "title": "Operating Systems",
+          "url": "https://www.youtube.com/watch?v=vBURTt97EkA&list=PLBlnK6fEyqRiVhbXDGLXDk_OQAeuVcp2O"
+        }
+      ],
+      "status": "required",
+      "y": 355.1966436651256,
+      "x": 1353.3113390834426,
+      "sequence_row": 2,
+      "sequence_col": 1
+    },
+    {
+      "id": "wjJPzrFJBNYOD3SJLzW2M",
+      "label": "Terminal Knowledge",
+      "type": "topic",
+      "description": "# Terminal Knowledge\n\nThe terminal is a command-line interface that allows you to interact with your computer's operating system by typing text commands instead of using a graphical user interface. By mastering basic shell commands, you can perform tasks like navigating through file systems, managing processes, manipulating files, and automating repetitive operations directly through the command line. This skill serves as the foundation for controlling servers and executing scripts efficiently within any computing environment.",
+      "resources": [
+        {
+          "type": "roadmap",
+          "title": "Visit the Dedicated Bash/Shell Roadmap",
+          "url": "https://roadmap.sh/shell-bash"
+        },
+        {
+          "type": "article",
+          "title": "What is CLI?",
+          "url": "https://en.wikipedia.org/wiki/Command-line_interface"
+        }
+      ],
+      "status": "required",
+      "y": 536.1811226053657,
+      "x": 1704.2802652868972,
+      "sequence_row": 3,
+      "sequence_col": 1
+    },
+    {
+      "id": "LvhFmlxz5uIy7k_nzx2Bv",
+      "label": "Version Control Systems",
+      "type": "topic",
+      "description": "# Version Control Systems\n\nVersion control systems (VCS) are tools that track changes to code and files over time, enabling multiple users to collaborate on projects, maintain history, and manage different versions of codebases. They help in tracking modifications, merging changes, and resolving conflicts. There are two main types of VCS: centralized and distributed. Centralized systems (like Subversion and CVS) rely on a single central repository, while distributed systems (like Git and Mercurial) allow each user to have a complete copy of the repository, including its history. Distributed VCSs, such as Git, are particularly popular for their flexibility, branching capabilities, and robust support for collaborative workflows.",
+      "resources": [
+        {
+          "type": "roadmap",
+          "title": "Visit Dedicated Git & GitHub Roadmap",
+          "url": "https://roadmap.sh/git-github"
+        },
+        {
+          "type": "course",
+          "title": "Why version control? (Interactive Lesson)",
+          "url": "https://inter-git.com/lessons/introduction"
+        },
+        {
+          "type": "article",
+          "title": "What is Version Control?",
+          "url": "https://www.atlassian.com/git/tutorials/what-is-version-control"
+        },
+        {
+          "type": "video",
+          "title": "Version Control System (VCS)",
+          "url": "https://www.youtube.com/watch?v=SVkuliabq4g"
+        },
+        {
+          "type": "video",
+          "title": "What is a Version Control System and why you should always use it",
+          "url": "https://www.youtube.com/watch?v=IeXhYROClZk"
+        }
+      ],
+      "status": "required",
+      "y": 717.6852605686394,
+      "x": 1347.5432844855075,
+      "sequence_row": 4,
+      "sequence_col": 1
+    },
+    {
+      "id": "h10BH3OybHcIN2iDTSGkn",
+      "label": "VCS Hosting",
+      "type": "topic",
+      "description": "# Version Control Hosting Services\n\nWhen working on a team, you often need a remote place to put your code so others can access it, create their own branches, and create or review pull requests. This remote place is called a repository, and these services often include issue tracking, code review, and continuous integration features. A few popular choices are GitHub, GitLab, Bitbucket, and AWS CodeCommit.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "GitHub",
+          "url": "https://github.com"
+        },
+        {
+          "type": "official",
+          "title": "GitLab",
+          "url": "https://about.gitlab.com/"
+        },
+        {
+          "type": "official",
+          "title": "BitBucket",
+          "url": "https://bitbucket.org/product/guides/getting-started/overview"
+        },
+        {
+          "type": "video",
+          "title": "GitHub vs GitLab vs Bitbucket - Which Is Better?",
+          "url": "https://www.youtube.com/watch?v=FQGXIIqziQg"
+        }
+      ],
+      "status": "required",
+      "y": 909.037249249727,
+      "x": 1410,
+      "sequence_row": 5,
+      "sequence_col": 1
+    },
+    {
+      "id": "jCWrnQNgjHKyhzd9dwOHz",
+      "label": "What is and how to setup X ?",
+      "type": "topic",
+      "description": "# Setting up ________\n\nLearn how to set up:\n\n*   Forward Proxy\n*   Reverse Proxy\n*   Load Balancer\n*   Firewall\n*   Caching Server\n*   Web Server",
+      "resources": [],
+      "status": "required",
+      "y": 909.037249249727,
+      "x": 1976.1022029048668,
+      "sequence_row": 5,
+      "sequence_col": 3
+    },
+    {
+      "id": "CQhUflAcv1lhBnmDY0gaz",
+      "label": "Containers",
+      "type": "topic",
+      "description": "# Containers\n\nContainers are lightweight, standalone, and executable software packages that include everything needed to run an application, such as code, runtime, system tools, libraries, and settings. By isolating software from its environment, they ensure that applications run consistently regardless of where they are deployed. This technology allows developers to bundle an application with all its dependencies into a single unit, which can then be moved seamlessly between different computing environments.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "What are Containers?",
+          "url": "https://cloud.google.com/learn/what-are-containers"
+        },
+        {
+          "type": "article",
+          "title": "What is a Container?",
+          "url": "https://www.docker.com/resources/what-container/"
+        },
+        {
+          "type": "video",
+          "title": "What are Containers?",
+          "url": "https://www.youtube.com/playlist?list=PLawsLZMfND4nz-WDBZIj8-nbzGFD4S9oz"
+        }
+      ],
+      "status": "required",
+      "y": 909.037249249727,
+      "x": 1664.8844464722006,
+      "sequence_row": 5,
+      "sequence_col": 2
+    },
+    {
+      "id": "w5d24Sf8GDkLDLGUPxzS9",
+      "label": "Networking & Protocols",
+      "type": "topic",
+      "description": "# Networking & Protocols\n\nNetworking and protocols refer to the rules and systems that allow computers and servers to communicate with each other over a network. Networking involves the hardware and software used to connect machines, such as routers, switches, and firewalls, while protocols like HTTP, TCP/IP, DNS, and SSH act as standardized languages that define how data is packaged, sent, and received. Understanding these concepts is essential for ensuring that applications can interact reliably, securely, and efficiently within an infrastructure.",
+      "resources": [
+        {
+          "type": "roadmap",
+          "title": "Visit the Dedicated Network Engineer Roadmap",
+          "url": "https://roadmap.sh/network-engineer"
+        },
+        {
+          "type": "video",
+          "title": "DNS and How does it Work?",
+          "url": "https://www.youtube.com/watch?v=Wj0od2ag5sk"
+        },
+        {
+          "type": "video",
+          "title": "SSH vs SSL vs TLS",
+          "url": "https://www.youtube.com/watch?v=k3rFFLmQCuY"
+        }
+      ],
+      "status": "required",
+      "y": 1138.0187194026719,
+      "x": 1583.0509969897735,
+      "sequence_row": 6,
+      "sequence_col": 1
+    },
+    {
+      "id": "2Wd9SlWGg6QtxgiUVLyZL",
+      "label": "Cloud Providers",
+      "type": "topic",
+      "description": "# Cloud Providers\n\nCloud providers provide a layer of APIs to abstract infrastructure and provision it based on security and billing boundaries. The cloud runs on servers in data centers, but the abstractions cleverly give the appearance of interacting with a single \u201cplatform\u201d or large application. The ability to quickly provision, configure, and secure resources with cloud providers has been key to both the tremendous success and complexity of modern DevOps.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "Cloud Service Provider",
+          "url": "https://www.techtarget.com/searchitchannel/definition/cloud-service-provider-cloud-provider"
+        },
+        {
+          "type": "article",
+          "title": "What are Cloud Providers?",
+          "url": "https://www.redhat.com/en/topics/cloud-computing/what-are-cloud-providers"
+        }
+      ],
+      "status": "required",
+      "y": 1280.9816693737002,
+      "x": 1584.5509969897735,
+      "sequence_row": 7,
+      "sequence_col": 1
+    },
+    {
+      "id": "9p_ufPj6QH9gHbWBQUmGw",
+      "label": "Serverless",
+      "type": "topic",
+      "description": "# Serverless\n\nServerless is a cloud-computing execution model where the cloud provider dynamically manages the infrastructure, allowing developers to focus solely on writing code. In this model, resources are automatically allocated and scaled based on demand, and billing is based on actual usage rather than pre-purchased capacity. Serverless architectures are often used for event-driven workloads and microservices, improving development efficiency and reducing operational overhead. Popular platforms for serverless computing include AWS Lambda, Azure Functions, and Google Cloud Functions.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "What is Serverless?",
+          "url": "https://www.redhat.com/en/topics/cloud-native-apps/what-is-serverless"
+        },
+        {
+          "type": "video",
+          "title": "What is Serverless?",
+          "url": "https://www.youtube.com/watch?v=vxJobGtqKVM"
+        }
+      ],
+      "status": "required",
+      "y": 1280.9816693737002,
+      "x": 1992.153929822237,
+      "sequence_row": 7,
+      "sequence_col": 2
+    },
+    {
+      "id": "1oYvpFG8LKT1JD6a_9J0m",
+      "label": "Provisioning",
+      "type": "topic",
+      "description": "# Provisioning\n\nProvisioning is the process of setting up and configuring the infrastructure, software, and services required to make a system ready for use. It involves automating the deployment of servers, databases, and network components so that environments can be created consistently and efficiently. By using code to define these resources, teams can ensure that their infrastructure is reproducible, scalable, and quickly available whenever needed.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "What is provisioning? - RedHat",
+          "url": "https://www.redhat.com/en/topics/automation/what-is-provisioning"
+        },
+        {
+          "type": "article",
+          "title": "What is provisioning? - IBM",
+          "url": "https://www.ibm.com/topics/provisioning"
+        },
+        {
+          "type": "video",
+          "title": "Open Answers: What is provisioning?",
+          "url": "https://www.youtube.com/watch?v=hWvDlmhASpk"
+        }
+      ],
+      "status": "required",
+      "y": 1749.6366924943281,
+      "x": 2022.153929822237,
+      "sequence_row": 8,
+      "sequence_col": 2
+    },
+    {
+      "id": "V9sOxlNOyRp0Mghl7zudv",
+      "label": "Configuration Management",
+      "type": "topic",
+      "description": "# Configuration Management\n\nConfiguration Management is the process of systematically handling changes to a system in a way that ensures it maintains its integrity over time. It involves automating the setup, maintenance, and versioning of software and infrastructure settings to ensure that environments remain consistent across development, testing, and production.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "What is Configuration Management?",
+          "url": "https://www.atlassian.com/microservices/microservices-architecture/configuration-management"
+        },
+        {
+          "type": "article",
+          "title": "What is configuration management? - RedHat",
+          "url": "https://www.redhat.com/en/topics/automation/what-is-configuration-management"
+        },
+        {
+          "type": "video",
+          "title": "Why You Need to Learn Configuration Management",
+          "url": "https://www.youtube.com/watch?v=9In7ysQJGBs"
+        }
+      ],
+      "status": "required",
+      "y": 1749.6366924943281,
+      "x": 1696.6885970352912,
+      "sequence_row": 8,
+      "sequence_col": 1
+    },
+    {
+      "id": "aQJaouIaxIJChM-40M3HQ",
+      "label": "CI / CD Tools",
+      "type": "topic",
+      "description": "# CI/CD Tools\n\nCI/CD tools automate the process of building, testing, and deploying software. CI (Continuous Integration) focuses on automatically integrating code changes and running tests, while CD (Continuous Delivery/Deployment) takes that further by automating the release of validated code to staging or production environments.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "CI vs CD",
+          "url": "https://www.atlassian.com/continuous-delivery/principles/continuous-integration-vs-delivery-vs-deployment"
+        },
+        {
+          "type": "article",
+          "title": "What is CI/CD?",
+          "url": "https://www.redhat.com/en/topics/devops/what-is-ci-cd"
+        },
+        {
+          "type": "video",
+          "title": "DevOps CI/CD Explained in 100 Seconds",
+          "url": "https://www.youtube.com/watch?v=scEDHsr3APg"
+        },
+        {
+          "type": "video",
+          "title": "CI/CD In 5 Minutes",
+          "url": "https://www.youtube.com/watch?v=42UP1fxi2SY"
+        }
+      ],
+      "status": "required",
+      "y": 1971.2739894115864,
+      "x": 1800.8844464722006,
+      "sequence_row": 9,
+      "sequence_col": 2
+    },
+    {
+      "id": "gaoZjOYmU0J5aM6vtLNvN",
+      "label": "Logs Management",
+      "type": "topic",
+      "description": "# Logs Management\n\nLog management is the process of handling log events generated by all software applications and infrastructure on which they run. It involves log collection, aggregation, parsing, storage, analysis, search, archiving, and disposal, with the ultimate goal of using the data for troubleshooting and gaining business insights, while also ensuring the compliance and security of applications and infrastructure.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "Log Management: What DevOps Teams Need to Know",
+          "url": "https://devops.com/log-management-what-devops-teams-need-to-know/"
+        },
+        {
+          "type": "article",
+          "title": "Introduction to Logs Management",
+          "url": "https://sematext.com/guides/log-management"
+        },
+        {
+          "type": "article",
+          "title": "Logging for Kubernetes: What to Log and How to Log It",
+          "url": "https://thenewstack.io/logging-for-kubernetes-what-to-log-and-how-to-log-it/"
+        }
+      ],
+      "status": "required",
+      "y": 2009.6937435857144,
+      "x": 1186.9080590588455,
+      "sequence_row": 9,
+      "sequence_col": 1
+    },
+    {
+      "id": "hcrPpjFxPi_iLiMdLKJrO",
+      "label": "Secret Management",
+      "type": "topic",
+      "description": "# Secret Management\n\nSecret management refers to the practices and tools used to securely store, access, and distribute sensitive information such as passwords, API keys, tokens, and certificates. Rather than hardcoding secrets in code or config files, secret management systems provide a controlled way to inject credentials into applications at runtime.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "How to Manage Secrets in Web Applications?",
+          "url": "https://cs.fyi/guide/secret-management-best-practices"
+        },
+        {
+          "type": "article",
+          "title": "Why DevSecOps Teams Need Secrets Management",
+          "url": "https://www.keepersecurity.com/blog/2023/01/26/why-devsecops-teams-need-secrets-management/"
+        },
+        {
+          "type": "video",
+          "title": "DevOps Tricks for Managing Secrets in Production",
+          "url": "https://www.youtube.com/watch?v=u_L-f7Th_7o"
+        }
+      ],
+      "status": "required",
+      "y": 2135.6542746452424,
+      "x": 1749.6885970352912,
+      "sequence_row": 10,
+      "sequence_col": 2
+    },
+    {
+      "id": "qqRLeTpuoW64H9LvY0U_w",
+      "label": "Infrastructure Monitoring",
+      "type": "topic",
+      "description": "# Infrastructure Monitoring\n\nMonitoring refers to the practice of making the performance and status of infrastructure visible. This section contains common tools used for monitoring. This is a very vendor-heavy space, use caution when studying materials exclusively from a given product or project, as there are many conflicting opinions and strategies in use. There is no single solution for the most substantially complex internet-facing applications, so understanding the pros and cons of these tools will be useful in helping you plan how to monitor a system for a given goal.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "Best Practices to Optimize Infrastructure Monitoring within DevOps Teams",
+          "url": "https://thenewstack.io/best-practices-to-optimize-infrastructure-monitoring-within-devops-teams/"
+        },
+        {
+          "type": "article",
+          "title": "Seven Steps to Effective Cloud Native Infrastructure Monitoring",
+          "url": "https://thenewstack.io/seven-steps-to-effective-cloud-native-infrastructure-monitoring/"
+        },
+        {
+          "type": "video",
+          "title": "Infrastructure Monitoring Basics with Telegraf, Grafana and InfluxDB",
+          "url": "https://www.youtube.com/watch?v=ESub4SAKouI"
+        }
+      ],
+      "status": "required",
+      "y": 2135.6542746452424,
+      "x": 1437.7647088844683,
+      "sequence_row": 10,
+      "sequence_col": 1
+    },
+    {
+      "id": "Yq8kVoRf20aL_o4VZU5--",
+      "label": "Container Orchestration",
+      "type": "topic",
+      "description": "# Container Orchestration\n\nContainer orchestration refers to the automated management of containerized applications across clusters of machines. It handles tasks such as scheduling containers, scaling workloads up and down, managing networking between containers, and ensuring that failed containers are automatically restarted.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "What is Container Orchestration?",
+          "url": "https://www.redhat.com/en/topics/containers/what-is-container-orchestration"
+        },
+        {
+          "type": "article",
+          "title": "What is Kubernetes?",
+          "url": "https://kubernetes.io/docs/tutorials/kubernetes-basics/"
+        },
+        {
+          "type": "article",
+          "title": "Docker Swarm",
+          "url": "https://docs.docker.com/engine/swarm/"
+        }
+      ],
+      "status": "required",
+      "y": 2415.411508945109,
+      "x": 1191.5919421168855,
+      "sequence_row": 11,
+      "sequence_col": 1
+    },
+    {
+      "id": "zuBAjrqQPjj-0DHGjCaqT",
+      "label": "Artifact Management",
+      "type": "topic",
+      "description": "# Artifact Management\n\nArtifact management refers to the storage, versioning, and distribution of build artifacts, such as compiled binaries, container images, libraries, and packages, produced during the software development lifecycle. A dedicated artifact repository ensures that build outputs are reliably stored, traceable, and available for deployment across different environments.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "What are Artifacts - Oracle",
+          "url": "https://docs.oracle.com/en-us/iaas/Content/devops/using/artifacts.htm"
+        },
+        {
+          "type": "article",
+          "title": "What is an Artifact - Atlassian",
+          "url": "https://support.atlassian.com/bitbucket-cloud/docs/use-artifacts-in-steps/"
+        },
+        {
+          "type": "video",
+          "title": "Learn about GitLab Artifacts and Cache",
+          "url": "https://www.youtube.com/watch?v=gEfsCU-Sj1g"
+        }
+      ],
+      "status": "required",
+      "y": 2415.411508945109,
+      "x": 1775.6994137533861,
+      "sequence_row": 11,
+      "sequence_col": 3
+    },
+    {
+      "id": "-INN1qTMLimrZgaSPCcHj",
+      "label": "GitOps",
+      "type": "topic",
+      "description": "# GitOps\n\nGitOps is a way of managing infrastructure and application deployments by storing the desired state in a Git repository and using automation to apply changes. It treats Git as the single source of truth, so updates are made by committing changes to the repo, and automated tools reconcile the actual system state with what\u2019s in Git.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "What is GitOps",
+          "url": "https://octopus.com/devops/gitops/?utm_source=roadmap&utm_medium=link&utm_campaign=devops-gitops"
+        },
+        {
+          "type": "article",
+          "title": "GitOps Interactive Benefits Diagram",
+          "url": "https://octopus.com/devops/gitops/interactive-diagrams/?utm_source=roadmap&utm_medium=link&utm_campaign=devops-gitops"
+        },
+        {
+          "type": "article",
+          "title": "GitOps Maturity Model",
+          "url": "https://octopus.com/devops/gitops/gitops-maturity-model/?utm_source=roadmap&utm_medium=link&utm_campaign=devops-gitops"
+        },
+        {
+          "type": "video",
+          "title": "What is GitOps, How GitOps works and Why it's so useful",
+          "url": "https://www.youtube.com/watch?v=f5EpcWp0THw"
+        }
+      ],
+      "status": "required",
+      "y": 2415.411508945109,
+      "x": 2039.880090807097,
+      "sequence_row": 11,
+      "sequence_col": 4
+    },
+    {
+      "id": "wNguM6-YEznduz3MgBCYo",
+      "label": "Application Monitoring",
+      "type": "topic",
+      "description": "# Observability\n\nObservability is the ability to understand the internal state of a system by examining the data it produces, such as primarily logs, metrics, and traces, often referred to as the \"three pillars of observability.\" A highly observable system makes it easier to diagnose unexpected behavior, track performance over time, and understand how different components interact.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "Applying Basic vs. Advanced Monitoring Techniques",
+          "url": "https://thenewstack.io/applying-basic-vs-advanced-monitoring-techniques/"
+        },
+        {
+          "type": "video",
+          "title": "Application Monitoring - 4 Golden Signals",
+          "url": "https://www.youtube.com/watch?v=PHcnmTdVPT0"
+        }
+      ],
+      "status": "required",
+      "y": 2415.411508945109,
+      "x": 1491.8528975202719,
+      "sequence_row": 11,
+      "sequence_col": 2
+    },
+    {
+      "id": "EeWsihH9ehbFKebYoB5i9",
+      "label": "Service Mesh",
+      "type": "topic",
+      "description": "# Service Mesh\n\nA service mesh is a dedicated infrastructure layer that manages communication between microservices in a distributed application. It provides features like load balancing, service discovery, encryption, observability, and traffic management, allowing services to communicate securely and efficiently. By abstracting network-related concerns from the application code, a service mesh enhances reliability and security while simplifying the management of microservice interactions. Popular service mesh implementations include Istio, Linkerd, and Consul.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "Whats a Service Mesh?",
+          "url": "https://www.redhat.com/en/topics/microservices/what-is-a-service-mesh"
+        },
+        {
+          "type": "article",
+          "title": "The Latest News About Service Mesh (TNS)",
+          "url": "https://thenewstack.io/category/service-mesh/"
+        },
+        {
+          "type": "video",
+          "title": "Istio & Service Mesh - Simply Explained in 15 mins",
+          "url": "https://www.youtube.com/watch?v=16fgzklcF7Y"
+        }
+      ],
+      "status": "required",
+      "y": 2603.211912357967,
+      "x": 2039.941514522558,
+      "sequence_row": 12,
+      "sequence_col": 1
+    },
+    {
+      "id": "Qc0MGR5bMG9eeM5Zb9PMk",
+      "label": "Cloud Design Patterns",
+      "type": "topic",
+      "description": "# Cloud Design Patterns\n\nCloud design patterns are reusable solutions to common architectural challenges that arise when building applications for cloud environments. They address concerns such as scalability, resilience, security, and operational efficiency, providing proven approaches that architects and developers can apply when designing distributed systems.",
+      "resources": [
+        {
+          "type": "course",
+          "title": "30 Cloud Design Patterns in depth",
+          "url": "https://www.youtube.com/watch?v=cxYHugyNTP0"
+        },
+        {
+          "type": "official",
+          "title": "Cloud Design Patterns",
+          "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/"
+        },
+        {
+          "type": "article",
+          "title": "Cloud design patterns, architectures, and implementations",
+          "url": "https://docs.aws.amazon.com/prescriptive-guidance/latest/cloud-design-patterns/introduction.html"
+        }
+      ],
+      "status": "required",
+      "y": 2850.227757915361,
+      "x": 1584.5509969897735,
+      "sequence_row": 13,
+      "sequence_col": 1
+    }
+  ],
+  "subtopics": [
+    {
+      "id": "TwVfCYMS9jSaJ6UyYmC-K",
+      "label": "Python",
+      "type": "subtopic",
+      "description": "# Python\n\nPython is a high-level, interpreted programming language known for its clear syntax and readability. It supports multiple programming paradigms, including procedural, object-oriented, and functional programming, making it highly versatile for various tasks. Because of its extensive standard library and broad ecosystem of third-party packages, it is widely used for automating system tasks, scripting infrastructure operations, and developing scalable web applications.",
+      "resources": [
+        {
+          "type": "roadmap",
+          "title": "Visit Dedicated Python Roadmap",
+          "url": "https://roadmap.sh/python"
+        },
+        {
+          "type": "official",
+          "title": "Python Website",
+          "url": "https://www.python.org/"
+        },
+        {
+          "type": "article",
+          "title": "Python Crash Course",
+          "url": "https://ehmatthes.github.io/pcc_3e/"
+        },
+        {
+          "type": "video",
+          "title": "Python Full Course for free",
+          "url": "https://www.youtube.com/watch?v=ix9cRaBkVe0"
+        }
+      ],
+      "status": "personal_recommendation",
+      "y": 176.3007298193524,
+      "x": 2039.941514522558,
+      "parent_topic_id": "v5FGKQc-_7NYEsWjmTEuq"
+    },
+    {
+      "id": "PuXAPYA0bsMgwcnlwJxQn",
+      "label": "Ruby",
+      "type": "subtopic",
+      "description": "# Ruby\n\nRuby is a dynamic, open-source programming language with a focus on simplicity and productivity. It features an elegant syntax that is natural to read and easy to write, making it a popular choice for web development, particularly through the Ruby on Rails framework. Its object-oriented design and powerful standard library allow developers to build robust applications efficiently by prioritizing human-friendly code over complex machine-level logic.",
+      "resources": [
+        {
+          "type": "roadmap",
+          "title": "Visit the Dedicated Ruby Roadmap",
+          "url": "https://roadmap.sh/ruby"
+        },
+        {
+          "type": "official",
+          "title": "Ruby Website",
+          "url": "https://www.ruby-lang.org/en/"
+        },
+        {
+          "type": "official",
+          "title": "Learn Ruby in 20 minutes",
+          "url": "https://www.ruby-lang.org/en/documentation/quickstart/"
+        },
+        {
+          "type": "video",
+          "title": "Ruby Programming Crash Course",
+          "url": "https://www.youtube.com/watch?v=w9yNsTAp-Mg"
+        }
+      ],
+      "status": "alternative",
+      "y": 176.3007298193524,
+      "x": 2152.597833816051,
+      "parent_topic_id": "v5FGKQc-_7NYEsWjmTEuq",
+      "alternative_group": "v5FGKQc-_7NYEsWjmTEuq"
+    },
+    {
+      "id": "npnMwSDEK2aLGgnuZZ4dO",
+      "label": "Go",
+      "type": "subtopic",
+      "description": "# Go\n\nGo, also known as Golang, is a statically typed, compiled programming language developed by Google. It emphasizes simplicity, efficiency, and built-in concurrency support. Go features fast compilation, garbage collection, and a robust standard library. Its syntax is clean and concise, promoting easy readability and maintainability. Go's goroutines and channels provide powerful tools for concurrent programming. The language is particularly well-suited for system programming, network services, and cloud-native applications. Go's efficient memory usage and quick execution make it popular for building scalable server-side applications and microservices. With its focus on simplicity and performance, Go has gained significant adoption in DevOps tooling, containerization technologies, and cloud infrastructure projects.",
+      "resources": [
+        {
+          "type": "roadmap",
+          "title": "Visit Dedicated Go Roadmap",
+          "url": "https://roadmap.sh/golang"
+        },
+        {
+          "type": "official",
+          "title": "A Tour of Go \u2013 Go Basics",
+          "url": "https://go.dev/tour/welcome/1"
+        },
+        {
+          "type": "official",
+          "title": "Go Reference Documentation",
+          "url": "https://go.dev/doc/"
+        },
+        {
+          "type": "article",
+          "title": "Go by Example - annotated example programs",
+          "url": "https://gobyexample.com/"
+        },
+        {
+          "type": "article",
+          "title": "Making a RESTful JSON API in Go",
+          "url": "https://thenewstack.io/make-a-restful-json-api-go/"
+        },
+        {
+          "type": "video",
+          "title": "Go in 100 Seconds",
+          "url": "https://www.youtube.com/watch?v=446E-r0rXHI"
+        },
+        {
+          "type": "feed",
+          "title": "Explore top posts about Golang",
+          "url": "https://app.daily.dev/tags/golang?ref=roadmapsh"
+        }
+      ],
+      "status": "personal_recommendation",
+      "y": 229.3007298193524,
+      "x": 2039.941514522558,
+      "parent_topic_id": "v5FGKQc-_7NYEsWjmTEuq"
+    },
+    {
+      "id": "eL62bKAoJCMsu7zPlgyhy",
+      "label": "Rust",
+      "type": "subtopic",
+      "description": "# Rust\n\nRust is a multi-paradigm programming language designed for performance and safety, particularly safe concurrency. It achieves memory safety without a garbage collector by using a unique ownership model that checks references at compile time. Because of its efficiency and ability to manage low-level resources reliably, it is increasingly used to build high-performance infrastructure tools, cloud services, and command-line applications.",
+      "resources": [
+        {
+          "type": "roadmap",
+          "title": "Visit Dedicated Rust Roadmap",
+          "url": "https://roadmap.sh/rust"
+        },
+        {
+          "type": "course",
+          "title": "Rust by Practice - Interactive Rust Course",
+          "url": "https://practice.course.rs/"
+        },
+        {
+          "type": "official",
+          "title": "The Rust Programming Language - Online Book",
+          "url": "https://doc.rust-lang.org/book/"
+        },
+        {
+          "type": "video",
+          "title": "Full Crash Rust Tutorial for Beginners",
+          "url": "https://www.youtube.com/watch?v=R33h77nrMqc&list=PLPoSdR46FgI412aItyJhj2bF66cudB6Qs"
+        }
+      ],
+      "status": "alternative",
+      "y": 229.3007298193524,
+      "x": 2152.597833816051,
+      "parent_topic_id": "v5FGKQc-_7NYEsWjmTEuq",
+      "alternative_group": "v5FGKQc-_7NYEsWjmTEuq"
+    },
+    {
+      "id": "QCdemtWa2mE78poNXeqzr",
+      "label": "JavaScript / Node.js",
+      "type": "subtopic",
+      "description": "# JavaScript\n\nJavaScript is a high-level, interpreted programming language primarily used for client-side web development. It enables interactive and dynamic content on web pages, allowing developers to create responsive user interfaces and complex web applications. JavaScript is a core technology of the World Wide Web, alongside HTML and CSS. It supports object-oriented, imperative, and functional programming paradigms. With the advent of Node.js, JavaScript has also become popular for server-side development. The language features dynamic typing, first-class functions, and prototype-based object-orientation. JavaScript's ubiquity in web browsers, extensive ecosystem of libraries and frameworks (like React, Angular, and Vue.js), and its versatility across front-end and back-end development have made it one of the most widely used programming languages in modern software development.",
+      "resources": [
+        {
+          "type": "roadmap",
+          "title": "Visit Dedicated JavaScript Roadmap",
+          "url": "https://roadmap.sh/javascript"
+        },
+        {
+          "type": "article",
+          "title": "The Modern JavaScript Tutorial",
+          "url": "https://javascript.info/"
+        },
+        {
+          "type": "video",
+          "title": "JavaScript Crash Course for Beginners",
+          "url": "https://youtu.be/hdI2bqOjy3c"
+        },
+        {
+          "type": "feed",
+          "title": "Explore top posts about JavaScript",
+          "url": "https://app.daily.dev/tags/javascript?ref=roadmapsh"
+        }
+      ],
+      "status": "alternative",
+      "y": 285.02996643945045,
+      "x": 2039.941514522558,
+      "parent_topic_id": "v5FGKQc-_7NYEsWjmTEuq",
+      "alternative_group": "v5FGKQc-_7NYEsWjmTEuq"
+    },
+    {
+      "id": "cTqVab0VbVcn3W7i0wBrX",
+      "label": "Ubuntu / Debian",
+      "type": "subtopic",
+      "description": "# Ubuntu / Debian\n\nUbuntu and Debian are Linux-based operating systems that serve as the foundation for running applications and managing server infrastructure. Debian is known for its stability and commitment to free software, while Ubuntu is built on top of Debian and focuses on ease of use, frequent updates, and broad hardware support. These distributions provide a command-line interface and a comprehensive package management system \u2014APT\u2014, which allows users to efficiently install, configure, and maintain the software required for hosting services and automating system tasks.",
+      "resources": [
+        {
+          "type": "course",
+          "title": "Practice Linux Commands with Hands-on Labs\"",
+          "url": "https://labex.io/courses/linux-basic-commands-practice-online"
+        },
+        {
+          "type": "official",
+          "title": "Debian Website",
+          "url": "https://www.debian.org/"
+        },
+        {
+          "type": "official",
+          "title": "Ubuntu Website",
+          "url": "https://ubuntu.com/"
+        }
+      ],
+      "status": "personal_recommendation",
+      "y": 504.9832131980173,
+      "x": 1335.5509969897735,
+      "parent_topic_id": "Qc0MGR5bMG9eeM5Zb9PMk"
+    },
+    {
+      "id": "zhNUK953p6tjREndk3yQZ",
+      "label": "SUSE Linux",
+      "type": "subtopic",
+      "description": "# openSUSE Linux\n\nopenSUSE is a Linux-based operating system known for its stability, versatility, and focus on user-friendly system management. It offers two main distributions: openSUSE Leap, a stable, enterprise-grade version with regular point releases, and openSUSE Tumbleweed, a rolling release version with the latest software updates. OpenSUSE is widely used by developers, system administrators, and enterprise environments due to its robust package management via Zypper and YaST (Yet another Setup Tool), which simplifies system configuration. It also supports a wide range of hardware and offers strong community-driven support.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "openSUSE Linux Website",
+          "url": "https://www.opensuse.org/"
+        },
+        {
+          "type": "official",
+          "title": "openSUSE Documentation",
+          "url": "https://en.opensuse.org/Main_Page"
+        },
+        {
+          "type": "article",
+          "title": "Unofficial openSUSE Getting Started Guide",
+          "url": "https://opensuse-guide.org/"
+        },
+        {
+          "type": "video",
+          "title": "OpenSuSE - You Should Try It",
+          "url": "https://www.youtube.com/watch?v=CZwAgf3f8CM"
+        }
+      ],
+      "status": "alternative",
+      "y": 557.9832131980173,
+      "x": 1335.5509969897735,
+      "parent_topic_id": "LvhFmlxz5uIy7k_nzx2Bv",
+      "alternative_group": "LvhFmlxz5uIy7k_nzx2Bv"
+    },
+    {
+      "id": "7mS6Y_BOAHNgM3OjyFtZ9",
+      "label": "RHEL / Derivatives",
+      "type": "subtopic",
+      "description": "# RHEL and Derivatives\n\nRHEL (Red Hat Enterprise Linux) is a commercial open-source operating system designed for enterprise environments, providing a stable and secure foundation for running applications at scale. Its derivatives, such as AlmaLinux, Rocky Linux, and CentOS Stream, are community-driven projects that maintain high binary compatibility with RHEL. These systems are widely used in server infrastructure to manage resources, handle networking, and execute software deployments through package management tools like DNF and RPM.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "Red Hat Enterprise Linux Website",
+          "url": "https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux"
+        },
+        {
+          "type": "official",
+          "title": "RHEL Documentation",
+          "url": "https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/"
+        },
+        {
+          "type": "article",
+          "title": "Learn Linux 101",
+          "url": "https://developer.ibm.com/series/learn-linux-101/"
+        },
+        {
+          "type": "video",
+          "title": "What is Red Hat Enterprise Linux?",
+          "url": "https://www.youtube.com/watch?v=HEBvdSI0wGQ"
+        }
+      ],
+      "status": "personal_recommendation",
+      "y": 610.9832131980173,
+      "x": 1335.5509969897735,
+      "parent_topic_id": "LvhFmlxz5uIy7k_nzx2Bv"
+    },
+    {
+      "id": "PiPHFimToormOPl1EtEe8",
+      "label": "FreeBSD",
+      "type": "subtopic",
+      "description": "# FreeBSD\n\nFreeBSD is an open-source Unix-like operating system known for its high performance, stability, and advanced networking capabilities. It is developed as a complete operating system rather than just a kernel, providing a robust environment for servers, embedded systems, and network appliances. Known for its distinct ZFS file system integration and \"Jails\" virtualization technology, it offers a secure and highly scalable platform for managing infrastructure and services.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "FreeBSD",
+          "url": "https://www.freebsd.org/"
+        },
+        {
+          "type": "official",
+          "title": "FreeBSD Resources for Newbies",
+          "url": "https://www.freebsd.org/projects/newbies/"
+        },
+        {
+          "type": "official",
+          "title": "FreeBSD Documentation",
+          "url": "https://docs.freebsd.org/en/"
+        },
+        {
+          "type": "video",
+          "title": "FreeBSD in 100 Seconds",
+          "url": "https://www.youtube.com/watch?v=NKHzcXwTdB4"
+        }
+      ],
+      "status": "personal_recommendation",
+      "y": 501.9832131980173,
+      "x": 1210.050901958697,
+      "parent_topic_id": "qe84v529VbCyydl0BKFk2"
+    },
+    {
+      "id": "97cJYKqv7CPPUXkKNwM4x",
+      "label": "OpenBSD",
+      "type": "subtopic",
+      "description": "# OpenBSD\n\nOpenBSD is a free, multi-platform, Unix-like operating system that focuses heavily on security, correctness, and code purity. It is developed by a global community that prioritizes proactive security measures, such as extensive code auditing and the implementation of advanced memory protection features. Beyond its reputation for being highly secure, OpenBSD serves as a versatile platform for network services, firewalls, and research, often providing the foundation for widely used software like OpenSSH.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "OpenBSD",
+          "url": "https://www.openbsd.org/"
+        },
+        {
+          "type": "video",
+          "title": "Installing OpenBSD on the Fastest iMac G3",
+          "url": "https://www.youtube.com/watch?v=-7gSMEsF3Q0"
+        }
+      ],
+      "status": "alternative",
+      "y": 556.9832131980173,
+      "x": 1210.050901958697,
+      "parent_topic_id": "LvhFmlxz5uIy7k_nzx2Bv",
+      "alternative_group": "LvhFmlxz5uIy7k_nzx2Bv"
+    },
+    {
+      "id": "haiYSwNt3rjiiwCDszPk1",
+      "label": "NetBSD",
+      "type": "subtopic",
+      "description": "# NetBSD\n\nNetBSD is a free, fast, and secure Unix-like operating system known for its emphasis on code clarity, portability, and clean design. It is designed to run on a vast range of hardware architectures, from embedded devices and handhelds to large-scale servers and workstations. By maintaining a highly modular and hardware-independent codebase, it serves as a versatile foundation for research, specialized appliance development, and environments where high performance and stability are required across diverse platforms.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "NetBSD Website",
+          "url": "https://netbsd.org/"
+        },
+        {
+          "type": "official",
+          "title": "Official NetBSD Documentation",
+          "url": "https://netbsd.org/docs/"
+        },
+        {
+          "type": "official",
+          "title": "NetBSD Guide",
+          "url": "https://netbsd.org/docs/guide/en/index.html"
+        }
+      ],
+      "status": "alternative",
+      "y": 609.9832131980173,
+      "x": 1210.050901958697,
+      "parent_topic_id": "LvhFmlxz5uIy7k_nzx2Bv",
+      "alternative_group": "LvhFmlxz5uIy7k_nzx2Bv"
+    },
+    {
+      "id": "UOQimp7QkM3sxmFvk5d3i",
+      "label": "Windows",
+      "type": "subtopic",
+      "description": "# Windows\n\nWindows is a series of operating systems developed by Microsoft, widely used across personal, business, and server environments. It provides a graphical user interface (GUI) that simplifies interaction with the computer, featuring a desktop environment with icons, windows, and menus. Key versions include Windows 10, known for its user-friendly interface and support for modern applications, and Windows 11, which introduces a refreshed design and new features like improved virtual desktops and enhanced security. Windows supports a wide range of software applications and hardware devices, making it a versatile and popular choice for many users and organizations.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "Microsoft Windows",
+          "url": "http://microsoft.com/windows"
+        },
+        {
+          "type": "official",
+          "title": "Windows Documentation for Developers",
+          "url": "https://learn.microsoft.com/en-us/windows/"
+        },
+        {
+          "type": "video",
+          "title": "40 Windows Commands you NEED to know",
+          "url": "https://www.youtube.com/watch?v=Jfvg3CS1X3A&"
+        }
+      ],
+      "status": "alternative",
+      "y": 355.1966436651256,
+      "x": 1191.3528975202719,
+      "parent_topic_id": "wjJPzrFJBNYOD3SJLzW2M",
+      "alternative_group": "wjJPzrFJBNYOD3SJLzW2M"
+    },
+    {
+      "id": "x-JWvG1iw86ULL9KrQmRu",
+      "label": "Process Monitoring",
+      "type": "subtopic",
+      "description": "# Process Monitoring\n\nProcess monitoring involves tracking the execution, resource usage, and health of programs running on an operating system. By using command-line utilities, you can identify which processes are consuming significant CPU or memory, inspect their status, and manage their lifecycles by starting, stopping, or terminating them as needed. This practice ensures system stability and helps troubleshoot performance bottlenecks by providing real-time visibility into the activities of your machine.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "lsof Cheat Sheet",
+          "url": "https://neverendingsecurity.wordpress.com/2015/04/13/lsof-commands-cheatsheet/"
+        },
+        {
+          "type": "article",
+          "title": "lsof Documentation",
+          "url": "https://man7.org/linux/man-pages/man8/lsof.8.html"
+        },
+        {
+          "type": "video",
+          "title": "Linux Crash Course - The lsof Command",
+          "url": "https://www.youtube.com/watch?v=n9nZ1ellaV0"
+        }
+      ],
+      "status": "personal_recommendation",
+      "y": 458.18112260536566,
+      "x": 2008.4055424608705,
+      "parent_topic_id": "Qc0MGR5bMG9eeM5Zb9PMk"
+    },
+    {
+      "id": "gIEQDgKOsoEnSv8mpEzGH",
+      "label": "Performance Monitoring",
+      "type": "subtopic",
+      "description": "# Performance Monitoring\n\nPerformance monitoring involves tracking and analyzing the resource usage and health of a computer system in real-time. By using command-line tools like `top`, `htop`, `vmstat`, and `iostat`, you can observe how CPU, memory, disk I/O, and network bandwidth are being consumed by various processes. This practice helps in identifying bottlenecks, troubleshooting unexpected spikes in resource demand, and ensuring that applications run efficiently under different workloads.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "Linux Commands: Exploring Virtual Memory with vmstat",
+          "url": "https://www.redhat.com/sysadmin/linux-commands-vmstat"
+        },
+        {
+          "type": "article",
+          "title": "VMstat Man Page",
+          "url": "https://man7.org/linux/man-pages/man8/vmstat.8.html"
+        },
+        {
+          "type": "article",
+          "title": "vmstat tutorial",
+          "url": "https://phoenixnap.com/kb/vmstat-command"
+        }
+      ],
+      "status": "personal_recommendation",
+      "y": 511.18112260536566,
+      "x": 2008.4055424608705,
+      "parent_topic_id": "Qc0MGR5bMG9eeM5Zb9PMk"
+    },
+    {
+      "id": "OaqKLZe-XnngcDhDzCtRt",
+      "label": "Networking Tools",
+      "type": "subtopic",
+      "description": "# Networking Tools\n\nNetworking tools are command-line utilities used to monitor, diagnose, and troubleshoot network connections between computers and servers. These tools allow you to verify connectivity via ping, inspect active network sockets, trace the route of data packets, and analyze traffic passing through specific network interfaces. By utilizing these commands, you can identify configuration issues, test firewall rules, and ensure that your applications can successfully communicate across internal and external networks.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "10 SCP command examples",
+          "url": "https://www.tecmint.com/scp-commands-examples/"
+        },
+        {
+          "type": "article",
+          "title": "SCP command explained",
+          "url": "https://phoenixnap.com/kb/linux-scp-command"
+        },
+        {
+          "type": "video",
+          "title": "Top 5 Linux Networking Commands",
+          "url": "https://www.youtube.com/watch?v=MT85eMsMN6o"
+        },
+        {
+          "type": "video",
+          "title": "60 Linux Commands you NEED to know",
+          "url": "https://www.youtube.com/watch?v=gd7BXuUQ91w"
+        }
+      ],
+      "status": "personal_recommendation",
+      "y": 564.1811226053657,
+      "x": 2008.4055424608705,
+      "parent_topic_id": "Qc0MGR5bMG9eeM5Zb9PMk"
+    },
+    {
+      "id": "cUifrP7v55psTb20IZndf",
+      "label": "Text Manipulation",
+      "type": "subtopic",
+      "description": "# Text Manipulation\n\nText manipulation involves using command-line tools to search, filter, transform, and extract data from text files or streams. These utilities, such as `grep`, `sed`, `awk`, and `cut`, allow you to process large amounts of output, reformat configuration files, or parse logs directly within the terminal. By chaining these commands together through pipes, you can efficiently automate repetitive data processing tasks and gain quick insights into system information.",
+      "resources": [
+        {
+          "type": "roadmap",
+          "title": "Visit the Dedicated Bash/Shell Roadmap",
+          "url": "https://roadmap.sh/shell-bash"
+        },
+        {
+          "type": "article",
+          "title": "Linux Text Processing Command",
+          "url": "https://earthly.dev/blog/linux-text-processing-commands/"
+        },
+        {
+          "type": "video",
+          "title": "Learning Awk Is Essential For Linux Users",
+          "url": "https://www.youtube.com/watch?v=9YOZmI-zWok"
+        }
+      ],
+      "status": "personal_recommendation",
+      "y": 617.1811226053657,
+      "x": 2008.4055424608705,
+      "parent_topic_id": "Qc0MGR5bMG9eeM5Zb9PMk"
+    },
+    {
+      "id": "syBIAL1mHbJLnTBoSxXI7",
+      "label": "Bash",
+      "type": "subtopic",
+      "description": "# Bash\n\nBash is a command language interpreter that allows users to interact with an operating system by executing text-based commands. It serves as the default shell for most Linux distributions and provides a scripting environment for automating repetitive tasks through shell scripts. By using Bash, you can navigate file systems, manage processes, manipulate text files, and chain multiple programs together to perform complex system operations efficiently.",
+      "resources": [
+        {
+          "type": "roadmap",
+          "title": "Visit the Dedicated Bash/Shell Roadmap",
+          "url": "https://roadmap.sh/shell-bash"
+        },
+        {
+          "type": "course",
+          "title": "Bash Scripting Tutorial for Beginners",
+          "url": "https://www.youtube.com/watch?v=tK9Oc6AEnR4"
+        },
+        {
+          "type": "article",
+          "title": "Interactive Shell Scripting Tutorial",
+          "url": "https://www.learnshell.org/en/Welcome"
+        },
+        {
+          "type": "video",
+          "title": "Bash in 100 Seconds",
+          "url": "https://www.youtube.com/watch?v=I4EWvMFj37g"
+        }
+      ],
+      "status": "personal_recommendation",
+      "y": 387.7552314433875,
+      "x": 1704.2802652868972,
+      "parent_topic_id": "Qc0MGR5bMG9eeM5Zb9PMk"
+    },
+    {
+      "id": "z6IBekR8Xl-6f8WEb05Nw",
+      "label": "Power Shell",
+      "type": "subtopic",
+      "description": "# PowerShell\n\nPowerShell is a cross-platform task automation solution made up of a command-line shell, a scripting language, and a configuration management framework. It allows users to execute commands and scripts to manage systems, automate repetitive administrative tasks, and interact with various cloud services or local infrastructure components. By utilizing objects instead of text for input and output, it provides a powerful way to manipulate data and streamline workflows across Windows, Linux, and macOS environments.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "PowerShell Documentation",
+          "url": "https://learn.microsoft.com/en-us/powershell/"
+        },
+        {
+          "type": "video",
+          "title": "Learn PowerShell in Less Than 2 Hours",
+          "url": "https://www.youtube.com/watch?v=ZOoCaWyifmI"
+        }
+      ],
+      "status": "alternative",
+      "y": 440.7552314433875,
+      "x": 1704.2802652868972,
+      "parent_topic_id": "Qc0MGR5bMG9eeM5Zb9PMk",
+      "alternative_group": "Qc0MGR5bMG9eeM5Zb9PMk"
+    },
+    {
+      "id": "Jt8BmtLUH6fHT2pGKoJs3",
+      "label": "Vim / Nano /  Emacs",
+      "type": "subtopic",
+      "description": "# Vim, Nano, and Emacs\n\nVim, Nano, and Emacs are text editors designed to be used directly within the command-line interface. Nano provides a user-friendly, beginner-oriented experience with simple keyboard shortcuts, while Vim and Emacs are highly powerful, extensible tools that rely on complex commands and configurations to allow developers to manipulate text efficiently without leaving the terminal. Each of these editors serves as a primary environment for creating, editing, and managing configuration files or source code on remote servers and local systems.",
+      "resources": [
+        {
+          "type": "book",
+          "title": "Practical Vim 2nd Edition",
+          "url": "https://dokumen.pub/practical-vim-2nd-edition-2nd-edition-9781680501278.html"
+        },
+        {
+          "type": "official",
+          "title": "Vim",
+          "url": "https://www.vim.org"
+        },
+        {
+          "type": "official",
+          "title": "GNU Nano",
+          "url": "https://www.nano-editor.org/"
+        },
+        {
+          "type": "official",
+          "title": "GNU Emacs",
+          "url": "https://www.gnu.org/software/emacs/"
+        },
+        {
+          "type": "video",
+          "title": "Vim Tutorial for Beginners",
+          "url": "https://www.youtube.com/watch?v=RZ4p-saaQkc"
+        },
+        {
+          "type": "video",
+          "title": "Linux Crash Course - nano",
+          "url": "https://www.youtube.com/watch?v=DLeATFgGM-A"
+        },
+        {
+          "type": "video",
+          "title": "The Absolute Beginner's Guide to Emacs",
+          "url": "https://www.youtube.com/watch?v=48JlgiBpw_I"
+        }
+      ],
+      "status": "personal_recommendation",
+      "y": 623.462338948526,
+      "x": 1704.2802652868972,
+      "parent_topic_id": "Qc0MGR5bMG9eeM5Zb9PMk"
+    },
+    {
+      "id": "uyDm1SpOQdpHjq9zBAdck",
+      "label": "Git",
+      "type": "subtopic",
+      "description": "# Git\n\nGit is a distributed version control system that tracks changes in source code during software development. It allows multiple developers to work on the same project simultaneously by maintaining a history of modifications, enabling easy collaboration, branching, and merging of code. Every developer has a full copy of the project history on their local machine, which ensures data integrity and allows for offline work.",
+      "resources": [
+        {
+          "type": "roadmap",
+          "title": "Visit Dedicated Git & GitHub Roadmap",
+          "url": "https://roadmap.sh/git-github"
+        },
+        {
+          "type": "course",
+          "title": "Why use Git? (Interactive Lesson)",
+          "url": "https://inter-git.com/lessons/introduction"
+        },
+        {
+          "type": "article",
+          "title": "Git by Example - Learn Version Control with Bite-sized Lessons",
+          "url": "https://antonz.org/git-by-example/"
+        },
+        {
+          "type": "video",
+          "title": "Git & GitHub Crash Course For Beginners",
+          "url": "https://www.youtube.com/watch?v=vA5TTz6BXhY"
+        }
+      ],
+      "status": "personal_recommendation",
+      "y": 717.6852605686394,
+      "x": 1189.9080590588455,
+      "parent_topic_id": "LvhFmlxz5uIy7k_nzx2Bv"
+    },
+    {
+      "id": "ot9I_IHdnq2yAMffrSrbN",
+      "label": "GitHub",
+      "type": "subtopic",
+      "description": "# GitHub\n\nGitHub is a cloud-based platform that uses Git to store, manage, and track changes to software code. It provides a collaborative environment where developers can host repositories, review code, manage projects, and automate workflows using integrated tools. By offering a centralized space for version control, it allows multiple contributors to work on the same project simultaneously while keeping a detailed history of all modifications.",
+      "resources": [
+        {
+          "type": "roadmap",
+          "title": "Visit Dedicated Git & GitHub Roadmap",
+          "url": "https://roadmap.sh/git-github"
+        },
+        {
+          "type": "official",
+          "title": "GitHub",
+          "url": "https://github.com"
+        },
+        {
+          "type": "article",
+          "title": "How to Use Git in a Professional Dev Team",
+          "url": "https://ooloo.io/project/github-flow"
+        },
+        {
+          "type": "video",
+          "title": "What is GitHub?",
+          "url": "https://www.youtube.com/watch?v=pBy1zgt0XPc"
+        }
+      ],
+      "status": "personal_recommendation",
+      "y": 856.037249249727,
+      "x": 1186.9080590588455,
+      "parent_topic_id": "h10BH3OybHcIN2iDTSGkn"
+    },
+    {
+      "id": "oQIB0KE0BibjIYmxrpPZS",
+      "label": "GitLab",
+      "type": "subtopic",
+      "description": "# GitLab\n\nGitLab is a web-based platform that provides a complete software development lifecycle tool, including a Git repository manager, issue tracking, and CI/CD pipelines. It allows teams to manage their codebase, collaborate on code reviews, and automate the process of building, testing, and deploying applications within a single application.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "GitLab Website",
+          "url": "https://gitlab.com/"
+        },
+        {
+          "type": "official",
+          "title": "GitLab Documentation",
+          "url": "https://docs.gitlab.com/"
+        },
+        {
+          "type": "video",
+          "title": "GitLab Explained: What is GitLab and Why Use It?",
+          "url": "https://www.youtube.com/watch?v=bnF7f1zGpo4"
+        }
+      ],
+      "status": "alternative",
+      "y": 909.037249249727,
+      "x": 1186.9080590588455,
+      "parent_topic_id": "h10BH3OybHcIN2iDTSGkn",
+      "alternative_group": "h10BH3OybHcIN2iDTSGkn"
+    },
+    {
+      "id": "Z7SsBWgluZWr9iWb2e9XO",
+      "label": "Bitbucket",
+      "type": "subtopic",
+      "description": "# Bitbucket\n\nBitbucket is a web-based version control repository hosting service owned by Atlassian that supports both Git and Mercurial. It provides teams with a centralized platform to store code, track issues, and manage project workflows through pull requests and branch permissions. Built to integrate seamlessly with other Atlassian tools like Jira and Trello, it allows developers to collaborate on codebases, perform code reviews, and automate delivery pipelines directly within the platform.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "Bitbucket Website",
+          "url": "https://bitbucket.org"
+        },
+        {
+          "type": "official",
+          "title": "Bitbucket Overview",
+          "url": "https://bitbucket.org/product/guides/getting-started/overview"
+        },
+        {
+          "type": "video",
+          "title": "Bitbucket Tutorial | How to use Bitbucket Cloud",
+          "url": "https://www.youtube.com/watch?v=M44nEyd_5To"
+        }
+      ],
+      "status": "alternative",
+      "y": 962.037249249727,
+      "x": 1186.9080590588455,
+      "parent_topic_id": "h10BH3OybHcIN2iDTSGkn",
+      "alternative_group": "h10BH3OybHcIN2iDTSGkn"
+    },
+    {
+      "id": "F93XnRj0BLswJkzyRggLS",
+      "label": "Forward Proxy",
+      "type": "subtopic",
+      "description": "# Forward Proxy\n\nA forward proxy is an intermediary server that sits between a client and the internet to act on behalf of the client. When a request is made, the client sends it to the proxy, which then forwards the request to the destination server, receives the response, and passes it back to the client. This setup is commonly used to bypass network restrictions, filter outgoing traffic, enforce security policies, and cache frequently accessed content to improve performance.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "What is Forward Proxy?",
+          "url": "https://www.fortinet.com/resources/cyberglossary/proxy-server"
+        },
+        {
+          "type": "article",
+          "title": "Forward vs Reverse Proxy",
+          "url": "https://oxylabs.io/blog/reverse-proxy-vs-forward-proxy"
+        },
+        {
+          "type": "video",
+          "title": "Understanding Proxy, Forward Proxy, and Reverse Proxy",
+          "url": "https://www.youtube.com/watch?v=HrG0MHkSsCA"
+        }
+      ],
+      "status": "personal_recommendation",
+      "y": 716.4440052182314,
+      "x": 1923.2980619884293,
+      "parent_topic_id": "jCWrnQNgjHKyhzd9dwOHz"
+    },
+    {
+      "id": "f3tM2uo6LLSOmyeFfLc7h",
+      "label": "Firewall",
+      "type": "subtopic",
+      "description": "# Firewall\n\nA firewall is a network security device that monitors and filters incoming and outgoing network traffic based on an organization's previously established security policies. It acts as a barrier between a trusted internal network and untrusted external networks, such as the internet, by analyzing data packets to determine whether they should be allowed or blocked. Setting up a firewall involves defining rules that specify which ports, protocols, and IP addresses are permitted to communicate with your infrastructure, effectively minimizing the surface area for potential unauthorized access.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "What is Firewall?",
+          "url": "https://www.checkpoint.com/cyber-hub/network-security/what-is-firewall/"
+        },
+        {
+          "type": "article",
+          "title": "Types of Firewall",
+          "url": "https://www.cisco.com/c/en_in/products/security/firewalls/what-is-a-firewall.html"
+        },
+        {
+          "type": "article",
+          "title": "Why do we need Firewalls?",
+          "url": "https://www.tutorialspoint.com/what-is-a-firewall-and-why-do-you-need-one"
+        },
+        {
+          "type": "video",
+          "title": "Firewalls and Network Security - SimpliLearn",
+          "url": "https://www.youtube.com/watch?v=9GZlVOafYTg"
+        }
+      ],
+      "status": "personal_recommendation",
+      "y": 769.4440052182314,
+      "x": 2091.2980619884293,
+      "parent_topic_id": "jCWrnQNgjHKyhzd9dwOHz"
+    },
+    {
+      "id": "ukOrSeyK1ElOt9tTjCkfO",
+      "label": "Nginx",
+      "type": "subtopic",
+      "description": "# Nginx\n\nNginx is a high-performance web server that also functions as a reverse proxy, load balancer, and HTTP cache. It is designed to handle a large number of concurrent connections with low memory usage, making it an efficient tool for serving static content or distributing incoming traffic across multiple backend application servers.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "Nginx",
+          "url": "https://nginx.org/"
+        },
+        {
+          "type": "article",
+          "title": "Basic NGINX Setup on Ubuntu: Guide to a Functional and Secure Website Serving",
+          "url": "https://swissmade.host/en/blog/basic-nginx-setup-ubuntu-guide-to-a-functional-and-secure-website-serving"
+        },
+        {
+          "type": "video",
+          "title": "NGINX Explained in 100 Seconds",
+          "url": "https://www.youtube.com/watch?v=JKxlsvZXG7c"
+        }
+      ],
+      "status": "personal_recommendation",
+      "y": 1024.7608674321284,
+      "x": 1996.770175365231,
+      "parent_topic_id": "jCWrnQNgjHKyhzd9dwOHz"
+    },
+    {
+      "id": "dF3otkMMN09tgCzci8Jyv",
+      "label": "Tomcat",
+      "type": "subtopic",
+      "description": "# Tomcat\n\nApache Tomcat is an open-source web server and servlet container that implements Java Servlet, JavaServer Pages (JSP), and Java Expression Language (EL) specifications. It is widely used to deploy and manage Java-based web applications. Tomcat provides a robust platform for running Java web applications with features like request handling, session management, and resource pooling. It is known for its performance, scalability, and ease of integration with other Java technologies, making it a popular choice for developers seeking to run Java applications in a production environment.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "Tomcat Website",
+          "url": "https://tomcat.apache.org/"
+        },
+        {
+          "type": "official",
+          "title": "Tomcat Documentation",
+          "url": "https://tomcat.apache.org/tomcat-10.0-doc/index.html"
+        },
+        {
+          "type": "video",
+          "title": "Apache Tomcat Full Tutorial",
+          "url": "https://www.youtube.com/watch?v=rElJIPRw5iM"
+        }
+      ],
+      "status": "alternative",
+      "y": 1077.7608674321284,
+      "x": 1996.770175365231,
+      "parent_topic_id": "jCWrnQNgjHKyhzd9dwOHz",
+      "alternative_group": "jCWrnQNgjHKyhzd9dwOHz"
+    },
+    {
+      "id": "0_GMTcMeZv3A8dYkHRoW7",
+      "label": "Apache",
+      "type": "subtopic",
+      "description": "# Apache\n\nApache HTTP Server is an open-source web server software that powers a significant portion of the websites on the internet. It works by processing incoming requests from clients and delivering the requested web content, such as HTML files or images, over the HTTP protocol. To set it up, you typically install the package via your operating system's package manager, configure the main settings file to define your server's root directory and virtual hosts, and then start the service to begin hosting your applications.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "Apache Server Website",
+          "url": "https://httpd.apache.org/"
+        },
+        {
+          "type": "video",
+          "title": "What is Apache Web Server?",
+          "url": "https://www.youtube.com/watch?v=kaaenHXO4t4"
+        },
+        {
+          "type": "video",
+          "title": "Apache Web Server Setup on Ubuntu 22.04 (with SSL)",
+          "url": "https://www.youtube.com/watch?v=VXSgEvZKp-8"
+        }
+      ],
+      "status": "alternative",
+      "y": 1077.7608674321284,
+      "x": 2104.711689887789,
+      "parent_topic_id": "jCWrnQNgjHKyhzd9dwOHz",
+      "alternative_group": "jCWrnQNgjHKyhzd9dwOHz"
+    },
+    {
+      "id": "54UZNO2q8M5FiA_XbcU_D",
+      "label": "Caddy",
+      "type": "subtopic",
+      "description": "# Caddy\n\nCaddy is an open-source web server that automatically manages HTTPS certificates for your websites and applications. It is written in Go and is designed to be easy to configure using a simple file format called the Caddyfile. By default, it handles the complexities of TLS/SSL, meaning it automatically provisions and renews certificates from Let's Encrypt without requiring manual intervention. You can set it up by downloading the binary for your operating system, creating a basic Caddyfile that defines your domain and back-end service, and running the command to start the server.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "Caddy Website",
+          "url": "https://caddyserver.com/"
+        },
+        {
+          "type": "opensource",
+          "title": "caddyserver/caddy",
+          "url": "https://github.com/caddyserver/caddy"
+        },
+        {
+          "type": "video",
+          "title": "Exploring Caddy, An Open Source Web Server",
+          "url": "https://www.youtube.com/watch?v=tqXL5QLvPRQ"
+        }
+      ],
+      "status": "alternative",
+      "y": 1024.7608674321284,
+      "x": 2104.711689887789,
+      "parent_topic_id": "jCWrnQNgjHKyhzd9dwOHz",
+      "alternative_group": "jCWrnQNgjHKyhzd9dwOHz"
+    },
+    {
+      "id": "5iJOE1QxMvf8BQ_8ssiI8",
+      "label": "IIS",
+      "type": "subtopic",
+      "description": "# Internet Information Services (IIS)\n\nInternet Information Services (IIS) is a flexible and secure web server created by Microsoft for hosting anything on the web. It runs on Windows operating systems and allows you to host websites, web applications, and services using technologies like [ASP.NET](http://ASP.NET) and PHP. Setting up IIS involves enabling the \"Web Server (IIS)\" role through the Windows Server Manager or PowerShell, configuring site bindings to map domain names to specific ports, and managing application pools to ensure your web services run in isolated, stable environments.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "Microsoft IIS",
+          "url": "https://www.iis.net/"
+        },
+        {
+          "type": "video",
+          "title": "Learn Windows Web Server IIS",
+          "url": "https://www.youtube.com/watch?v=1VdxPWwtISA"
+        }
+      ],
+      "status": "alternative",
+      "y": 1131.7608674321284,
+      "x": 1996.770175365231,
+      "parent_topic_id": "9p_ufPj6QH9gHbWBQUmGw",
+      "alternative_group": "9p_ufPj6QH9gHbWBQUmGw"
+    },
+    {
+      "id": "R4XSY4TSjU1M7cW66zUqJ",
+      "label": "Caching Server",
+      "type": "subtopic",
+      "description": "# Caching Server\n\nA caching server is a dedicated system or software service that stores copies of frequently accessed data in temporary storage to speed up information retrieval. By keeping this data closer to the user or application, it reduces the need to repeatedly fetch the same information from the primary source or origin server. This process significantly decreases latency and reduces the load on backend infrastructure, allowing systems to respond much faster to incoming requests.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "What is Caching?",
+          "url": "https://www.cloudflare.com/en-gb/learning/cdn/what-is-caching/"
+        },
+        {
+          "type": "article",
+          "title": "What is Cache Server?",
+          "url": "https://networkencyclopedia.com/cache-server/"
+        },
+        {
+          "type": "article",
+          "title": "Site Cache vs Browser Cache vs Server Cache",
+          "url": "https://nordvpn.com/cybersecurity/glossary/caching-server/"
+        },
+        {
+          "type": "video",
+          "title": "Cache Systems Every Developer Should Know",
+          "url": "https://www.youtube.com/watch?v=dGAgxozNWFE"
+        }
+      ],
+      "status": "personal_recommendation",
+      "y": 769.4440052182314,
+      "x": 1922.2980619884293,
+      "parent_topic_id": "jCWrnQNgjHKyhzd9dwOHz"
+    },
+    {
+      "id": "i8Sd9maB_BeFurULrHXNq",
+      "label": "Load Balancer",
+      "type": "subtopic",
+      "description": "# Load Balancer\n\nA load balancer is a device or software application that acts as a traffic cop, sitting in front of your servers and routing incoming client requests across all servers capable of fulfilling those requests. By distributing the workload, it prevents any single server from becoming overwhelmed, which increases the responsiveness and availability of applications. To set one up, you typically choose between a hardware appliance or a software-based solution like NGINX or HAProxy, configure your backend server pool, and define the distribution algorithm, such as round-robin or least connections, to ensure traffic is shared effectively.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "What is Load Balancing?",
+          "url": "https://www.nginx.com/resources/glossary/load-balancing/"
+        },
+        {
+          "type": "article",
+          "title": "Load Balancing concepts and algorithms",
+          "url": "https://www.cloudflare.com/en-gb/learning/performance/what-is-load-balancing/"
+        },
+        {
+          "type": "article",
+          "title": "NGINX Reverse Proxy and Load Balancing",
+          "url": "https://dzone.com/articles/nginx-reverse-proxy-and-load-balancing"
+        },
+        {
+          "type": "video",
+          "title": "What is a Load Balancer?",
+          "url": "https://www.youtube.com/watch?v=sCR3SAVdyCc"
+        }
+      ],
+      "status": "personal_recommendation",
+      "y": 822.4440052182314,
+      "x": 1918.5487566038344,
+      "parent_topic_id": "jCWrnQNgjHKyhzd9dwOHz"
+    },
+    {
+      "id": "eGF7iyigl57myx2ejpmNC",
+      "label": "Reverse Proxy",
+      "type": "subtopic",
+      "description": "# Reverse Proxy\n\nA reverse proxy is a server that sits in front of one or more web servers and intercepts requests from clients. Instead of a client connecting directly to an application server, it connects to the reverse proxy, which then forwards the request to the appropriate backend server and returns the response back to the client. This setup is commonly used to manage traffic load, improve security by hiding the identity of backend servers, and handle tasks like SSL termination or caching to optimize performance.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "What is Reverse Proxy?",
+          "url": "https://www.cloudflare.com/en-gb/learning/cdn/glossary/reverse-proxy/"
+        },
+        {
+          "type": "article",
+          "title": "NGINX Documentation",
+          "url": "https://www.nginx.com/resources/glossary/reverse-proxy-server/"
+        },
+        {
+          "type": "article",
+          "title": "Understanding NGINX as a Reverse Proxy",
+          "url": "https://medium.com/globant/understanding-nginx-as-a-reverse-proxy-564f76e856b2"
+        },
+        {
+          "type": "video",
+          "title": "Proxy vs Reverse Proxy (Real-world Examples)",
+          "url": "https://www.youtube.com/watch?v=4NB0NDtOwIQ"
+        }
+      ],
+      "status": "personal_recommendation",
+      "y": 716.4440052182314,
+      "x": 2090.2980619884293,
+      "parent_topic_id": "CQhUflAcv1lhBnmDY0gaz"
+    },
+    {
+      "id": "P0acFNZ413MSKElHqCxr3",
+      "label": "Docker",
+      "type": "subtopic",
+      "description": "# Docker\n\nDocker is an open-source platform that automates the deployment, scaling, and management of applications using containerization technology. It enables developers to package applications with all their dependencies into standardized units called containers, ensuring consistent behavior across different environments. Docker provides a lightweight alternative to full machine virtualization, using OS-level virtualization to run multiple isolated systems on a single host. Its ecosystem includes tools for building, sharing, and running containers, such as Docker Engine, Docker Hub, and Docker Compose. Docker has become integral to modern DevOps practices, facilitating microservices architectures, continuous integration/deployment pipelines, and efficient resource utilization in both development and production environments.",
+      "resources": [
+        {
+          "type": "roadmap",
+          "title": "Visit Dedicated Docker Roadmap",
+          "url": "https://roadmap.sh/docker"
+        },
+        {
+          "type": "course",
+          "title": "DevOps with Docker",
+          "url": "https://courses.mooc.fi/org/uh-cs/courses/devops-with-docker"
+        },
+        {
+          "type": "official",
+          "title": "Docker Documentation",
+          "url": "https://docs.docker.com/"
+        },
+        {
+          "type": "video",
+          "title": "Docker Tutorial",
+          "url": "https://www.youtube.com/watch?v=RqTEHSBrYFw"
+        }
+      ],
+      "status": "personal_recommendation",
+      "y": 772.1520720921645,
+      "x": 1664.8844464722006,
+      "parent_topic_id": "CQhUflAcv1lhBnmDY0gaz"
+    },
+    {
+      "id": "qYRJYIZsmf-inMqKECRkI",
+      "label": "LXC",
+      "type": "subtopic",
+      "description": "# LXC\n\nLXC, or Linux Containers, is an operating-system-level virtualization method for running multiple isolated Linux systems on a single control host. It works by utilizing kernel features like cgroups and namespaces to partition resources, allowing applications to run in distinct environments without the overhead of a full virtual machine. Each container acts like a lightweight virtual server, sharing the host\u2019s kernel while maintaining its own filesystem, network stack, and process space.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "LXC Documentation",
+          "url": "https://linuxcontainers.org/lxc/documentation/"
+        },
+        {
+          "type": "video",
+          "title": "Getting started with LXC containers",
+          "url": "https://www.youtube.com/watch?v=CWmkSj_B-wo"
+        },
+        {
+          "type": "video",
+          "title": "LXC - Guide to building a LXC Lab",
+          "url": "https://www.youtube.com/watch?v=cqOtksmsxfg"
+        }
+      ],
+      "status": "alternative",
+      "y": 825.1520720921645,
+      "x": 1664.8844464722006,
+      "parent_topic_id": "CQhUflAcv1lhBnmDY0gaz",
+      "alternative_group": "CQhUflAcv1lhBnmDY0gaz"
+    },
+    {
+      "id": "1ieK6B_oqW8qOC6bdmiJe",
+      "label": "AWS",
+      "type": "subtopic",
+      "description": "# AWS\n\nAmazon Web Services has been the market-leading cloud computing platform since 2011, ahead of Azure and Google Cloud. AWS offers over 200 services with data centers located all over the globe. AWS is an online platform that provides scalable and cost-effective cloud computing solutions. It is a broadly adopted cloud platform that offers several on-demand operations like compute power, database storage, content delivery, and so on.",
+      "resources": [
+        {
+          "type": "roadmap",
+          "title": "Visit the Dedicated AWS Roadmap",
+          "url": "https://roadmap.sh/aws"
+        },
+        {
+          "type": "course",
+          "title": "100 hour AWS Complete Course 2024",
+          "url": "https://www.youtube.com/watch?v=zA8guDqfv40"
+        },
+        {
+          "type": "official",
+          "title": "AWS Cloud Essentials",
+          "url": "https://aws.amazon.com/getting-started/cloud-essentials/"
+        },
+        {
+          "type": "official",
+          "title": "Overview of Amazon Web Services",
+          "url": "https://docs.aws.amazon.com/whitepapers/latest/aws-overview/introduction.html"
+        }
+      ],
+      "status": "personal_recommendation",
+      "y": 1342,
+      "x": 1599.3528975202719,
+      "parent_topic_id": "2Wd9SlWGg6QtxgiUVLyZL"
+    },
+    {
+      "id": "ctor79Vd7EXDMdrLyUcu_",
+      "label": "Azure",
+      "type": "subtopic",
+      "description": "# Azure\n\nAzure is a comprehensive cloud computing platform offered by Microsoft that provides a wide range of services including computing, analytics, storage, and networking. It allows users to build, deploy, and manage applications through a global network of data centers. Organizations use this platform to host their infrastructure, run virtual machines, and integrate various cloud-native tools to support their development and operational workflows.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "Azure Website",
+          "url": "https://azure.microsoft.com/en-us/"
+        },
+        {
+          "type": "video",
+          "title": "Microsoft Azure Fundamentals Certification Course (AZ-900)",
+          "url": "https://www.youtube.com/watch?v=5abffC-K40c"
+        }
+      ],
+      "status": "personal_recommendation",
+      "y": 1342.307095657017,
+      "x": 1714.1818168890086,
+      "parent_topic_id": "CQhUflAcv1lhBnmDY0gaz"
+    },
+    {
+      "id": "zYrOxFQkl3KSe67fh3smD",
+      "label": "Google Cloud",
+      "type": "subtopic",
+      "description": "# Google Cloud\n\nGoogle Cloud is a suite of cloud computing services offered by Google that runs on the same infrastructure used internally for its end-user products, such as Google Search and YouTube. It provides a wide range of modular services including computing, data storage, data analytics, and machine learning, allowing developers to build, test, and deploy applications in a highly scalable and reliable environment.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "Google Cloud",
+          "url": "https://cloud.google.com/"
+        },
+        {
+          "type": "article",
+          "title": "5 Tips to Become a Google Cloud Certified Professional Architect",
+          "url": "https://thenewstack.io/5-tips-to-become-a-google-cloud-certified-professional-architect/"
+        },
+        {
+          "type": "video",
+          "title": "Google Cloud Platform Full Course 2023",
+          "url": "https://www.youtube.com/watch?v=fZOz13joN0o"
+        }
+      ],
+      "status": "personal_recommendation",
+      "y": 1395.307095657017,
+      "x": 1599.3528975202719,
+      "parent_topic_id": "2Wd9SlWGg6QtxgiUVLyZL"
+    },
+    {
+      "id": "-h-kNVDNzZYnQAR_4lfXc",
+      "label": "Digital Ocean",
+      "type": "subtopic",
+      "description": "# DigitalOcean\n\nDigitalOcean is a cloud infrastructure provider that offers simple, affordable, and developer-friendly virtual private servers, known as \"Droplets.\" It focuses on providing straightforward cloud computing services, including virtual machines, managed databases, object storage, and Kubernetes clusters. DigitalOcean is known for its user-friendly interface, transparent pricing, and extensive documentation, making it popular among developers, startups, and small to medium-sized businesses. The platform emphasizes simplicity and performance, offering features like one-click applications, team management, and a robust API for automation. While not as feature-rich as some larger cloud providers, DigitalOcean's streamlined approach and competitive pricing make it an attractive option for those seeking uncomplicated cloud infrastructure solutions.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "DigitalOcean",
+          "url": "https://www.digitalocean.com/"
+        },
+        {
+          "type": "video",
+          "title": "Getting Started With Kubernetes on DigitalOcean",
+          "url": "https://www.youtube.com/watch?v=cJKdo-glRD0"
+        },
+        {
+          "type": "feed",
+          "title": "Explore top posts about DigitalOcean",
+          "url": "https://app.daily.dev/tags/digitalocean?ref=roadmapsh"
+        }
+      ],
+      "status": "alternative",
+      "y": 1448.307095657017,
+      "x": 1599.3528975202719,
+      "parent_topic_id": "2Wd9SlWGg6QtxgiUVLyZL",
+      "alternative_group": "2Wd9SlWGg6QtxgiUVLyZL"
+    },
+    {
+      "id": "YUJf-6ccHvYjL_RzufQ-G",
+      "label": "Alibaba Cloud",
+      "type": "subtopic",
+      "description": "# Alibaba Cloud\n\nAlibaba Cloud is a global cloud computing platform that provides a comprehensive suite of services, including elastic computing, database management, networking, and security solutions. It operates a vast infrastructure of data centers worldwide, allowing businesses to deploy applications, store data, and scale their resources on demand. Users can access these services through a pay-as-you-go model, utilizing tools like Elastic Compute Service (ECS) for virtual servers and Object Storage Service (OSS) for scalable data storage.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "Alibaba Cloud",
+          "url": "https://www.alibabacloud.com/"
+        },
+        {
+          "type": "official",
+          "title": "Getting Started with Alibaba Cloud",
+          "url": "https://www.alibabacloud.com/getting-started"
+        }
+      ],
+      "status": "alternative",
+      "y": 1501.307095657017,
+      "x": 1599.3528975202719,
+      "parent_topic_id": "2Wd9SlWGg6QtxgiUVLyZL",
+      "alternative_group": "2Wd9SlWGg6QtxgiUVLyZL"
+    },
+    {
+      "id": "I327qPYGMcdayRR5WT0Ek",
+      "label": "Hetzner",
+      "type": "subtopic",
+      "description": "# Hetzner\n\nHetzner is a professional web hosting provider and data center operator that offers a variety of infrastructure solutions, including dedicated servers, cloud instances, and colocation services. It provides users with high-performance hardware at competitive prices, making it a popular choice for hosting applications, databases, and development environments. Through its platform, you can provision virtual machines and manage networking resources to support scalable and reliable computing architectures.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "Hetzner Website",
+          "url": "https://www.hetzner.com/"
+        },
+        {
+          "type": "article",
+          "title": "How To Setup Hetzner Cloud Server To Host Your Websites",
+          "url": "https://runcloud.io/blog/hetzner"
+        },
+        {
+          "type": "video",
+          "title": "Coolify Crash Course | Self Host 101",
+          "url": "https://www.youtube.com/watch?v=taJlPG82Ucw"
+        }
+      ],
+      "status": "alternative",
+      "y": 1554.307095657017,
+      "x": 1599.3528975202719,
+      "parent_topic_id": "V9sOxlNOyRp0Mghl7zudv",
+      "alternative_group": "V9sOxlNOyRp0Mghl7zudv"
+    },
+    {
+      "id": "FaPf567JGRAg1MBlFj9Tk",
+      "label": "Heroku ",
+      "type": "subtopic",
+      "description": "# Heroku\n\nHeroku is a cloud platform as a service (PaaS) that enables developers to build, run, and scale applications entirely in the cloud. It manages the underlying infrastructure and servers, allowing you to deploy code using standard Git commands while it automatically handles tasks like environment configuration, scaling, and database management. By abstracting away the complexities of server maintenance and networking, it provides a streamlined workflow for getting web applications from development to a live, public environment quickly.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "Heroku Website",
+          "url": "https://www.heroku.com/"
+        },
+        {
+          "type": "video",
+          "title": "What is Heroku?",
+          "url": "https://www.youtube.com/watch?v=IB0V8wWsCsc"
+        }
+      ],
+      "status": "alternative",
+      "y": 1607.307095657017,
+      "x": 1599.3528975202719,
+      "parent_topic_id": "V9sOxlNOyRp0Mghl7zudv",
+      "alternative_group": "V9sOxlNOyRp0Mghl7zudv"
+    },
+    {
+      "id": "eJZdjheptmiwKsVokt7Io",
+      "label": "Contabo",
+      "type": "subtopic",
+      "description": "# Contabo\n\nContabo is a German-based hosting provider that offers virtual private servers (VPS), dedicated servers, and cloud instances at competitive price points. It provides infrastructure-as-a-service (IaaS) solutions that allow developers to deploy and manage Linux or Windows environments with customizable CPU, RAM, and storage resources. By offering scalable cloud compute options, it serves as a platform for hosting applications, databases, and various backend services in a virtualized network environment.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "Contabo",
+          "url": "https://contabo.com/"
+        }
+      ],
+      "status": "alternative",
+      "y": 1554.307095657017,
+      "x": 1714.1818168890086,
+      "parent_topic_id": "V9sOxlNOyRp0Mghl7zudv",
+      "alternative_group": "V9sOxlNOyRp0Mghl7zudv"
+    },
+    {
+      "id": "RDLmML_HS2c8J4D_U_KYe",
+      "label": "FTP / SFTP",
+      "type": "subtopic",
+      "description": "# FTP / SFTP\n\nFTP (File Transfer Protocol) is a standard network protocol used to transfer computer files between a client and a server on a computer network. SFTP (SSH File Transfer Protocol) is a secure version of this process that uses the SSH (Secure Shell) protocol to encrypt both commands and data, ensuring that sensitive information remains protected from unauthorized access during transit.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "FTP vs SFTP vs FTPS",
+          "url": "https://www.fortinet.com/resources/cyberglossary/file-transfer-protocol-ftp-meaning"
+        },
+        {
+          "type": "article",
+          "title": "What is SFTP?",
+          "url": "https://www.kiteworks.com/risk-compliance-glossary/sftp/"
+        }
+      ],
+      "status": "unknown: Order in Roadmap not Strict - Learn anytime",
+      "y": 1057.495251276272,
+      "x": 1206.147298803803,
+      "parent_topic_id": "h10BH3OybHcIN2iDTSGkn"
+    },
+    {
+      "id": "Vu955vdsYerCG8G6suqml",
+      "label": "DNS",
+      "type": "subtopic",
+      "description": "# DNS\n\nDNS, or Domain Name System, is a hierarchical naming system that functions like a phonebook for the internet by translating human-readable domain names, such as [www.example.com](http://www.example.com), into numerical IP addresses that computers use to identify each other on a network. When you enter a web address into a browser, the system queries various servers to locate the specific IP address associated with that domain, allowing your device to establish a connection with the correct server. This process eliminates the need for users to memorize complex strings of numbers, ensuring that network communication remains user-friendly and efficient.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "What is DNS?",
+          "url": "https://www.cloudflare.com/en-gb/learning/dns/what-is-dns/"
+        },
+        {
+          "type": "article",
+          "title": "How DNS Works (comic)",
+          "url": "https://howdns.works/"
+        },
+        {
+          "type": "video",
+          "title": "DNS and How does it Work?",
+          "url": "https://www.youtube.com/watch?v=Wj0od2ag5sk"
+        }
+      ],
+      "status": "personal_recommendation",
+      "y": 1057.495251276272,
+      "x": 1348.147298803803,
+      "parent_topic_id": "h10BH3OybHcIN2iDTSGkn"
+    },
+    {
+      "id": "ke-8MeuLx7AS2XjSsPhxe",
+      "label": "HTTP",
+      "type": "subtopic",
+      "description": "# HTTP\n\nHTTP (Hypertext Transfer Protocol) is the foundational protocol used for transmitting data across the web, enabling communication between web browsers and servers. It operates on a request-response model where a client sends a request to a server, and the server returns a response containing the requested resource or a status code. By utilizing methods like GET, POST, PUT, and DELETE, it standardizes how information is exchanged, formatted, and identified throughout the internet.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "Everything you need to know about HTTP",
+          "url": "https://cs.fyi/guide/http-in-depth"
+        },
+        {
+          "type": "article",
+          "title": "What is HTTP?",
+          "url": "https://www.cloudflare.com/en-gb/learning/ddos/glossary/hypertext-transfer-protocol-http/"
+        },
+        {
+          "type": "article",
+          "title": "An overview of HTTP",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview"
+        },
+        {
+          "type": "video",
+          "title": "HTTP Crash Course & Exploration",
+          "url": "https://www.youtube.com/watch?v=iYM2zFP3Zn0"
+        }
+      ],
+      "status": "personal_recommendation",
+      "y": 1110.495251276272,
+      "x": 1206.147298803803,
+      "parent_topic_id": "h10BH3OybHcIN2iDTSGkn"
+    },
+    {
+      "id": "AJO3jtHvIICj8YKaSXl0U",
+      "label": "HTTPS",
+      "type": "subtopic",
+      "description": "# HTTPS\n\nHTTPS (Hypertext Transfer Protocol Secure) is an extension of the HTTP protocol that uses encryption to provide secure communication over a computer network. It works by layering the HTTP protocol over the TLS (Transport Layer Security) or SSL (Secure Sockets Layer) protocol, which encrypts data packets to ensure that information exchanged between a web browser and a server remains private and tamper-proof. By using digital certificates, HTTPS also authenticates the identity of the website, protecting users from attackers trying to intercept sensitive data like login credentials or payment details.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "What is HTTPS?",
+          "url": "https://www.cloudflare.com/en-gb/learning/ssl/what-is-https/"
+        },
+        {
+          "type": "article",
+          "title": "Why HTTPS Matters",
+          "url": "https://developers.google.com/web/fundamentals/security/encrypt-in-transit/why-https"
+        },
+        {
+          "type": "video",
+          "title": "Does HTTPS REALLY Keep You Safe?",
+          "url": "https://www.youtube.com/watch?v=25mXesOV9-8"
+        }
+      ],
+      "status": "personal_recommendation",
+      "y": 1110.495251276272,
+      "x": 1348.147298803803,
+      "parent_topic_id": "h10BH3OybHcIN2iDTSGkn"
+    },
+    {
+      "id": "0o6ejhfpmO4S8A6djVWva",
+      "label": "SSL / TLS",
+      "type": "subtopic",
+      "description": "# SSL/TLS\n\nSecure Sockets Layer (SSL) and Transport Layer Security (TLS) are cryptographic protocols used to provide security in internet communications. These protocols encrypt the data that is transmitted over the web, so anyone who tries to intercept packets will not be able to interpret the data. One difference that is important to know is that SSL is now deprecated due to security flaws, and most modern web browsers no longer support it. But TLS is still secure and widely supported, so prefer to use TLS.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "Cloudflare - What is SSL?",
+          "url": "https://www.cloudflare.com/learning/ssl/what-is-ssl/"
+        },
+        {
+          "type": "article",
+          "title": "Cloudflare - What is TLS?",
+          "url": "https://www.cloudflare.com/en-gb/learning/ssl/transport-layer-security-tls/"
+        },
+        {
+          "type": "video",
+          "title": "SSH vs SSL vs TLS",
+          "url": "https://www.youtube.com/watch?v=k3rFFLmQCuY"
+        },
+        {
+          "type": "video",
+          "title": "SSL/TLS Explained in 7 Minutes",
+          "url": "https://www.youtube.com/watch?v=67Kfsmy_frM"
+        }
+      ],
+      "status": "personal_recommendation",
+      "y": 1163.495251276272,
+      "x": 1207.2914695545712,
+      "parent_topic_id": "h10BH3OybHcIN2iDTSGkn"
+    },
+    {
+      "id": "wcIRMLVm3SdEJWF9RPfn7",
+      "label": "SSH",
+      "type": "subtopic",
+      "description": "# SSH\n\nSSH (Secure Shell) is a cryptographic network protocol used to securely access and manage remote machines over an unsecured network. It provides encrypted communication, ensuring confidentiality and integrity, and allows for secure file transfers, command execution, and tunneling. SSH is widely used for remote administration of servers, cloud infrastructure, and networking devices, typically employing key-based authentication or passwords. Tools like OpenSSH are commonly used to establish SSH connections, providing a secure alternative to older, less secure protocols like Telnet.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "What is SSH?",
+          "url": "https://www.ssh.com/academy/ssh/protocol"
+        },
+        {
+          "type": "article",
+          "title": "SSH Intro",
+          "url": "https://www.baeldung.com/cs/ssh-intro"
+        },
+        {
+          "type": "video",
+          "title": "How SSH Works",
+          "url": "https://www.youtube.com/watch?v=5JvLV2-ngCI"
+        }
+      ],
+      "status": "personal_recommendation",
+      "y": 1163.495251276272,
+      "x": 1349.2914695545712,
+      "parent_topic_id": "h10BH3OybHcIN2iDTSGkn"
+    },
+    {
+      "id": "E-lSLGzgOPrz-25ER2Hk7",
+      "label": "White / Grey Listing",
+      "type": "subtopic",
+      "description": "# White / Grey Listing\n\nWhite listing is a security practice that involves creating a list of trusted entities, such as IP addresses or applications, that are explicitly permitted to access a network or system while blocking everything else by default. In contrast, grey listing is a temporary restriction method that rejects requests from unknown or suspicious sources, forcing them to retry before gaining access to ensure they are legitimate. Together, these techniques help filter traffic, reduce the attack surface, and prevent unauthorized connections from reaching sensitive infrastructure.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "Detailed Introduction to greylisting",
+          "url": "https://en.wikipedia.org/wiki/Greylisting_(email"
+        },
+        {
+          "type": "video",
+          "title": "Greylisting",
+          "url": "https://www.youtube.com/watch?v=ljtU6I0sIiw"
+        },
+        {
+          "type": "video",
+          "title": "How to Whitelist an Email Address?",
+          "url": "https://www.youtube.com/watch?v=NqQIBtY7ySw"
+        }
+      ],
+      "status": "unknown: Order in Roadmap not Strict - Learn anytime",
+      "y": 1297.964929643881,
+      "x": 1205.5374764166006,
+      "parent_topic_id": "2Wd9SlWGg6QtxgiUVLyZL"
+    },
+    {
+      "id": "zJy9dOynWgLTDKI1iBluG",
+      "label": "SMTP",
+      "type": "subtopic",
+      "description": "# SMTP\n\nSimple Mail Transfer Protocol (SMTP) is a standard communication protocol used for sending and relaying electronic mail between servers. It operates on a client-server model where a client sends an email message to a mail server, which then uses the protocol to route the message to the recipient's mail server. SMTP primarily handles the outgoing transmission of messages, while other protocols like IMAP or POP3 are typically used to retrieve incoming emails from a server.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "What is SMTP? - Cloudflare",
+          "url": "https://www.cloudflare.com/learning/email-security/what-is-smtp"
+        },
+        {
+          "type": "article",
+          "title": "SMTP - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol"
+        },
+        {
+          "type": "video",
+          "title": "What is SMTP and how does it work?",
+          "url": "https://www.youtube.com/watch?v=iUhDT3ZtWS0"
+        }
+      ],
+      "status": "unknown: Order in Roadmap not Strict - Learn anytime",
+      "y": 1350.964929643881,
+      "x": 1206.5374764166006,
+      "parent_topic_id": "2Wd9SlWGg6QtxgiUVLyZL"
+    },
+    {
+      "id": "5vUKHuItQfkarp7LtACvX",
+      "label": "DMARC",
+      "type": "subtopic",
+      "description": "# DMARC\n\nDMARC (Domain-based Message Authentication, Reporting, and Conformance) is an email authentication protocol that helps protect a domain from being used for email spoofing and phishing attacks. It works by building upon the existing SPF (Sender Policy Framework) and DKIM (DomainKeys Identified Mail) standards to provide instructions to receiving mail servers on how to handle emails that fail authentication. By publishing a DMARC policy in their DNS records, domain owners can specify whether suspicious emails should be delivered, marked as spam, or rejected entirely, while also receiving reports about mail flow and potential security threats.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "DMARC",
+          "url": "https://dmarc.org/"
+        },
+        {
+          "type": "video",
+          "title": "What is DMARC: Email Security You Need to Know About",
+          "url": "https://www.youtube.com/watch?v=zLxJLKf-ua8"
+        }
+      ],
+      "status": "unknown: Order in Roadmap not Strict - Learn anytime",
+      "y": 1350.964929643881,
+      "x": 1328.7306776209605,
+      "parent_topic_id": "2Wd9SlWGg6QtxgiUVLyZL"
+    },
+    {
+      "id": "WMuXqa4b5wyRuYAQKQJRj",
+      "label": "IMAP",
+      "type": "subtopic",
+      "description": "# IMAP\n\nIMAP (Internet Message Access Protocol) is a standard email protocol used by email clients to retrieve messages from a mail server over a TCP/IP connection. It allows users to access and manage their emails directly on the server, meaning messages remain synchronized across multiple devices. Because it stores mail on the server rather than downloading it locally, it provides a centralized way to organize folders, search content, and view the status of emails from anywhere.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "Internet Message Access Protocol",
+          "url": "https://en.wikipedia.org/wiki/Internet_Message_Access_Protocol"
+        },
+        {
+          "type": "video",
+          "title": "What are POP3, IMAP, and SMTP?",
+          "url": "https://www.youtube.com/watch?v=gLNOVbcyWbI"
+        }
+      ],
+      "status": "unknown: Order in Roadmap not Strict - Learn anytime",
+      "y": 1403.964929643881,
+      "x": 1206.5374764166006,
+      "parent_topic_id": "2Wd9SlWGg6QtxgiUVLyZL"
+    },
+    {
+      "id": "ewcJfnDFKXN8I5TLpXEaB",
+      "label": "SPF",
+      "type": "subtopic",
+      "description": "# SPF\n\nSender Policy Framework (SPF) is used to authenticate the sender of an email. With an SPF record in place, Internet Service Providers can verify that a mail server is authorized to send email for a specific domain. An SPF record is a DNS TXT record containing a list of the IP addresses that are allowed to send email on behalf of your domain.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "What is a DNS SPF record?",
+          "url": "https://www.cloudflare.com/learning/dns/dns-records/dns-spf-record/"
+        },
+        {
+          "type": "video",
+          "title": "What is SPF? Sender Policy Framework Explained",
+          "url": "https://www.youtube.com/watch?v=5HG8xJ2lWuc"
+        }
+      ],
+      "status": "unknown: Order in Roadmap not Strict - Learn anytime",
+      "y": 1403.964929643881,
+      "x": 1328.7306776209605,
+      "parent_topic_id": "2Wd9SlWGg6QtxgiUVLyZL"
+    },
+    {
+      "id": "fzO6xVTBxliu24f3W5zaU",
+      "label": "POP3S",
+      "type": "subtopic",
+      "description": "# Pop3s\n\nPOP3 (port 110) or POP3s (port 995) stands for The Post Office Protocol. It's an Internet standard protocol used by local email software clients to retrieve emails from a remote mail server over a TCP/IP connection. Email servers hosted by Internet service providers also use POP3 to receive and hold emails intended for their subscribers. Periodically, these subscribers will use email client software to check their mailbox on the remote server and download any emails addressed to them. Once the email client has downloaded the emails, they are usually deleted from the server, although some email clients allow users to specify that mails be copied or saved on the server for a period of time.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "What is POP3?",
+          "url": "https://www.techtarget.com/whatis/definition/POP3-Post-Office-Protocol-3"
+        },
+        {
+          "type": "video",
+          "title": "What are POP3, IMAP, and SMTP?",
+          "url": "https://www.youtube.com/watch?v=gLNOVbcyWbI"
+        }
+      ],
+      "status": "unknown: Order in Roadmap not Strict - Learn anytime",
+      "y": 1456.964929643881,
+      "x": 1205.5374764166006,
+      "parent_topic_id": "2Wd9SlWGg6QtxgiUVLyZL"
+    },
+    {
+      "id": "RYCD78msIR2BPJoIP71aj",
+      "label": "Domain Keys",
+      "type": "subtopic",
+      "description": "# Domain Keys\n\nDomainKeys is an email authentication system designed to verify that an email message was sent by an authorized sender and has not been altered during transit. It works by attaching a digital signature to the header of an email, which the receiving mail server can then cryptographically validate using a public key published in the sender's DNS records. This process helps prevent email spoofing and ensures that the integrity of the message remains intact from the source to the destination.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "DomainKeys Identified Mail",
+          "url": "https://www.brainkart.com/article/DomainKeys-Identified-Mail_8493/"
+        },
+        {
+          "type": "video",
+          "title": "What is DKIM? DomainKeys Identified Mail",
+          "url": "https://www.youtube.com/watch?v=IBhO0akhMlQ"
+        }
+      ],
+      "status": "unknown: Order in Roadmap not Strict - Learn anytime",
+      "y": 1510.964929643881,
+      "x": 1205.5374764166006,
+      "parent_topic_id": "2Wd9SlWGg6QtxgiUVLyZL"
+    },
+    {
+      "id": "QZ7bkY-MaEgxYoPDP3nma",
+      "label": "OSI Model",
+      "type": "subtopic",
+      "description": "# OSI Model\n\nThe OSI (Open Systems Interconnection) model is a conceptual framework that standardizes the functions of a telecommunication or computing system into seven abstraction layers. These layers, from bottom to top, are: Physical, Data Link, Network, Transport, Session, Presentation, and Application. Each layer serves a specific purpose in the process of data communication, with lower layers handling more hardware-oriented tasks and upper layers dealing with software and user-interface aspects. The model helps in understanding how data moves through a network, troubleshooting network issues, and designing network protocols and hardware. While not strictly adhered to in real-world implementations, the OSI model remains a valuable educational tool and reference point for network engineers and developers, providing a common language for discussing network operations and architecture.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "What is OSI Model?",
+          "url": "https://www.cloudflare.com/en-gb/learning/ddos/glossary/open-systems-interconnection-model-osi/"
+        },
+        {
+          "type": "video",
+          "title": "OSI Model",
+          "url": "https://www.youtube.com/watch?v=dV8mjZd1OtU"
+        },
+        {
+          "type": "video",
+          "title": "OSI vs TCP/IP Model",
+          "url": "https://www.youtube.com/watch?v=F5rni9fr1yE"
+        }
+      ],
+      "status": "unknown: Order in Roadmap not Strict - Learn anytime",
+      "y": 1219.740182887247,
+      "x": 1205.5374764166006,
+      "parent_topic_id": "h10BH3OybHcIN2iDTSGkn"
+    },
+    {
+      "id": "LZDRgDxEZ3klp2PrrJFBX",
+      "label": "Vercel",
+      "type": "subtopic",
+      "description": "# Vercel\n\nVercel is a provider of front-end cloud that provides the infrastructure to build, scale, and secure a faster, more personalized web. In other words, it is a cloud platform designed to simplify the deployment process for web applications, particularly those built with modern frameworks like React, Next, etc. where various projects can be deployed by connecting the GitHub repository in Vercel we can deploy the selected GitHub branch to the Vercel domains. Simultaneously, it provides custom domains to deploy code on live servers. These servers contain the `vercel.app` as the suffix in the domain.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "Vercel",
+          "url": "https://vercel.com/"
+        },
+        {
+          "type": "official",
+          "title": "Vercel Docs",
+          "url": "https://vercel.com/docs"
+        },
+        {
+          "type": "video",
+          "title": "Vercel: Product Walkthrough",
+          "url": "https://www.youtube.com/watch?v=sPmat30SE4k"
+        }
+      ],
+      "status": "alternative",
+      "y": 1500,
+      "x": 2010.6022029048672,
+      "parent_topic_id": "9p_ufPj6QH9gHbWBQUmGw",
+      "alternative_group": "9p_ufPj6QH9gHbWBQUmGw"
+    },
+    {
+      "id": "l8VAewSEXzoyqYFhoplJj",
+      "label": "Cloudflare",
+      "type": "subtopic",
+      "description": "# Cloudflare\n\nCloudflare is a internet company that provides a range of services to help protect and accelerate websites and applications. At its core, Cloudflare is a content delivery network (CDN) and a reverse proxy cloud provider. This means that it acts as an intermediary between a website's origin server and its visitors, caching content and filtering out malicious traffic. Cloudflare was founded in July 2009 by Matthew Prince, Lee Holloway, and Michelle Zatlyn. The company was venture-capital funded and submitted its S-1 filing for IPO on the New York Stock Exchange in August 2019. It opened for public trading on September 13, 2019, at $15 per share.",
+      "resources": [
+        {
+          "type": "roadmap",
+          "title": "Visit the Dedicated Cloudflare Roadmap",
+          "url": "https://roadmap.sh/cloudflare"
+        },
+        {
+          "type": "official",
+          "title": "Cloudflare",
+          "url": "https://cloudflare.com/"
+        },
+        {
+          "type": "video",
+          "title": "Introduction to Cloudflare",
+          "url": "https://www.youtube.com/watch?v=24cml1rKGBs"
+        }
+      ],
+      "status": "personal_recommendation",
+      "y": 1394,
+      "x": 2010.6022029048672,
+      "parent_topic_id": "9p_ufPj6QH9gHbWBQUmGw"
+    },
+    {
+      "id": "mlrlf2McMI7IBhyEdq0Nf",
+      "label": "Azure Functions",
+      "type": "subtopic",
+      "description": "# Azure Functions\n\nAzure Functions is a serverless compute service in Microsoft Azure that enables developers to run event-triggered code without managing infrastructure. It supports multiple programming languages and integrates seamlessly with other Azure services, allowing for scalable, on-demand execution of small, focused pieces of code. Azure Functions automatically scales based on demand, charges only for actual compute time used, and can be triggered by various events such as HTTP requests, timers, or changes in cloud services, making it ideal for microservices, data processing, and workflow automation tasks.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "Azure Functions - Serverless Computing",
+          "url": "https://azure.microsoft.com/en-in/products/functions"
+        },
+        {
+          "type": "official",
+          "title": "Azure Functions Overview",
+          "url": "https://learn.microsoft.com/en-us/azure/azure-functions/functions-overview"
+        },
+        {
+          "type": "video",
+          "title": "Getting Started With Azure Functions",
+          "url": "https://www.youtube.com/watch?v=l3beXs3o-0w"
+        }
+      ],
+      "status": "alternative",
+      "y": 1447,
+      "x": 2010.6022029048672,
+      "parent_topic_id": "9p_ufPj6QH9gHbWBQUmGw",
+      "alternative_group": "9p_ufPj6QH9gHbWBQUmGw"
+    },
+    {
+      "id": "UfQrIJ-uMNJt9H_VM_Q5q",
+      "label": "AWS Lambda",
+      "type": "subtopic",
+      "description": "# AWS Lambda\n\nAWS Lambda is a serverless compute service that allows you to run code without provisioning or managing servers. It automatically scales, executes code in response to triggers, and charges only for the compute time consumed. Lambda supports multiple programming languages and integrates seamlessly with other AWS services, making it ideal for building microservices, automating tasks, and processing data streams with minimal operational overhead.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "AWS Lambda Introduction",
+          "url": "https://docs.aws.amazon.com/lambda/latest/operatorguide/intro.html"
+        },
+        {
+          "type": "video",
+          "title": "AWS Lambda Tutorial: Getting Started with Serverless Computing",
+          "url": "https://www.youtube.com/watch?v=RtiWU1DrMaM"
+        }
+      ],
+      "status": "personal_recommendation",
+      "y": 1341,
+      "x": 2010.6022029048672,
+      "parent_topic_id": "9p_ufPj6QH9gHbWBQUmGw"
+    },
+    {
+      "id": "hCKODV2b_l2uPit0YeP1M",
+      "label": "Netlify",
+      "type": "subtopic",
+      "description": "# Netlify\n\nNetlify Functions are serverless functions that allow developers to run server-side code in a JAMstack environment without managing servers. They are built on AWS Lambda and automatically deploy alongside your Netlify site. These functions can handle tasks like API requests, form submissions, and database operations, enabling dynamic functionality in static sites. They support various languages including JavaScript, TypeScript, and Go. Netlify Functions integrate seamlessly with Netlify's deployment pipeline, offering easy development, testing, and production deployment.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "Netlify Documentation",
+          "url": "https://docs.netlify.com/platform/primitives/#functions"
+        },
+        {
+          "type": "article",
+          "title": "Introducing Netlify Functions 2.0",
+          "url": "https://www.netlify.com/blog/introducing-netlify-functions-2-0/"
+        },
+        {
+          "type": "video",
+          "title": "How to Deploy a Website on Netlify",
+          "url": "https://www.youtube.com/watch?v=0P53S34zm44"
+        }
+      ],
+      "status": "alternative",
+      "y": 1553,
+      "x": 2010.6022029048672,
+      "parent_topic_id": "1oYvpFG8LKT1JD6a_9J0m",
+      "alternative_group": "1oYvpFG8LKT1JD6a_9J0m"
+    },
+    {
+      "id": "XA__697KgofsH28coQ-ma",
+      "label": "AWS CDK",
+      "type": "subtopic",
+      "description": "# AWS CDK\n\nThe AWS Cloud Development Kit (AWS CDK) is an open-source software development framework used to provision cloud infrastructure resources in a safe, repeatable manner through AWS CloudFormation. AWS CDK offers the flexibility to write infrastructure as code in popular languages like JavaScript, TypeScript, Python, Java, C#, and Go.",
+      "resources": [
+        {
+          "type": "course",
+          "title": "AWS CDK Crash Course for Beginners",
+          "url": "https://www.youtube.com/watch?v=D4Asp5g4fp8"
+        },
+        {
+          "type": "official",
+          "title": "AWS CDK",
+          "url": "https://aws.amazon.com/cdk/"
+        },
+        {
+          "type": "official",
+          "title": "AWS CDK Documentation",
+          "url": "https://docs.aws.amazon.com/cdk/index.html"
+        }
+      ],
+      "status": "alternative",
+      "y": 1837.2739894115864,
+      "x": 2023.153929822237,
+      "parent_topic_id": "1oYvpFG8LKT1JD6a_9J0m",
+      "alternative_group": "1oYvpFG8LKT1JD6a_9J0m"
+    },
+    {
+      "id": "TgBb4aL_9UkyU36CN4qvS",
+      "label": "CloudFormation",
+      "type": "subtopic",
+      "description": "# CloudFormation\n\nCloudFormation is an infrastructure-as-code service that allows you to define and provision AWS cloud resources using templates written in JSON or YAML. By describing your desired state in a text file, the service automatically handles the creation, updating, and deletion of the necessary resources in the correct order. This approach enables you to manage your infrastructure as version-controlled code, ensuring that your environment deployments are consistent, repeatable, and easily scalable.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "AWS CloudFormation",
+          "url": "https://aws.amazon.com/cloudformation/"
+        },
+        {
+          "type": "video",
+          "title": "Create and Delete an AWS CloudFormation Stack",
+          "url": "https://www.youtube.com/watch?v=fmDG-W5TFp4"
+        }
+      ],
+      "status": "alternative",
+      "y": 1890.2739894115864,
+      "x": 2023.153929822237,
+      "parent_topic_id": "1oYvpFG8LKT1JD6a_9J0m",
+      "alternative_group": "1oYvpFG8LKT1JD6a_9J0m"
+    },
+    {
+      "id": "O0xZ3dy2zIDbOetVrgna6",
+      "label": "Pulumi",
+      "type": "subtopic",
+      "description": "# Pulumi\n\nPulumi is an open-source infrastructure-as-code tool that allows you to create, deploy, and manage cloud infrastructure using familiar programming languages like Python, JavaScript, TypeScript, Go, and C#. It enables developers to utilize standard software engineering practices such as loops, conditionals, classes, and testing frameworks to define and provision cloud resources across various providers.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "Pulumi Website",
+          "url": "https://www.pulumi.com/"
+        },
+        {
+          "type": "video",
+          "title": "Pulumi in Three Minutes",
+          "url": "https://www.youtube.com/watch?v=Q8tw6YTD3ac"
+        }
+      ],
+      "status": "alternative",
+      "y": 1943.2739894115864,
+      "x": 2023.153929822237,
+      "parent_topic_id": "1oYvpFG8LKT1JD6a_9J0m",
+      "alternative_group": "1oYvpFG8LKT1JD6a_9J0m"
+    },
+    {
+      "id": "nUBGf1rp9GK_pbagWCP9g",
+      "label": "Terraform",
+      "type": "subtopic",
+      "description": "# Terraform\n\nTerraform is an open-source infrastructure as code tool that allows you to define and manage your data center infrastructure using a declarative configuration language. By writing infrastructure requirements in human-readable files, you can automate the creation, update, and versioning of cloud resources across various providers. It maintains a state file to track the current configuration of your environment, ensuring that the deployed infrastructure matches the intended design defined in your code.",
+      "resources": [
+        {
+          "type": "roadmap",
+          "title": "Visit Dedicated Terraform Roadmap",
+          "url": "https://roadmap.sh/terraform"
+        },
+        {
+          "type": "official",
+          "title": "Terraform Documentation",
+          "url": "https://www.terraform.io/docs"
+        },
+        {
+          "type": "course",
+          "title": "Complete Terraform Course",
+          "url": "https://www.youtube.com/watch?v=7xngnjfIlK4"
+        },
+        {
+          "type": "article",
+          "title": "Terraform Backend: How it Works and How to Configure it",
+          "url": "https://roadmap.sh/terraform/backend"
+        }
+      ],
+      "status": "personal_recommendation",
+      "y": 1997.2739894115864,
+      "x": 2023.153929822237,
+      "parent_topic_id": "aQJaouIaxIJChM-40M3HQ"
+    },
+    {
+      "id": "h9vVPOmdUSeEGVQQaSTH5",
+      "label": "Ansible",
+      "type": "subtopic",
+      "description": "# Ansible\n\nAnsible is an open-source automation tool used for configuration management, application deployment, and task orchestration. It operates as an agentless system, connecting to remote servers via SSH or WinRM to execute tasks defined in human-readable YAML files called playbooks. It allows users to describe the desired state of a system, and the tool ensures the infrastructure matches that configuration automatically.",
+      "resources": [
+        {
+          "type": "course",
+          "title": "Ansible Full Course for Beginners",
+          "url": "https://www.youtube.com/watch?v=9Ua2b06oAr4"
+        },
+        {
+          "type": "official",
+          "title": "Ansible Website",
+          "url": "https://www.ansible.com/"
+        },
+        {
+          "type": "video",
+          "title": "Ansible in 100 Seconds",
+          "url": "https://www.youtube.com/watch?v=xRMPKQweySE"
+        },
+        {
+          "type": "video",
+          "title": "Ansible Full Course to Zero to Hero",
+          "url": "https://www.youtube.com/watch?v=GROqwFFLl3s"
+        }
+      ],
+      "status": "personal_recommendation",
+      "y": 1696.8759112425278,
+      "x": 1491.7647088844683,
+      "parent_topic_id": "V9sOxlNOyRp0Mghl7zudv"
+    },
+    {
+      "id": "kv508kxzUj_CjZRb-TeRv",
+      "label": "Chef",
+      "type": "subtopic",
+      "description": "# Chef\n\nChef is a configuration management tool that uses Ruby-based scripts called \"recipes\" and \"cookbooks\" to automate the process of configuring and maintaining servers. It follows a client-server architecture where nodes pull their configuration from a central Chef server, ensuring systems stay in their desired state.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "Chef Website",
+          "url": "https://www.chef.io/products/chef-infra"
+        },
+        {
+          "type": "opensource",
+          "title": "Chef",
+          "url": "https://github.com/chef/chef"
+        },
+        {
+          "type": "article",
+          "title": "Chef Tutorial",
+          "url": "https://www.tutorialspoint.com/chef/index.htm"
+        }
+      ],
+      "status": "alternative",
+      "y": 1749.8759112425278,
+      "x": 1491.7647088844683,
+      "parent_topic_id": "V9sOxlNOyRp0Mghl7zudv",
+      "alternative_group": "V9sOxlNOyRp0Mghl7zudv"
+    },
+    {
+      "id": "yP1y8U3eblpzbaLiCGliU",
+      "label": "Puppet",
+      "type": "subtopic",
+      "description": "# Puppet\n\nPuppet is a configuration management tool that lets you define the desired state of your infrastructure using its own declarative language. It uses a client-server model where a Puppet agent runs on each managed node and periodically checks in with the Puppet master to apply any defined configurations.",
+      "resources": [
+        {
+          "type": "course",
+          "title": "Puppet Full Course | Learn Puppet Training",
+          "url": "https://www.youtube.com/watch?v=Ns_tRKD20c4"
+        },
+        {
+          "type": "official",
+          "title": "Puppet Website",
+          "url": "https://puppet.com/"
+        }
+      ],
+      "status": "alternative",
+      "y": 1802.8759112425278,
+      "x": 1491.7647088844683,
+      "parent_topic_id": "V9sOxlNOyRp0Mghl7zudv",
+      "alternative_group": "V9sOxlNOyRp0Mghl7zudv"
+    },
+    {
+      "id": "JnWVCS1HbAyfCJzGt-WOH",
+      "label": "GitHub Actions",
+      "type": "subtopic",
+      "description": "# GitHub Actions\n\nGitHub Actions is a CI/CD and automation platform built into GitHub. It lets you define workflows in YAML files that trigger on repository events, such as pushes or pull requests, to automatically build, test, and deploy your code without leaving the GitHub ecosystem.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "GitHub Actions Documentation",
+          "url": "https://docs.github.com/en/actions"
+        },
+        {
+          "type": "article",
+          "title": "GitHub Actions Guide",
+          "url": "https://octopus.com/devops/github-actions/?utm_source=roadmap&utm_medium=link&utm_campaign=devops-ci-cd-github-actions"
+        },
+        {
+          "type": "video",
+          "title": "What is GitHub Actions?",
+          "url": "https://www.youtube.com/watch?v=URmeTqglS58"
+        },
+        {
+          "type": "video",
+          "title": "Automate your Workflow with GitHub Actions",
+          "url": "https://www.youtube.com/watch?v=nyKZTKQS_EQ"
+        }
+      ],
+      "status": "personal_recommendation",
+      "y": 2055.6937435857144,
+      "x": 1439,
+      "parent_topic_id": "aQJaouIaxIJChM-40M3HQ"
+    },
+    {
+      "id": "2KjSLLVTvl2G2KValw7S7",
+      "label": "GitLab CI",
+      "type": "subtopic",
+      "description": "# GitLab CI\n\nGitLab CI is an integrated continuous integration and delivery platform within the GitLab ecosystem. It automates the process of building, testing, and deploying code changes through pipelines defined in YAML files. GitLab CI offers features like parallel execution, container registry integration, and auto-DevOps, enabling teams to implement robust CI/CD workflows directly from their GitLab repositories without additional tools or infrastructure.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "GitLab Website",
+          "url": "https://gitlab.com/"
+        },
+        {
+          "type": "official",
+          "title": "GitLab Documentation",
+          "url": "https://docs.gitlab.com/"
+        },
+        {
+          "type": "article",
+          "title": "GitLab CI/CD Pipeline Tutorial",
+          "url": "https://octopus.com/devops/gitlab/gitlab-cicd-tutorial/?utm_source=roadmap&utm_medium=link&utm_campaign=devops-ci-cd-gitlab-ci"
+        },
+        {
+          "type": "video",
+          "title": "GitLab CI/CD Pipeline Tutorial for Beginners (2024)",
+          "url": "https://www.youtube.com/watch?v=z7nLsJvEyMY"
+        }
+      ],
+      "status": "personal_recommendation",
+      "y": 2002.6937435857144,
+      "x": 1439,
+      "parent_topic_id": "qqRLeTpuoW64H9LvY0U_w"
+    },
+    {
+      "id": "dUapFp3f0Rum-rf_Vk_b-",
+      "label": "Jenkins",
+      "type": "subtopic",
+      "description": "# Jenkins\n\nJenkins is an open-source automation server widely used to build, test, and deploy software. It has a large ecosystem of plugins that integrate with virtually every tool in the development lifecycle, and supports both simple pipelines and complex distributed build configurations.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "Jenkins Website",
+          "url": "https://www.jenkins.io/"
+        },
+        {
+          "type": "official",
+          "title": "Jenkins Getting Started Guide",
+          "url": "https://www.jenkins.io/doc/pipeline/tour/getting-started/"
+        },
+        {
+          "type": "article",
+          "title": "Jenkins Tutorial",
+          "url": "https://octopus.com/devops/jenkins/jenkins-tutorial/?utm_source=roadmap&utm_medium=link&utm_campaign=devops-ci-cd-gitlab-ci"
+        },
+        {
+          "type": "video",
+          "title": "Learn Jenkins! Complete Jenkins Course - Zero to Hero",
+          "url": "https://www.youtube.com/watch?v=6YZvp2GwT0A"
+        }
+      ],
+      "status": "alternative",
+      "y": 1896.6937435857144,
+      "x": 1566.894041311382,
+      "parent_topic_id": "aQJaouIaxIJChM-40M3HQ",
+      "alternative_group": "aQJaouIaxIJChM-40M3HQ"
+    },
+    {
+      "id": "-pGF3soruWWxwE4LxE5Vk",
+      "label": "Travis CI",
+      "type": "subtopic",
+      "description": null,
+      "resources": [],
+      "status": "alternative",
+      "y": 1949.6937435857144,
+      "x": 1439,
+      "parent_topic_id": "qqRLeTpuoW64H9LvY0U_w",
+      "alternative_group": "qqRLeTpuoW64H9LvY0U_w"
+    },
+    {
+      "id": "1-JneOQeGhox-CKrdiquq",
+      "label": "Circle CI",
+      "type": "subtopic",
+      "description": "# Circle CI\n\nCircleCI is a cloud-based CI/CD platform that automates the software build, test, and deployment process. It uses a YAML configuration file to define pipelines and is known for its speed, parallelism support, and tight integration with GitHub and Bitbucket.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "CircleCI Website",
+          "url": "https://circleci.com/"
+        },
+        {
+          "type": "video",
+          "title": "CircleCI Tutorial for Beginners",
+          "url": "https://www.youtube.com/watch?v=_XaYv9zvHUk"
+        }
+      ],
+      "status": "personal_recommendation",
+      "y": 1949.6937435857144,
+      "x": 1566.894041311382,
+      "parent_topic_id": "aQJaouIaxIJChM-40M3HQ"
+    },
+    {
+      "id": "TsXFx1wWikVBVoFUUDAMx",
+      "label": "Drone",
+      "type": "subtopic",
+      "description": "# Octopus Deploy\n\nOctopus Deploy is an automated deployment and release management server designed to simplify the process of pushing software updates to various environments. It allows teams to orchestrate complex deployments across multiple servers, cloud platforms, and on-premises infrastructure using a visual interface or command-line tools. By managing variables, configuration files, and deployment targets, it provides a structured way to track software versions and ensure consistent, repeatable releases.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "Octopus Deploy Docs",
+          "url": "https://octopus.com/docs"
+        },
+        {
+          "type": "official",
+          "title": "Getting Started",
+          "url": "https://octopus.com/docs/getting-started"
+        },
+        {
+          "type": "video",
+          "title": "Octopus Deploy Fundamentals",
+          "url": "https://www.youtube.com/watch?v=VnX3NAtKauI&list=PLAGskdGvlaw268i2ZTPC1ZrxwFjjKIdKH"
+        }
+      ],
+      "status": "alternative",
+      "y": 2002.6937435857144,
+      "x": 1566.894041311382,
+      "parent_topic_id": "aQJaouIaxIJChM-40M3HQ",
+      "alternative_group": "aQJaouIaxIJChM-40M3HQ"
+    },
+    {
+      "id": "L000AbzF3oLcn4B1eUIYX",
+      "label": "TeamCity",
+      "type": "subtopic",
+      "description": "# TeamCity\n\nTeamCity is a CI/CD server developed by JetBrains that automates building, testing, and deploying software. It offers a web-based interface, deep integration with version control systems, and strong support for a wide range of build tools and languages, making it popular in enterprise environments.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "TeamCity Documentation",
+          "url": "https://www.jetbrains.com/help/teamcity/teamcity-documentation.html"
+        },
+        {
+          "type": "official",
+          "title": "TeamCity Tutorials",
+          "url": "https://www.jetbrains.com/teamcity/tutorials/"
+        },
+        {
+          "type": "video",
+          "title": "CI/CD with JetBrains TeamCity",
+          "url": "https://www.youtube.com/watch?v=zqi4fDF-S60"
+        }
+      ],
+      "status": "alternative",
+      "y": 1896.6937435857144,
+      "x": 1439,
+      "parent_topic_id": "qqRLeTpuoW64H9LvY0U_w",
+      "alternative_group": "qqRLeTpuoW64H9LvY0U_w"
+    },
+    {
+      "id": "ZWq23Q9ZNxLNti68oltxA",
+      "label": "Sealed Secrets",
+      "type": "subtopic",
+      "description": "# Sealed Secrets\n\nSealed Secrets is a Kubernetes-focused tool developed by Bitnami that lets you encrypt Kubernetes secrets so they can be safely stored in version control. A controller running in the cluster holds the decryption key and is the only entity able to decrypt and create the actual secrets at runtime.",
+      "resources": [
+        {
+          "type": "opensource",
+          "title": "bitnami/sealed-secrets",
+          "url": "https://github.com/bitnami-labs/sealed-secrets"
+        },
+        {
+          "type": "article",
+          "title": "Sealed Secrets",
+          "url": "https://fluxcd.io/flux/guides/sealed-secrets/"
+        }
+      ],
+      "status": "alternative",
+      "y": 2081.6542746452424,
+      "x": 2020.6275872741135,
+      "parent_topic_id": "hcrPpjFxPi_iLiMdLKJrO",
+      "alternative_group": "hcrPpjFxPi_iLiMdLKJrO"
+    },
+    {
+      "id": "yQ4d2uiROZYr950cjYnQE",
+      "label": "Cloud Specific Tools",
+      "type": "subtopic",
+      "description": "# Cloud Specific Tools\n\nMajor cloud providers offer their own native secret management services, such as AWS Secrets Manager, Azure Key Vault, and GCP Secret Manager. These services allow applications running in those clouds to securely store and retrieve secrets with built-in access controls, audit logging, and automatic rotation capabilities.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "AWS Secrets Manager - Amazon Web Services",
+          "url": "https://aws.amazon.com/secrets-manager/"
+        },
+        {
+          "type": "article",
+          "title": "Google Cloud Secret Manager - Google Cloud",
+          "url": "https://cloud.google.com/secret-manager"
+        },
+        {
+          "type": "article",
+          "title": "Azure Key Vault - Microsoft Azure",
+          "url": "https://azure.microsoft.com/en-us/services/key-vault/"
+        }
+      ],
+      "status": "alternative",
+      "y": 2189.6542746452424,
+      "x": 2020.6275872741135,
+      "parent_topic_id": "hcrPpjFxPi_iLiMdLKJrO",
+      "alternative_group": "hcrPpjFxPi_iLiMdLKJrO"
+    },
+    {
+      "id": "tZzvs80KzqT8aDvEyjack",
+      "label": "Vault",
+      "type": "subtopic",
+      "description": "# Vault\n\nVault is a secrets management tool developed by HashiCorp that provides a secure, centralized store for sensitive data such as API keys, passwords, and certificates. It supports dynamic secrets, fine-grained access policies, secret leasing and renewal, and integrates with a wide range of cloud providers and authentication systems.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "HashiCorp Vault",
+          "url": "https://www.vaultproject.io/"
+        },
+        {
+          "type": "opensource",
+          "title": "hashicorp/vault",
+          "url": "https://github.com/hashicorp/vault"
+        },
+        {
+          "type": "video",
+          "title": "HashiCorp Vault Explained in 180 seconds",
+          "url": "https://www.youtube.com/watch?v=nG8fCdWkLzc"
+        },
+        {
+          "type": "video",
+          "title": "HashiCorp Vault Tutorial for Beginners",
+          "url": "https://www.youtube.com/watch?v=ae72pKpXe-s"
+        }
+      ],
+      "status": "personal_recommendation",
+      "y": 2135.6542746452424,
+      "x": 2020.6275872741135,
+      "parent_topic_id": "hcrPpjFxPi_iLiMdLKJrO"
+    },
+    {
+      "id": "GHQWHLxsO40kJ6z_YCinJ",
+      "label": "SOPs",
+      "type": "subtopic",
+      "description": "# SOPS\n\nSOPS (Secrets OPerationS) is an open-source tool developed by Mozilla for encrypting the values within structured files such as YAML, JSON, and ENV files. It integrates with key management services like AWS KMS, GCP KMS, and PGP, allowing encrypted secrets to be safely committed to version control.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "SOPs Website",
+          "url": "https://getsops.io"
+        },
+        {
+          "type": "opensource",
+          "title": "getsops/sops",
+          "url": "https://github.com/getsops/sops"
+        }
+      ],
+      "status": "alternative",
+      "y": 2135.6542746452424,
+      "x": 2146.6275872741135,
+      "parent_topic_id": "-INN1qTMLimrZgaSPCcHj",
+      "alternative_group": "-INN1qTMLimrZgaSPCcHj"
+    },
+    {
+      "id": "W9sKEoDlR8LzocQkqSv82",
+      "label": "Zabbix",
+      "type": "subtopic",
+      "description": "# Zabbix\n\nZabbix is an open-source enterprise monitoring platform that tracks the availability and performance of networks, servers, and applications. It supports agent-based and agentless monitoring, offers flexible alerting, and provides built-in visualization tools for tracking metrics over time.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "Zabbix Website",
+          "url": "https://www.zabbix.com/"
+        },
+        {
+          "type": "official",
+          "title": "Zabbix Documentation",
+          "url": "https://www.zabbix.com/manuals"
+        },
+        {
+          "type": "video",
+          "title": "How to Monitor EVERYTHING in your HomeLab for free - Zabbix Overview",
+          "url": "https://www.youtube.com/watch?v=R_EQzBkz4sE"
+        }
+      ],
+      "status": "alternative",
+      "y": 2329.3422065391833,
+      "x": 1443.6500824678124,
+      "parent_topic_id": "wNguM6-YEznduz3MgBCYo",
+      "alternative_group": "wNguM6-YEznduz3MgBCYo"
+    },
+    {
+      "id": "NiVvRbCOCDpVvif48poCo",
+      "label": "Prometheus",
+      "type": "subtopic",
+      "description": "# Prometheus\n\nPrometheus is an open-source monitoring and alerting toolkit originally developed at SoundCloud. It collects metrics by scraping HTTP endpoints at defined intervals, stores them in a time-series database, and provides a powerful query language called PromQL to analyze and alert on that data.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "Prometheus Website",
+          "url": "https://prometheus.io/"
+        },
+        {
+          "type": "video",
+          "title": "Introduction to the Prometheus Monitoring System | Key Concepts and Features",
+          "url": "https://www.youtube.com/watch?v=STVMGrYIlfg"
+        }
+      ],
+      "status": "personal_recommendation",
+      "y": 2222.3422065391833,
+      "x": 1442.5,
+      "parent_topic_id": "qqRLeTpuoW64H9LvY0U_w"
+    },
+    {
+      "id": "bujq_C-ejtpmk-ICALByy",
+      "label": "Datadog",
+      "type": "subtopic",
+      "description": "# Datadog\n\nDatadog is a monitoring and analytics platform for large-scale applications. It encompasses infrastructure monitoring, application performance monitoring, log management, and user-experience monitoring. Datadog aggregates data across your entire stack with 400+ integrations for troubleshooting, alerting, and graphing.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "Datadog Website",
+          "url": "https://www.datadoghq.com/"
+        },
+        {
+          "type": "official",
+          "title": "Datadog Documentation",
+          "url": "https://docs.datadoghq.com/"
+        }
+      ],
+      "status": "personal_recommendation",
+      "y": 2329.3422065391833,
+      "x": 1563.6500824678124,
+      "parent_topic_id": "wNguM6-YEznduz3MgBCYo"
+    },
+    {
+      "id": "niA_96yR7uQ0sc6S_OStf",
+      "label": "Grafana",
+      "type": "subtopic",
+      "description": "# Grafana\n\nGrafana is an open-source data visualization and dashboarding tool that connects to a wide range of data sources, including Prometheus, Elasticsearch, and cloud databases, to display metrics and logs in customizable, real-time dashboards. It is commonly paired with Prometheus for infrastructure and application monitoring.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "Grafana",
+          "url": "https://grafana.com/"
+        },
+        {
+          "type": "official",
+          "title": "Grafana Webinars and Videos",
+          "url": "https://grafana.com/videos/"
+        },
+        {
+          "type": "video",
+          "title": "Server Monitoring // Prometheus and Grafana Tutorial",
+          "url": "https://www.youtube.com/watch?v=9TJx7QTrTyo"
+        }
+      ],
+      "status": "personal_recommendation",
+      "y": 2275.3422065391833,
+      "x": 1442.5,
+      "parent_topic_id": "qqRLeTpuoW64H9LvY0U_w"
+    },
+    {
+      "id": "K_qLhK2kKN_uCq7iVjqph",
+      "label": "Elastic Stack",
+      "type": "subtopic",
+      "description": "# Elastic Stack\n\nThe Elastic Stack (formerly known as the ELK Stack) is a collection of open-source tools \u2014 Elasticsearch, Logstash, and Kibana \u2014 used together for searching, analyzing, and visualizing log and event data at scale. Elasticsearch stores and indexes the data, Logstash ingests and transforms it, and Kibana provides the visualization layer.",
+      "resources": [
+        {
+          "type": "roadmap",
+          "title": "Visit the Dedicated Elasticsearch Roadmap",
+          "url": "https://roadmap.sh/elasticsearch"
+        },
+        {
+          "type": "official",
+          "title": "Elastic Stack",
+          "url": "https://www.elastic.co/elastic-stack/"
+        },
+        {
+          "type": "article",
+          "title": "Logstash vs Fluentd",
+          "url": "https://logz.io/blog/fluentd-logstash/"
+        },
+        {
+          "type": "video",
+          "title": "Master the Elastic Stack: Elastic Stack Overview",
+          "url": "https://www.youtube.com/watch?v=CfCTWVAwFbQ"
+        }
+      ],
+      "status": "personal_recommendation",
+      "y": 1847.867646144425,
+      "x": 1206.9080590588455,
+      "parent_topic_id": "gaoZjOYmU0J5aM6vtLNvN"
+    },
+    {
+      "id": "s_kss4FJ2KyZRdcKNHK2v",
+      "label": "Graylog",
+      "type": "subtopic",
+      "description": "# Graylog\n\nGraylog is an open-source log management platform that collects, indexes, and analyzes log data from a variety of sources. It provides a web interface for searching and visualizing logs, supports alerting based on log patterns, and is built on top of MongoDB and Elasticsearch.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "Graylog Website",
+          "url": "https://www.graylog.org/"
+        },
+        {
+          "type": "official",
+          "title": "Product Videos",
+          "url": "https://www.graylog.org/resources-videos"
+        },
+        {
+          "type": "opensource",
+          "title": "Graylog2/graylog2-server",
+          "url": "https://github.com/Graylog2/graylog2-server"
+        }
+      ],
+      "status": "alternative",
+      "y": 1900.867646144425,
+      "x": 1206.9080590588455,
+      "parent_topic_id": "gaoZjOYmU0J5aM6vtLNvN",
+      "alternative_group": "gaoZjOYmU0J5aM6vtLNvN"
+    },
+    {
+      "id": "dZID_Y_uRTF8JlfDCqeqs",
+      "label": "Splunk",
+      "type": "subtopic",
+      "description": "# Splunk\n\nSplunk is a data platform for searching, monitoring, and analyzing machine-generated data, including logs, metrics, and events. It is widely used in enterprise environments for security monitoring, IT operations, and business analytics, offering powerful search capabilities and a rich ecosystem of apps and integrations.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "Splunk Documentation",
+          "url": "https://docs.splunk.com/Documentation"
+        },
+        {
+          "type": "official",
+          "title": "Splunk Videos",
+          "url": "https://www.splunk.com/en_us/resources/videos.html"
+        },
+        {
+          "type": "video",
+          "title": "Splunk Tutorial for Beginners",
+          "url": "https://www.youtube.com/watch?v=3CiRs6WaWaU"
+        }
+      ],
+      "status": "alternative",
+      "y": 1740.867646144425,
+      "x": 1206.9080590588455,
+      "parent_topic_id": "gaoZjOYmU0J5aM6vtLNvN",
+      "alternative_group": "gaoZjOYmU0J5aM6vtLNvN"
+    },
+    {
+      "id": "cjjMZdyLgakyVkImVQTza",
+      "label": "Papertrail",
+      "type": "subtopic",
+      "description": "# Papertrail\n\nPapertrail is a cloud-hosted log management service that aggregates logs from servers, applications, and network devices in real time. It offers a simple interface for tailing, searching, and archiving logs, and is popular for smaller teams looking for a straightforward hosted logging solution.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "Papertrail Guides",
+          "url": "https://www.papertrail.com/solution/guides/"
+        },
+        {
+          "type": "official",
+          "title": "Papertrail Blog",
+          "url": "https://www.papertrail.com/blog/"
+        },
+        {
+          "type": "video",
+          "title": "SolarWinds Papertrail Overview",
+          "url": "https://www.youtube.com/watch?v=lx3UyNSn8AQ"
+        }
+      ],
+      "status": "alternative",
+      "y": 1687.867646144425,
+      "x": 1206.9080590588455,
+      "parent_topic_id": "gaoZjOYmU0J5aM6vtLNvN",
+      "alternative_group": "gaoZjOYmU0J5aM6vtLNvN"
+    },
+    {
+      "id": "XbrWlTyH4z8crSHkki2lp",
+      "label": "GKE / EKS / AKS",
+      "type": "subtopic",
+      "description": "# GKE / EKS / AKS\n\nGKE (Google Kubernetes Engine), EKS (Amazon Elastic Kubernetes Service), and AKS (Azure Kubernetes Service) are managed Kubernetes offerings from the three major cloud providers. They handle the provisioning and maintenance of the Kubernetes control plane, letting teams focus on deploying and managing their workloads without operating the underlying cluster infrastructure.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "GKE",
+          "url": "https://cloud.google.com/kubernetes-engine"
+        },
+        {
+          "type": "official",
+          "title": "EKS",
+          "url": "https://aws.amazon.com/eks/"
+        },
+        {
+          "type": "official",
+          "title": "AKS",
+          "url": "https://azure.microsoft.com/en-us/products/kubernetes-service/"
+        }
+      ],
+      "status": "alternative",
+      "y": 2503.733953859971,
+      "x": 1191.5919421168855,
+      "parent_topic_id": "Yq8kVoRf20aL_o4VZU5--",
+      "alternative_group": "Yq8kVoRf20aL_o4VZU5--"
+    },
+    {
+      "id": "FE2h-uQy6qli3rKERci1j",
+      "label": "AWS ECS / Fargate",
+      "type": "subtopic",
+      "description": "# ECS / Fargate\n\nECS is a container orchestration service that allows you to run Docker containers on a cluster of EC2 instances. ECS is a good choice if you want to run Docker containers on EC2 instances and have full control over the underlying infrastructure. Fargate is a serverless container orchestration service that allows you to run Docker containers without having to manage servers, clusters, or any other infrastructure. Fargate is a good choice if you want to run Docker containers without having to manage servers or clusters.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "AWS - Fargate Docs",
+          "url": "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/AWS_Fargate.html"
+        },
+        {
+          "type": "official",
+          "title": "AWS - ECS Docs",
+          "url": "https://docs.aws.amazon.com/ecs/"
+        },
+        {
+          "type": "video",
+          "title": "Amazon ECS: AWS Fargate Overview",
+          "url": "https://www.youtube.com/watch?v=yi22xrvPnPk"
+        },
+        {
+          "type": "video",
+          "title": "AWS ECS Tutorial",
+          "url": "https://www.youtube.com/watch?v=esISkPlnxL0"
+        }
+      ],
+      "status": "alternative",
+      "y": 2556.733953859971,
+      "x": 1191.5919421168855,
+      "parent_topic_id": "Yq8kVoRf20aL_o4VZU5--",
+      "alternative_group": "Yq8kVoRf20aL_o4VZU5--"
+    },
+    {
+      "id": "VD24HC9qJOC42lbpJ-swC",
+      "label": "Docker Swarm",
+      "type": "subtopic",
+      "description": "# Docker Swarm\n\nA Docker Swarm is a group of either physical or virtual machines that are running the Docker application and that have been configured to join together in a cluster. Once a group of machines have been clustered together, you can still run the Docker commands that you're used to, but they will now be carried out by the machines in your cluster. The activities of the cluster are controlled by a swarm manager, and machines that have joined the cluster are referred to as nodes.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "Docker Swarm Documentation",
+          "url": "https://docs.docker.com/engine/swarm/"
+        },
+        {
+          "type": "article",
+          "title": "Tutorial: Manage Docker Swarm with Portainer",
+          "url": "https://thenewstack.io/tutorial-manage-docker-swarm-with-portainer/"
+        },
+        {
+          "type": "article",
+          "title": "Tutorial: Create a Docker Swarm with Persistent Storage Using GlusterFS",
+          "url": "https://thenewstack.io/tutorial-create-a-docker-swarm-with-persistent-storage-using-glusterfs/"
+        },
+        {
+          "type": "video",
+          "title": "Docker Swarm | Introduction | Step By Step Examples",
+          "url": "https://www.youtube.com/watch?v=Xaea-XnJTJU"
+        },
+        {
+          "type": "feed",
+          "title": "Explore top posts about Docker",
+          "url": "https://app.daily.dev/tags/docker?ref=roadmapsh"
+        }
+      ],
+      "status": "alternative",
+      "y": 2609.733953859971,
+      "x": 1191.5919421168855,
+      "parent_topic_id": "Yq8kVoRf20aL_o4VZU5--",
+      "alternative_group": "Yq8kVoRf20aL_o4VZU5--"
+    },
+    {
+      "id": "C_sFyIsIIpriZlovvcbSE",
+      "label": "Artifactory",
+      "type": "subtopic",
+      "description": "# Artifactory\n\nArtifactory is a universal artifact repository manager developed by JFrog that supports virtually every major package format. It integrates deeply with CI/CD tools, provides fine-grained access controls, and includes features like artifact promotion across environments, dependency caching, and vulnerability scanning.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "Artifactory Website",
+          "url": "https://jfrog.com/artifactory/"
+        },
+        {
+          "type": "video",
+          "title": "Key Features of JFrog Artifactory in 5 Minutes",
+          "url": "https://www.youtube.com/watch?v=LoTyOSCssvM"
+        }
+      ],
+      "status": "personal_recommendation",
+      "y": 2223.2681164764685,
+      "x": 1804.1994137533861,
+      "parent_topic_id": "hcrPpjFxPi_iLiMdLKJrO"
+    },
+    {
+      "id": "ootuLJfRXarVvm3J1Ir11",
+      "label": "Nexus",
+      "type": "subtopic",
+      "description": "# Nexus\n\nThe Nexus Repository Manager is a widely used repository manager software developed by Sonatype. It's designed to manage binary components such as Java libraries, Docker images, npm packages, NuGet packages, and more. Nexus Repository Manager allows organizations to store, manage, and distribute software components securely and efficiently.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "Using Nexus Repository",
+          "url": "https://help.sonatype.com/en/using-nexus-repository.html"
+        },
+        {
+          "type": "article",
+          "title": "Nexus Best Practices",
+          "url": "https://help.sonatype.com/repomanager3/nexus-repository-best-practices"
+        }
+      ],
+      "status": "alternative",
+      "y": 2275.2681164764685,
+      "x": 1805.1994137533861,
+      "parent_topic_id": "zuBAjrqQPjj-0DHGjCaqT",
+      "alternative_group": "zuBAjrqQPjj-0DHGjCaqT"
+    },
+    {
+      "id": "vsmE6EpCc2DFGk1YTbkHS",
+      "label": "Cloud Smith",
+      "type": "subtopic",
+      "description": "# Cloud Smith\n\nCloudsmith is a cloud-native artifact management service that supports a wide range of package formats, including Docker images, npm, PyPI, Maven, and more. It provides a centralized, hosted repository for storing and distributing artifacts with fine-grained access controls and integration with popular CI/CD pipelines.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "Cloud Smith",
+          "url": "https://cloudsmith.com/"
+        },
+        {
+          "type": "official",
+          "title": "Cloud Smith Product Overview",
+          "url": "https://cloudsmith.com/product/"
+        },
+        {
+          "type": "video",
+          "title": "Intro to Cloud Smith",
+          "url": "https://www.youtube.com/watch?v=wVtRfpjKqBM"
+        }
+      ],
+      "status": "alternative",
+      "y": 2327.2681164764685,
+      "x": 1805.6994137533861,
+      "parent_topic_id": "zuBAjrqQPjj-0DHGjCaqT",
+      "alternative_group": "zuBAjrqQPjj-0DHGjCaqT"
+    },
+    {
+      "id": "i-DLwNXdCUUug6lfjkPSy",
+      "label": "ArgoCD",
+      "type": "subtopic",
+      "description": "# ArgoCD\n\nArgo CD is a declarative GitOps continuous delivery tool for Kubernetes. It monitors Git repositories for changes to application manifests and automatically syncs those changes to the target cluster, providing a visual dashboard to track the state and health of all deployed applications.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "Argo CD - Argo Project",
+          "url": "https://argo-cd.readthedocs.io/en/stable/"
+        },
+        {
+          "type": "video",
+          "title": "ArgoCD Tutorial for Beginners",
+          "url": "https://www.youtube.com/watch?v=MeU5_k9ssrs"
+        },
+        {
+          "type": "video",
+          "title": "What is ArgoCD",
+          "url": "https://www.youtube.com/watch?v=p-kAqxuJNik"
+        }
+      ],
+      "status": "personal_recommendation",
+      "y": 2275.2924702992086,
+      "x": 2039.880090807097,
+      "parent_topic_id": "-INN1qTMLimrZgaSPCcHj"
+    },
+    {
+      "id": "6gVV_JUgKgwJb4C8tHZn7",
+      "label": "FluxCD",
+      "type": "subtopic",
+      "description": "# FluxCD\n\nFlux is an open-source GitOps tool that automatically synchronizes the state of a Kubernetes cluster with configuration stored in a Git repository. It watches for changes in Git and applies them to the cluster, supporting Helm charts, Kustomize overlays, and multi-tenancy out of the box.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "Flux CD",
+          "url": "https://fluxcd.io/flux/"
+        },
+        {
+          "type": "video",
+          "title": "Introduction to Flux CD on Kubernetes",
+          "url": "https://www.youtube.com/watch?v=X5W_706-jSY"
+        }
+      ],
+      "status": "alternative",
+      "y": 2328.2924702992086,
+      "x": 2039.880090807097,
+      "parent_topic_id": "-INN1qTMLimrZgaSPCcHj",
+      "alternative_group": "-INN1qTMLimrZgaSPCcHj"
+    },
+    {
+      "id": "XsSnqW6k2IzvmrMmJeU6a",
+      "label": "Istio",
+      "type": "subtopic",
+      "description": "# Istio\n\nIstio is an open source service mesh platform that provides a way to control how microservices share data. It includes APIs that let Istio integrate into any logging platform, telemetry, or policy system. Istio is designed to run in a variety of environments: on-premise, cloud-hosted, in Kubernetes containers, in services running on virtual machines, and more.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "What is Istio?",
+          "url": "https://www.redhat.com/en/topics/microservices/what-is-istio"
+        },
+        {
+          "type": "video",
+          "title": "Istio Service Mesh Explained",
+          "url": "https://www.youtube.com/watch?v=6zDrLvpfCK4"
+        }
+      ],
+      "status": "personal_recommendation",
+      "y": 2526.211912357967,
+      "x": 1829.5489126426492,
+      "parent_topic_id": "EeWsihH9ehbFKebYoB5i9"
+    },
+    {
+      "id": "OXOTm3nz6o44p50qd0brN",
+      "label": "Consul",
+      "type": "subtopic",
+      "description": "# Consul\n\nConsul is a service mesh solution providing a full-featured control plane with service discovery, configuration, and segmentation functionality. Each of these features can be used individually as needed, or they can be used together to build a full-service mesh. Consul requires a data plane and supports both a proxy and native integration model. Consul ships with a simple built-in proxy so that everything works out of the box, but also supports 3rd party proxy integrations such as Envoy.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "What is Consul?",
+          "url": "https://www.consul.io/docs/intro"
+        },
+        {
+          "type": "opensource",
+          "title": "Consul Guides",
+          "url": "https://github.com/hashicorp/consul-guides"
+        },
+        {
+          "type": "video",
+          "title": "Consul Service Mesh Tutorial for Beginners",
+          "url": "https://www.youtube.com/watch?v=s3I1kKKfjtQ"
+        }
+      ],
+      "status": "personal_recommendation",
+      "y": 2579.211912357967,
+      "x": 1829.5489126426492,
+      "parent_topic_id": "EeWsihH9ehbFKebYoB5i9"
+    },
+    {
+      "id": "hhoSe4q1u850PgK62Ubau",
+      "label": "Linkerd",
+      "type": "subtopic",
+      "description": "# Linkerd\n\nLinkerd is a lightweight, open-source service mesh for Kubernetes focused on simplicity and low resource overhead. It automatically adds mutual TLS, observability, and traffic management to services without requiring complex configuration, making it one of the easier service meshes to adopt.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "Linkerd Website",
+          "url": "https://linkerd.io/"
+        },
+        {
+          "type": "article",
+          "title": "What is Linkerd?",
+          "url": "https://www.techtarget.com/searchitoperations/definition/Linkerd"
+        },
+        {
+          "type": "video",
+          "title": "What is the Linkerd service mesh?",
+          "url": "https://www.youtube.com/watch?v=up3fKwXdEgc"
+        }
+      ],
+      "status": "alternative",
+      "y": 2632.211912357967,
+      "x": 1829.5489126426492,
+      "parent_topic_id": "EeWsihH9ehbFKebYoB5i9",
+      "alternative_group": "EeWsihH9ehbFKebYoB5i9"
+    },
+    {
+      "id": "epLLYArR16HlhAS4c33b4",
+      "label": "Envoy",
+      "type": "subtopic",
+      "description": "# Envoy\n\nEnvoy is a high-performance, open-source edge and service proxy originally developed at Lyft. It is designed for cloud-native applications and serves as the data plane in many service mesh implementations, including Istio, handling tasks like load balancing, service discovery, circuit breaking, and observability.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "Envoy",
+          "url": "https://www.envoyproxy.io/"
+        },
+        {
+          "type": "opensource",
+          "title": "envoyproxy/envoy",
+          "url": "https://github.com/envoyproxy/envoy"
+        },
+        {
+          "type": "article",
+          "title": "What is Envoy?",
+          "url": "https://www.envoyproxy.io/docs/envoy/latest/intro/what_is_envoy"
+        }
+      ],
+      "status": "alternative",
+      "y": 2685.211912357967,
+      "x": 1829.5489126426492,
+      "parent_topic_id": "EeWsihH9ehbFKebYoB5i9",
+      "alternative_group": "EeWsihH9ehbFKebYoB5i9"
+    },
+    {
+      "id": "JCe3fcOf-sokTJURyX1oI",
+      "label": "Availability",
+      "type": "subtopic",
+      "description": "# Availability\n\nAvailability patterns are design approaches that ensure a system remains operational and accessible even in the face of failures. They include techniques such as health endpoint monitoring, queue-based load leveling, and the throttling pattern, all aimed at preventing downtime and gracefully handling spikes or partial failures.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "Defining Availability, Maintainability and Reliability in SRE",
+          "url": "https://devops.com/defining-availability-maintainability-and-reliability-in-sre/"
+        },
+        {
+          "type": "article",
+          "title": "Techniques for Achieving High Availability",
+          "url": "https://www.sqlservercentral.com/articles/cloud-computing-basics-achieving-high-availability-2"
+        },
+        {
+          "type": "video",
+          "title": "SLIs, SLOs, SLAs, oh my! (class SRE implements DevOps)",
+          "url": "https://www.youtube.com/watch?v=tEylFyxbDLE"
+        }
+      ],
+      "status": "required",
+      "y": 2770,
+      "x": 1193,
+      "parent_topic_id": "EeWsihH9ehbFKebYoB5i9"
+    },
+    {
+      "id": "5FN7iva4DW_lv-r1tijd8",
+      "label": "Data Management",
+      "type": "subtopic",
+      "description": "# Data Management\n\nData management patterns address the challenges of storing, accessing, and maintaining data in distributed cloud systems. They cover strategies for handling data consistency, partitioning large datasets, separating read and write workloads, and keeping data synchronized across services that may each maintain their own data store.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "Data management patterns",
+          "url": "https://docs.microsoft.com/en-us/azure/architecture/patterns/category/data-management"
+        },
+        {
+          "type": "video",
+          "title": "What is Master Data Management",
+          "url": "https://www.youtube.com/watch?v=l83bkKJh1wM"
+        }
+      ],
+      "status": "required",
+      "y": 2822,
+      "x": 1193,
+      "parent_topic_id": "EeWsihH9ehbFKebYoB5i9"
+    },
+    {
+      "id": "1_NRXjckZ0F8EtEmgixqz",
+      "label": "Design and Implementation",
+      "type": "subtopic",
+      "description": "# Design and Implementation\n\nDesign and implementation patterns guide structuring cloud applications for maintainability, flexibility, and scalability. They include approaches like the Strangler Fig pattern for migrating legacy systems, the Sidecar pattern for extending service functionality, and the Anti-Corruption Layer for integrating with external systems without polluting the core domain model.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "Design and Implementation Patterns",
+          "url": "https://docs.microsoft.com/en-us/azure/architecture/patterns/category/design-implementation"
+        }
+      ],
+      "status": "required",
+      "y": 2874,
+      "x": 1193,
+      "parent_topic_id": "EeWsihH9ehbFKebYoB5i9"
+    },
+    {
+      "id": "8kby89epyullS9W7uKDrs",
+      "label": "Management and Monitoring",
+      "type": "subtopic",
+      "description": "# Management and Monitoring\n\nManagement and monitoring patterns focus on keeping cloud applications observable, configurable, and operable at scale. They include patterns such as externalized configuration, health endpoint monitoring, and the Ambassador pattern, helping teams gain visibility into running systems and manage them effectively without requiring application restarts or redeployments.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "Management and Monitoring Get Started Guide",
+          "url": "https://www.atlassian.com/devops/devops-tools/devops-monitoring"
+        }
+      ],
+      "status": "required",
+      "y": 2926,
+      "x": 1193,
+      "parent_topic_id": "EeWsihH9ehbFKebYoB5i9"
+    },
+    {
+      "id": "w2eCgBC-ydMHSxh7LMti8",
+      "label": "Loki",
+      "type": "subtopic",
+      "description": "# Loki\n\nLoki is a log aggregation system developed by Grafana Labs, designed to be cost-effective and easy to operate. Unlike other log systems, it indexes only metadata labels rather than the full log content, making it lightweight and well-suited for use alongside Prometheus and Grafana.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "Loki",
+          "url": "https://grafana.com/oss/loki/"
+        },
+        {
+          "type": "official",
+          "title": "Loki Documentation",
+          "url": "https://grafana.com/docs/loki/latest/?pg=oss-loki&plcmt=quick-links"
+        },
+        {
+          "type": "video",
+          "title": "Meet Grafana LOKI, a Log Aggregation System for EVERYTHING",
+          "url": "https://www.youtube.com/watch?v=h_GGd7HfKQ8"
+        }
+      ],
+      "status": "personal_recommendation",
+      "y": 1794.867646144425,
+      "x": 1206.9080590588455,
+      "parent_topic_id": "gaoZjOYmU0J5aM6vtLNvN"
+    },
+    {
+      "id": "hIBeTUiAI3zwUY6NgAO-A",
+      "label": "Kubernetes",
+      "type": "subtopic",
+      "description": "# Kubernetes\n\nKubernetes is an open-source container orchestration platform originally developed by Google. It automates the deployment, scaling, and management of containerized applications across clusters of nodes, and has become the de facto standard for running containers in production environments.",
+      "resources": [
+        {
+          "type": "roadmap",
+          "title": "Visit Dedicated Kubernetes Roadmap",
+          "url": "https://roadmap.sh/kubernetes"
+        },
+        {
+          "type": "official",
+          "title": "Kubernetes Website",
+          "url": "https://kubernetes.io/"
+        },
+        {
+          "type": "opensource",
+          "title": "kubernetes/kubernetes",
+          "url": "https://github.com/kubernetes/kubernetes"
+        },
+        {
+          "type": "article",
+          "title": "Kubernetes: An Overview",
+          "url": "https://thenewstack.io/kubernetes-an-overview/"
+        }
+      ],
+      "status": "personal_recommendation",
+      "y": 2662.733953859971,
+      "x": 1191.5919421168855,
+      "parent_topic_id": "Yq8kVoRf20aL_o4VZU5--"
+    },
+    {
+      "id": "JXsctlXUUS1ie8nNEgIk9",
+      "label": "GCP Functions",
+      "type": "subtopic",
+      "description": "# GCP Functions\n\nGCP Functions is a serverless execution environment that allows you to run your code in the cloud without the need to provision or manage underlying server infrastructure. It automatically scales based on the incoming request volume and executes your functions in response to specific events, such as HTTP requests, file uploads to cloud storage, or messages from a pub/sub queue. You only pay for the resources consumed during the actual execution time, making it a cost-effective solution for building event-driven applications and microservices.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "GCP Cloud Functions Overview",
+          "url": "https://cloud.google.com/functions/docs/concepts/overview"
+        },
+        {
+          "type": "article",
+          "title": "GCP Cloud Functions Tutorial",
+          "url": "https://antonputra.com/google/google-cloud-functions-tutorial/"
+        },
+        {
+          "type": "video",
+          "title": "Cloud Functions in a minute",
+          "url": "https://www.youtube.com/watch?v=BL4ZlPEamDo"
+        }
+      ],
+      "status": "alternative",
+      "y": 1606,
+      "x": 2010.6022029048672,
+      "parent_topic_id": "1oYvpFG8LKT1JD6a_9J0m",
+      "alternative_group": "1oYvpFG8LKT1JD6a_9J0m"
+    },
+    {
+      "id": "8rd7T5ahK2I_zh5co-IF-",
+      "label": "Jaeger",
+      "type": "subtopic",
+      "description": "# Jaeger\n\nJaeger is an open-source distributed tracing platform originally developed by Uber. It tracks requests as they flow through microservices, capturing timing and dependency information to help engineers identify latency bottlenecks and understand how services interact with each other.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "Jaeger",
+          "url": "https://www.jaegertracing.io/"
+        },
+        {
+          "type": "official",
+          "title": "Jaeger Documentation",
+          "url": "https://www.jaegertracing.io/docs/latest"
+        },
+        {
+          "type": "opensource",
+          "title": "jaegertracing/jaeger",
+          "url": "https://github.com/jaegertracing/jaeger"
+        }
+      ],
+      "status": "alternative",
+      "y": 2502.733953859971,
+      "x": 1510.8528975202719,
+      "parent_topic_id": "Yq8kVoRf20aL_o4VZU5--",
+      "alternative_group": "Yq8kVoRf20aL_o4VZU5--"
+    },
+    {
+      "id": "pk76Us6z8LoX3f0mhnCyR",
+      "label": "New Relic",
+      "type": "subtopic",
+      "description": "# New Relic\n\nNew Relic is a cloud-based observability platform that provides monitoring for applications, infrastructure, and user experience in a single interface. It offers APM (Application Performance Monitoring), distributed tracing, log management, and dashboards, and is widely used by engineering teams to diagnose performance issues across complex systems.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "New Relic",
+          "url": "https://newrelic.com/"
+        },
+        {
+          "type": "video",
+          "title": "New Relic Platform Demo",
+          "url": "https://www.youtube.com/watch?v=8kx7nRGVJRg"
+        }
+      ],
+      "status": "alternative",
+      "y": 2555.733953859971,
+      "x": 1510.8528975202719,
+      "parent_topic_id": "wNguM6-YEznduz3MgBCYo",
+      "alternative_group": "wNguM6-YEznduz3MgBCYo"
+    },
+    {
+      "id": "BHny2Emf96suhAlltiEro",
+      "label": "Datadog",
+      "type": "subtopic",
+      "description": "# Datadog\n\nDatadog is a monitoring and analytics platform for large-scale applications. It encompasses infrastructure monitoring, application performance monitoring, log management, and user-experience monitoring. Datadog aggregates data across your entire stack with 400+ integrations for troubleshooting, alerting, and graphing.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "Datadog Website",
+          "url": "https://www.datadoghq.com/"
+        },
+        {
+          "type": "official",
+          "title": "Datadog Documentation",
+          "url": "https://docs.datadoghq.com/"
+        },
+        {
+          "type": "feed",
+          "title": "Explore top posts about DevOps",
+          "url": "https://app.daily.dev/tags/devops?ref=roadmapsh"
+        }
+      ],
+      "status": "alternative",
+      "y": 2608.733953859971,
+      "x": 1510.8528975202719,
+      "parent_topic_id": "wNguM6-YEznduz3MgBCYo",
+      "alternative_group": "wNguM6-YEznduz3MgBCYo"
+    },
+    {
+      "id": "eOyu4wmKOrcMlhD8pUGGh",
+      "label": "Prometheus",
+      "type": "subtopic",
+      "description": "# Prometheus\n\nPrometheus is a free software application used for event monitoring and alerting. It records real-time metrics in a time series database built using a HTTP pull model, with flexible queries and real-time alerting.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "Prometheus Website",
+          "url": "https://prometheus.io/"
+        },
+        {
+          "type": "official",
+          "title": "Prometheus Documentation",
+          "url": "https://prometheus.io/docs/introduction/overview/"
+        },
+        {
+          "type": "official",
+          "title": "Getting Started with Prometheus",
+          "url": "https://prometheus.io/docs/tutorials/getting_started/"
+        },
+        {
+          "type": "feed",
+          "title": "Explore top posts about Prometheus",
+          "url": "https://app.daily.dev/tags/prometheus?ref=roadmapsh"
+        }
+      ],
+      "status": "alternative",
+      "y": 2661.733953859971,
+      "x": 1510.8528975202719,
+      "parent_topic_id": "Qc0MGR5bMG9eeM5Zb9PMk",
+      "alternative_group": "Qc0MGR5bMG9eeM5Zb9PMk"
+    },
+    {
+      "id": "K81bmtgnB1gfhYdi3TB5a",
+      "label": "OpenTelemetry",
+      "type": "subtopic",
+      "description": "# OpenTelemetry\n\nOpenTelemetry is an open-source observability framework that provides standardized APIs, SDKs, and tools for collecting traces, metrics, and logs from applications. It is vendor-neutral and supported by most major observability platforms, making it the emerging standard for instrumenting cloud-native applications.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "OpenTelemetry Website",
+          "url": "https://opentelemetry.io/"
+        },
+        {
+          "type": "official",
+          "title": "OpenTelemetry Documentation",
+          "url": "https://opentelemetry.io/docs/"
+        },
+        {
+          "type": "video",
+          "title": "What is OpenTelemetry?",
+          "url": "https://www.youtube.com/watch?v=mUA-uzk94ro"
+        },
+        {
+          "type": "video",
+          "title": "OpenTelemetry Course - Understand Software Performance",
+          "url": "https://www.youtube.com/watch?v=r8UvWSX3KA8"
+        }
+      ],
+      "status": "alternative",
+      "y": 2714.733953859971,
+      "x": 1510.8528975202719,
+      "parent_topic_id": "Qc0MGR5bMG9eeM5Zb9PMk",
+      "alternative_group": "Qc0MGR5bMG9eeM5Zb9PMk"
+    }
+  ]
+}

@@ -1,0 +1,1457 @@
+{
+  "roadmap_id": "devrel",
+  "commit_hash": "70ecc31a04739d547d6ebf37213249b275f7565b",
+  "topics": [
+    {
+      "id": "SiYUdtYMDImRPmV2_XPkH",
+      "label": "What is DevRel?",
+      "type": "topic",
+      "description": "# What is DevRel?\n \nDeveloper Relations (DevRel) is the practice of building and maintaining relationships between a company and the developers who use its products, APIs, or platforms. It sits at the intersection of engineering, marketing, and community management. DevRel teams work to make developers successful with a product, which in turn drives adoption, retention, and trust.",
+      "status": "required",
+      "y": 31.880499971196002,
+      "x": -315.47839322321585,
+      "sequence_row": 1,
+      "sequence_col": 1
+    },
+    {
+      "id": "LRZ8yxTfEGCXsYp4N1_uD",
+      "label": "Public Speaking",
+      "type": "topic",
+      "description": "# Public Speaking\n\nPublic speaking is very important for a Developer Relations (DevRel) role, though its exact importance depends on the specific job and company. DevRel professionals act as a bridge between a company (often its tech or product team) and the developer community, so communication\u2014especially in public settings\u2014is a core part of the gig.",
+      "status": "required",
+      "y": 257.5755466544489,
+      "x": 49.92254380155521,
+      "sequence_row": 2,
+      "sequence_col": 1
+    },
+    {
+      "id": "PFjF2PnYpSbvd24jb_D2G",
+      "label": "Presentation Techniques",
+      "type": "topic",
+      "description": "# Presentation Techniques\n \nPresentation techniques are the methods used to structure and deliver a talk effectively. Common approaches include the Rule of Three for organizing content, storytelling to make technical material memorable, and visual aids to reinforce key points. Choosing the right technique depends on the audience, the topic, and the format of the event.",
+      "status": "required",
+      "y": 338.5755466544488,
+      "x": 77.11857813823781,
+      "sequence_row": 3,
+      "sequence_col": 2
+    },
+    {
+      "id": "0ntOE6PSdMl_EXB9gdgIv",
+      "label": "Writing Skills",
+      "type": "topic",
+      "description": "# Writing Skills\n \nWriting is one of the most high-leverage skills in DevRel because written content reaches far more developers than any single presentation. DevRel writing spans technical documentation, blog posts, social media, and email. Clear, accurate, and well-structured writing builds trust and helps developers succeed without needing direct assistance.\n\nVisit the following resources to learn more:\n\n- [@article@Putting Ideas into Words](https://www.paulgraham.com/words.html)\n- [@article@Patterns in confusing explanations](https://jvns.ca/blog/confusing-explanations/)\n- [@article@Signposting: How to reduce cognitive load for your reader](https://newsletter.weskao.com/p/sign-posting-how-to-reduce-cognitive)",
+      "status": "required",
+      "y": 354.6277176317968,
+      "x": -315.11787473083643,
+      "sequence_row": 3,
+      "sequence_col": 1
+    },
+    {
+      "id": "aSYXa25_0O2qQl1O-N3xl",
+      "label": "Basic Programming Skills",
+      "type": "topic",
+      "description": "# Basic Programming Skills\n\nBasic programming skills are essential for Developer Relations professionals to effectively communicate with developers, understand their needs, and provide technical support. These skills include proficiency in at least one programming language, understanding of data structures and algorithms, and familiarity with development tools and technologies. Having basic programming skills enables Developer Relations professionals to create educational content, provide technical guidance, and participate in code reviews.\n\nVisit the following resources to learn more:\n\n- [@article@TheNewStack.io - Devrel](https://thenewstack.io/devrel-for-beginners-how-to-get-started/)\n- [@article@Getting Started With Devrel- Dev.to](https://dev.to/rejoice/getting-started-with-devrel-22n3)\n- [@article@How to become a DevRel](https://www.pluralsight.com/resources/blog/tech-operations/developer-relations-getting-a-devrel-job)",
+      "status": "required",
+      "y": 428.4541873081913,
+      "x": -714.0482259900746,
+      "sequence_row": 4,
+      "sequence_col": 1
+    },
+    {
+      "id": "yJygbi8cnp3oz2EFl2MR0",
+      "label": "Community Engagement",
+      "type": "topic",
+      "description": "# Community Engagement\n\nBuilding a positive developer experience through community engagement is an ongoing process that requires dedication, empathy, and a genuine commitment to your users. By investing in a welcoming environment, facilitating knowledge sharing, and leveraging AI-powered tools like [Doc-E.ai](http://Doc-E.ai), you can create a thriving community that not only supports your product but also becomes a source of innovation, loyalty, and growth.\n\nVisit the following resources to learn more:\n\n- [@article@The Ultimate Guide to Developer Engagement and Community Building: Unlocking the Power of Developer-Centric Growth](https://www.doc-e.ai/post/the-ultimate-guide-to-developer-engagement-and-community-building-unlocking-the-power-of-developer-centric-growth)\n- [@article@Fostering a Positive Developer Experience Through Community Engagement: A Blueprint for DevTool Success](https://www.doc-e.ai/post/fostering-a-positive-developer-experience-through-community-engagement-a-blueprint-for-devtool-success)",
+      "status": "required",
+      "y": 619.0755466544489,
+      "x": -315.11787473083643,
+      "sequence_row": 5,
+      "sequence_col": 2
+    },
+    {
+      "id": "KdFYmj36M2jrGfsYkukpo",
+      "label": "IDEs",
+      "type": "topic",
+      "description": "# IDEs\n\nThe concept of Integrated Development Environments (IDEs) traces its roots back to the 1960s and 1970s when basic text editors and simple programming tools were used in early computing. The first notable IDEs emerged with the rise of Unix systems in the 1970s, such as the EMACS text editor, which included features like code editing and debugging. Today, IDEs have become essential for developers, supporting multiple programming languages and integrating cloud-based tools, continuous integration, and real-time collaboration. IDEs like Visual Studio Code, IntelliJ IDEA, and Eclipse are widely adopted by developers across industries.\n\nVisit the following resources to learn more:\n\n- [@official@Visual Studio Code](https://code.visualstudio.com/)\n- [@official@JetBrains IDEs](https://www.jetbrains.com/)\n- [@article@History of IDEs](https://multiqos.com/blogs/guide-to-integrated-development-environment/#:~:text=While%20TurboPascal%20may%20have%20popularized,significant%20popularity%20in%20the%201980s.)",
+      "status": "required",
+      "y": 671.3320106338044,
+      "x": -682.0482259900746,
+      "sequence_row": 5,
+      "sequence_col": 1
+    },
+    {
+      "id": "iKYmUvWFT_C0wnO0iB6gM",
+      "label": "Engaging Audience",
+      "type": "topic",
+      "description": "# Engaging Audience\n\nEngaging the audience in public speaking involves capturing and maintaining their attention through dynamic delivery, relatable content, and interactive elements. Effective speakers use storytelling, humor, and real-life examples to make complex ideas more accessible and memorable. Varying tone, pace, and body language helps keep the presentation lively and prevents monotony. Additionally, asking questions, encouraging participation, and inviting feedback can make the audience feel involved and connected. Engaging speakers not only convey information but also create an experience that resonates, making it easier for the audience to absorb and remember key points.",
+      "status": "required",
+      "y": 687.5755466544489,
+      "x": 77.11857813823781,
+      "sequence_row": 5,
+      "sequence_col": 3
+    },
+    {
+      "id": "sUEZHmKxtjO9gXKJoOdbF",
+      "label": "APIs & SDKs",
+      "type": "topic",
+      "description": "# APIs & SDKs\n \nAPIs and SDKs are the primary technical surfaces that DevRel teams support and promote. Understanding how they work, how they are designed, and how they are documented is fundamental to the role. DevRel professionals often serve as the bridge between the developers building on these interfaces and the teams that create them.",
+      "status": "required",
+      "y": 895.5755466544489,
+      "x": -321.61787473083643,
+      "sequence_row": 6,
+      "sequence_col": 1
+    },
+    {
+      "id": "Xf-Lxi1cKReo4yDLylBbL",
+      "label": "Handling Q&A",
+      "type": "topic",
+      "description": "# Handling Q&A\n \nQ&A sessions test a speaker's depth of knowledge and ability to think on their feet. Good Q&A handling involves active listening to understand the question fully, anticipating common questions in advance, and giving concise answers. Difficult or off-topic questions should be acknowledged and redirected without dismissing the person asking.",
+      "status": "required",
+      "y": 982.9174986269228,
+      "x": 75.36712187674084,
+      "sequence_row": 7,
+      "sequence_col": 1
+    },
+    {
+      "id": "x6KFf4akYuUYkNhrUwj1r",
+      "label": "Version Control",
+      "type": "topic",
+      "description": "# Version Control\n\nVersion Control Systems (VCS) like Git track code changes and enable developer collaboration through modification history. Features include branching, merging, reverting, remote repositories, pull requests, and code reviews. Essential for modern software development productivity, quality, and teamwork.\n\nVisit the following resources to learn more:\n\n- [@roadmap@Visit Dedicated Git & GitHub Roadmap](https://roadmap.sh/git-github)\n- [@course@Why version control? (Interactive Lesson)](https://inter-git.com/lessons/introduction)\n- [@article@What is version control?](https://www.atlassian.com/git/tutorials/what-is-version-control)\n- [@video@What is a Version Control System and why you should always use it](https://www.youtube.com/watch?v=IeXhYROClZk)",
+      "status": "required",
+      "y": 1242.057254188356,
+      "x": -717.6330105911425,
+      "sequence_row": 8,
+      "sequence_col": 1
+    },
+    {
+      "id": "GvmXdWiwITgWzx_f5_ick",
+      "label": "Building a Community",
+      "type": "topic",
+      "description": "# Building a Community\n\nOnline developer communities have become the heart of successful DevTools (Developer Tools) go-to-market (GTM) strategies. They provide a platform for developers to connect, collaborate, learn, and share their expertise, ultimately fostering loyalty, driving product adoption, and fueling innovation.\n\nVisit the following resources to learn more:\n\n- [@article@Building and Nurturing Online Developer Communities: The Ultimate Guide](https://www.doc-e.ai/post/building-and-nurturing-online-developer-communities-the-ultimate-guide)\n- [@article@10 Proven Strategies for Building a Developer Community That Thrives: A Guide to Inclusion & Engagement](https://dev.to/swati1267/10-proven-strategies-for-building-a-developer-community-that-thrives-a-guide-to-inclusion-engagement-21cm)",
+      "status": "required",
+      "y": 1365.869941690585,
+      "x": -315.61787473083643,
+      "sequence_row": 9,
+      "sequence_col": 1
+    },
+    {
+      "id": "-6cf3RT4-cbwvLYIkCosF",
+      "label": "Community Management",
+      "type": "topic",
+      "description": "# Community Management\n \nCommunity management is the day-to-day work of keeping a developer community active, healthy, and growing. It includes moderating discussions, welcoming new members, facilitating conversations, resolving conflicts, and recognizing contributors. Effective community management makes the difference between a community that thrives and one that goes quiet.\n\nVisit the following resources to learn more:\n\n- [@article@The Ultimate Guide to Community Management](https://blog.hubspot.com/marketing/community-management-expert-advice)\n- [@article@Online Community Management Tactics](https://www.higherlogic.com/blog/online-community-management-guide/)",
+      "status": "required",
+      "y": 1600.869941690585,
+      "x": 89.60019543843316,
+      "sequence_row": 10,
+      "sequence_col": 1
+    },
+    {
+      "id": "usorG1GkkvGAZ0h_AGHVk",
+      "label": "Event Management",
+      "type": "topic",
+      "description": "# Event Management\n\nEvent management involves planning, organizing, and executing events, whether virtual or in-person, to create meaningful experiences for participants. It requires careful coordination of logistics, from selecting venues and scheduling to arranging speakers, promotions, and attendee engagement. Effective event management starts with clear objectives and a detailed plan, covering everything from budgeting and marketing to technical support and post-event follow-ups. Engaging content, interactive sessions, and smooth operations are essential to ensuring a positive experience, encouraging participation, and meeting the event\u2019s goals.\n\nVisit the following resources to learn more:\n\n- [@article@A step-by-step guide to organising unforgettable professional events for developers](https://weezevent.com/en-gb/blog/organising-events-for-developers/)\n- [@article@Anatomy of a Developer Conference](https://shiloh-events.com/anatomy-of-a-developer-conference/)",
+      "status": "required",
+      "y": 1848.7526533855907,
+      "x": -308.11787473083643,
+      "sequence_row": 11,
+      "sequence_col": 1
+    },
+    {
+      "id": "B1IdobUaGeBLI2CgsFg8H",
+      "label": "Blogging",
+      "type": "topic",
+      "description": "# Blogging\n\nBlogging is a strategic way to share knowledge, build credibility, and engage with the developer community. It involves writing content that educates, informs, or solves specific problems that developers face, such as tutorials, best practices, case studies, and product updates. Effective blogging should be both informative and approachable, using clear language, relevant examples, and practical insights that developers can easily apply.",
+      "status": "required",
+      "y": 2092.947569833047,
+      "x": -714.0446939322721,
+      "sequence_row": 12,
+      "sequence_col": 1
+    },
+    {
+      "id": "bRzzc137OlmivEGdhv5Ew",
+      "label": "Video Production",
+      "type": "topic",
+      "description": "# Video Production",
+      "status": "required",
+      "y": 2194.14912473063,
+      "x": -309.61787473083643,
+      "sequence_row": 13,
+      "sequence_col": 1
+    },
+    {
+      "id": "pEMNcm_wJNmOkWm57L1pA",
+      "label": "Video Production",
+      "type": "topic",
+      "description": "# Video Production\n \nVideo production is a significant part of DevRel content work, covering tutorial screencasts, conference talk recordings, product demos, and interview content. Good technical video requires clear scripting, quality audio, and competent editing to be worth a developer's time. Video content reaches audiences who prefer watching to reading and performs well on YouTube and social media.",
+      "status": "required",
+      "y": 2194.14912473063,
+      "x": -309.61787473083643,
+      "sequence_row": 13,
+      "sequence_col": 2
+    },
+    {
+      "id": "iPaFjacZ7hSWriSEqUmHc",
+      "label": "Live Streaming",
+      "type": "topic",
+      "description": "# Live Streaming\n \nLive streaming brings DevRel content to audiences in real time, creating an interactive experience where viewers can ask questions and influence the direction of the session. It is used for coding sessions, product demos, community Q&As, and conference presentations. The informal, unedited nature of live streams can feel more authentic than polished video content.",
+      "status": "required",
+      "y": 2194.14912473063,
+      "x": 77.11857813823781,
+      "sequence_row": 13,
+      "sequence_col": 3
+    },
+    {
+      "id": "71BBFjaON1NJi4rOHKW6K",
+      "label": "Social Media",
+      "type": "topic",
+      "description": "# Social Media\n \nSocial media is a primary channel for DevRel outreach, community engagement, and content distribution. Different platforms serve different purposes: X for real-time conversation, LinkedIn for professional reach, Instagram for visual storytelling, and Facebook for certain community groups. An effective social media presence builds audience, drives traffic, and keeps the developer community informed.",
+      "status": "required",
+      "y": 2330.228142753175,
+      "x": 77.11857813823781,
+      "sequence_row": 14,
+      "sequence_col": 2
+    },
+    {
+      "id": "g3M6nfLr0DMcn-NCFF7nZ",
+      "label": "Documentation",
+      "type": "topic",
+      "description": "# Documentation\n \nDeveloper onboarding documentation covers everything a new developer needs to go from zero to their first successful integration. It includes tutorials, API references, and user guides organized to match the developer's journey. Good onboarding documentation reduces the time to first success and lowers the volume of basic support questions.",
+      "status": "required",
+      "y": 2330.228142753175,
+      "x": -443.0654595100779,
+      "sequence_row": 14,
+      "sequence_col": 1
+    },
+    {
+      "id": "xy9Kqtwrh5IhYHaqEhvl_",
+      "label": "Sample Projects",
+      "type": "topic",
+      "description": "# Sample Projects\n \nSample projects are complete, working applications that demonstrate how to use a product in a realistic context. Unlike tutorials, which teach step by step, sample projects give developers a starting point they can explore, run, and adapt. They are especially useful for developers who prefer to learn by reading code rather than following instructions.",
+      "status": "required",
+      "y": 2514.9438350815167,
+      "x": -448.0654595100779,
+      "sequence_row": 15,
+      "sequence_col": 1
+    },
+    {
+      "id": "LwNa3u9Lf88ju5w7CvSN5",
+      "label": "Support",
+      "type": "topic",
+      "description": "# Support\n \nDeveloper support in DevRel covers the channels and resources that help developers resolve problems and get answers. It includes asynchronous options like forums, issue trackers, and FAQs as well as synchronous options like webinars and office hours. Good support reduces developer frustration, speeds up integrations, and creates opportunities for direct feedback.",
+      "status": "required",
+      "y": 2704.848933004529,
+      "x": -448.0654595100779,
+      "sequence_row": 16,
+      "sequence_col": 1
+    },
+    {
+      "id": "DCj1teu8Hp82EKnakFRPn",
+      "label": "Key Metrics",
+      "type": "topic",
+      "description": "# Key Metrics\n \nKey metrics in DevRel quantify the impact of the team's work on developer satisfaction, content effectiveness, community engagement, and growth. Tracking the right metrics helps justify investment in DevRel, identify what is working, and guide decisions about where to focus effort. Metrics should be chosen to reflect business outcomes, not just activity.",
+      "status": "required",
+      "y": 3023.177637527436,
+      "x": -206.6292575725566,
+      "sequence_row": 17,
+      "sequence_col": 2
+    },
+    {
+      "id": "psk3bo-nSskboAoVTjlpz",
+      "label": "Tools",
+      "type": "topic",
+      "description": "# Tools\n \nDevRel teams use a range of analytics tools to measure content and community performance. These include general web analytics, social media native analytics, and platform-specific tools. Using the right tools for each channel ensures the team has accurate, actionable data rather than relying on manual tracking.",
+      "status": "required",
+      "y": 3023.177637527436,
+      "x": 93.5511521223986,
+      "sequence_row": 17,
+      "sequence_col": 3
+    },
+    {
+      "id": "N1uh7dVKfSPT7w0MlKzWO",
+      "label": "Reporting",
+      "type": "topic",
+      "description": "# Reporting\n \nReporting translates raw analytics data into structured summaries that communicate the impact of DevRel work to stakeholders. Regular reports build organizational trust in the team and provide a record of progress over time. Good reports focus on trends and insights rather than raw numbers, and connect metrics to business outcomes.",
+      "status": "required",
+      "y": 3023.177637527436,
+      "x": -720.1559941888381,
+      "sequence_row": 17,
+      "sequence_col": 1
+    },
+    {
+      "id": "wcfrXA9zWZ4Taey7mR2yG",
+      "label": "Thought Leadership",
+      "type": "topic",
+      "description": "# Thought Leadership\n \nThought leadership means contributing original ideas, perspectives, and analysis to conversations in the developer and technology community. It is built through publishing, speaking, and participating in discussions in ways that demonstrate expertise and a distinctive point of view. Strong thought leadership increases both personal and company credibility over time.",
+      "status": "required",
+      "y": 3192.1042117919405,
+      "x": 106.92288379937423,
+      "sequence_row": 18,
+      "sequence_col": 1
+    },
+    {
+      "id": "HN2gNsYYRLVOOdy_r8FKJ",
+      "label": "Building a Personal Brand",
+      "type": "topic",
+      "description": "# Building a Personal Brand\n\nBuilding a personal brand in developer relations is about establishing a unique and authentic presence that showcases your expertise, values, and contributions to the developer community. It involves consistently sharing knowledge, insights, and experiences through various channels such as blogs, social media, podcasts, or public speaking, while engaging in meaningful conversations and collaborations. A strong personal brand helps build credibility and trust, making it easier to connect with other developers, influencers, and potential partners.\n\nVisit the following resources to learn more:\n\n- [@article@A New Approach to Building Your Personal Brand](https://hbr.org/2023/05/a-new-approach-to-building-your-personal-brand)\n- [@video@5 Steps to Building a Personal Brand You Feel Good About](https://www.youtube.com/watch?v=ozMCb0wOnMU)",
+      "status": "required",
+      "y": 3351.878162681685,
+      "x": -280.57711620062577,
+      "sequence_row": 19,
+      "sequence_col": 1
+    },
+    {
+      "id": "4ygpqUK70hI5r1AmmfMZq",
+      "label": "Networking Strategies",
+      "type": "topic",
+      "description": "# Networking Strategies\n \nNetworking strategies are deliberate approaches to building professional relationships that support career growth and the effectiveness of DevRel work. Effective networking is about giving value first, maintaining relationships consistently rather than only when needed, and engaging with communities in both online and in-person contexts.",
+      "status": "required",
+      "y": 3405.189701696258,
+      "x": -280.57711620062577,
+      "sequence_row": 19,
+      "sequence_col": 2
+    },
+    {
+      "id": "bwwk6ESNyEJa3fCAIKPwh",
+      "label": "Continuous Learning",
+      "type": "topic",
+      "description": "# Continuous Learning\n \nContinuous learning is the ongoing practice of staying current with technical developments, community trends, and DevRel practices. The field evolves quickly, and professionals who invest in learning consistently are better equipped to serve their communities and grow their careers. Learning happens through reading, courses, conferences, and hands-on experimentation.",
+      "status": "required",
+      "y": 3457.9188969390398,
+      "x": -280.57711620062577,
+      "sequence_row": 20,
+      "sequence_col": 1
+    }
+  ],
+  "subtopics": [
+    {
+      "id": "KP28dl1I9hxM130gIPxSZ",
+      "label": "History and Evolution",
+      "type": "subtopic",
+      "description": "# History and Evolution\n \nDevRel as a formal discipline emerged in the late 1980s when Apple and Sun Microsystems created dedicated teams to support third-party developers building on their platforms. Over the following decades it evolved from a support function into a strategic role, growing alongside the API economy and open-source movement. Today it covers a broad range of activities from technical content creation to community building and product feedback.\n\nVisit the following resources to learn more:\n\n- [@article@Developer Relations History & Mission Structure](https://lmcdunna.medium.com/developer-relations-history-mission-structure-5fcad869deac)\n- [@video@History of Developer Evangelism](https://www.youtube.com/watch?v=ieiQmyrmakI)",
+      "status": "required",
+      "y": -69.11123134797799,
+      "x": -713.3901779625485,
+      "parent_topic_id": "SiYUdtYMDImRPmV2_XPkH"
+    },
+    {
+      "id": "No-UnhdGmtLW9uFGLy-ca",
+      "label": "Developer Experience",
+      "type": "subtopic",
+      "description": "# Developer Experience\n\nDeveloper Experience (DX) refers to the overall experience developers have while using a software product, tool, or platform. A positive DX is characterized by intuitive and well-documented APIs, robust and clear documentation, seamless integration processes, and responsive support. Good DX ensures that developers can efficiently build, deploy, and manage applications, reducing frustration and increasing productivity.\n\nVisit the following resources to learn more:\n\n- [@article@What is developer experience?](https://swimm.io/learn/developer-experience/what-is-developer-experience-devx-pillars-and-best-practices)\n- [@article@Developer Experience: What is it and why should you care? GitHub](https://github.blog/2023-06-08-developer-experience-what-is-it-and-why-should-you-care/)",
+      "status": "required",
+      "y": 40.873412530488025,
+      "x": -713.3901779625485,
+      "parent_topic_id": "aSYXa25_0O2qQl1O-N3xl"
+    },
+    {
+      "id": "BooGiYTMoS0N5eobwjPHY",
+      "label": "Developer Journey",
+      "type": "subtopic",
+      "description": "# Developer Journey\n\nThe Developer Journey encompasses the entire process that a developer goes through when interacting with a product or platform, from initial discovery to long-term engagement. This journey includes various stages such as awareness, onboarding, learning, building, deploying, and scaling. Each stage requires thoughtful design and support to ensure a smooth and positive experience. By understanding and optimizing each touchpoint in the Developer Journey, companies can reduce friction, enhance satisfaction, and foster a more loyal and productive developer community.\n\nVisit the following resources to learn more:\n\n- [@article@The Developer Journey](https://www.devrel.agency/developerjourney)\n- [@article@Developer Relations: The Developer Journey Map](https://medium.com/codex/developer-relations-the-developer-journey-map-36bd4619f5f3)\n- [@article@Understand the developer journey](https://www.commonroom.io/resources/ultimate-guide-to-developer-experience/)",
+      "status": "required",
+      "y": 94.74907697805438,
+      "x": -713.3901779625485,
+      "parent_topic_id": "aSYXa25_0O2qQl1O-N3xl"
+    },
+    {
+      "id": "UhMk8g5MMhvi3kWLLI6B1",
+      "label": "Developer Marketing",
+      "type": "subtopic",
+      "description": "# Developer Marketing\n \nDeveloper marketing focuses on reaching, attracting, and retaining developers as an audience. Unlike consumer marketing, it requires technical credibility and relies on education, tutorials, open-source contributions, and community engagement rather than advertising. The goal is to help developers understand what a product does and how to get started quickly.\n\nVisit the following resources to learn more:\n\n- [@article@What is developer marketing?](https://appsembler.com/glossary/developer-marketing/)\n- [@article@What is developer marketing? IronHorse.io](https://ironhorse.io/blog/what-is-developer-marketing/)\n- [@article@What is developer marketing (B2D)](https://www.productmarketingalliance.com/what-is-developer-marketing/)",
+      "status": "required",
+      "y": 148.74907697805438,
+      "x": -713.3901779625485,
+      "parent_topic_id": "aSYXa25_0O2qQl1O-N3xl"
+    },
+    {
+      "id": "N9HXTCQq2wfC-QurSofE_",
+      "label": "Importance of DevRel",
+      "type": "subtopic",
+      "description": "# Importance of DevRel\n \nDevelopers make purchasing and adoption decisions based on technical quality, documentation, and community trust rather than traditional marketing. A strong DevRel practice reduces friction for new developers, builds long-term loyalty, and creates a feedback channel between the community and the product team. Companies with active DevRel programs typically see faster developer onboarding and higher platform engagement.\n\nVisit the following resources to learn more:\n\n- [@article@What is Developer Relations? The Ultimate Guide for DevTool GTM Teams](https://www.doc-e.ai/post/what-is-developer-relations-the-ultimate-guide-for-devtool-gtm-teams)\n- [@article@DevRel - Why is it important?](https://developers.onelogin.com/blog/devrel)\n- [@article@The role of developer advocacy in driving innovation](https://leaddev.com/process/role-developer-advocacy-driving-innovation)",
+      "status": "required",
+      "y": -15.111231347977991,
+      "x": -713.3901779625485,
+      "parent_topic_id": "SiYUdtYMDImRPmV2_XPkH"
+    },
+    {
+      "id": "7MCmY1bABGPfmzjErADvg",
+      "label": "Advocacy",
+      "type": "subtopic",
+      "description": "# Advocacy\n\nDeveloper Advocacy is the practice of representing and supporting the needs and interests of developers both within a company and in the broader developer community. Developer Advocates act as liaisons between the company\u2019s development team and external developers, ensuring that the developers have the tools, resources, and knowledge to effectively use the company's products or platforms. They create educational content, provide technical support, gather feedback, and participate in community events.\n\nVisit the following resources to learn more:\n\n- [@article@What is developer advocacy?](https://appsembler.com/glossary/developer-advocacy/)\n- [@article@The Developer Advocate Playbook: Your Go-To Guide to Turning Users into Champions \ud83d\ude80](https://www.doc-e.ai/post/the-developer-advocate-playbook-your-go-to-guide-to-turning-users-into-champions)\n- [@video@Developer Relations: New Career Path for Developers](https://www.youtube.com/watch?v=iA2SQ4OL4GU)",
+      "status": "required",
+      "y": -76.25151364200462,
+      "x": 92.52160677678415,
+      "parent_topic_id": "SiYUdtYMDImRPmV2_XPkH"
+    },
+    {
+      "id": "EjqJkyojhO7f1uFHIoyGY",
+      "label": "Education",
+      "type": "subtopic",
+      "description": "# Education\n\nDeveloper Education focuses on providing developers with the knowledge and skills they need to effectively use a product, platform, or technology. This involves creating and delivering a variety of educational materials such as documentation, tutorials, courses, webinars, and interactive workshops. Effective developer education programs cater to different learning styles and levels of expertise, from beginners to advanced users.\n\nVisit the following resources to learn more:\n\n- [@article@What is developer eduction?](https://appsembler.com/glossary/developer-education/)\n- [@article@What is developer education - Dev.to](https://dev.to/jacobandrewsky/what-is-developer-education-5a01)\n- [@article@Successful Developer Education: What you need to know](https://www.developermarketing.io/successful-developer-education-what-you-need-to-know/)",
+      "status": "required",
+      "y": -23.251513642004625,
+      "x": 92.52160677678415,
+      "parent_topic_id": "SiYUdtYMDImRPmV2_XPkH"
+    },
+    {
+      "id": "1NFcpGzCJylRPbFYdD9bB",
+      "label": "Community Support",
+      "type": "subtopic",
+      "description": "# Community Support\n \nCommunity support involves being present in the spaces where developers ask questions and share problems, such as forums, Discord servers, GitHub issues, and Stack Overflow. DevRel teams monitor these channels, answer questions, and connect developers with the right resources. Active support signals that the company cares about developer success beyond the sale.\n\nVisit the following resources to learn more:\n\n- [@article@Community and DevRel](https://developerrelations.com/podcast/community-and-devrel)\n- [@article@New to DevRel? Talk to your community!](https://dev.to/amandamartindev/new-to-devrel-talk-to-your-community-hmf)\n- [@video@DevRel & Community](https://www.youtube.com/watch?v=CfXkY2m_0dU)",
+      "status": "required",
+      "y": 29.748486357995375,
+      "x": 92.52160677678415,
+      "parent_topic_id": "SiYUdtYMDImRPmV2_XPkH"
+    },
+    {
+      "id": "_3ZnPUl4kzzuM0bKQ8IAq",
+      "label": "Content Creation",
+      "type": "subtopic",
+      "description": "# Content Creation\n\nContent creation in the context of Developer Relations (DevRel) involves producing a wide range of materials designed to educate, engage, and empower developers. This includes writing technical blogs, creating video tutorials, developing comprehensive documentation, and crafting code samples and demos. The goal is to provide valuable resources that help developers understand and effectively use a product or platform. High-quality content addresses common challenges, showcases best practices, and highlights new features or updates.\n\nVisit the following resources to learn more:\n\n- [@article@The secret of content creation for DevRel](https://developerrelations.com/dev-rel/the-secrets-of-content-creation-for-devrels)\n- [@article@Content strategy for DevRel teams](https://www.stephaniemorillo.co/post/content-strategy-for-devrel-teams-a-primer)\n- [@video@DevRel Content Creation with Stephanie Wong from Google Cloud](https://www.youtube.com/watch?v=DQE1hBXVXYA)",
+      "status": "required",
+      "y": 82.74848635799538,
+      "x": 92.52160677678415,
+      "parent_topic_id": "SiYUdtYMDImRPmV2_XPkH"
+    },
+    {
+      "id": "IxRvVvX9Fax08YUbVob4s",
+      "label": "Feedback Loop",
+      "type": "subtopic",
+      "description": "# Feedback Loop\n\nFeedback loops are a crucial process that involves collecting, analyzing, and acting on feedback from developers to improve products and services. This loop begins with gathering insights through various channels such as forums, surveys, social media, direct interactions at events, and support tickets. The feedback is then communicated to internal teams, including product management, engineering, and marketing, to inform product enhancements, feature requests, and bug fixes.\n\nVisit the following resources to learn more:\n\n- [@article@Harnessing the Power of Community Feedback for Product Development](https://draft.dev/learn/devrel-harnessing-the-power-of-community-feedback-for-product-development)\n- [@article@The Developer Advocacy Feedback Loop](https://glaforge.dev/talks/2020/08/06/the-developer-advocacy-feedback-loop/)",
+      "status": "required",
+      "y": 135.74848635799538,
+      "x": 92.52160677678415,
+      "parent_topic_id": "SiYUdtYMDImRPmV2_XPkH"
+    },
+    {
+      "id": "c0w241EL0Kh4ek76IgsEs",
+      "label": "Blog Posts",
+      "type": "subtopic",
+      "description": "# Blog Posts\n\nWriting blog posts is about creating valuable, informative content that resonates with developers by addressing their interests, challenges, and learning needs. Effective blog posts should be well-structured, beginning with a clear introduction that outlines the problem or topic, followed by detailed, actionable insights, code examples, or step-by-step guides that help readers understand and apply the concepts. It\u2019s essential to write in a clear, engaging tone that balances technical accuracy with readability, making sure to anticipate common questions and challenges developers might have.\n\nVisit the following resources to learn more:\n\n- [@article@How to Write an SEO Blog Post: 11 Key Tips](https://www.semrush.com/blog/seo-blog-post/)\n- [@article@How to Write an Awesome Blog Post in 5 Steps](https://www.wordstream.com/blog/ws/2015/02/09/how-to-write-a-blog-post)\n- [@video@How to Write a PERFECT Blog Post in 2024](https://www.youtube.com/watch?v=HoT9naGLgNk)",
+      "status": "required",
+      "y": 532.4541873081913,
+      "x": -315.11787473083643,
+      "parent_topic_id": "yJygbi8cnp3oz2EFl2MR0"
+    },
+    {
+      "id": "X0xUzEP0S6SyspvqyoDDk",
+      "label": "Technical Documentation",
+      "type": "subtopic",
+      "description": "# Technical Documentation\n \nTechnical documentation explains how a product works and how to use it. Good documentation is accurate, complete, and organized so developers can find what they need quickly. It includes conceptual overviews, how-to guides, API references, and troubleshooting sections, each serving a different stage of the developer journey.\n\nVisit the following resources to learn more:\n\n- [@roadmap@Technical Writer Roadmap](https://roadmap.sh/technical-writer)\n- [@article@Technical Writing - MDN Docs](https://developer.mozilla.org/en-US/blog/technical-writing/)\n- [@article@Technical Documentation - Wikipedia](https://en.wikipedia.org/wiki/Technical_documentation)",
+      "status": "required",
+      "y": 480.4541873081913,
+      "x": -315.11787473083643,
+      "parent_topic_id": "0ntOE6PSdMl_EXB9gdgIv"
+    },
+    {
+      "id": "urbtoZtuJryK-6TJ3lmRN",
+      "label": "Social Media",
+      "type": "subtopic",
+      "description": "# Social Media\n \nSocial media writing for DevRel involves communicating technical ideas concisely across platforms like X, LinkedIn, and Mastodon. Posts need to be accurate, engaging, and relevant to the developer audience. Social media writing builds a public presence for both the individual and the product, and drives traffic to longer-form content.",
+      "status": "required",
+      "y": 428.4541873081913,
+      "x": -315.11787473083643,
+      "parent_topic_id": "0ntOE6PSdMl_EXB9gdgIv"
+    },
+    {
+      "id": "vH_ECVYSQ3Fg-DASO1EgK",
+      "label": "Rules of Three",
+      "type": "subtopic",
+      "description": "# Rules of Three\n \nThe Rule of Three is a presentation principle based on the idea that audiences remember information most effectively when it is grouped in sets of three. Structuring a talk around three main points, three examples, or three takeaways makes the content easier to follow and recall. It is one of the most widely used frameworks in speechwriting and presentation design.",
+      "status": "required",
+      "y": 391.5755466544488,
+      "x": 77.11857813823781,
+      "parent_topic_id": "PFjF2PnYpSbvd24jb_D2G"
+    },
+    {
+      "id": "_FZNqUKgPkzbgOPoiSLSU",
+      "label": "PechaKucha",
+      "type": "subtopic",
+      "description": "# PechaKucha\n \nPechaKucha is a presentation format where a speaker shows 20 slides for exactly 20 seconds each, totaling 6 minutes and 40 seconds. The strict timing forces brevity and encourages visual storytelling over dense slides. It is used at community events and conferences where multiple short talks are given in sequence.",
+      "status": "required",
+      "y": 444.5755466544488,
+      "x": 77.11857813823781,
+      "parent_topic_id": "PFjF2PnYpSbvd24jb_D2G"
+    },
+    {
+      "id": "Y0GUZynSXjITDOA-TP6LH",
+      "label": "Storytelling",
+      "type": "subtopic",
+      "description": "# Storytelling\n \nStorytelling frames technical content within a narrative structure that makes it more relatable and memorable. A story typically follows a pattern of context, conflict, and resolution, which maps well onto problem-solution formats common in DevRel talks. Good technical storytelling shows real-world impact rather than just describing features.",
+      "status": "required",
+      "y": 497.5755466544488,
+      "x": 77.11857813823781,
+      "parent_topic_id": "PFjF2PnYpSbvd24jb_D2G"
+    },
+    {
+      "id": "uwvvWmcZnFqLoHRDFXFyW",
+      "label": "Mind Mapping",
+      "type": "subtopic",
+      "description": "# Mind Mapping\n \nMind mapping is a visual technique for organizing ideas around a central concept, with branches representing related topics. It is used in talk preparation to explore the full scope of a subject before deciding what to include or cut. Mind maps help speakers see connections between ideas and avoid presenting in an overly linear way.",
+      "status": "required",
+      "y": 550.5755466544488,
+      "x": 77.11857813823781,
+      "parent_topic_id": "iKYmUvWFT_C0wnO0iB6gM"
+    },
+    {
+      "id": "SNhrYZsmyDHN_JWh0eZy2",
+      "label": "Visualization",
+      "type": "subtopic",
+      "description": "# Visualization\n \nVisualization in presentations means using diagrams, charts, architecture drawings, and live demos to illustrate concepts that are harder to convey in words alone. Strong visuals reduce cognitive load and help diverse audiences follow technical content regardless of background. The best visuals are simple, focused, and directly tied to the point being made.",
+      "status": "required",
+      "y": 603.5755466544488,
+      "x": 77.11857813823781,
+      "parent_topic_id": "iKYmUvWFT_C0wnO0iB6gM"
+    },
+    {
+      "id": "VTGsmk3p4RVXiNhDmx2l8",
+      "label": "The Hook",
+      "type": "subtopic",
+      "description": "# The Hook\n \nA hook is the opening of a presentation designed to capture audience attention immediately. It can be a provocative question, a surprising statistic, a short story, or a live demonstration. A strong hook sets the tone for the talk and gives the audience a reason to keep listening.",
+      "status": "required",
+      "y": 740.5755466544489,
+      "x": 77.11857813823781,
+      "parent_topic_id": "iKYmUvWFT_C0wnO0iB6gM"
+    },
+    {
+      "id": "LixiZj3-QcmQgGAqaaDr6",
+      "label": "Contrast Principle",
+      "type": "subtopic",
+      "description": "# Contrast Principle\n\nThe contrast principle is a psychological concept where the perception of something is influenced by what came before it. In practical terms, it means that when two items are presented one after the other, the differences between them seem more pronounced. For example, if a developer sees a complex solution first, a simpler one that follows will appear even easier than it would on its own. This principle is often used in marketing, presentations, and negotiations to shape how choices are perceived, making certain options more attractive by strategically setting up contrasts.\n\nVisit the following resources to learn more:\n\n- [@article@How to have influence](https://www.ethosdebate.com/influence-part-2-contrast-principle/)\n- [@article@Psychology of perceptual contrast](https://www.linkedin.com/pulse/psychology-perceptual-contrast-devender-kumar/)",
+      "status": "required",
+      "y": 793.5755466544489,
+      "x": 77.11857813823781,
+      "parent_topic_id": "iKYmUvWFT_C0wnO0iB6gM"
+    },
+    {
+      "id": "tbIAEStaoVWnEWbdk7EGc",
+      "label": "Handouts",
+      "type": "subtopic",
+      "description": "# Handouts\n \nHandouts are supplementary materials distributed before, during, or after a talk, such as slides, reference guides, or code snippets. They allow attendees to review content after the session and reduce the need to take notes during the talk. In technical presentations, handouts that include code samples or setup instructions are especially useful.",
+      "status": "required",
+      "y": 846.5755466544489,
+      "x": 77.11857813823781,
+      "parent_topic_id": "Xf-Lxi1cKReo4yDLylBbL"
+    },
+    {
+      "id": "2iRt9E42i_ej4woKCW_s2",
+      "label": "Repetition & Reinforcement",
+      "type": "subtopic",
+      "description": "# Repetition & Reinforcement\n \nRepetition and reinforcement involve stating key messages multiple times across a talk in different ways to improve retention. The principle is to tell the audience what you will say, say it, then summarize what you said. Repeating the core idea in varied forms helps different types of learners absorb it.",
+      "status": "required",
+      "y": 899.5755466544489,
+      "x": 77.11857813823781,
+      "parent_topic_id": "Xf-Lxi1cKReo4yDLylBbL"
+    },
+    {
+      "id": "UdUDngq425NYSvIuOd7St",
+      "label": "Active Listening",
+      "type": "subtopic",
+      "description": "# Active Listening\n\nActive listening in developer relations is about genuinely engaging with the developer community to understand their needs, challenges, and feedback. It involves more than just hearing what is said; it requires attention to verbal cues, context, and non-verbal signals, as well as asking clarifying questions and reflecting on what has been shared. By actively listening, developer advocates can build trust, foster open communication, and gain insights that help shape better products, documentation, and community experiences, ultimately creating a more supportive and responsive environment for developers.\n\nVisit the following resources to learn more:\n\n- [@article@What is active listening?](https://hbr.org/2024/01/what-is-active-listening)\n- [@article@7 Active Listening Techniques For Better Communication](https://www.verywellmind.com/what-is-active-listening-3024343)",
+      "status": "required",
+      "y": 1035.9174986269227,
+      "x": 75.36712187674084,
+      "parent_topic_id": "Xf-Lxi1cKReo4yDLylBbL"
+    },
+    {
+      "id": "jyScVS-sYMcZcH3hOwbMK",
+      "label": "Anticipate Questions",
+      "type": "subtopic",
+      "description": "# Anticipate Questions\n\nWhen giving talks, especially at developer conferences or events, its important to anticipate the audience asking questions at the end of your talk. Being prepared to handle common questions related to your topic can help you with confidence and show that you're a subject matter expert when you answer them correctly. It's important however not to lie or give incorrect answers so make sure that if you don't know the answer, you're honest about it.\n\nVisit the following resources to learn more:\n\n- [@article@How to handle questions during a presentation](https://www.secondnature.com.au/blog/how-to-handle-questions-during-a-presentation)",
+      "status": "required",
+      "y": 1088.9174986269227,
+      "x": 75.36712187674084,
+      "parent_topic_id": "Xf-Lxi1cKReo4yDLylBbL"
+    },
+    {
+      "id": "rhs6QwxZ7PZthLfi38FJn",
+      "label": "Be Concise",
+      "type": "subtopic",
+      "description": "# Be Concise\n\nBeing concise during a Q&A means delivering clear, direct answers that address the core of the question without unnecessary detail or digression. This approach respects the time of both the person asking and the audience, ensuring that key information is communicated effectively.\n\nVisit the following resources to learn more:\n\n- [@article@How to handle a Q&A](https://anthonysanni.com/blog/3-common-difficult-q-session-questions-turn-advantage)\n- [@video@How to answer any presentation question](https://www.youtube.com/watch?v=lfiNFNTwFGU)",
+      "status": "required",
+      "y": 1141.9174986269227,
+      "x": 75.36712187674084,
+      "parent_topic_id": "Xf-Lxi1cKReo4yDLylBbL"
+    },
+    {
+      "id": "VSOdD9KKF_Qz8nbRdHNo3",
+      "label": "Managing Difficult Questions",
+      "type": "subtopic",
+      "description": "# Managing Difficult Questions\n \nDifficult questions include those that are hostile, outside the speaker's knowledge, or designed to derail the discussion. Effective strategies include acknowledging the question honestly, offering to follow up offline, and redirecting to the talk's core topic when appropriate. Remaining calm and professional when challenged builds credibility with the rest of the audience.",
+      "status": "required",
+      "y": 1194.9174986269227,
+      "x": 75.36712187674084,
+      "parent_topic_id": "Xf-Lxi1cKReo4yDLylBbL"
+    },
+    {
+      "id": "C2w8R4tNy2lOhhWU9l32s",
+      "label": "Event Participation",
+      "type": "subtopic",
+      "description": "# Event Participation\n\nEvent participation involves encouraging members to actively join and contribute to events such as workshops, webinars, hackathons, or meetups. Effective participation starts with understanding the community\u2019s interests and creating events that provide value, whether through learning opportunities, networking, or problem-solving. To boost attendance, clear communication, easy registration processes, and engaging promotions are essential. During the event, interactive elements like Q&A sessions, polls, and group activities help keep participants involved and foster a sense of community.",
+      "status": "required",
+      "y": 797.3174480188347,
+      "x": -315.11787473083643,
+      "parent_topic_id": "sUEZHmKxtjO9gXKJoOdbF"
+    },
+    {
+      "id": "gvMbo22eRxqOzszc_w4Gz",
+      "label": "Online Communities",
+      "type": "subtopic",
+      "description": "# Online Communities\n \nOnline communities are digital spaces where developers gather to discuss topics, ask questions, and share work. Examples include Discord servers, Slack workspaces, Reddit communities, GitHub Discussions, and Stack Overflow. DevRel professionals participate in these spaces to support developers, gather feedback, and build visibility for their product.",
+      "status": "required",
+      "y": 745.3174480188347,
+      "x": -315.11787473083643,
+      "parent_topic_id": "yJygbi8cnp3oz2EFl2MR0"
+    },
+    {
+      "id": "SJf9e7SQnzYVHoRWl0i6P",
+      "label": "Networking",
+      "type": "subtopic",
+      "description": "# Networking\n \nNetworking in DevRel involves building professional relationships with other developers, advocates, event organizers, and community leaders. Strong networks amplify the reach of DevRel work through referrals, collaborations, and co-promotion. Conferences, meetups, and online communities are the primary venues for building these connections.",
+      "status": "required",
+      "y": 693.3174480188347,
+      "x": -315.11787473083643,
+      "parent_topic_id": "yJygbi8cnp3oz2EFl2MR0"
+    },
+    {
+      "id": "j5nNSYI8s-cH8EA6G1EWY",
+      "label": "VS Code",
+      "type": "subtopic",
+      "description": "# VS Code\n \nVisual Studio Code is the most widely used code editor among developers across almost every language and platform. It is lightweight, extensible through a large marketplace of extensions, and free. Being fluent in VS Code helps DevRel professionals create tutorials and demos that match the environment most developers already use.\n\nVisit the following resources to learn more:\n\n- [@official@Visual Studio Code](https://code.visualstudio.com/)\n- [@official@Docs - Visual Studio Code](https://code.visualstudio.com/docs)\n- [@video@FreeCodeCamp Crash Course](https://www.youtube.com/watch?v=WPqXP_kLzpo)\n- [@video@VSCode Basics](https://www.youtube.com/watch?v=B-s71n0dHUk)\n- [@video@VSCode in 100 Seconds](https://www.youtube.com/watch?v=KMxo3T_MTvY)",
+      "status": "required",
+      "y": 803.7369677435748,
+      "x": -682.0482259900746,
+      "parent_topic_id": "KdFYmj36M2jrGfsYkukpo"
+    },
+    {
+      "id": "NCnKS435DCl-8vilr1_XE",
+      "label": "JetBrains IDEs",
+      "type": "subtopic",
+      "description": "# JetBrains IDEs\n \nJetBrains produces a family of IDEs tailored to specific languages, including IntelliJ IDEA for Java and Kotlin, PyCharm for Python, and WebStorm for JavaScript. They are widely used in enterprise and professional development environments. DevRel professionals working with these ecosystems should be familiar with JetBrains tooling and its plugin system.",
+      "status": "required",
+      "y": 751.7369677435748,
+      "x": -682.0482259900746,
+      "parent_topic_id": "KdFYmj36M2jrGfsYkukpo"
+    },
+    {
+      "id": "pqp9FLRJRDDEnni72KHmv",
+      "label": "Writing Documentation",
+      "type": "subtopic",
+      "description": "# Writing Documentation\n \nWriting documentation for APIs and SDKs requires combining technical accuracy with clarity. Good API documentation includes authentication instructions, endpoint references with request and response examples, error code explanations, and quickstart guides. Documentation is often the first thing a developer consults and directly affects whether they continue evaluating the product.",
+      "status": "required",
+      "y": 1106.057254188356,
+      "x": -321.11787473083643,
+      "parent_topic_id": "sUEZHmKxtjO9gXKJoOdbF"
+    },
+    {
+      "id": "h6R3Vyq0U8t8WL3G5xC2l",
+      "label": "Building SDKs",
+      "type": "subtopic",
+      "description": "# Building SDKs\n\nBuilding SDKs (Software Development Kits) involves creating a set of tools, libraries, and documentation that help developers easily integrate and interact with a platform or service. A well-designed SDK abstracts the complexities of an API, providing a streamlined, user-friendly interface that enables developers to focus on building their applications rather than handling low-level technical details. It should be intuitive, well-documented, and robust, offering clear examples, error handling, and flexibility to suit different use cases.\n\nVisit the following resources to learn more:\n\n- [@article@How to build an SDK from scratch: Tutorial & best practices](https://liblab.com/blog/how-to-build-an-sdk/)\n- [@article@Guiding Principles for Building SDKs](https://auth0.com/blog/guiding-principles-for-building-sdks/)\n- [@video@API vs SDK](https://www.youtube.com/watch?v=kG-fLp9BTRo)",
+      "status": "required",
+      "y": 1054.057254188356,
+      "x": -321.11787473083643,
+      "parent_topic_id": "sUEZHmKxtjO9gXKJoOdbF"
+    },
+    {
+      "id": "7Q6_tdRaeb8BgreG8Mw-a",
+      "label": "Understanding APIs",
+      "type": "subtopic",
+      "description": "# Understanding APIs\n \nAn API (Application Programming Interface) defines how software components interact, specifying the requests that can be made, the data formats used, and the authentication required. DevRel professionals must understand REST, GraphQL, and webhook patterns well enough to explain them clearly, write accurate documentation, and identify friction points in the developer experience.",
+      "status": "required",
+      "y": 1002.057254188356,
+      "x": -321.11787473083643,
+      "parent_topic_id": "sUEZHmKxtjO9gXKJoOdbF"
+    },
+    {
+      "id": "a-i1mgF3VAxbbpA1gMWyK",
+      "label": "Git",
+      "type": "subtopic",
+      "description": "# Git\n \nGit is the standard distributed version control system. Core operations include committing changes, branching, merging, and pushing to remote repositories. DevRel professionals use Git daily when maintaining sample code, contributing to open-source projects, and collaborating on documentation.\n\nVisit the following resources to learn more:\n\n- [@article@What is Git?](https://www.atlassian.com/git/tutorials/what-is-git)\n- [@article@What is Git? Our beginner\u2019s guide to version control](https://github.blog/developer-skills/programming-languages-and-frameworks/what-is-git-our-beginners-guide-to-version-control/)\n- [@video@What is Git? Explained in 2 Minutes!](https://www.youtube.com/watch?v=2ReR1YJrNOM)",
+      "status": "required",
+      "y": 1171.660890748914,
+      "x": -715.0117738992456,
+      "parent_topic_id": "x6KFf4akYuUYkNhrUwj1r"
+    },
+    {
+      "id": "8O1AgUKXe35kdiYD02dyt",
+      "label": "GitHub",
+      "type": "subtopic",
+      "description": "# GitHub\n \nGitHub is the most widely used platform for hosting Git repositories and collaborating on code. Beyond version control, it provides tools for project management, issue tracking, community engagement through Discussions, and public backlog management. For many developer communities, a company's GitHub presence is a key signal of openness and developer investment.\n\nVisit the following resources to learn more:\n\n- [@official@GitHub Website](https://github.com)\n- [@video@How to Use GitHub](https://www.youtube.com/watch?v=v_1iqtOnUMg)",
+      "status": "required",
+      "y": 1171.660890748914,
+      "x": -608.6330105911425,
+      "parent_topic_id": "x6KFf4akYuUYkNhrUwj1r"
+    },
+    {
+      "id": "J2WunUJBzYw_D5cQH_pnH",
+      "label": "Managing Discussions",
+      "type": "subtopic",
+      "description": "# Managing Discussions\n \nGitHub Discussions provides a forum-like space within a repository for longer-form conversations that are not bug reports or feature requests. DevRel teams use it for Q&A, announcements, polls, and general community conversations. Actively managing Discussions keeps the community informed and creates a searchable knowledge base for common questions.",
+      "status": "required",
+      "y": 883.9174986269228,
+      "x": -719.0482259900746,
+      "parent_topic_id": "KdFYmj36M2jrGfsYkukpo"
+    },
+    {
+      "id": "vCoEJyS4qMWTTiL17PmWr",
+      "label": "Issues & Pull Requests",
+      "type": "subtopic",
+      "description": "# Issues & Pull Requests\n \nGitHub Issues are used to report bugs, request features, and ask questions in a project's repository. Pull Requests propose changes to the codebase and trigger code review. DevRel professionals triage incoming issues, respond to questions, review community pull requests, and use both to maintain an active and welcoming project.",
+      "status": "required",
+      "y": 936.9174986269228,
+      "x": -719.0482259900746,
+      "parent_topic_id": "KdFYmj36M2jrGfsYkukpo"
+    },
+    {
+      "id": "x3qTqhR1uA5CXqULIJqL8",
+      "label": "Labelling and Cleanup",
+      "type": "subtopic",
+      "description": "# Labelling and Cleanup\n \nLabels in GitHub categorize issues and pull requests by type, priority, status, or area. Consistent labelling makes it easier for contributors to find beginner-friendly issues, understand what needs review, and filter by topic. Regular cleanup of stale issues and outdated labels keeps the repository approachable and the backlog meaningful.",
+      "status": "required",
+      "y": 989.9174986269228,
+      "x": -719.0482259900746,
+      "parent_topic_id": "x6KFf4akYuUYkNhrUwj1r"
+    },
+    {
+      "id": "v_lDqjtxjRK67GsbtxXgT",
+      "label": "Milestones & Releases",
+      "type": "subtopic",
+      "description": "# Milestones & Releases\n \nGitHub Milestones group issues and pull requests into planned releases or goals. They help communicate the project roadmap to contributors and users. Keeping milestones current and closing them with proper release notes shows a project is actively maintained and makes the development process legible to the community.",
+      "status": "required",
+      "y": 1042.9174986269227,
+      "x": -719.0482259900746,
+      "parent_topic_id": "x6KFf4akYuUYkNhrUwj1r"
+    },
+    {
+      "id": "7ZFTmlQHYQKNjKprwV8zk",
+      "label": "Public Backlog",
+      "type": "subtopic",
+      "description": "# Public Backlog\n \nA public backlog on GitHub exposes the planned and in-progress work on a project or SDK to the developer community. It increases transparency, allows external contributors to identify where help is needed, and gives users insight into when issues they care about will be addressed. Maintaining a clean and up-to-date public backlog builds community trust.",
+      "status": "required",
+      "y": 1095.9174986269227,
+      "x": -719.0482259900746,
+      "parent_topic_id": "x6KFf4akYuUYkNhrUwj1r"
+    },
+    {
+      "id": "UKi3waPx2pozvZf2aQ52s",
+      "label": "Identifying Audience",
+      "type": "subtopic",
+      "description": "# Identifying Audience\n \nIdentifying the audience means understanding who the target developers are, what they build, what problems they face, and where they spend time online. This research shapes every decision about platform choice, content format, tone, and event type. Building a community without a clear picture of the audience leads to unfocused efforts and low engagement.",
+      "status": "required",
+      "y": 1312.9111270908159,
+      "x": -716.2456688335628,
+      "parent_topic_id": "GvmXdWiwITgWzx_f5_ick"
+    },
+    {
+      "id": "WItTQ1QboHoRkqeHJzCM9",
+      "label": "Platform Selection",
+      "type": "subtopic",
+      "description": "# Platform Selection\n \nPlatform selection is the choice of where to host and grow a community, such as Discord, Slack, GitHub Discussions, a forum, or a mailing list. The right platform depends on the audience's existing habits, the desired type of interaction, and the level of moderation required. It is better to commit to one platform and do it well than to spread effort thinly across many.",
+      "status": "required",
+      "y": 1365.9111270908159,
+      "x": -716.2456688335628,
+      "parent_topic_id": "GvmXdWiwITgWzx_f5_ick"
+    },
+    {
+      "id": "hPJM4QXxeqTxPlvJ2_D3_",
+      "label": "Initial Outreach",
+      "type": "subtopic",
+      "description": "# Initial Outreach\n \nInitial outreach is the process of inviting the first members to a new community before it has organic momentum. This involves identifying existing developers who use the product, reaching out directly, and giving them a reason to join and participate. The earliest members set the tone and help attract others through their presence and contributions.",
+      "status": "required",
+      "y": 1418.9111270908159,
+      "x": -716.2456688335628,
+      "parent_topic_id": "GvmXdWiwITgWzx_f5_ick"
+    },
+    {
+      "id": "4ZvzY_xGO5BZOmfqj0TTq",
+      "label": "Community Guidelines",
+      "type": "subtopic",
+      "description": "# Community Guidelines\n \nCommunity guidelines define the norms of behavior expected from all members. They cover how to treat other members, what content is appropriate, how to ask for help, and what will result in removal. Clear guidelines create a safer, more welcoming environment and give moderators a consistent basis for making decisions.\n\nVisit the following resources to learn more:\n\n- [@article@Community Guidelines: How to Write and Enforce Them](https://www.commsor.com/post/community-guidelines)\n- [@article@Community Guidelines Mastery: From Creation to Enforcement](https://bettermode.com/blog/community-guidelines)",
+      "status": "required",
+      "y": 1471.9111270908159,
+      "x": -717.0959104161202,
+      "parent_topic_id": "GvmXdWiwITgWzx_f5_ick"
+    },
+    {
+      "id": "er9ukuBvY-F4F8S1qbbjU",
+      "label": "Code of Conduct",
+      "type": "subtopic",
+      "description": "# Code of Conduct\n \nA code of conduct is a formal document that sets expectations for member behavior and describes consequences for violations. It typically covers harassment, discrimination, and respectful communication. Publishing a code of conduct signals that the community takes inclusion seriously and provides recourse for members who experience problems.\n\nVisit the following resources to learn more:\n\n- [@article@Guide to writing a Code of Conduct](https://projectinclude.org/writing_cocs)\n- [@article@Code of Conduct meaning and template](https://humaans.io/hr-glossary/code-of-conduct)",
+      "status": "required",
+      "y": 1532.475431571664,
+      "x": -705.4350504876143,
+      "parent_topic_id": "x6KFf4akYuUYkNhrUwj1r"
+    },
+    {
+      "id": "8I59U-nnkhQv8ldRuqQlb",
+      "label": "Rules and Policies",
+      "type": "subtopic",
+      "description": "# Rules and Policies\n \nRules and policies go beyond the code of conduct to cover operational details: how to post in different channels, what is off-topic, how to report issues, and what promotional content is allowed. Well-documented rules reduce ambiguity and lower the moderation burden by preventing common misunderstandings before they arise.",
+      "status": "required",
+      "y": 1587.5419901273174,
+      "x": -705.4350504876143,
+      "parent_topic_id": "x6KFf4akYuUYkNhrUwj1r"
+    },
+    {
+      "id": "d_dKF87OnRWoWj3Bf1uFf",
+      "label": "Moderation",
+      "type": "subtopic",
+      "description": "# Moderation\n \nModeration involves reviewing content and member behavior to ensure the community stays within its guidelines. It ranges from removing spam and off-topic posts to handling reports of harassment or conflict. Good moderation is consistent, fair, and transparent, and it responds promptly enough to prevent problems from escalating.",
+      "status": "required",
+      "y": 1490.3694589408055,
+      "x": 89.60019543843316,
+      "parent_topic_id": "-6cf3RT4-cbwvLYIkCosF"
+    },
+    {
+      "id": "8ls5kQvDgvwLbIrwYg1OL",
+      "label": "Conflict Resolution",
+      "type": "subtopic",
+      "description": "# Conflict Resolution\n \nConflict resolution addresses disputes between community members before they damage the community's health. This involves understanding each party's perspective, applying the community guidelines consistently, and helping members reach a resolution or enforcing consequences when necessary. Handled well, conflict resolution demonstrates that the community is safe and governed fairly.\n\nVisit the following resources to learn more:\n\n- [@article@5 Conflict Resolution Strategies](https://www.indeed.com/career-advice/career-development/conflict-resolution-strategies)\n- [@video@14 Effective Conflict Resolution Techniques](https://www.youtube.com/watch?v=v4sby5j4dTY)",
+      "status": "required",
+      "y": 1437.3694589408055,
+      "x": 89.60019543843316,
+      "parent_topic_id": "-6cf3RT4-cbwvLYIkCosF"
+    },
+    {
+      "id": "6yLt4Ia52Jke9i5kJQvAC",
+      "label": "Encouraging Participation",
+      "type": "subtopic",
+      "description": "# Encouraging Participation\n \nEncouraging participation means reducing the barriers and increasing the motivations for members to contribute. Tactics include welcoming new members publicly, asking direct questions to quiet members, creating low-effort entry points like polls or reactions, and making it easy to find ways to help. Communities that actively encourage participation grow faster and retain members longer.\n\nVisit the following resources to learn more:\n\n- [@article@12 tips to encourage activity in an online community](https://www.yunits.com/en/blogs/12-tips-to-encourage-activity-in-an-online-community/)\n- [@article@How To Increase Community Engagement](https://www.aluminati.net/how-to-increase-community-engagement/)",
+      "status": "required",
+      "y": 1384.3694589408055,
+      "x": 89.60019543843316,
+      "parent_topic_id": "-6cf3RT4-cbwvLYIkCosF"
+    },
+    {
+      "id": "Nta8pUncwNQxJlqF6h1AT",
+      "label": "Recognition Programs",
+      "type": "subtopic",
+      "description": "# Recognition Programs\n \nRecognition programs acknowledge and reward community members who contribute positively through answering questions, creating content, reporting bugs, or helping onboard new members. Formats include MVPs, badges, featured spotlights, and early access programs. Recognition programs increase motivation, build loyalty, and identify potential advocates and future collaborators.",
+      "status": "required",
+      "y": 1331.3694589408055,
+      "x": 89.60019543843316,
+      "parent_topic_id": "-6cf3RT4-cbwvLYIkCosF"
+    },
+    {
+      "id": "RQk3uOikjQYRyTu7vuAG7",
+      "label": "Planning",
+      "type": "subtopic",
+      "description": "# Planning\n \nEvent planning involves defining the format, audience, goals, venue or platform, agenda, and budget. Good planning accounts for logistics, speaker preparation, accessibility, and contingency scenarios. Starting the planning process well in advance gives enough time to promote the event and attract the right attendees.",
+      "status": "required",
+      "y": 1760.9728546315107,
+      "x": -310.72812279659524,
+      "parent_topic_id": "usorG1GkkvGAZ0h_AGHVk"
+    },
+    {
+      "id": "C9--J8gGZENQKn-QcZK4M",
+      "label": "Promotion",
+      "type": "subtopic",
+      "description": "# Promotion\n \nPromoting an event means reaching the target developer audience through the channels they use, including social media, community forums, email newsletters, and partner networks. Effective promotion communicates the value of attending clearly and creates multiple touchpoints between announcement and the event date.",
+      "status": "required",
+      "y": 1707.9728546315107,
+      "x": -310.72812279659524,
+      "parent_topic_id": "usorG1GkkvGAZ0h_AGHVk"
+    },
+    {
+      "id": "1m1keusP-PTjEwy0dCJJL",
+      "label": "Execution",
+      "type": "subtopic",
+      "description": "# Execution\n \nExecution is the delivery of the event itself, ensuring that everything planned comes together on the day. This includes managing the schedule, supporting speakers, handling technical issues, engaging attendees, and creating a welcoming atmosphere. Good execution makes an event feel polished and leaves attendees with a positive impression.\n\nVisit the following resources to learn more:\n\n- [@article@How to run a successful hackathon](https://hackathon.guide/)\n- [@video@So you want to run an online event](https://www.youtube.com/watch?v=56rvtjZ9x3g)",
+      "status": "required",
+      "y": 1654.9728546315107,
+      "x": -310.72812279659524,
+      "parent_topic_id": "usorG1GkkvGAZ0h_AGHVk"
+    },
+    {
+      "id": "kmcOYDvu1vq7AQPllZvv0",
+      "label": "Post Event Followup",
+      "type": "subtopic",
+      "description": "# Post Event Followup\n \nPost-event followup extends the value of an event beyond the day it occurred. This includes sending recordings and resources to attendees, publishing a summary, following up with speakers, and reaching out to new contacts made during the event. Timely followup reinforces relationships and converts event energy into lasting community connections.",
+      "status": "required",
+      "y": 1601.9728546315107,
+      "x": -310.72812279659524,
+      "parent_topic_id": "GvmXdWiwITgWzx_f5_ick"
+    },
+    {
+      "id": "_Qe_0RksYpX7Spzgc6Fw3",
+      "label": "Surveys",
+      "type": "subtopic",
+      "description": "# Surveys\n \nSurveys are structured questionnaires used to collect feedback from event attendees or community members at scale. A good post-event survey is short, specific, and includes both rating scales and open-ended questions. Survey results provide quantitative data on satisfaction and qualitative insights on what to improve.",
+      "status": "required",
+      "y": 1542.9728546315107,
+      "x": -302.61787473083643,
+      "parent_topic_id": "GvmXdWiwITgWzx_f5_ick"
+    },
+    {
+      "id": "oWXfov-mOF47d7Vffyp3t",
+      "label": "Feedback Collection",
+      "type": "subtopic",
+      "description": "# Feedback Collection\n \nCollecting feedback after an event reveals what worked, what did not, and what attendees want from future events. Feedback can be gathered through post-event surveys, direct conversations, and monitoring social media reactions. Acting on feedback visibly shows the community that their input shapes future events.\n\nVisit the following resources to learn more:\n\n- [@article@7 Tips to Collect Effective Event Feedback](https://daily.dev/blog/7-tips-to-collect-effective-event-feedback)\n- [@article@Post-event survey questions you should ask after any event](https://uk.surveymonkey.com/mp/post-event-survey-questions/)",
+      "status": "required",
+      "y": 1487.869941690585,
+      "x": -300.97839322321585,
+      "parent_topic_id": "GvmXdWiwITgWzx_f5_ick"
+    },
+    {
+      "id": "uzMfR6Yd9Jvjn8i5RpC1Q",
+      "label": "Topic Selection",
+      "type": "subtopic",
+      "description": "# Topic Selection\n \nChoosing the right blog topics means identifying subjects that the target audience is actively searching for or discussing, that align with the product's strengths, and that the author can cover with genuine depth. Good topic selection combines keyword research, community observation, and awareness of trending conversations in the ecosystem.",
+      "status": "required",
+      "y": 1997.2026367632948,
+      "x": -717.0446939322721,
+      "parent_topic_id": "B1IdobUaGeBLI2CgsFg8H"
+    },
+    {
+      "id": "l6-mzgDTXg2EPkyZyZ6TC",
+      "label": "Writing Process",
+      "type": "subtopic",
+      "description": "# Writing Process\n \nA structured writing process produces better blog posts more consistently. It typically involves outlining the structure before writing, drafting without self-editing, revising for clarity and accuracy, and getting a technical review before publishing. A repeatable process reduces the time spent on each post and improves quality over time.",
+      "status": "required",
+      "y": 1944.2026367632948,
+      "x": -717.0446939322721,
+      "parent_topic_id": "B1IdobUaGeBLI2CgsFg8H"
+    },
+    {
+      "id": "zVBy8o66FdZueg-2v3gaw",
+      "label": "SEO Basics",
+      "type": "subtopic",
+      "description": "# SEO Basics\n \nSEO (Search Engine Optimization) for technical blog posts involves writing about topics developers search for, using accurate and specific language, structuring content with clear headings, and linking to related resources. Good SEO practices make content discoverable long after it is published and compound in value over time.",
+      "status": "required",
+      "y": 1891.2026367632948,
+      "x": -717.0446939322721,
+      "parent_topic_id": "B1IdobUaGeBLI2CgsFg8H"
+    },
+    {
+      "id": "2QiQW9tygpeaES8Wp1Kw6",
+      "label": "Guest Blogging",
+      "type": "subtopic",
+      "description": "# Guest Blogging\n \nGuest blogging involves writing for external publications or inviting external authors to contribute to the company blog. Publishing on established developer platforms increases reach beyond the existing audience. Hosting guest posts brings fresh perspectives, recognizes community contributors, and reduces the content production burden on the internal team.",
+      "status": "required",
+      "y": 1834.789007770864,
+      "x": -715.1559941888381,
+      "parent_topic_id": "B1IdobUaGeBLI2CgsFg8H"
+    },
+    {
+      "id": "nlzI2fG3SwC5Q42qXcXPX",
+      "label": "Cross-Promotion",
+      "type": "subtopic",
+      "description": "# Cross-Promotion\n \nCross-promotion means sharing each other's content across different audiences and platforms when two parties produce related material. A guest blog post can be promoted by both the author and the hosting publication, reaching developers who follow each. Cross-promotion multiplies the distribution of individual pieces of content with minimal additional effort.\n\nVisit the following resources to learn more:\n\n- [@article@What Is Cross-Promotion + 8 Cross-Promotion Strategies](https://optinmonster.com/cross-promotion-ideas-triple-customers/)\n- [@article@How to cross promote on Social Media](https://www.sprinklr.com/blog/cross-promote-social-media/)",
+      "status": "required",
+      "y": 1775.789007770864,
+      "x": -707.0457461230792,
+      "parent_topic_id": "B1IdobUaGeBLI2CgsFg8H"
+    },
+    {
+      "id": "w1ZooDCDOkbL1EAa5Hx3d",
+      "label": "Collaborations",
+      "type": "subtopic",
+      "description": "# Collaborations\n \nContent collaborations involve creating blog posts, tutorials, or case studies jointly with community members, partners, or customers. Collaborations produce more credible content because they include real user perspectives, and they give the collaborating parties a shared stake in promoting the result. They are also an effective way to recognize and reward community contributors.\n\nVisit the following resources to learn more:\n\n- [@article@How to collaborate with bloggers](https://www.create.net/blog/how-to-collaborate-with-bloggers)\n- [@article@The Power of Collaborative Blogging: Building Relationships and Connecting with Others](https://aicontentfy.com/en/blog/power-of-collaborative-blogging-building-relationships-and-connecting-with-others)",
+      "status": "required",
+      "y": 1720.6860948299382,
+      "x": -705.4062646154587,
+      "parent_topic_id": "B1IdobUaGeBLI2CgsFg8H"
+    },
+    {
+      "id": "6zK9EJDKBC89UArY7sfgs",
+      "label": "Editing",
+      "type": "subtopic",
+      "description": "# Editing\n \nEditing transforms raw footage into a polished, watchable video by removing mistakes, dead air, and tangents. It also involves adding titles, captions, transitions, and annotations to guide the viewer. Even modest editing significantly improves the watchability of technical content and demonstrates respect for the audience's time.\n\nVisit the following resources to learn more:\n\n- [@article@Introduction to video editing](https://www.adobe.com/uk/creativecloud/video/discover/edit-a-video.html)\n- [@article@A complete guide on how to edit videos fast even if you are a beginner](https://www.laura-moore.co.uk/a-complete-guide-on-how-to-edit-videos-fast-even-if-you-are-a-beginner/)\n- [@video@How to edit videos](https://www.youtube.com/watch?app=desktop&v=sTqEmGNtNqk)",
+      "status": "required",
+      "y": 2002.2807594534634,
+      "x": -312.61787473083643,
+      "parent_topic_id": "usorG1GkkvGAZ0h_AGHVk"
+    },
+    {
+      "id": "_QHUpFW4kZ5SBaP7stXY2",
+      "label": "Recording",
+      "type": "subtopic",
+      "description": "# Recording\n \nRecording a high-quality technical video requires adequate screen resolution, a clean microphone signal, and a distraction-free environment. Screen recordings for tutorials should use a large font, high contrast, and a zoomed-in view when showing code. Recording in shorter segments and assembling them in editing is usually more efficient than attempting long single takes.",
+      "status": "required",
+      "y": 2055.2807594534634,
+      "x": -312.61787473083643,
+      "parent_topic_id": "bRzzc137OlmivEGdhv5Ew"
+    },
+    {
+      "id": "rLDRkUht9K1m4noMAIgKU",
+      "label": "Scripting",
+      "type": "subtopic",
+      "description": "# Scripting\n \nA script or detailed outline before recording ensures the video covers its topic efficiently and stays on track. Even a loosely structured script reduces retakes, filler words, and tangents. For tutorial videos, scripting means working through the code in advance so the recording flows without unexpected errors or confusion.",
+      "status": "required",
+      "y": 2108.2807594534634,
+      "x": -312.61787473083643,
+      "parent_topic_id": "bRzzc137OlmivEGdhv5Ew"
+    },
+    {
+      "id": "OUWVqJImrmsZpAtRrUYNH",
+      "label": "Animations & Graphics",
+      "type": "subtopic",
+      "description": "# Animations & Graphics\n \nAnimations and graphics are used in both video production and live streaming to illustrate concepts that are difficult to convey through code or speech alone. Architecture diagrams, data flow animations, and branded lower-thirds all add clarity and professionalism. Tools like After Effects, Motion, and simpler web-based tools make this accessible without specialist design skills.\n\nVisit the following resources to learn more:\n\n- [@video@3 AMAZING Graphic Animations For Level UP Your Videos](https://www.youtube.com/watch?v=cnyQkr21oM8)\n- [@video@Essential Motion Graphics for Youtube](https://www.youtube.com/watch?v=HH0VBOyht0E)",
+      "status": "required",
+      "y": 1949.2807594534634,
+      "x": -312.61787473083643,
+      "parent_topic_id": "usorG1GkkvGAZ0h_AGHVk"
+    },
+    {
+      "id": "Mdp4bBlhVbGohJkVlsDar",
+      "label": "X",
+      "type": "subtopic",
+      "description": "# X\n \nX (formerly Twitter) remains a primary platform for developer conversations, announcements, and real-time discussion. For live streaming, X allows broadcasts directly to followers and integrates with Streamyard and other tools. It is useful for reaching developers who follow technical accounts and for amplifying live event announcements.",
+      "status": "required",
+      "y": 2064.007729314774,
+      "x": 94.67849842398022,
+      "parent_topic_id": "iPaFjacZ7hSWriSEqUmHc"
+    },
+    {
+      "id": "OY5rn3XTbmz4LzSLRcNmw",
+      "label": "YouTube",
+      "type": "subtopic",
+      "description": "# YouTube\n \nYouTube is the dominant platform for hosting and distributing recorded and live video content to developers. Videos on YouTube are indexable by search engines and accumulate views long after publication. A well-maintained YouTube channel with organized playlists becomes a durable resource for developer education.",
+      "status": "required",
+      "y": 2064.0077293147738,
+      "x": 203.18553627438655,
+      "parent_topic_id": "iPaFjacZ7hSWriSEqUmHc"
+    },
+    {
+      "id": "QlWam-kHv8G_-yx3ClP9s",
+      "label": "Twitch",
+      "type": "subtopic",
+      "description": "# Twitch\n \nTwitch is a live streaming platform primarily known for gaming but with a growing developer and coding community. It is used by some DevRel professionals for live coding sessions, pair programming, and casual community interactions. Twitch's chat and clip features make it easy for viewers to engage and share moments from a stream.",
+      "status": "required",
+      "y": 2010.0077293147738,
+      "x": 94.6001954384331,
+      "parent_topic_id": "iPaFjacZ7hSWriSEqUmHc"
+    },
+    {
+      "id": "meZDgDJMy4aH5VqS-NJL4",
+      "label": "Streamyard",
+      "type": "subtopic",
+      "description": "# Streamyard\n \nStreamyard is a browser-based live streaming studio that makes it easy to broadcast to multiple platforms simultaneously, add guests via video call, display comments on screen, and apply branded overlays. It reduces the technical complexity of live production, making it accessible for DevRel teams without dedicated streaming infrastructure.",
+      "status": "required",
+      "y": 2010.0077293147738,
+      "x": 203.18553627438655,
+      "parent_topic_id": "iPaFjacZ7hSWriSEqUmHc"
+    },
+    {
+      "id": "D7_iNPEKxFv0gw-fsNNrZ",
+      "label": "Animations & Graphics",
+      "type": "subtopic",
+      "description": "# Animations & Graphics\n\nAnimations and graphics can be a great addition to your live streaming setup, especially if they're related to the brand that you're representing. Be aware though that excessive animations and graphics can take its toll on your machine and potentially result in a bad experience for viewers, so it's important to find the right balance.\n\nVisit the following resources to learn more:\n\n- [@video@How to Create Animated Overlays For Your Live Streams](https://www.youtube.com/watch?v=y6BykyZGUlE)\n- [@video@How to Install & Use Overlays in OBS](https://www.youtube.com/watch?v=pxB9ET8gZH0)",
+      "status": "required",
+      "y": 1950.0077293147735,
+      "x": 81.61857813823781,
+      "parent_topic_id": "iPaFjacZ7hSWriSEqUmHc"
+    },
+    {
+      "id": "8aiLVG4clveX1Luiehvxr",
+      "label": "Technical Setup",
+      "type": "subtopic",
+      "description": "# Technical Setup\n \nTechnical setup for live streaming involves configuring streaming software, audio and video hardware, internet connection stability, and platform settings. Testing the full setup before going live reduces the risk of technical failures mid-stream. A basic checklist covering audio levels, screen share functionality, and backup plans helps ensure smooth broadcasts.",
+      "status": "required",
+      "y": 1776.5546232768293,
+      "x": 81.61857813823781,
+      "parent_topic_id": "-6cf3RT4-cbwvLYIkCosF"
+    },
+    {
+      "id": "tRywPj_2VyjSLjxYJtYZd",
+      "label": "Video",
+      "type": "subtopic",
+      "description": "# Video\n \nVideo quality in live streaming covers resolution, frame rate, lighting, and camera angle. Good lighting, particularly a key light facing the presenter, makes a significant difference in perceived production quality. While 1080p is standard, consistent framing and a clean background matter more than raw resolution.",
+      "status": "required",
+      "y": 1837.1189277576775,
+      "x": 95.42169213296495,
+      "parent_topic_id": "-6cf3RT4-cbwvLYIkCosF"
+    },
+    {
+      "id": "7y4vHk_jgNTW6Q1WoqYDc",
+      "label": "Audio",
+      "type": "subtopic",
+      "description": "# Audio\n\nHaving good quality audio when live streaming or creating video content is a must, it is often said that viewers will accept lower quality video but poor audio is a deal breaker. Unfortunetly this often includes purchasing a good quality microphone although theres many improvements you can make to an existing setup such as streaming from a quiet location with good accoustics and applying filters in your software of choice.\n\nVisit the following resources to learn more:\n\n- [@article@How to Improve Your Live Stream Audio](https://www.soundproofcow.com/improve-live-stream-audio/)\n- [@video@How to improve your live stream audio quality!](https://www.youtube.com/watch?app=desktop&v=_bTb0YqJX9w)",
+      "status": "required",
+      "y": 1892.1854863133308,
+      "x": 95.42169213296495,
+      "parent_topic_id": "-6cf3RT4-cbwvLYIkCosF"
+    },
+    {
+      "id": "6BqkO4XOspJg0-9GNLtUp",
+      "label": "X",
+      "type": "subtopic",
+      "description": "# X\n \nX is the platform where a significant portion of the developer and tech community discusses tools, ideas, and industry news in real time. It is used by DevRel professionals for product announcements, sharing tutorials, engaging with community members, and joining trending technical conversations. A consistent, authentic presence on X builds visibility and credibility among developers.",
+      "status": "required",
+      "y": 2478.2022282694033,
+      "x": 96.02601679498196,
+      "parent_topic_id": "71BBFjaON1NJi4rOHKW6K"
+    },
+    {
+      "id": "6UR59TigEZ0NaixbaUIqn",
+      "label": "LinkedIn",
+      "type": "subtopic",
+      "description": "# LinkedIn\n \nLinkedIn is the professional social network where developers follow company pages, read industry articles, and make career decisions. DevRel content on LinkedIn tends to perform well when it focuses on career insights, technical learnings, product announcements, and developer success stories. LinkedIn reaches a different segment of the developer audience than X, including more senior roles and enterprise buyers.\n\nVisit the following resources to learn more:\n\n- [@official@Visit LinkedIn](https://linkedin.com)",
+      "status": "required",
+      "y": 2478.202228269403,
+      "x": 204.53305464538835,
+      "parent_topic_id": "71BBFjaON1NJi4rOHKW6K"
+    },
+    {
+      "id": "ZMManUnO-9EQqi-xmLt5r",
+      "label": "Facebook",
+      "type": "subtopic",
+      "description": "# Facebook\n\nFacebook serves as a powerful platform for building and engaging developer communities. It allows developer advocates to share resources, host live events, and create dedicated groups or pages for discussions, fostering collaboration and knowledge sharing. Facebook\u2019s global reach and engagement tools help advocates amplify content, provide support, and maintain an active presence in the developer ecosystem, creating a space for feedback, networking, and promoting tools or products to a broad audience.\n\nVisit the following resources to learn more:\n\n- [@article@Facebook marketing: The complete guide for your brand\u2019s strategy](https://sproutsocial.com/insights/facebook-marketing-strategy/)",
+      "status": "required",
+      "y": 2424.202228269403,
+      "x": 95.94771380943496,
+      "parent_topic_id": "71BBFjaON1NJi4rOHKW6K"
+    },
+    {
+      "id": "UAkGV9_I6qiKZMr1aqQCm",
+      "label": "Instagram",
+      "type": "subtopic",
+      "description": "# Instagram\n \nInstagram is a visual platform used by some DevRel programs for brand building, event coverage, and behind-the-scenes content. It works best for reaching developers interested in company culture, community events, and visually engaging technical content like architecture diagrams or infographics. It is less effective for driving direct technical engagement than X or LinkedIn.",
+      "status": "required",
+      "y": 2424.202228269403,
+      "x": 204.53305464538835,
+      "parent_topic_id": "71BBFjaON1NJi4rOHKW6K"
+    },
+    {
+      "id": "TGXPxTFv9EhsfS5uWR5gS",
+      "label": "Content Strategy",
+      "type": "subtopic",
+      "description": "# Content Strategy\n\nA social media content strategy is a plan to use platforms effectively to engage and grow an audience. It starts with setting clear goals, like increasing brand awareness or driving traffic, and understanding the target audience. The strategy focuses on creating diverse, valuable content\u2014tutorials, updates, tips, and interactive posts\u2014that resonates with followers and encourages engagement. Choosing the right platforms, posting consistently, and actively responding to comments are key to building relationships.\n\nVisit the following resources to learn more:\n\n- [@article@The Ultimate Guide to Creating a Content Marketing Strategy](https://www.semrush.com/blog/content-marketing-strategy-guide/)\n- [@article@How to craft an effective social media content strategy](https://sproutsocial.com/insights/social-media-content-strategy/)",
+      "status": "required",
+      "y": 2573.9311802442207,
+      "x": 81.61857813823781,
+      "parent_topic_id": "71BBFjaON1NJi4rOHKW6K"
+    },
+    {
+      "id": "lG1FH7Q-YX5pG-7mMtbSR",
+      "label": "Analytics and Optimization",
+      "type": "subtopic",
+      "description": "# Analytics and Optimization\n\nWhen engaging with developer communities on social media, it's important to monitor your analytics in order to maximise the potential of your content. Platforms like X provide great analytics that help you keep an eye on which posts perform well with data such as impressions, likes, and shares.\n\nVisit the following resources to learn more:\n\n- [@article@What is social media analytics?](https://blog.hootsuite.com/social-media-analytics/)\n- [@article@2024 Guide to X (Twitter) Analytics](https://blog.hootsuite.com/twitter-analytics-guide/)",
+      "status": "required",
+      "y": 2617.9311802442207,
+      "x": 81.61857813823781,
+      "parent_topic_id": "71BBFjaON1NJi4rOHKW6K"
+    },
+    {
+      "id": "l2P44pL9eF8xarBwC_CVO",
+      "label": "Consistent Posting",
+      "type": "subtopic",
+      "description": "# Consistent Posting\n \nConsistent posting means publishing on a regular schedule so the audience knows when to expect new content. Algorithms on most platforms reward consistency with better distribution, and audiences are more likely to follow accounts that post reliably. A content calendar helps plan and batch content production to maintain consistency without burning out.\n\nVisit the following resources to learn more:\n\n- [@article@Why Posting Consistently is Key to Social Media](https://forty8creates.com/why-posting-consistently-is-key-to-social-media/)\n- [@video@How to Create Consistent Content on Social Media](https://www.youtube.com/watch?v=-bQpsCMgCkA)",
+      "status": "required",
+      "y": 2522.085184924085,
+      "x": -212.3848520284269,
+      "parent_topic_id": "xy9Kqtwrh5IhYHaqEhvl_"
+    },
+    {
+      "id": "WIH216mHg2OiSebzQYI-f",
+      "label": "Engaging Content",
+      "type": "subtopic",
+      "description": "# Engaging Content\n\nContent on social media is designed to capture attention, spark interaction, and encourage sharing. It\u2019s often visually appealing, informative, or entertaining, offering value that resonates with the audience\u2019s interests. This can include eye-catching images, short videos, infographics, or quick tips that are easy to digest and act on. To boost engagement, content should invite responses, like asking questions, running polls, or encouraging users to share their thoughts.\n\nVisit the following resources to learn more:\n\n- [@article@Create engaging and effective social media content](https://help.hootsuite.com/hc/en-us/articles/4403597090459-Create-engaging-and-effective-social-media-content)\n- [@video@How To Create Engaging Videos As A Solo Creator](https://www.youtube.com/watch?v=yxXOjyvIkik)",
+      "status": "required",
+      "y": 2575.085184924085,
+      "x": -212.3848520284269,
+      "parent_topic_id": "xy9Kqtwrh5IhYHaqEhvl_"
+    },
+    {
+      "id": "ZWkpgvXIzjN3_fOyhVEv0",
+      "label": "Creating Brand Voice",
+      "type": "subtopic",
+      "description": "# Creating Brand Voice\n \nBrand voice is the consistent tone, style, and personality expressed across all of a company's communications. For DevRel, the brand voice needs to feel credible and peer-like to developers, avoiding corporate speak. Defining the brand voice in a brief guide helps everyone who creates content maintain a consistent identity across platforms.\n\nVisit the following resources to learn more:\n\n- [@article@Creating Your Brand Voice: A Complete Guide](https://blog.hubspot.com/marketing/brand-voice)\n- [@article@How to Define Your Brand\u2019s Tone of Voice](https://www.semrush.com/blog/how-to-define-your-tone-of-voice)\n- [@video@Branding 101: How To Build Customer Loyalty With Brand Voice](https://www.youtube.com/watch?v=et-a39drCsU)",
+      "status": "required",
+      "y": 2628.085184924085,
+      "x": -212.3848520284269,
+      "parent_topic_id": "LwNa3u9Lf88ju5w7CvSN5"
+    },
+    {
+      "id": "NWxAxiDgvlGpvqdkzqnOH",
+      "label": "Tracking Engagement",
+      "type": "subtopic",
+      "description": "# Tracking Engagement\n \nTracking engagement means monitoring likes, comments, shares, replies, and saves across social platforms to understand how the audience is responding to content. High engagement relative to reach indicates the content is resonating. Engagement data is more useful than follower count because it reflects active interest rather than passive presence.",
+      "status": "required",
+      "y": 2705.348933004529,
+      "x": 83.61857813823781,
+      "parent_topic_id": "psk3bo-nSskboAoVTjlpz"
+    },
+    {
+      "id": "46iMfYgC7fCZLCy-qzl1B",
+      "label": "Data-Driven Strategy Shift",
+      "type": "subtopic",
+      "description": "# Data-Driven Strategy Shift\n \nA data-driven strategy shift means changing the content approach based on what performance data reveals. If certain topics, formats, or posting times consistently outperform others, those findings should reshape the content plan. Regularly reviewing analytics and acting on them prevents continuing to invest in content that does not reach or engage the target audience.\n\nVisit the following resources to learn more:\n\n- [@article@What Does a Data-Driven Digital Marketing Strategy Look Like](https://medium.com/@vantageplusmarketing/implementing-data-driven-strategies-in-seo-and-content-marketing-6104a91afba0)\n- [@video@Analytics vs Reporting: How to make Data-driven Business Decisions](https://www.youtube.com/watch?v=kyNa3SdKU84)",
+      "status": "required",
+      "y": 2759.348933004529,
+      "x": 83.61857813823781,
+      "parent_topic_id": "psk3bo-nSskboAoVTjlpz"
+    },
+    {
+      "id": "RLf08xKMjlt6S9-MFiTo-",
+      "label": "User Guides",
+      "type": "subtopic",
+      "description": "# User Guides\n \nUser guides explain how to accomplish common tasks and workflows with a product, sitting between tutorials and API references in depth. They address the \"how do I do X?\" questions that come up after the initial onboarding. Organized by use case rather than by API structure, user guides are particularly valuable for developers building more complex integrations.",
+      "status": "required",
+      "y": 2386.2652830928573,
+      "x": -717.0446939322721,
+      "parent_topic_id": "g3M6nfLr0DMcn-NCFF7nZ"
+    },
+    {
+      "id": "7IJO_jDpZUdlr_n5rBJ6O",
+      "label": "API References",
+      "type": "subtopic",
+      "description": "# API References\n\nAdding API References to your products documentation is a key component and the most common reason for developers using documentation. When creating API documentation, ensure you add examples for the most common languages as well as any details around authorization and common issues faced.\n\nVisit the following resources to learn more:\n\n- [@article@What Is API Documentation?](https://blog.hubspot.com/website/api-documentation)\n- [@video@API Documentation and Why it Matters](https://www.youtube.com/watch?v=39Tt1IkLiQQ)",
+      "status": "required",
+      "y": 2333.2652830928573,
+      "x": -717.0446939322721,
+      "parent_topic_id": "g3M6nfLr0DMcn-NCFF7nZ"
+    },
+    {
+      "id": "6ubk20TBIL3_VrrRMe8tO",
+      "label": "Tutorials",
+      "type": "subtopic",
+      "description": "# Tutorials\n \nTutorials guide developers through completing a specific task step by step. A good tutorial has a clear goal, working code at every step, and is written for the developer's current level of knowledge. Tutorials are the most effective onboarding content because they give developers a concrete win early in their experience with a product.",
+      "status": "required",
+      "y": 2280.2652830928573,
+      "x": -717.0446939322721,
+      "parent_topic_id": "g3M6nfLr0DMcn-NCFF7nZ"
+    },
+    {
+      "id": "pGJrCyYhLLGUnv6LxpYUe",
+      "label": "Code Samples",
+      "type": "subtopic",
+      "description": "# Code Samples\n\nCode samples are essential in sample projects as they provide concrete, practical examples that help developers understand how to use a platform, library, or tool. Well-crafted code samples should be clear, concise, and focused on demonstrating specific functionality, avoiding unnecessary complexity that might distract from the core concept. They should be easy to read, following consistent naming conventions, proper formatting, and best practices for the relevant programming language. Including inline comments and explanations can help clarify key steps, while additional context in the accompanying documentation or blog post can guide developers through the logic and potential use cases.\n\nVisit the following resources to learn more:\n\n- [@article@Code Documentation Best Practices and Standards: A Complete Guide](https://blog.codacy.com/code-documentation)",
+      "status": "required",
+      "y": 2460.9438350815167,
+      "x": -717.0446939322721,
+      "parent_topic_id": "xy9Kqtwrh5IhYHaqEhvl_"
+    },
+    {
+      "id": "mWcMSKnUQamUykBxND-Ju",
+      "label": "Example Apps",
+      "type": "subtopic",
+      "description": "# Example Apps\n\nExample apps are pre-built applications that demonstrate how to use a platform, framework, or set of tools in a practical, real-world scenario. These apps provide developers with hands-on examples of best practices, showing how different components work together and offering a solid starting point for building their projects. Effective example apps are well-documented, easy to set up, and cover common use cases, helping developers quickly understand core concepts and features. By providing clear, functional code, they reduce the learning curve, making it easier for developers to explore, experiment, and adopt new technologies.",
+      "status": "required",
+      "y": 2513.9438350815167,
+      "x": -717.0446939322721,
+      "parent_topic_id": "xy9Kqtwrh5IhYHaqEhvl_"
+    },
+    {
+      "id": "omnUSgUHZg2DmnOUJ0Xo1",
+      "label": "Use Case Based",
+      "type": "subtopic",
+      "description": "# Use Case Based\n \nUse-case-based sample projects are organized around what a developer wants to build rather than around individual API features. Examples include a chat application, an image processing pipeline, or a payment integration. This framing is more intuitive for developers who arrive with a goal in mind rather than a desire to explore the API systematically.",
+      "status": "required",
+      "y": 2566.9438350815167,
+      "x": -717.0446939322721,
+      "parent_topic_id": "xy9Kqtwrh5IhYHaqEhvl_"
+    },
+    {
+      "id": "oGTIvAY3zYgoiC63FQRSd",
+      "label": "Forums",
+      "type": "subtopic",
+      "description": "# Forums\n\nSupport forums are online platforms where developers can ask questions, share solutions, and collaborate on challenges related to specific products, technologies, or tools. They serve as a valuable resource for peer-to-peer support, allowing the community to contribute their expertise, often reducing the workload of official support teams. Active participation by developer advocates in these forums can foster stronger relationships, provide real-time feedback, and build trust within the community by addressing issues, clarifying doubts, and offering guidance in a more interactive and collaborative environment.",
+      "status": "required",
+      "y": 2653.683074703681,
+      "x": -717.1968739112813,
+      "parent_topic_id": "LwNa3u9Lf88ju5w7CvSN5"
+    },
+    {
+      "id": "j6tr3mAaKqTuEFTRSCsrK",
+      "label": "Issue Tracking",
+      "type": "subtopic",
+      "description": "# Issue Tracking\n \nIssue tracking through tools like GitHub Issues provides a structured way for developers to report bugs, request features, and ask questions within the context of a specific project. DevRel teams triage incoming issues, reproduce bugs, route them to the right teams, and communicate status updates back to reporters. Responsive issue management signals that the company takes developer feedback seriously.",
+      "status": "required",
+      "y": 2706.683074703681,
+      "x": -717.1968739112813,
+      "parent_topic_id": "LwNa3u9Lf88ju5w7CvSN5"
+    },
+    {
+      "id": "4GCQ3stXxW1HrlAVC0qDl",
+      "label": "FAQs",
+      "type": "subtopic",
+      "description": "# FAQs\n\nFAQs (Frequently Asked Questions) serve as a self-service resource that addresses common queries or issues users may encounter. They help reduce the volume of support tickets by providing quick, accessible answers to recurring problems, ranging from technical troubleshooting to product usage. Well-structured FAQs not only improve customer satisfaction by offering immediate solutions but also free up support teams to focus on more complex cases, ultimately enhancing overall efficiency and user experience. For developer relations, FAQs can include coding examples, integration tips, and clarifications about APIs or tools.\n\nVisit the following resources to learn more:\n\n- [@article@12 Crystal-Clear FAQ Page Examples & How to Make Your Own](https://blog.hubspot.com/service/faq-page)\n- [@article@How to write an FAQ page](https://uk.indeed.com/career-advice/career-development/how-to-write-faq-page)",
+      "status": "required",
+      "y": 2759.683074703681,
+      "x": -717.1968739112813,
+      "parent_topic_id": "LwNa3u9Lf88ju5w7CvSN5"
+    },
+    {
+      "id": "weyCcboaekqf5NuVAOxfU",
+      "label": "Office Hours",
+      "type": "subtopic",
+      "description": "# Office Hours\n \nOffice hours are scheduled sessions where developers can join a live call to ask questions, get help debugging, or discuss their use case directly with a member of the DevRel or product team. They provide high-touch support for developers who are stuck and create direct feedback opportunities that are harder to get through asynchronous channels.",
+      "status": "required",
+      "y": 2822.1959939613103,
+      "x": -707.0446939322721,
+      "parent_topic_id": "N1uh7dVKfSPT7w0MlKzWO"
+    },
+    {
+      "id": "1fc0iWwOkheUJ7d0np86L",
+      "label": "Webinars",
+      "type": "subtopic",
+      "description": "# Webinars\n \nWebinars are live online presentations that allow DevRel teams to demonstrate features, walk through tutorials, and answer questions from a wider audience than in-person events. They are recorded and shared afterward, extending their value beyond the live session. Regular webinars create a predictable touchpoint with the developer community and generate useful content.",
+      "status": "required",
+      "y": 2877.1959939613103,
+      "x": -707.0446939322721,
+      "parent_topic_id": "N1uh7dVKfSPT7w0MlKzWO"
+    },
+    {
+      "id": "afR1VviBs2w0k8UmP38vn",
+      "label": "Community Growth",
+      "type": "subtopic",
+      "description": "# Community Growth\n\nGrowing a community is a multifaceted process that requires strategic planning, consistent engagement, and a focus on providing value to members. It involves creating a welcoming environment, fostering meaningful interactions, and continuously adapting to the needs and interests of the community. Key aspects include developing clear goals, establishing communication channels, organizing events, encouraging user-generated content, and leveraging data-driven insights to refine strategies. Successful community growth not only increases numbers but also enhances the quality of interactions, builds loyalty, and creates a self-sustaining ecosystem where members actively contribute to and benefit from the community's collective knowledge and resources.\n\nVisit the following resources to learn more:\n\n- [@video@ecrets to Building the Most Engaging Community Ever](https://www.youtube.com/watch?v=6ZVpufakwfk)",
+      "status": "required",
+      "y": 2778.0635429448794,
+      "x": -206.6292575725566,
+      "parent_topic_id": "DCj1teu8Hp82EKnakFRPn"
+    },
+    {
+      "id": "RXj0yB7KsIOM5whwtyBBU",
+      "label": "Engagement Rates",
+      "type": "subtopic",
+      "description": "# Engagement Rates\n\nEngagement rates are key metrics that measure how actively an audience interacts with content on platforms like social media, blogs, or community forums. They reflect actions such as likes, comments, shares, and clicks, indicating how well the content resonates with the audience. High engagement rates suggest that the content is relevant, valuable, and appealing, while low rates can signal a need for adjustment in the messaging or approach. Tracking engagement rates helps in understanding audience preferences, refining content strategies, and assessing the effectiveness of campaigns, making them essential for improving overall communication and outreach efforts.\n\nVisit the following resources to learn more:\n\n- [@article@What is Engagement Rate](https://sproutsocial.com/glossary/engagement-rate/)\n- [@video@Introduction to Engagement Rate](https://www.youtube.com/watch?v=SCTbIwADCo4)",
+      "status": "required",
+      "y": 2831.0635429448794,
+      "x": -206.6292575725566,
+      "parent_topic_id": "DCj1teu8Hp82EKnakFRPn"
+    },
+    {
+      "id": "yhDBZfUAjumFHpUZtmLg3",
+      "label": "Content Performance",
+      "type": "subtopic",
+      "description": "# Content Performance\n\nContent performance involves measuring, analyzing, and optimizing the impact of created content on the target audience. This multifaceted process encompasses tracking various metrics such as engagement rates, conversion rates, time spent on page, and social shares to gauge the effectiveness of content in achieving its intended goals. By leveraging sophisticated analytics tools and techniques, DevRel professionals can gain valuable insights into audience behavior, preferences, and pain points, enabling them to refine their content strategy, improve user experience, and ultimately drive better outcomes for both developers and the organization.\n\nVisit the following resources to learn more:\n\n- [@article@Content Performance: 19 Metrics to Track Your Results](https://www.semrush.com/blog/content-performance/)\n- [@video@How to measure the ROI of your content efforts](https://www.youtube.com/watch?v=j1CNmi302Oc)",
+      "status": "required",
+      "y": 2884.0635429448794,
+      "x": -206.6292575725566,
+      "parent_topic_id": "DCj1teu8Hp82EKnakFRPn"
+    },
+    {
+      "id": "AwMwMU9hg_gCKPP4tykHb",
+      "label": "Developer Satisfaction",
+      "type": "subtopic",
+      "description": "# Developer Satisfaction\n\nDeveloper satisfaction refers to how content and engaged developers feel when using a platform, tool, or service. It encompasses aspects like ease of use, quality of documentation, helpfulness of support, and overall developer experience. High developer satisfaction is crucial because it leads to greater adoption, advocacy, and retention. To achieve it, platforms need to listen actively to developer feedback, provide intuitive and well-documented tools, and ensure quick, effective support. Regularly measuring satisfaction through surveys, feedback loops, and usage analytics helps identify areas for improvement, ensuring that the platform continues to meet developer needs effectively.\n\nVisit the following resources to learn more:\n\n- [@article@What are developer experience metrics?](https://www.cortex.io/post/developer-experience-metrics-for-software-development-success)\n- [@article@How to measure developer experience with metrics](https://www.opslevel.com/resources/measuring-developer-experience-with-metrics)",
+      "status": "required",
+      "y": 2937.0635429448794,
+      "x": -206.6292575725566,
+      "parent_topic_id": "DCj1teu8Hp82EKnakFRPn"
+    },
+    {
+      "id": "8xrhjG9qmbsoBC3F8zS-b",
+      "label": "Google Analytics",
+      "type": "subtopic",
+      "description": "# Google Analytics\n \nGoogle Analytics tracks web traffic, user behavior, and conversion events on documentation sites and developer portals. It shows where visitors come from, which pages they view, how long they stay, and where they drop off. These insights help DevRel teams optimize documentation structure and content to improve the developer onboarding experience.\n\nVisit the following resources to learn more:\n\n- [@official@Google Analytics Academy](https://developers.google.com/analytics)\n- [@video@Get started with Google Analytics](https://www.youtube.com/watch?v=UuE37-MM1ws)",
+      "status": "required",
+      "y": 2938.1369032700813,
+      "x": 93.5511521223986,
+      "parent_topic_id": "psk3bo-nSskboAoVTjlpz"
+    },
+    {
+      "id": "x8RIrK2VB-LBFbt6hAcQb",
+      "label": "Social Media Analytics",
+      "type": "subtopic",
+      "description": "# Social Media Analytics\n \nSocial media analytics tools, including native platform dashboards and third-party tools like Buffer and Sprout Social, track post performance, audience growth, and engagement over time. They allow comparisons across content types and posting times, revealing patterns that inform the content strategy.",
+      "status": "required",
+      "y": 2885.1369032700813,
+      "x": 93.5511521223986,
+      "parent_topic_id": "psk3bo-nSskboAoVTjlpz"
+    },
+    {
+      "id": "AL3-UzREwTpsADTU0YtRW",
+      "label": "Platform Specific Analytics",
+      "type": "subtopic",
+      "description": "# Platform Specific Analytics\n \nPlatform-specific analytics cover the insights available within community platforms like Discord, GitHub, and YouTube. GitHub Insights shows repository traffic and contributor activity. YouTube Studio shows watch time, audience retention, and traffic sources. Each platform provides unique data that complements the broader analytics picture.",
+      "status": "required",
+      "y": 2832.1369032700813,
+      "x": 93.5511521223986,
+      "parent_topic_id": "psk3bo-nSskboAoVTjlpz"
+    },
+    {
+      "id": "U2QKCu6TvDuxSNRfdM74n",
+      "label": "Regular Reports",
+      "type": "subtopic",
+      "description": "# Regular Reports\n \nRegular reports, produced weekly, monthly, or quarterly, keep stakeholders informed about DevRel performance without requiring them to dig into raw data. They typically cover key metrics against targets, highlights from the period, and areas for improvement. Cadence and format should match the audience's level of interest and the pace of the work.",
+      "status": "required",
+      "y": 3120.0003654537495,
+      "x": -718.0379046906206,
+      "parent_topic_id": "N1uh7dVKfSPT7w0MlKzWO"
+    },
+    {
+      "id": "0dRnUlgze87eq2FVU_mWp",
+      "label": "Data Visualization",
+      "type": "subtopic",
+      "description": "# Data Visualization\n\nData visualization involves using charts, graphs, and other visual tools to present data clearly and effectively. It transforms raw numbers into visual formats that make patterns, trends, and insights easier to understand at a glance. Good visualizations simplify complex data, highlighting key findings and supporting informed decision-making. When creating these visuals, it\u2019s important to choose the right type\u2014like bar charts for comparisons, line graphs for trends, or pie charts for proportions\u2014and ensure they are clean, accurate, and easy to read.\n\nVisit the following resources to learn more:\n\n- [@article@What is Data Visualization?](https://www.ibm.com/topics/data-visualization)\n- [@video@Data Visualization in 2024](https://www.youtube.com/watch?v=loYuxWSsLNc)",
+      "status": "required",
+      "y": 3174.0003654537495,
+      "x": -718.0379046906206,
+      "parent_topic_id": "N1uh7dVKfSPT7w0MlKzWO"
+    },
+    {
+      "id": "mh1BZDVkc-VwA8aQAmDhO",
+      "label": "Insights & Recommendations",
+      "type": "subtopic",
+      "description": "# Insights & Recommendations\n \nInsights and recommendations transform data into action. Rather than just reporting numbers, this involves explaining what the data means, why it changed, and what should be done differently as a result. Reports that include concrete recommendations are more valuable to stakeholders and more likely to lead to informed decisions.",
+      "status": "required",
+      "y": 3228.0003654537495,
+      "x": -718.0379046906206,
+      "parent_topic_id": "N1uh7dVKfSPT7w0MlKzWO"
+    },
+    {
+      "id": "I7RBMfoD30OstVLeTrMs9",
+      "label": "Publishing",
+      "type": "subtopic",
+      "description": "# Publishing\n \nPublishing thought leadership content involves writing articles, essays, research reports, or opinion pieces for blogs, industry publications, and developer platforms. The goal is to contribute ideas that the audience finds genuinely useful or thought-provoking, not just to market a product. Consistent, high-quality publishing establishes a reputation as a credible voice in the ecosystem.",
+      "status": "required",
+      "y": 3278.570645056719,
+      "x": 105.97685112982208,
+      "parent_topic_id": "wcfrXA9zWZ4Taey7mR2yG"
+    },
+    {
+      "id": "QrDqUGWC2t9r6p4aR8I5g",
+      "label": "Media Appearances",
+      "type": "subtopic",
+      "description": "# Media Appearances\n \nMedia appearances include interviews, podcast episodes, and press quotes that extend reach to audiences beyond those already following the speaker. Being accessible to journalists, podcast hosts, and newsletter writers as a knowledgeable source increases visibility and positions the individual as a go-to expert in their area.",
+      "status": "required",
+      "y": 3331.570645056719,
+      "x": 105.97685112982208,
+      "parent_topic_id": "wcfrXA9zWZ4Taey7mR2yG"
+    },
+    {
+      "id": "ue0NaNnNpF7UhvJ8j0Yuo",
+      "label": "Conference Speaking",
+      "type": "subtopic",
+      "description": "# Conference Speaking\n \nConference speaking is one of the highest-visibility activities in DevRel. A well-received talk at a major developer conference can reach thousands of developers and build lasting credibility. Building a speaking career involves developing signature talks, submitting to CFPs (Calls for Papers), and investing in the preparation and delivery skills that make talks memorable.\n\nVisit the following resources to learn more:\n\n- [@article@How to speak at a conference](https://www.eventible.com/learning/how-to-speak-at-a-conference/)\n- [@video@Secrets of Great Conference Talks](https://www.youtube.com/watch?v=rOf5sPSBLjg)",
+      "status": "required",
+      "y": 3384.570645056719,
+      "x": 105.97685112982208,
+      "parent_topic_id": "wcfrXA9zWZ4Taey7mR2yG"
+    },
+    {
+      "id": "HIIqlnZ4Vad_1o4F0lkv-",
+      "label": "Meetups",
+      "type": "subtopic",
+      "description": "# Meetups\n \nMeetups are local or virtual gatherings of developers around a specific technology, interest, or geography. Attending and speaking at meetups builds relationships at a community level and reaches developers who may not attend large conferences. Organizing meetups creates a recurring touchpoint with the local developer community.",
+      "status": "required",
+      "y": 3351.9188969390398,
+      "x": -648.8207077362822,
+      "parent_topic_id": "4ygpqUK70hI5r1AmmfMZq"
+    },
+    {
+      "id": "lMbj0WdoEia_tdpO5rXph",
+      "label": "Online Communities",
+      "type": "subtopic",
+      "description": "# Online Communities\n \nOnline communities for networking include developer forums, Slack groups, Discord servers, and LinkedIn groups focused on DevRel, developer tools, or specific technologies. Active participation in these spaces builds relationships with peers, potential collaborators, and future employers. Being helpful and visible in online communities compounds over time.",
+      "status": "required",
+      "y": 3404.9188969390398,
+      "x": -648.8207077362822,
+      "parent_topic_id": "4ygpqUK70hI5r1AmmfMZq"
+    },
+    {
+      "id": "NhQUDVA9q1hnV44EKapbU",
+      "label": "Open-Source",
+      "type": "subtopic",
+      "description": "# Open-Source\n \nContributing to open-source projects is a high-credibility networking and learning activity. It creates public evidence of technical skills, builds relationships with maintainers and contributors, and demonstrates investment in the ecosystem. DevRel professionals who contribute to open source are seen as genuine participants in the community rather than pure marketers.",
+      "status": "required",
+      "y": 3457.9188969390398,
+      "x": -648.8207077362822,
+      "parent_topic_id": "4ygpqUK70hI5r1AmmfMZq"
+    }
+  ]
+}

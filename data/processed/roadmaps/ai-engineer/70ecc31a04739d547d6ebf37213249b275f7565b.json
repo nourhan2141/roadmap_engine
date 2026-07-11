@@ -1,0 +1,2715 @@
+{
+  "roadmap_id": "ai-engineer",
+  "commit_hash": "70ecc31a04739d547d6ebf37213249b275f7565b",
+  "topics": [
+    {
+      "id": "_hYN0gEi9BL24nptEtXWU",
+      "label": "Introduction",
+      "type": "topic",
+      "description": "# Introduction\n\nAI Engineering is the process of designing and implementing AI systems using pre-trained models and existing AI tools to solve practical problems. AI Engineers focus on applying AI in real-world scenarios, improving user experiences, and automating tasks, without developing new models from scratch. They work to ensure AI systems are efficient, scalable, and can be seamlessly integrated into business applications, distinguishing their role from AI Researchers and ML Engineers, who concentrate more on creating new models or advancing AI theory.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "AI Engineering",
+          "url": "https://en.wikipedia.org/wiki/Artificial_intelligence_engineering"
+        },
+        {
+          "type": "video",
+          "title": "AI vs Machine Learning",
+          "url": "https://www.youtube.com/watch?v=4RixMPF4xis"
+        },
+        {
+          "type": "video",
+          "title": "AI vs Machine Learning vs Deep Learning vs GenAI",
+          "url": "https://youtu.be/qYNweeDHiyU?si=eRJXjtk8Q-RKQ8Ms"
+        }
+      ],
+      "status": "required",
+      "y": 253.37833957831333,
+      "x": 520,
+      "sequence_row": 1,
+      "sequence_col": 1
+    },
+    {
+      "id": "d7fzv_ft12EopsQdmEsel",
+      "label": "Pre-trained Models",
+      "type": "topic",
+      "description": "# Pre-trained Models\n\nPre-trained models are Machine Learning (ML) models that have been previously trained on a large dataset to solve a specific task or set of tasks. These models learn patterns, features, and representations from the training data, which can then be fine-tuned or adapted for other related tasks. Pre-training provides a good starting point, reducing the amount of data and computation required to train a new model from scratch.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "Pre-trained Models: Past, Present and Future",
+          "url": "https://www.sciencedirect.com/science/article/pii/S2666651021000231"
+        },
+        {
+          "type": "video",
+          "title": "Transforming Language with Generative Pre-trained Transformers (GPT)",
+          "url": "https://www.youtube.com/watch?v=bdICz_sBI34"
+        }
+      ],
+      "status": "required",
+      "y": 510.40074822234897,
+      "x": 497,
+      "sequence_row": 2,
+      "sequence_col": 1
+    },
+    {
+      "id": "zdeuA4GbdBl2DwKgiOA4G",
+      "label": "OpenAI API",
+      "type": "topic",
+      "description": "# How LLMs Work\n\nLarge Language Models (LLMs) are sophisticated AI systems trained on vast amounts of text data to understand, generate, and manipulate human language. They operate by learning statistical relationships between words and phrases, enabling them to predict the next word in a sequence or generate coherent text based on a given prompt. This is achieved through deep neural networks, primarily using a transformer architecture, which allows them to capture long-range dependencies in text and produce contextually relevant outputs.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "What is a large language model (LLM)?",
+          "url": "https://www.cloudflare.com/en-gb/learning/ai/what-is-large-language-model/"
+        },
+        {
+          "type": "article",
+          "title": "New to LLMs? Start Here",
+          "url": "https://towardsdatascience.com/new-to-llms-start-here/?utm_source=roadmap&utm_medium=Referral&utm_campaign=TDS+roadmap+integration"
+        },
+        {
+          "type": "video",
+          "title": "How Large Language Models Work",
+          "url": "https://www.youtube.com/watch?v=5sLYAQS9sWQ"
+        }
+      ],
+      "status": "required",
+      "y": 986.900748222349,
+      "x": 528,
+      "sequence_row": 3,
+      "sequence_col": 1
+    },
+    {
+      "id": "8ndKHDJgL_gYwaXC7XMer",
+      "label": "AI Safety and Ethics",
+      "type": "topic",
+      "description": "# AI Safety and Ethics\n\nAI safety and ethics involve establishing guidelines and best practices to ensure that artificial intelligence systems are developed, deployed, and used in a manner that prioritizes human well-being, fairness, and transparency. This includes addressing risks such as bias, privacy violations, unintended consequences, and ensuring that AI operates reliably and predictably, even in complex environments. Ethical considerations focus on promoting accountability, avoiding discrimination, and aligning AI systems with human values and societal norms. Frameworks like explainability, human-in-the-loop design, and robust monitoring are often used to build systems that not only achieve technical objectives but also uphold ethical standards and mitigate potential harms.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "Understanding Artificial Intelligence Ethics and Safety",
+          "url": "https://www.turing.ac.uk/news/publications/understanding-artificial-intelligence-ethics-and-safety"
+        },
+        {
+          "type": "article",
+          "title": "The Hidden Security Risks of LLMs",
+          "url": "https://towardsdatascience.com/the-hidden-security-risks-of-llms/?utm_source=roadmap&utm_medium=Referral&utm_campaign=TDS+roadmap+integration"
+        },
+        {
+          "type": "video",
+          "title": "What is AI Ethics?",
+          "url": "https://www.youtube.com/watch?v=aGwYtUzMQUk"
+        }
+      ],
+      "status": "required",
+      "y": 1207.6146370882086,
+      "x": 522.5,
+      "sequence_row": 4,
+      "sequence_col": 1
+    },
+    {
+      "id": "a_3SabylVqzzOyw3tZN5f",
+      "label": "OpenSource AI",
+      "type": "topic",
+      "description": "# LM Studio\n\nLM Studio is a desktop application designed for discovering, downloading, and running large language models (LLMs) locally on your computer. It provides a user-friendly interface to experiment with different open-source LLMs without needing extensive technical knowledge or cloud infrastructure. Essentially, it helps you manage and interact with LLMs directly on your machine.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "LMStudio",
+          "url": "https://lmstudio.ai/"
+        },
+        {
+          "type": "video",
+          "title": "LM Studio Tutorial: Run Large Language Models (LLM) on Your Laptop",
+          "url": "https://www.youtube.com/watch?v=ygUEbCpOOLg"
+        }
+      ],
+      "status": "required",
+      "y": 1372.7838848882502,
+      "x": 522.5,
+      "sequence_row": 5,
+      "sequence_col": 1
+    },
+    {
+      "id": "v99C5Bml2a6148LCJ9gy9",
+      "label": "Hugging Face",
+      "type": "topic",
+      "description": "# Hugging Face\n\nHugging Face is a leading AI company and open-source platform that provides tools, models, and libraries for natural language processing (NLP), computer vision, and other machine learning tasks. It is best known for its \"Transformers\" library, which simplifies the use of pre-trained models like BERT, GPT, T5, and CLIP, making them accessible for tasks such as text classification, translation, summarization, and image recognition.",
+      "resources": [
+        {
+          "type": "course",
+          "title": "Hugging Face Official Video Course",
+          "url": "https://www.youtube.com/watch?v=00GKzGyWFEs&list=PLo2EIpI_JMQvWfQndUesu0nPBAtZ9gP1o"
+        },
+        {
+          "type": "official",
+          "title": "Hugging Face",
+          "url": "https://huggingface.co"
+        },
+        {
+          "type": "video",
+          "title": "What is Hugging Face? - Machine Learning Hub Explained",
+          "url": "https://www.youtube.com/watch?v=1AUjKfpRZVo"
+        }
+      ],
+      "status": "required",
+      "y": 1426.9424648726686,
+      "x": 841.6087863651624,
+      "sequence_row": 5,
+      "sequence_col": 2
+    },
+    {
+      "id": "rTT2UnvqFO3GH6ThPLEjO",
+      "label": "Ollama",
+      "type": "topic",
+      "description": "# Ollama\n\nOllama is a platform that offers large language models (LLMs) designed to run locally on personal devices, enabling AI functionality without relying on cloud services. It focuses on privacy, performance, and ease of use by allowing users to deploy models directly on laptops, desktops, or edge devices, providing fast, offline AI capabilities. With tools like the Ollama SDK, developers can integrate these models into their applications for tasks such as text generation, summarization, and more, benefiting from reduced latency, greater data control, and seamless local processing.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "Ollama",
+          "url": "https://ollama.com/"
+        },
+        {
+          "type": "article",
+          "title": "Ollama: Easily run LLMs locally",
+          "url": "https://klu.ai/glossary/ollama"
+        },
+        {
+          "type": "video",
+          "title": "What is Ollama? Running Local LLMs Made Simple",
+          "url": "https://www.youtube.com/watch?v=5RIOQuHOihY"
+        }
+      ],
+      "status": "required",
+      "y": 1805.9687120415522,
+      "x": 841.6087863651624,
+      "sequence_row": 6,
+      "sequence_col": 2
+    },
+    {
+      "id": "--ig0Ume_BnXb9K2U7HJN",
+      "label": "What are Embeddings",
+      "type": "topic",
+      "description": "# What are Embeddings\n\nEmbeddings are dense, numerical vector representations of data, such as words, sentences, images, or audio, that capture their semantic meaning and relationships. By converting data into fixed-length vectors, embeddings allow machine learning models to process and understand the data more effectively. For example, word embeddings represent similar words with similar vectors, enabling tasks like semantic search, recommendation systems, and clustering. Embeddings make it easier to compare, search, and analyze complex, unstructured data by mapping similar items close together in a high-dimensional space.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "What is Embedding? -IBM",
+          "url": "https://www.ibm.com/topics/embedding"
+        },
+        {
+          "type": "article",
+          "title": "What are Embeddings in Machine Learning?",
+          "url": "https://www.cloudflare.com/en-gb/learning/ai/what-are-embeddings/"
+        },
+        {
+          "type": "video",
+          "title": "What are Word Embeddings",
+          "url": "https://www.youtube.com/watch?v=wgfSDrqYMJ4"
+        }
+      ],
+      "status": "required",
+      "y": 1814.9687120415522,
+      "x": 487.3795624782034,
+      "sequence_row": 6,
+      "sequence_col": 1
+    },
+    {
+      "id": "l6priWeJhbdUD5tJ7uHyG",
+      "label": "Open AI Embeddings API",
+      "type": "topic",
+      "description": "# OpenAI Embeddings API\n\nThe OpenAI Embeddings API provides a straightforward way to transform text into numerical vector representations called embeddings. These embeddings capture the semantic meaning of text, allowing you to perform tasks like semantic search, clustering, and similarity comparison by analyzing the relationships between these vectors. The API simplifies the process of generating these embeddings, abstracting away the complexities of training and managing embedding models.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "OpenAI Embeddings API",
+          "url": "https://platform.openai.com/docs/api-reference/embeddings/create"
+        },
+        {
+          "type": "video",
+          "title": "Master OpenAI Embedding API",
+          "url": "https://www.youtube.com/watch?v=9oCS-VQupoc"
+        }
+      ],
+      "status": "required",
+      "y": 1980.4687120415522,
+      "x": 62.71396345748872,
+      "sequence_row": 7,
+      "sequence_col": 1
+    },
+    {
+      "id": "apVYIV4EyejPft25oAvdI",
+      "label": "Open-Source Embeddings",
+      "type": "topic",
+      "description": "# Jina AI\n\nJina Embeddings are a family of high-performance, open-source, multilingual, and multimodal embedding models developed by Jina AI. They transform text and visual data (like images and charts) into dense numerical vectors for semantic search, RAG, and AI applications. Key features include supporting long contexts (up to 32k tokens), multi-task capabilities, and specialized versions for text-to-image and code retrieval.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "Jina Embeddings",
+          "url": "https://jina.ai/en-US/embeddings/"
+        },
+        {
+          "type": "official",
+          "title": "https://jina.ai/news/jina-embeddings-v5-text-distilling-4b-quality-into-sub-1b-multilingual-embeddings/",
+          "url": "https://jina.ai/news/jina-embeddings-v5-text-distilling-4b-quality-into-sub-1b-multilingual-embeddings/"
+        }
+      ],
+      "status": "required",
+      "y": 2216.727661473262,
+      "x": 62.5,
+      "sequence_row": 8,
+      "sequence_col": 1
+    },
+    {
+      "id": "tt9u3oFlsjEMfPyojuqpc",
+      "label": "Vector Databases",
+      "type": "topic",
+      "description": "# Vector Databases\n\nVector databases are systems specialized in storing, indexing, and retrieving high-dimensional vectors, often used as embeddings for data like text, images, or audio. Unlike traditional databases, they excel at managing unstructured data by enabling fast similarity searches, where vectors are compared to find the closest matches. This makes them essential for tasks like semantic search, recommendation systems, and content discovery. Using techniques like approximate nearest neighbor (ANN) search, vector databases handle large datasets efficiently, ensuring quick and accurate retrieval even at scale.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "Vector Databases",
+          "url": "https://developers.cloudflare.com/vectorize/reference/what-is-a-vector-database/"
+        },
+        {
+          "type": "article",
+          "title": "What are Vector Databases?",
+          "url": "https://www.mongodb.com/resources/basics/databases/vector-databases"
+        }
+      ],
+      "status": "required",
+      "y": 2268.2838160405004,
+      "x": 62.5,
+      "sequence_row": 8,
+      "sequence_col": 2
+    },
+    {
+      "id": "lVhWhZGR558O-ljHobxIi",
+      "label": "RAG & Implementation",
+      "type": "topic",
+      "description": "# RAG & Implementation\n\nRetrieval-Augmented Generation (RAG) combines information retrieval with language generation to produce more accurate, context-aware responses. It uses two components: a retriever, which searches a database to find relevant information, and a generator, which crafts a response based on the retrieved data. Implementing RAG involves using a retrieval model (e.g., embeddings and vector search) alongside a generative language model (like GPT). The process starts by converting a query into embeddings, retrieving relevant documents from a vector database, and feeding them to the language model, which then generates a coherent, informed response. This approach grounds outputs in real-world data, resulting in more reliable and detailed answers.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "What is RAG?",
+          "url": "https://aws.amazon.com/what-is/retrieval-augmented-generation/"
+        },
+        {
+          "type": "article",
+          "title": "RAG Explained: Understanding Embeddings, Similarity, and Retrieval",
+          "url": "https://towardsdatascience.com/rag-explained-understanding-embeddings-similarity-and-retrieval/?utm_source=roadmap&utm_medium=Referral&utm_campaign=TDS+roadmap+integration"
+        },
+        {
+          "type": "video",
+          "title": "What is Retrieval-Augmented Generation? IBM",
+          "url": "https://www.youtube.com/watch?v=T-D1OfcDW1M"
+        }
+      ],
+      "status": "required",
+      "y": 2268.2838160405004,
+      "x": 520,
+      "sequence_row": 8,
+      "sequence_col": 3
+    },
+    {
+      "id": "eOqCBgBTKM8CmY3nsWjre",
+      "label": "Open AI Assistant API",
+      "type": "topic",
+      "description": "# Tools & Function Calling in AI Agents\n\nTools and function calling equip AI agents with the ability to interact with the real world and access external information. Instead of just providing text-based responses, the agent can use predefined functions, tools, or APIs to perform specific actions like searching the web, sending emails, or controlling devices. This extends the agent's capabilities and allows it to solve more complex tasks that require actions beyond simple language generation.",
+      "resources": [
+        {
+          "type": "course",
+          "title": "A Comprehensive Guide to Function Calling in LLMs",
+          "url": "https://thenewstack.io/a-comprehensive-guide-to-function-calling-in-llms/"
+        },
+        {
+          "type": "official",
+          "title": "What are Tools? - Hugging Face",
+          "url": "https://huggingface.co/learn/agents-course/en/unit1/tools"
+        },
+        {
+          "type": "article",
+          "title": "Compare 50+ AI Agent Tools in 2026",
+          "url": "https://aimultiple.com/ai-agent-tools"
+        },
+        {
+          "type": "article",
+          "title": "AI Agents Explained in Simple Terms for Beginners",
+          "url": "https://www.geeky-gadgets.com/ai-agents-explained-for-beginners/"
+        }
+      ],
+      "status": "required",
+      "y": 2393.7243958663935,
+      "x": 520,
+      "sequence_row": 9,
+      "sequence_col": 1
+    },
+    {
+      "id": "AeHkNU-uJ_gBdo5-xdpEu",
+      "label": "AI Agents",
+      "type": "topic",
+      "description": "# Model Context Protocol (MCP)\n\nModel Context Protocol (MCP) provides a standardized way for AI agents to manage and share contextual information. It defines a structure for representing the agent's current understanding of the environment, user, and goals, enabling more effective communication and collaboration between different components of an AI system or across multiple agents. This protocol facilitates the seamless transfer of relevant data, ensuring that each agent has the necessary information to make informed decisions and perform its tasks efficiently.",
+      "resources": [
+        {
+          "type": "course",
+          "title": "Model Context Protocol (MCP) Course",
+          "url": "https://huggingface.co/learn/mcp-course/en/unit0/introduction"
+        },
+        {
+          "type": "official",
+          "title": "Model Context Protocol",
+          "url": "https://modelcontextprotocol.io/"
+        },
+        {
+          "type": "opensource",
+          "title": "Model Context Protocol",
+          "url": "https://github.com/modelcontextprotocol"
+        },
+        {
+          "type": "article",
+          "title": "Discover more aritlces on MCP",
+          "url": "https://towardsdatascience.com/tag/mcp/?utm_source=roadmap&utm_medium=Referral&utm_campaign=TDS+roadmap+integration"
+        }
+      ],
+      "status": "required",
+      "y": 2739.3420928710716,
+      "x": 533.3795624782034,
+      "sequence_row": 10,
+      "sequence_col": 1
+    },
+    {
+      "id": "W7cKPt_UxcUgwp8J6hS4p",
+      "label": "Multimodal AI",
+      "type": "topic",
+      "description": "# Multimodal AI\n\nMultimodal AI is an approach that combines and processes data from multiple sources, such as text, images, audio, and video, to understand and generate responses. By integrating different data types, it enables more comprehensive and accurate AI systems, allowing for tasks like visual question answering, interactive virtual assistants, and enhanced content understanding. This capability helps create richer, more context-aware applications that can analyze and respond to complex, real-world scenarios.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "A Multimodal World - Hugging Face",
+          "url": "https://huggingface.co/learn/computer-vision-course/en/unit4/multimodal-models/a_multimodal_world"
+        },
+        {
+          "type": "article",
+          "title": "Multimodal AI - Google",
+          "url": "https://cloud.google.com/use-cases/multimodal-ai?hl=en"
+        },
+        {
+          "type": "article",
+          "title": "What Is Multimodal AI? A Complete Introduction",
+          "url": "https://www.splunk.com/en_us/blog/learn/multimodal-ai.html"
+        }
+      ],
+      "status": "required",
+      "y": 2942.715898273103,
+      "x": 533.3795624782034,
+      "sequence_row": 11,
+      "sequence_col": 1
+    },
+    {
+      "id": "NYge7PNtfI-y6QWefXJ4d",
+      "label": "Development Tools",
+      "type": "topic",
+      "description": "# Development Tools\n\nAI has given rise to a collection of AI-powered development tools of various varieties. We have IDEs like Cursor that have AI baked into it, live context capturing tools such as Pieces, and a variety of browser-based tools like V0, Claude, and more.",
+      "resources": [],
+      "status": "required",
+      "y": 3281.4007482223487,
+      "x": 533.3795624782034,
+      "sequence_row": 12,
+      "sequence_col": 1
+    }
+  ],
+  "subtopics": [
+    {
+      "id": "GN6SnI7RXIeW8JeD-qORW",
+      "label": "What is an AI Engineer?",
+      "type": "subtopic",
+      "description": "# What is an AI Engineer?\n\nAI engineers are professionals who specialize in designing, developing, and implementing artificial intelligence (AI) systems. Their work is essential in various industries, as they create applications that enable machines to perform tasks that typically require human intelligence, such as problem-solving, learning, and decision-making.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "How to Become an AI Engineer: Duties, Skills, and Salary",
+          "url": "https://www.simplilearn.com/tutorials/artificial-intelligence-tutorial/how-to-become-an-ai-engineer"
+        },
+        {
+          "type": "article",
+          "title": "AI Engineers: What they do and how to become one",
+          "url": "https://www.techtarget.com/whatis/feature/How-to-become-an-artificial-intelligence-engineer"
+        },
+        {
+          "type": "article",
+          "title": "I Transitioned from Data Science to AI Engineering: Here\u2019s Everything You Need to Know",
+          "url": "https://towardsdatascience.com/i-transitioned-from-data-science-to-ai-engineering-heres-everything-you-need-to-know/?utm_source=roadmap&utm_medium=Referral&utm_campaign=TDS+roadmap+integration"
+        }
+      ],
+      "status": "required",
+      "y": 226.40074822234897,
+      "x": 842.3618127280065,
+      "parent_topic_id": "_hYN0gEi9BL24nptEtXWU"
+    },
+    {
+      "id": "jSZ1LhPdhlkW-9QJhIvFs",
+      "label": "AI Engineer vs ML Engineer",
+      "type": "subtopic",
+      "description": "# AI Engineer vs ML Engineer\n\nAn AI Engineer uses pre-trained models and existing AI tools to improve user experiences. They focus on applying AI in practical ways, without building models from scratch. This is different from AI Researchers and ML Engineers, who focus more on creating new models or developing AI theory.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "What does an AI Engineer do?",
+          "url": "https://www.codecademy.com/resources/blog/what-does-an-ai-engineer-do/"
+        },
+        {
+          "type": "article",
+          "title": "What is an ML Engineer?",
+          "url": "https://www.coursera.org/articles/what-is-machine-learning-engineer"
+        },
+        {
+          "type": "article",
+          "title": "Machine Learning vs AI Engineer: What Are the Differences?",
+          "url": "https://towardsdatascience.com/machine-learning-vs-ai-engineer-no-confusing-jargon/?utm_source=roadmap&utm_medium=Referral&utm_campaign=TDS+roadmap+integration"
+        },
+        {
+          "type": "video",
+          "title": "AI vs ML",
+          "url": "https://www.youtube.com/watch?v=4RixMPF4xis"
+        }
+      ],
+      "status": "required",
+      "y": 279.40074822234897,
+      "x": 842.3618127280065,
+      "parent_topic_id": "_hYN0gEi9BL24nptEtXWU"
+    },
+    {
+      "id": "wf2BSyUekr1S1q6l8kyq6",
+      "label": "LLMs",
+      "type": "subtopic",
+      "description": "# LLMs\n\nLLMs, or Large Language Models, are advanced AI models trained on vast datasets to understand and generate human-like text. They can perform a wide range of natural language processing tasks, such as text generation, translation, summarization, and question answering. Examples include GPT-5, BERT, and DeepSeek. LLMs are capable of understanding context, handling complex queries, and generating coherent responses, making them useful for applications like chatbots, content creation, and automated support. However, they require significant computational resources and may carry biases from their training data.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "What is a large language model (LLM)?",
+          "url": "https://www.cloudflare.com/en-gb/learning/ai/what-is-large-language-model/"
+        },
+        {
+          "type": "article",
+          "title": "New to LLMs? Start Here",
+          "url": "https://towardsdatascience.com/new-to-llms-start-here/?utm_source=roadmap&utm_medium=Referral&utm_campaign=TDS+roadmap+integration"
+        },
+        {
+          "type": "video",
+          "title": "How Large Language Models Work",
+          "url": "https://www.youtube.com/watch?v=5sLYAQS9sWQ"
+        }
+      ],
+      "status": "required",
+      "y": 342.90074822234897,
+      "x": 1011.8618127280065,
+      "parent_topic_id": "_hYN0gEi9BL24nptEtXWU"
+    },
+    {
+      "id": "KWjD4xEPhOOYS51dvRLd2",
+      "label": "Inference",
+      "type": "subtopic",
+      "description": "# External Memory\n\nExternal memory, in the context of large language models (LLMs), refers to mechanisms that allow these models to access and utilize information stored outside of their internal parameters. This can involve retrieving relevant data from databases, knowledge graphs, or other external sources during the prompt processing or generation phases to augment the model's knowledge and improve its performance on specific tasks. This enhances the LLM's ability to handle complex queries and generate more accurate and contextually relevant responses.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "How to Maximize Agentic Memory for Continual Learning",
+          "url": "https://towardsdatascience.com/how-to-maximize-agentic-memory-for-continual-learning/?utm_source=roadmap&utm_medium=Referral&utm_campaign=TDS+roadmap+integration"
+        }
+      ],
+      "status": "required",
+      "y": 396.40074822234897,
+      "x": 851.8618127280066,
+      "parent_topic_id": "d7fzv_ft12EopsQdmEsel"
+    },
+    {
+      "id": "xostGgoaYkqMO28iN2gx8",
+      "label": "Training",
+      "type": "subtopic",
+      "description": "# Training\n\nTraining refers to the process of teaching a machine learning model to recognize patterns and make predictions by exposing it to a dataset. During training, the model learns from the data by adjusting its internal parameters to minimize errors between its predictions and the actual outcomes. This process involves iteratively feeding the model with input data, comparing its outputs to the correct answers, and refining its predictions through techniques like gradient descent. The goal is to enable the model to generalize well so that it can make accurate predictions on new, unseen data.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "What is Model Training?",
+          "url": "https://oden.io/glossary/model-training/"
+        },
+        {
+          "type": "article",
+          "title": "Machine learning model training: What it is and why it\u2019s important",
+          "url": "https://domino.ai/blog/what-is-machine-learning-model-training"
+        },
+        {
+          "type": "article",
+          "title": "Training ML Models - Amazon",
+          "url": "https://docs.aws.amazon.com/machine-learning/latest/dg/training-ml-models.html"
+        }
+      ],
+      "status": "required",
+      "y": 448.90074822234897,
+      "x": 851.8618127280066,
+      "parent_topic_id": "d7fzv_ft12EopsQdmEsel"
+    },
+    {
+      "id": "XyEp6jnBSpCxMGwALnYfT",
+      "label": "Embeddings",
+      "type": "subtopic",
+      "description": "# Embeddings\n\nEmbeddings are dense, continuous vector representations of data, such as words, sentences, or images, in a lower-dimensional space. They capture the semantic relationships and patterns in the data, where similar items are placed closer together in the vector space. In machine learning, embeddings are used to convert complex data into a numerical form that models can process more easily. For example, word embeddings represent words based on their meanings and contexts, allowing models to understand relationships like synonyms or analogies. Embeddings are widely used in tasks like natural language processing, recommendation systems, and image recognition to improve model performance and efficiency.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "What are Embeddings in Machine Learning?",
+          "url": "https://www.cloudflare.com/en-gb/learning/ai/what-are-embeddings/"
+        },
+        {
+          "type": "article",
+          "title": "What is Embedding?",
+          "url": "https://www.ibm.com/topics/embedding"
+        },
+        {
+          "type": "video",
+          "title": "What are Word Embeddings",
+          "url": "https://www.youtube.com/watch?v=wgfSDrqYMJ4"
+        }
+      ],
+      "status": "required",
+      "y": 501.40074822234897,
+      "x": 851.8618127280066,
+      "parent_topic_id": "d7fzv_ft12EopsQdmEsel"
+    },
+    {
+      "id": "LnQ2AatMWpExUHcZhDIPd",
+      "label": "Vector Databases",
+      "type": "subtopic",
+      "description": "# RAG and Dynamic Filters\n\nRetrieval-Augmented Generation (RAG) enhances Large Language Models (LLMs) by providing them with relevant, up-to-date information from external sources. Dynamic filters are techniques that selectively filter the information retrieved for RAG, ensuring that the LLM receives only the most pertinent context based on the specific query and user. This results in more accurate, focused, and contextually appropriate LLM responses.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "4 context engineering strategies every AI engineer needs to know",
+          "url": "https://newsletter.owainlewis.com/p/4-context-engineering-strategies"
+        },
+        {
+          "type": "article",
+          "title": "Context Engineering",
+          "url": "https://blog.langchain.com/context-engineering-for-agents/"
+        },
+        {
+          "type": "article",
+          "title": "Is RAG Dead? The Rise of Context Engineering and Semantic Layers for Agentic AI",
+          "url": "https://towardsdatascience.com/beyond-rag/?utm_source=roadmap&utm_medium=Referral&utm_campaign=TDS+roadmap+integration"
+        }
+      ],
+      "status": "required",
+      "y": 553.900748222349,
+      "x": 851.8618127280066,
+      "parent_topic_id": "d7fzv_ft12EopsQdmEsel"
+    },
+    {
+      "id": "9JwWIK0Z2MK8-6EQQJsCO",
+      "label": "RAG",
+      "type": "subtopic",
+      "description": "# Context Isolation\n\nContext isolation is about keeping different tasks or areas of knowledge separate when working with large language models (LLMs). Think of it like giving each task its own dedicated space. Instead of one big LLM trying to handle everything at once, you use multiple, smaller \"agents\" that are each focused on a specific job and trained on their own specific data. This prevents unrelated information from interfering with each other, leading to more accurate and reliable results.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "4 context engineering strategies every AI engineer needs to know",
+          "url": "https://newsletter.owainlewis.com/p/4-context-engineering-strategies"
+        },
+        {
+          "type": "article",
+          "title": "Context Engineering",
+          "url": "https://blog.langchain.com/context-engineering-for-agents/"
+        }
+      ],
+      "status": "required",
+      "y": 605.900748222349,
+      "x": 1011.8618127280065,
+      "parent_topic_id": "d7fzv_ft12EopsQdmEsel"
+    },
+    {
+      "id": "Dc15ayFlzqMF24RqIF_-X",
+      "label": "Prompt Engineering",
+      "type": "subtopic",
+      "description": null,
+      "resources": [],
+      "status": "required",
+      "y": 658.900748222349,
+      "x": 851.8618127280066,
+      "parent_topic_id": "d7fzv_ft12EopsQdmEsel"
+    },
+    {
+      "id": "9XCxilAQ7FRet7lHQr1gE",
+      "label": "AI Agents",
+      "type": "subtopic",
+      "description": "# Context Compaction\n\nContext compaction is a technique used to reduce the length of the context provided to a large language model (LLM) without sacrificing relevant information. This process aims to remove redundant, irrelevant, or less important information from the context window to make room for more data or improve the efficiency and effectiveness of the LLM's processing. Compaction can involve techniques like summarization, filtering, or re-ranking of context information.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "Context Engineering",
+          "url": "https://blog.langchain.com/context-engineering-for-agents/"
+        },
+        {
+          "type": "article",
+          "title": "Context Compaction",
+          "url": "https://gist.github.com/badlogic/cd2ef65b0697c4dbe2d13fbecb0a0a5f"
+        }
+      ],
+      "status": "required",
+      "y": 606.400748222349,
+      "x": 851.8618127280066,
+      "parent_topic_id": "d7fzv_ft12EopsQdmEsel"
+    },
+    {
+      "id": "5QdihE1lLpMc3DFrGy46M",
+      "label": "AI vs AGI",
+      "type": "subtopic",
+      "description": "# AI vs AGI\n\nAI (Artificial Intelligence) refers to systems designed to perform specific tasks by mimicking aspects of human intelligence, such as pattern recognition, decision-making, and language processing. These systems, known as \"narrow AI,\" are highly specialized, excelling in specific areas such as image classification or recommender algorithms but lacking broader cognitive abilities. In contrast, AGI (Artificial General Intelligence) is a theoretical form of intelligence that can understand, learn, and apply knowledge across a wide range of tasks at a human-like level. AGI would have the capacity for abstract thinking, reasoning, and adaptability similar to human cognitive abilities, making it far more versatile than today\u2019s AI systems. While current AI technology is powerful, AGI remains a distant goal and presents complex challenges in safety, ethics, and technical feasibility.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "What is AGI?",
+          "url": "https://aws.amazon.com/what-is/artificial-general-intelligence/"
+        },
+        {
+          "type": "article",
+          "title": "The crucial difference between AI and AGI",
+          "url": "https://www.forbes.com/sites/bernardmarr/2024/05/20/the-crucial-difference-between-ai-and-agi/"
+        },
+        {
+          "type": "article",
+          "title": "Stop Worrying about AGI: The Immediate Danger is Reduced General Intelligence (RGI)",
+          "url": "https://towardsdatascience.com/stop-worrying-about-agi-the-immediate-danger-is-reduced-general-intelligence-rgi/?utm_source=roadmap&utm_medium=Referral&utm_campaign=TDS+roadmap+integration"
+        }
+      ],
+      "status": "required",
+      "y": 342.90074822234897,
+      "x": 851.8618127280066,
+      "parent_topic_id": "_hYN0gEi9BL24nptEtXWU"
+    },
+    {
+      "id": "qJVgKe9uBvXc-YPfvX_Y7",
+      "label": "Impact on Product Development",
+      "type": "subtopic",
+      "description": "# Impact on Product Development\n\nAI engineering transforms product development by automating tasks, enhancing data-driven decision-making, and enabling the creation of smarter, more personalized products. It speeds up design cycles, optimizes processes, and allows for predictive maintenance, quality control, and efficient resource management. By integrating AI, companies can innovate faster, reduce costs, and improve user experiences, giving them a competitive edge in the market.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "AI in Product Development: Netflix, BMW, and PepsiCo",
+          "url": "https://www.virtasant.com/ai-today/ai-in-product-development-netflix-bmw#:~:text=AI%20can%20help%20make%20product,and%20gain%20a%20competitive%20edge."
+        },
+        {
+          "type": "article",
+          "title": "AI Product Development: Why Are Founders So Fascinated By The Potential?",
+          "url": "https://www.techmagic.co/blog/ai-product-development/"
+        }
+      ],
+      "status": "required",
+      "y": 79.37833957831333,
+      "x": 842.3618127280065,
+      "parent_topic_id": "_hYN0gEi9BL24nptEtXWU"
+    },
+    {
+      "id": "K9EiuFgPBFgeRxY4wxAmb",
+      "label": "Roles and Responsiblities",
+      "type": "subtopic",
+      "description": "# Roles and Responsibilities\n\nAI Engineers are responsible for designing, developing, and deploying AI systems that solve real-world problems. Their roles include building machine learning models, implementing data processing pipelines, and integrating AI solutions into existing software or platforms. They work on tasks like data collection, cleaning, and labeling, as well as model training, testing, and optimization to ensure high performance and accuracy. AI Engineers also focus on scaling models for production use, monitoring their performance, and troubleshooting issues. Additionally, they collaborate with data scientists, software developers, and other stakeholders to align AI projects with business goals, ensuring that solutions are reliable, efficient, and ethically sound.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "AI Engineer Job Description",
+          "url": "https://resources.workable.com/ai-engineer-job-description"
+        },
+        {
+          "type": "article",
+          "title": "How To Become an AI Engineer (Plus Job Duties and Skills)",
+          "url": "https://www.indeed.com/career-advice/finding-a-job/ai-engineer"
+        }
+      ],
+      "status": "required",
+      "y": 132.37833957831333,
+      "x": 842.3618127280065,
+      "parent_topic_id": "_hYN0gEi9BL24nptEtXWU"
+    },
+    {
+      "id": "1Ga6DbOPc6Crz7ilsZMYy",
+      "label": "Benefits of Pre-trained Models",
+      "type": "subtopic",
+      "description": null,
+      "resources": [],
+      "status": "required",
+      "y": 458.40074822234897,
+      "x": 65.4565453870415,
+      "parent_topic_id": "zdeuA4GbdBl2DwKgiOA4G"
+    },
+    {
+      "id": "MXqbQGhNM3xpXlMC2ib_6",
+      "label": "Limitations and Considerations",
+      "type": "subtopic",
+      "description": null,
+      "resources": [],
+      "status": "required",
+      "y": 511.40074822234897,
+      "x": 65.4565453870415,
+      "parent_topic_id": "zdeuA4GbdBl2DwKgiOA4G"
+    },
+    {
+      "id": "2WbVpRLqwi3Oeqk1JPui4",
+      "label": "Open AI Models",
+      "type": "subtopic",
+      "description": "# Tokens in Large Language Models\n\nTokens are fundamental units of text that LLMs process, created by breaking text into smaller components such as words, subwords, or characters. Understanding tokens is crucial because models predict the next token in sequences, API costs are based on token count, and models have maximum token limits for input and output.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "Explaining Tokens \u2014 the Language and Currency of AI",
+          "url": "https://blogs.nvidia.com/blog/ai-tokens-explained/"
+        },
+        {
+          "type": "article",
+          "title": "Understanding Tokens and Parameters in Model Training: A Deep Dive",
+          "url": "https://www.functionize.com/blog/understanding-tokens-and-parameters-in-model-training"
+        }
+      ],
+      "status": "required",
+      "y": 623.400748222349,
+      "x": 78.5,
+      "parent_topic_id": "d7fzv_ft12EopsQdmEsel"
+    },
+    {
+      "id": "vvpYkmycH0_W030E-L12f",
+      "label": "Capabilities / Context Length",
+      "type": "subtopic",
+      "description": "# Context\n\nContext, in the realm of Large Language Models (LLMs), refers to the information provided to the model alongside the prompt, which it uses to generate a relevant and coherent response. It encompasses the user's query, any supporting text, previous turns in a conversation, or any other data that helps the LLM understand the desired output. Essentially, it's the background knowledge and instructions that guide the LLM's reasoning and generation process.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "What is a Context Window in AI?",
+          "url": "https://www.ibm.com/think/topics/context-window"
+        },
+        {
+          "type": "article",
+          "title": "What Is an AI Context Window?",
+          "url": "https://www.coursera.org/articles/context-window"
+        },
+        {
+          "type": "article",
+          "title": "Cutting Through the Noise: Smarter Context Management for LLM-Powered Agents",
+          "url": "https://blog.jetbrains.com/research/2025/12/efficient-context-management/"
+        },
+        {
+          "type": "video",
+          "title": "What is a Context Window? Unlocking LLM Secrets",
+          "url": "https://www.youtube.com/watch?v=-QVoIxEpFkM"
+        }
+      ],
+      "status": "required",
+      "y": 676.400748222349,
+      "x": 78.5,
+      "parent_topic_id": "d7fzv_ft12EopsQdmEsel"
+    },
+    {
+      "id": "LbB2PeytxRSuU07Bk0KlJ",
+      "label": "Cut-off Dates / Knowledge",
+      "type": "subtopic",
+      "description": "# Sampling Parameters\n\nSampling parameters are settings that control the randomness and creativity of the text generated by the LLM. They influence how the model chooses the next word in a sequence, impacting the overall coherence, diversity, and relevance of the output. Adjusting these parameters allows users to fine-tune the LLM's responses for specific applications, balancing between predictable, safe outputs and more imaginative, exploratory ones.",
+      "resources": [],
+      "status": "required",
+      "y": 729.400748222349,
+      "x": 78.5,
+      "parent_topic_id": "d7fzv_ft12EopsQdmEsel"
+    },
+    {
+      "id": "hy6EyKiNxk1x84J63dhez",
+      "label": "Anthropic's Claude",
+      "type": "subtopic",
+      "description": "# Anthropic's Claude\n\nAnthropic's Claude is an AI language model designed to facilitate safe and scalable AI systems. Named after Claude Shannon, the father of information theory, Claude focuses on responsible AI use, emphasizing safety, alignment with human intentions, and minimizing harmful outputs.",
+      "resources": [
+        {
+          "type": "course",
+          "title": "Claude 101",
+          "url": "https://anthropic.skilljar.com/claude-101"
+        },
+        {
+          "type": "official",
+          "title": "Claude",
+          "url": "https://claude.ai"
+        },
+        {
+          "type": "video",
+          "title": "How To Use Claude Pro For Beginners",
+          "url": "https://www.youtube.com/watch?v=J3X_JWQkvo8"
+        },
+        {
+          "type": "video",
+          "title": "Claude FULL COURSE 1 HOUR (Build & Automate Anything)",
+          "url": "https://www.youtube.com/watch?v=KrKhfm2Xuho"
+        }
+      ],
+      "status": "required",
+      "y": 832.900748222349,
+      "x": 78.5,
+      "parent_topic_id": "zdeuA4GbdBl2DwKgiOA4G"
+    },
+    {
+      "id": "oe8E6ZIQWuYvHVbYJHUc1",
+      "label": "Google's Gemini",
+      "type": "subtopic",
+      "description": "# Google's Gemini\n\nGoogle Gemini is an advanced AI model by Google DeepMind, designed to integrate natural language processing with multimodal capabilities, enabling it to understand and generate not just text but also images, videos, and other data types. It combines generative AI with reasoning skills, making it effective for complex tasks requiring logical analysis and contextual understanding.",
+      "resources": [
+        {
+          "type": "course",
+          "title": "Google AI Training",
+          "url": "https://grow.google/ai/"
+        },
+        {
+          "type": "official",
+          "title": "Google Gemini",
+          "url": "https://gemini.google.com/"
+        },
+        {
+          "type": "official",
+          "title": "Google's Gemini Documentation",
+          "url": "https://workspace.google.com/solutions/ai/"
+        },
+        {
+          "type": "video",
+          "title": "Welcome to the Gemini era",
+          "url": "https://www.youtube.com/watch?v=_fuimO6ErKI"
+        }
+      ],
+      "status": "required",
+      "y": 885.900748222349,
+      "x": 78.5,
+      "parent_topic_id": "zdeuA4GbdBl2DwKgiOA4G"
+    },
+    {
+      "id": "3PQVZbcr4neNMRr6CuNzS",
+      "label": "Azure AI",
+      "type": "subtopic",
+      "description": "# OpenAI Models (GPT, o-series)\n\nOpenAI models, including the GPT and \"o-series\" (like Whisper), are pre-trained AI models offered by OpenAI, accessible via their API. GPT models excel at natural language tasks like text generation, translation, and question answering. The \"o-series\" refers to OpenAI's other specialized models; for example, Whisper is a speech-to-text transcription model.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "OpenAI Platform",
+          "url": "https://openai.com/api/"
+        },
+        {
+          "type": "official",
+          "title": "OpenAI Models",
+          "url": "https://developers.openai.com/api/docs/models"
+        },
+        {
+          "type": "article",
+          "title": "Your guide to the complete OpenAI models list",
+          "url": "https://www.eesel.ai/blog/openai-models-list"
+        }
+      ],
+      "status": "required",
+      "y": 938.900748222349,
+      "x": 78.5,
+      "parent_topic_id": "zdeuA4GbdBl2DwKgiOA4G"
+    },
+    {
+      "id": "OkYO-aSPiuVYuLXHswBCn",
+      "label": "AWS Sagemaker",
+      "type": "subtopic",
+      "description": "# Meta Llama\n\nMeta Llama is a family of large language models (LLMs) developed by Meta AI. These models are designed to be open-source and accessible, allowing researchers and developers to build and experiment with LLMs without the restrictions of proprietary models. Llama models have different versions and sizes, and they aim to provide a capable and efficient base for various natural language processing tasks.",
+      "resources": [
+        {
+          "type": "course",
+          "title": "Building with Llama 4",
+          "url": "https://www.deeplearning.ai/short-courses/building-with-llama-4/"
+        },
+        {
+          "type": "official",
+          "title": "Llama",
+          "url": "https://www.llama.com/"
+        }
+      ],
+      "status": "required",
+      "y": 938.900748222349,
+      "x": 194.47059387846707,
+      "parent_topic_id": "zdeuA4GbdBl2DwKgiOA4G"
+    },
+    {
+      "id": "8XjkRqHOdyH-DbXHYiBEt",
+      "label": "Hugging Face Models",
+      "type": "subtopic",
+      "description": null,
+      "resources": [],
+      "status": "required",
+      "y": 992.8781089665497,
+      "x": 78.5,
+      "parent_topic_id": "zdeuA4GbdBl2DwKgiOA4G"
+    },
+    {
+      "id": "n-Ud2dXkqIzK37jlKItN4",
+      "label": "Mistral AI",
+      "type": "subtopic",
+      "description": "# Mistral AI\n\nMistral AI is a company focused on developing open-weight, large language models (LLMs) to provide high-performance AI solutions. Mistral aims to create models that are both efficient and versatile, making them suitable for a wide range of natural language processing tasks, including text generation, translation, and summarization. By releasing open-weight models, Mistral promotes transparency and accessibility, allowing developers to customize and deploy AI solutions more flexibly compared to proprietary models.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "Mistral AI",
+          "url": "https://mistral.ai/"
+        },
+        {
+          "type": "video",
+          "title": "Mistral AI: The Gen AI Start-up you did not know existed",
+          "url": "https://www.youtube.com/watch?v=vzrRGd18tAg"
+        }
+      ],
+      "status": "required",
+      "y": 1044.8781089665497,
+      "x": 79.5,
+      "parent_topic_id": "zdeuA4GbdBl2DwKgiOA4G"
+    },
+    {
+      "id": "a7qsvoauFe5u953I699ps",
+      "label": "Cohere",
+      "type": "subtopic",
+      "description": "# Cohere\n\nCohere offers a suite of closed large language models (LLMs) designed for various natural language processing tasks. These models are accessible through an API and are trained and maintained by Cohere, meaning users don't have to worry about the complexities of training and fine-tuning their own models from scratch. Cohere focuses on providing enterprise-grade NLP solutions emphasizing safety, reliability, and ease of integration.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "Cohere",
+          "url": "https://cohere.com/"
+        },
+        {
+          "type": "official",
+          "title": "LLM University - Cohere",
+          "url": "https://cohere.com/llmu"
+        },
+        {
+          "type": "article",
+          "title": "What Does Cohere Do?",
+          "url": "https://medium.com/geekculture/what-does-cohere-do-cdadf6d70435"
+        }
+      ],
+      "status": "required",
+      "y": 1044.8781089665497,
+      "x": 240.5,
+      "parent_topic_id": "zdeuA4GbdBl2DwKgiOA4G"
+    },
+    {
+      "id": "5ShWZl1QUqPwO-NRGN85V",
+      "label": "OpenAI Models",
+      "type": "subtopic",
+      "description": null,
+      "resources": [],
+      "status": "required",
+      "y": 566.400748222349,
+      "x": 65.4565453870415,
+      "parent_topic_id": "zdeuA4GbdBl2DwKgiOA4G"
+    },
+    {
+      "id": "_bPTciEA1GT1JwfXim19z",
+      "label": "Chat Completions API",
+      "type": "subtopic",
+      "description": "# Temperature\n\nTemperature is a parameter used in language models that controls the randomness of the generated text. A higher temperature value (e.g., 1.0) leads to more diverse and unpredictable outputs, as the model is more likely to sample less probable words. Conversely, a lower temperature value (e.g., 0.2) yields more deterministic, conservative outputs, favoring the most likely words according to the model's training data. Essentially, it influences the probability distribution from which the next word is selected.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "What Temperature Means in Natural Language Processing and AI",
+          "url": "https://thenewstack.io/what-temperature-means-in-natural-language-processing-and-ai/"
+        },
+        {
+          "type": "article",
+          "title": "What is LLM Temperature? - IBM",
+          "url": "https://www.ibm.com/think/topics/llm-temperature"
+        },
+        {
+          "type": "article",
+          "title": "How Temperature Settings Transform Your AI Agent's Responses",
+          "url": "https://docsbot.ai/article/how-temperature-settings-transform-your-ai-agents-responses"
+        }
+      ],
+      "status": "required",
+      "y": 795.900748222349,
+      "x": 842.3618127280065,
+      "parent_topic_id": "zdeuA4GbdBl2DwKgiOA4G"
+    },
+    {
+      "id": "9-5DYeOnKJq9XvEMWP45A",
+      "label": "Writing Prompts",
+      "type": "subtopic",
+      "description": null,
+      "resources": [],
+      "status": "required",
+      "y": 848.900748222349,
+      "x": 842.3618127280065,
+      "parent_topic_id": "zdeuA4GbdBl2DwKgiOA4G"
+    },
+    {
+      "id": "nyBgEHvUhwF-NANMwkRJW",
+      "label": "Open AI Playground",
+      "type": "subtopic",
+      "description": "# Chain-of-Thought Prompting\n\nChain of Thought (CoT) is a way for an AI agent to think out loud. Before giving its final answer, the agent writes short notes that show each step it takes. These notes can list facts, name sub-tasks, or do small bits of math. By seeing the steps, the agent stays organized and is less likely to make a mistake. People who read the answer can also check the logic and spot any weak points. The same written steps can be fed back into the agent so it can plan, reflect, or fix itself. Because it is easy to use and boosts trust, CoT is one of the most common designs for language-based agents today.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "What is chain of thought (CoT) prompting?",
+          "url": "https://www.ibm.com/think/topics/chain-of-thoughts"
+        },
+        {
+          "type": "article",
+          "title": "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models",
+          "url": "https://arxiv.org/abs/2201.11903"
+        },
+        {
+          "type": "article",
+          "title": "Evoking Chain of Thought Reasoning in LLMs - Prompting Guide",
+          "url": "https://www.promptingguide.ai/techniques/cot"
+        },
+        {
+          "type": "video",
+          "title": "ChatGPT Prompt Engineering Principles: Chain of Thought Prompting",
+          "url": "https://www.youtube.com/watch?v=Kar2qfLDQ2c"
+        }
+      ],
+      "status": "required",
+      "y": 1126.900748222349,
+      "x": 842.3618127280065,
+      "parent_topic_id": "zdeuA4GbdBl2DwKgiOA4G"
+    },
+    {
+      "id": "15XOFdVp0IC-kLYPXUJWh",
+      "label": "Fine-tuning",
+      "type": "subtopic",
+      "description": "# Zero Shot Prompting\n\nZero-shot prompting is a prompt engineering method that relies on the pretraining of a large language model (LLM) to infer an appropriate response. In contrast to other prompt engineering methods, such as few-shot prompting, models aren\u2019t provided with examples of output when prompting with the zero-shot technique.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "What is zero-shot prompting?",
+          "url": "https://www.ibm.com/think/topics/zero-shot-prompting"
+        },
+        {
+          "type": "article",
+          "title": "Zero-Shot Prompting",
+          "url": "https://www.promptingguide.ai/techniques/zeroshot"
+        },
+        {
+          "type": "video",
+          "title": "Zero-shot, One-shot and Few-shot Prompting Explained | Prompt Engineering 101",
+          "url": "https://www.youtube.com/watch?v=sW5xoicq5TY"
+        }
+      ],
+      "status": "required",
+      "y": 1179.900748222349,
+      "x": 842.3618127280065,
+      "parent_topic_id": "v99C5Bml2a6148LCJ9gy9"
+    },
+    {
+      "id": "qzvp6YxWDiGakA2mtspfh",
+      "label": "Maximum Tokens",
+      "type": "subtopic",
+      "description": "# Top-K Sampling\n\nTop-K sampling is a method used by Large Language Models (LLMs) during text generation to select the next word. Instead of considering the entire vocabulary, it narrows down the choices to the K most probable words predicted by the model. Low values (1-10) produce conservative, factual outputs. Medium values (20-50) balance creativity and quality. High values (50+) enable diverse, creative outputs. Use low K for technical tasks, high K for creative writing.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "Top-K Sampling: The Complete Token Selection Guide",
+          "url": "https://www.dataannotation.tech/blog/top-k-sampling"
+        },
+        {
+          "type": "video",
+          "title": "What are the LLM\u2019s Top-P + Top-K ?",
+          "url": "https://www.youtube.com/watch?v=aDmp2Uim0zQ"
+        }
+      ],
+      "status": "required",
+      "y": 910.900748222349,
+      "x": 851.8618127280066,
+      "parent_topic_id": "zdeuA4GbdBl2DwKgiOA4G"
+    },
+    {
+      "id": "FjV3oD7G2Ocq5HhUC17iH",
+      "label": "Token Counting",
+      "type": "subtopic",
+      "description": "# Top-P Sampling\n\nTop-P sampling, also known as nucleus sampling, is a technique used in language models to generate text. Instead of considering all possible next words, it focuses on the smallest set of words whose cumulative probability exceeds a threshold 'P'. Unlike Top-K's fixed number, Top-P dynamically adjusts based on the probability distribution. Low values (0.1-0.5) produce focused outputs, medium (0.6-0.9) balance creativity and coherence, and high (0.9-0.99) enable creative diversity.",
+      "resources": [
+        {
+          "type": "video",
+          "title": "What are the LLM\u2019s Top-P + Top-K ?",
+          "url": "https://www.youtube.com/watch?v=aDmp2Uim0zQ"
+        }
+      ],
+      "status": "required",
+      "y": 963.900748222349,
+      "x": 851.8618127280066,
+      "parent_topic_id": "zdeuA4GbdBl2DwKgiOA4G"
+    },
+    {
+      "id": "DZPM9zjCbYYWBPLmQImxQ",
+      "label": "Pricing Considerations",
+      "type": "subtopic",
+      "description": "# Few-Shot Prompting\n\nFew-shot prompting is a technique used with large language models (LLMs) where you provide a small number of example input-output pairs in the prompt itself. These examples demonstrate the desired behavior of the LLM for a specific task. By seeing these \"few shots\" of correct answers, the LLM can better understand the pattern and generate accurate and relevant responses for new, unseen inputs.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "Few-Shot Prompting",
+          "url": "https://www.promptingguide.ai/techniques/fewshot"
+        },
+        {
+          "type": "article",
+          "title": "What is few shot prompting?",
+          "url": "https://www.ibm.com/think/topics/few-shot-prompting"
+        },
+        {
+          "type": "video",
+          "title": "Discover Few-Shot Prompting | Google AI Essentials",
+          "url": "https://www.youtube.com/watch?v=9qdgEBVkWR4"
+        }
+      ],
+      "status": "required",
+      "y": 1016.900748222349,
+      "x": 851.8618127280066,
+      "parent_topic_id": "zdeuA4GbdBl2DwKgiOA4G"
+    },
+    {
+      "id": "cUyLT6ctYQ1pgmodCKREq",
+      "label": "Prompt Injection Attacks",
+      "type": "subtopic",
+      "description": "# Prompt Injection Attacks\n\nPrompt injection attacks are a type of security vulnerability where malicious inputs are crafted to manipulate or exploit AI models, like language models, to produce unintended or harmful outputs. These attacks involve injecting deceptive or adversarial content into the prompt to bypass filters, extract confidential information, or make the model respond in ways it shouldn't. For instance, a prompt injection could trick a model into revealing sensitive data or generating inappropriate responses by altering its expected behavior.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "Prompt Injection in LLMs",
+          "url": "https://www.promptingguide.ai/prompts/adversarial-prompting/prompt-injection"
+        },
+        {
+          "type": "article",
+          "title": "What is a Prompt Injection Attack?",
+          "url": "https://www.wiz.io/academy/prompt-injection-attack"
+        }
+      ],
+      "status": "required",
+      "y": 1199.5015627391044,
+      "x": 76.47059387846707,
+      "parent_topic_id": "8ndKHDJgL_gYwaXC7XMer"
+    },
+    {
+      "id": "lhIU0ulpvDAn1Xc3ooYz_",
+      "label": "Bias and Fairness",
+      "type": "subtopic",
+      "description": "# Bias and Fairness\n\nBias and fairness in AI refer to the challenges of ensuring that machine learning models do not produce discriminatory or skewed outcomes. Bias can arise from imbalanced training data, flawed assumptions, or biased algorithms, leading to unfair treatment of certain groups based on race, gender, or other factors. Fairness aims to address these issues by developing techniques to detect, mitigate, and prevent biases in AI systems. Ensuring fairness involves improving data diversity, applying fairness constraints during model training, and continuously monitoring models in production to avoid unintended consequences, promoting ethical and equitable AI use.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "What Do We Do About the Biases in AI?",
+          "url": "https://hbr.org/2019/10/what-do-we-do-about-the-biases-in-ai"
+        },
+        {
+          "type": "article",
+          "title": "AI Bias - What Is It and How to Avoid It?",
+          "url": "https://levity.ai/blog/ai-bias-how-to-avoid"
+        },
+        {
+          "type": "article",
+          "title": "What about fairness, bias and discrimination?",
+          "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/guidance-on-ai-and-data-protection/how-do-we-ensure-fairness-in-ai/what-about-fairness-bias-and-discrimination/"
+        }
+      ],
+      "status": "required",
+      "y": 1305.5015627391044,
+      "x": 76.47059387846707,
+      "parent_topic_id": "a_3SabylVqzzOyw3tZN5f"
+    },
+    {
+      "id": "sWBT-j2cRuFqRFYtV_5TK",
+      "label": "Security and Privacy Concerns",
+      "type": "subtopic",
+      "description": "# Security and Privacy Concerns\n\nSecurity and privacy concerns in AI revolve around the protection of data and the responsible use of models. Key issues include ensuring that sensitive data, such as personal information, is handled securely during collection, processing, and storage, to prevent unauthorized access and breaches. AI models can also inadvertently expose sensitive data if not properly designed, leading to privacy risks through data leakage or misuse. Additionally, there are concerns about model bias, data misuse, and ensuring transparency in how AI decisions are made.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "Examining Privacy Risks in AI Systems",
+          "url": "https://transcend.io/blog/ai-and-privacy"
+        },
+        {
+          "type": "video",
+          "title": "AI Is Dangerous, but Not for the Reasons You Think | Sasha Luccioni | TED",
+          "url": "https://www.youtube.com/watch?v=eXdVDhOGqoE"
+        }
+      ],
+      "status": "required",
+      "y": 1252.5015627391044,
+      "x": 76.47059387846707,
+      "parent_topic_id": "8ndKHDJgL_gYwaXC7XMer"
+    },
+    {
+      "id": "Pt-AJmSJrOxKvolb5_HEv",
+      "label": "Conducting adversarial testing",
+      "type": "subtopic",
+      "description": "# Conducting adversarial testing\n\nAdversarial testing involves intentionally exposing machine learning models to deceptive, perturbed, or carefully crafted inputs to evaluate their robustness and identify vulnerabilities. The goal is to simulate potential attacks or edge cases where the model might fail, such as subtle manipulations in images, text, or data that cause the model to misclassify or produce incorrect outputs. This type of testing helps to improve model resilience, particularly in sensitive applications like cybersecurity, autonomous systems, and finance.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "Adversarial Testing for Generative AI",
+          "url": "https://developers.google.com/machine-learning/resources/adv-testing"
+        },
+        {
+          "type": "article",
+          "title": "Adversarial Testing: Definition, Examples and Resources",
+          "url": "https://www.leapwork.com/blog/adversarial-testing"
+        }
+      ],
+      "status": "required",
+      "y": 1520.7260836911958,
+      "x": 76.47059387846707,
+      "parent_topic_id": "a_3SabylVqzzOyw3tZN5f"
+    },
+    {
+      "id": "ljZLa3yjQpegiZWwtnn_q",
+      "label": "OpenAI Moderation API",
+      "type": "subtopic",
+      "description": "# Content Moderation APIs\n\nContent Moderation APIs are tools that automatically analyze text, images, video, and audio to detect potentially harmful or inappropriate content. These APIs use machine learning models to identify violations of predefined policies related to areas like hate speech, violence, self-harm, and sexually suggestive material. The results allow developers to filter or take action against problematic user-generated content.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "Moderation API",
+          "url": "https://platform.openai.com/docs/guides/moderation"
+        },
+        {
+          "type": "article",
+          "title": "How to use the moderation API",
+          "url": "https://cookbook.openai.com/examples/how_to_use_moderation"
+        },
+        {
+          "type": "article",
+          "title": "Content moderation: What it is, how it works, and the best APIs",
+          "url": "https://www.assemblyai.com/blog/content-moderation-what-it-is-how-it-works-best-apis-2"
+        }
+      ],
+      "status": "required",
+      "y": 1414.7260836911958,
+      "x": 76.47059387846707,
+      "parent_topic_id": "a_3SabylVqzzOyw3tZN5f"
+    },
+    {
+      "id": "4Q5x2VCXedAWISBXUIyin",
+      "label": "Adding end-user IDs in prompts",
+      "type": "subtopic",
+      "description": "# Adding end-user IDs in prompts\n\nSending end-user IDs in your requests can be a useful tool to help OpenAI monitor and detect abuse. This allows OpenAI to provide your team with more actionable feedback in the event that we detect any policy violations in your application.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "Sending End-user IDs - OpenAI",
+          "url": "https://platform.openai.com/docs/guides/safety-best-practices/end-user-ids"
+        }
+      ],
+      "status": "required",
+      "y": 1467.7260836911958,
+      "x": 76.47059387846707,
+      "parent_topic_id": "a_3SabylVqzzOyw3tZN5f"
+    },
+    {
+      "id": "qmx6OHqx4_0JXVIv8dASp",
+      "label": "Robust prompt engineering",
+      "type": "subtopic",
+      "description": "# Robust prompt engineering\n\nRobust prompt engineering involves carefully crafting inputs to guide AI models toward producing accurate, relevant, and reliable outputs. It focuses on minimizing ambiguity and maximizing clarity by providing specific instructions, examples, or structured formats. Effective prompts anticipate potential issues, such as misinterpretation or inappropriate responses, and address them through testing and refinement. This approach enhances the consistency and quality of the model's behavior, making it especially useful for complex tasks like multi-step reasoning, content generation, and interactive systems.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "Building Robust Prompt Engineering Capability",
+          "url": "https://aimresearch.co/product/building-robust-prompt-engineering-capability"
+        },
+        {
+          "type": "article",
+          "title": "Effective Prompt Engineering: A Comprehensive Guide",
+          "url": "https://medium.com/@nmurugs/effective-prompt-engineering-a-comprehensive-guide-803160c571ed"
+        }
+      ],
+      "status": "required",
+      "y": 1573.7260836911958,
+      "x": 76.47059387846707,
+      "parent_topic_id": "l6priWeJhbdUD5tJ7uHyG"
+    },
+    {
+      "id": "t1SObMWkDZ1cKqNNlcd9L",
+      "label": "Know your Customers / Usecases",
+      "type": "subtopic",
+      "description": "# Know your Customers / Usecases\n\nTo know your customer means deeply understanding the needs, behaviors, and expectations of your target users. This ensures the tools you create are tailored precisely for their intended purpose, while also being designed to prevent misuse or unintended applications. By clearly defining the tool\u2019s functionality and boundaries, you can align its features with the users\u2019 goals while incorporating safeguards that limit its use in contexts it wasn\u2019t designed for. This approach enhances both the tool\u2019s effectiveness and safety, reducing the risk of improper use.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "Assigning Roles",
+          "url": "https://learnprompting.org/docs/basics/roles"
+        }
+      ],
+      "status": "required",
+      "y": 1626.7260836911958,
+      "x": 76.47059387846707,
+      "parent_topic_id": "l6priWeJhbdUD5tJ7uHyG"
+    },
+    {
+      "id": "ONLDyczNacGVZGojYyJrU",
+      "label": "Constraining outputs and inputs",
+      "type": "subtopic",
+      "description": "# Constraining outputs and inputs\n\nConstraining outputs and inputs in AI models refers to implementing limits or rules that guide both the data the model processes (inputs) and the results it generates (outputs). Input constraints ensure that only valid, clean, and well-formed data enters the model, which helps to reduce errors and improve performance. This can include setting data type restrictions, value ranges, or specific formats. Output constraints, on the other hand, ensure that the model produces appropriate, safe, and relevant results, often by limiting output length, specifying answer formats, or applying filters to avoid harmful or biased responses. These constraints are crucial for improving model safety, alignment, and utility in practical applications.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "Preventing Prompt Injection",
+          "url": "https://learnprompting.org/docs/prompt_hacking/defensive_measures/introduction"
+        },
+        {
+          "type": "article",
+          "title": "Introducing Structured Outputs in the API - OpenAI",
+          "url": "https://openai.com/index/introducing-structured-outputs-in-the-api/"
+        }
+      ],
+      "status": "required",
+      "y": 1679.7260836911958,
+      "x": 76.47059387846707,
+      "parent_topic_id": "l6priWeJhbdUD5tJ7uHyG"
+    },
+    {
+      "id": "RBwGsq9DngUsl8PrrCbqx",
+      "label": "Open vs Closed Source Models",
+      "type": "subtopic",
+      "description": "# Open vs Closed Source Models\n\nOpen-source models are freely available for customization and collaboration, promoting transparency and flexibility, while closed-source models are proprietary, offering ease of use but limiting modification and transparency.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "https://hatchworks.com/blog/gen-ai/open-source-vs-closed-llms-guide/",
+          "url": "https://hatchworks.com/blog/gen-ai/open-source-vs-closed-llms-guide/"
+        },
+        {
+          "type": "video",
+          "title": "Open Source vs Closed AI: LLMs, Agents & the AI Stack Explained",
+          "url": "https://www.youtube.com/watch?v=_QfxGZGITGw"
+        },
+        {
+          "type": "video",
+          "title": "Open-Source vs Closed-Source LLMs",
+          "url": "https://www.youtube.com/watch?v=710PDpuLwOc"
+        }
+      ],
+      "status": "required",
+      "y": 1318.7838848882502,
+      "x": 841.1539837884804,
+      "parent_topic_id": "8ndKHDJgL_gYwaXC7XMer"
+    },
+    {
+      "id": "97eu-XxYUH9pYbD_KjAtA",
+      "label": "Popular Open Source Models",
+      "type": "subtopic",
+      "description": null,
+      "resources": [],
+      "status": "required",
+      "y": 1372.7838848882502,
+      "x": 841.1539837884804,
+      "parent_topic_id": "8ndKHDJgL_gYwaXC7XMer"
+    },
+    {
+      "id": "YLOdOvLXa5Fa7_mmuvKEi",
+      "label": "Hugging Face Hub",
+      "type": "subtopic",
+      "description": "# Hugging Face Hub\n\nThe Hugging Face Hub is a central platform where users can discover, share, and collaborate on pre-trained models, datasets, and demos for machine learning. It hosts a vast repository of resources contributed by the community, allowing users to easily access and integrate these assets into their AI projects. The Hub provides tools for version control, model card documentation, and even web-based deployment, simplifying the process of leveraging existing AI models and contributing back to the open-source community.",
+      "resources": [
+        {
+          "type": "course",
+          "title": "The Hugging Face Hub (LLM Course)",
+          "url": "https://huggingface.co/learn/nlp-course/en/chapter4/1"
+        },
+        {
+          "type": "official",
+          "title": "Hugging Face Documentation",
+          "url": "https://huggingface.co/docs/hub/en/index"
+        }
+      ],
+      "status": "required",
+      "y": 1580.9265129447253,
+      "x": 851.6087863651624,
+      "parent_topic_id": "v99C5Bml2a6148LCJ9gy9"
+    },
+    {
+      "id": "YKIPOiSj_FNtg0h8uaSMq",
+      "label": "Hugging Face Tasks",
+      "type": "subtopic",
+      "description": "# Hugging Face Tasks\n\nHugging Face supports text classification, named entity recognition, question answering, summarization, and translation. It also extends to multimodal tasks that involve both text and images, such as visual question answering (VQA) and image-text matching. Each task is done by various pre-trained models that can be easily accessed and fine-tuned through the Hugging Face library.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "Task and Model",
+          "url": "https://huggingface.co/learn/computer-vision-course/en/unit4/multimodal-models/tasks-models-part1"
+        },
+        {
+          "type": "official",
+          "title": "Task Summary",
+          "url": "https://huggingface.co/docs/transformers/v4.14.1/en/task_summary"
+        },
+        {
+          "type": "official",
+          "title": "Task Manager",
+          "url": "https://huggingface.co/docs/optimum/en/exporters/task_manager"
+        }
+      ],
+      "status": "required",
+      "y": 1527.9265129447253,
+      "x": 851.6087863651624,
+      "parent_topic_id": "v99C5Bml2a6148LCJ9gy9"
+    },
+    {
+      "id": "3kRTzlLNBnXdTsAEXVu_M",
+      "label": "Inference SDK",
+      "type": "subtopic",
+      "description": "# Inference SDK\n\nThe Hugging Face Inference SDK is a powerful tool that allows developers to easily integrate and run inference on large language models hosted on the Hugging Face Hub. By using the `InferenceClient`, users can make API calls to various models for tasks such as text generation, image creation, and more. The SDK supports both synchronous and asynchronous operations, thus compatible with existing workflows.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "Inference",
+          "url": "https://huggingface.co/docs/huggingface_hub/en/package_reference/inference_client"
+        },
+        {
+          "type": "article",
+          "title": "Endpoint Setup",
+          "url": "https://www.npmjs.com/package/@huggingface/inference"
+        }
+      ],
+      "status": "required",
+      "y": 1682.8285839892083,
+      "x": 851.6087863651624,
+      "parent_topic_id": "rTT2UnvqFO3GH6ThPLEjO"
+    },
+    {
+      "id": "bGLrbpxKgENe2xS1eQtdh",
+      "label": "Transformers.js",
+      "type": "subtopic",
+      "description": "# Transformers.js\n\nTransformers.js is a JavaScript library that enables transformer models, like those from Hugging Face, to run directly in the browser or Node.js, without needing cloud services. It supports tasks such as text generation, sentiment analysis, and translation within web apps or server-side scripts. Using WebAssembly (Wasm) and efficient JavaScript, Transformers.js offers powerful NLP capabilities with low latency, enhanced privacy, and offline functionality, making it ideal for real-time, interactive applications where local processing is essential for performance and security.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "Transformers.js on Hugging Face",
+          "url": "https://huggingface.co/docs/transformers.js/en/index"
+        },
+        {
+          "type": "video",
+          "title": "How Transformer.js Can Help You Create Smarter AI In Your Browser",
+          "url": "https://www.youtube.com/watch?v=MNJHu9zjpqg"
+        }
+      ],
+      "status": "required",
+      "y": 1735.8285839892083,
+      "x": 851.6087863651624,
+      "parent_topic_id": "rTT2UnvqFO3GH6ThPLEjO"
+    },
+    {
+      "id": "ro3vY_sp6xMQ-hfzO-rc1",
+      "label": "Ollama Models",
+      "type": "subtopic",
+      "description": "# OpenAI Response API\n\nThe OpenAI Response API allows developers to interact with various AI models offered by OpenAI. It provides a structured way to send requests to these models and receive generated text, code, or other outputs. You can control aspects like the prompt, temperature, maximum length, and other parameters to tailor the response to your specific needs. It is intended to eventually replace the Assistants API and the Chat Completions API for new projects.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "Responses API",
+          "url": "https://developers.openai.com/api/reference/resources/responses/"
+        },
+        {
+          "type": "opensource",
+          "title": "Why we built the Responses API",
+          "url": "https://developers.openai.com/blog/responses-api/"
+        },
+        {
+          "type": "video",
+          "title": "OpenAI Responses API Tutorial (2025)",
+          "url": "https://www.youtube.com/playlist?list=PL4HikwTaYE0EWV3qieOYooyxb9osQLgou"
+        }
+      ],
+      "status": "required",
+      "y": 1862.9687120415522,
+      "x": 851.6087863651624,
+      "parent_topic_id": "rTT2UnvqFO3GH6ThPLEjO"
+    },
+    {
+      "id": "TsG_I7FL-cOCSw8gvZH3r",
+      "label": "Ollama SDK",
+      "type": "subtopic",
+      "description": "# Google Gemini API\n\nThe Google Gemini API provides developers with programmatic access to Google's Gemini family of multimodal AI models. It allows applications to understand and generate content across text, images, audio, and video. Developers can use this API to build features like conversational interfaces, content creation tools, and systems that can analyze and respond to complex multi-sensory data.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "Gemini API",
+          "url": "https://ai.google.dev/gemini-api/docs"
+        },
+        {
+          "type": "article",
+          "title": "Everything you need to know about the Gemini API as a developer in less than 5 minutes",
+          "url": "https://medium.com/around-the-prompt/everything-you-need-to-know-about-the-gemini-api-as-a-developer-in-less-than-5-minutes-5e75343ccff9"
+        },
+        {
+          "type": "video",
+          "title": "Introduction to Gemini APIs and AI Studio",
+          "url": "https://www.youtube.com/watch?v=4oyqd7CB09c"
+        }
+      ],
+      "status": "required",
+      "y": 1916.9687120415522,
+      "x": 851.6087863651624,
+      "parent_topic_id": "rTT2UnvqFO3GH6ThPLEjO"
+    },
+    {
+      "id": "eMfcyBxnMY_l_5-8eg6sD",
+      "label": "Semantic Search",
+      "type": "subtopic",
+      "description": "# Semantic Search\n\nEmbeddings are used for semantic search by converting text, such as queries and documents, into high-dimensional vectors that capture the underlying meaning and context, rather than just exact words. These embeddings represent the semantic relationships between words or phrases, allowing the system to understand the query\u2019s intent and retrieve relevant information, even if the exact terms don\u2019t match.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "What is Semantic Search?",
+          "url": "https://www.elastic.co/what-is/semantic-search"
+        },
+        {
+          "type": "video",
+          "title": "What is Semantic Search? - Cohere",
+          "url": "https://www.youtube.com/watch?v=fFt4kR4ntAA"
+        }
+      ],
+      "status": "required",
+      "y": 1906.0927158417944,
+      "x": 497.90686980833937,
+      "parent_topic_id": "--ig0Ume_BnXb9K2U7HJN"
+    },
+    {
+      "id": "HQe9GKy3p0kTUPxojIfSF",
+      "label": "Recommendation Systems",
+      "type": "subtopic",
+      "description": "# Recommendation Systems\n\nIn the context of embeddings, recommendation systems use vector representations to capture similarities between items, such as products or content. By converting items and user preferences into embeddings, these systems can measure how closely related different items are based on vector proximity, allowing them to recommend similar products or content based on a user's past interactions. This approach improves recommendation accuracy and efficiency by enabling meaningful, scalable comparisons of complex data.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "What Role does AI Play in Recommendation Systems and Engines?",
+          "url": "https://www.algolia.com/blog/ai/what-role-does-ai-play-in-recommendation-systems-and-engines/"
+        },
+        {
+          "type": "article",
+          "title": "What is a Recommendation Engine?",
+          "url": "https://www.ibm.com/think/topics/recommendation-engine"
+        }
+      ],
+      "status": "required",
+      "y": 2012.0927158417944,
+      "x": 497.90686980833937,
+      "parent_topic_id": "--ig0Ume_BnXb9K2U7HJN"
+    },
+    {
+      "id": "AglWJ7gb9rTT2rMkstxtk",
+      "label": "Anomaly Detection",
+      "type": "subtopic",
+      "description": "# Anomaly Detection\n\nAnomaly detection with embeddings works by transforming data, such as text, images, or time-series data, into vector representations that capture their patterns and relationships. In this high-dimensional space, similar data points are positioned close together, while anomalies stand out as those that deviate significantly from the typical distribution. This approach is highly effective for detecting outliers in tasks like fraud detection, network security, and quality control.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "Anomaly in Embeddings",
+          "url": "https://ai.google.dev/gemini-api/tutorials/anomaly_detection"
+        },
+        {
+          "type": "article",
+          "title": "Boosting Your Anomaly Detection With LLMs",
+          "url": "https://towardsdatascience.com/boosting-your-anomaly-detection-with-llms/?utm_source=roadmap&utm_medium=Referral&utm_campaign=TDS+roadmap+integration"
+        }
+      ],
+      "status": "required",
+      "y": 2065.0927158417944,
+      "x": 497.90686980833937,
+      "parent_topic_id": "lVhWhZGR558O-ljHobxIi"
+    },
+    {
+      "id": "06Xta-OqSci05nV2QMFdF",
+      "label": "Data Classification",
+      "type": "subtopic",
+      "description": "# Data Classification\n\nOnce data is embedded, a classification algorithm, such as a neural network or a logistic regression model, can be trained on these embeddings to classify the data into different categories. The advantage of using embeddings is that they capture underlying relationships and similarities between data points, even if the raw data is complex or high-dimensional, improving classification accuracy in tasks like text classification, image categorization, and recommendation systems.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "What Is Data Classification?",
+          "url": "https://www.paloaltonetworks.com/cyberpedia/data-classification"
+        },
+        {
+          "type": "video",
+          "title": "Text Embeddings, Classification, and Semantic Search (w/ Python Code)",
+          "url": "https://www.youtube.com/watch?v=sNa_uiqSlJo"
+        }
+      ],
+      "status": "required",
+      "y": 1959.0927158417944,
+      "x": 497.90686980833937,
+      "parent_topic_id": "--ig0Ume_BnXb9K2U7HJN"
+    },
+    {
+      "id": "y0qD5Kb4Pf-ymIwW-tvhX",
+      "label": "Open AI Embedding Models",
+      "type": "subtopic",
+      "description": "# Cohere Embeddings\n\nCohere offers powerful text embeddings, which are numerical representations of text data. These embeddings capture the semantic meaning of words, sentences, and documents, allowing AI models to understand relationships and perform tasks like similarity search, clustering, and information retrieval. Cohere's embedding models are designed for high accuracy and performance across various natural language processing applications.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "Introduction to Embeddings at Cohere",
+          "url": "https://docs.cohere.com/docs/embeddings"
+        },
+        {
+          "type": "official",
+          "title": "What are embedding models? Benefits and best practices",
+          "url": "https://cohere.com/blog/embedding-models"
+        }
+      ],
+      "status": "required",
+      "y": 1830.6426346064957,
+      "x": 62.71396345748872,
+      "parent_topic_id": "l6priWeJhbdUD5tJ7uHyG"
+    },
+    {
+      "id": "4GArjDYipit4SLqKZAWDf",
+      "label": "Pricing Considerations",
+      "type": "subtopic",
+      "description": "# Gemini Embedding\n\nThe Gemini API offers methods to convert text, images, or other data types into numerical vector representations called embeddings. These embeddings capture the semantic meaning and relationships between different pieces of information, allowing for efficient similarity search, clustering, and other machine learning tasks. These proprietary models are offered as a service, often through an API, and require payment or subscription.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "Embeddings",
+          "url": "https://ai.google.dev/gemini-api/docs/embeddings"
+        },
+        {
+          "type": "official",
+          "title": "Gemini Embedding now generally available in the Gemini API",
+          "url": "https://developers.googleblog.com/gemini-embedding-available-gemini-api/"
+        },
+        {
+          "type": "video",
+          "title": "What are text embeddings?",
+          "url": "https://www.youtube.com/watch?v=vlcQV4j2kTo&t=117s"
+        }
+      ],
+      "status": "required",
+      "y": 1883.6426346064957,
+      "x": 62.71396345748872,
+      "parent_topic_id": "l6priWeJhbdUD5tJ7uHyG"
+    },
+    {
+      "id": "ZV_V6sqOnRodgaw4mzokC",
+      "label": "Sentence Transformers",
+      "type": "subtopic",
+      "description": "# Sentence Transformers\n\nSentence Transformers are a type of model designed to generate high-quality embeddings for sentences, allowing them to capture the semantic meaning of text. Unlike traditional word embeddings, which represent individual words, Sentence Transformers understand the context of entire sentences, making them ideal for tasks that require semantic similarity, such as sentence clustering, semantic search, and paraphrase detection. Built on top of transformer models like BERT and RoBERTa, they convert sentences into dense vectors, where similar sentences are placed closer together in vector space.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "What is BERT?",
+          "url": "https://h2o.ai/wiki/bert/"
+        },
+        {
+          "type": "article",
+          "title": "SentenceTransformers Documentation",
+          "url": "https://sbert.net/"
+        },
+        {
+          "type": "article",
+          "title": "Using Sentence Transformers at Hugging Face",
+          "url": "https://huggingface.co/docs/hub/sentence-transformers"
+        }
+      ],
+      "status": "required",
+      "y": 2063.3782051585886,
+      "x": 134.93627316762456,
+      "parent_topic_id": "l6priWeJhbdUD5tJ7uHyG"
+    },
+    {
+      "id": "dLEg4IA3F5jgc44Bst9if",
+      "label": "Models on Hugging Face",
+      "type": "subtopic",
+      "description": "# Models on Hugging Face\n\nEmbedding models are used to convert raw data like text, code, or images into high-dimensional vectors that capture semantic meaning. These vector representations allow AI systems to compare, cluster, and retrieve information based on similarity rather than exact matches. Hugging Face provides a wide range of pretrained embedding models, which are commonly used for tasks like semantic search, recommendation systems, duplicate detection, and retrieval-augmented generation (RAG). These models can be accessed through libraries like `transformers` or `sentence-transformers`, making it easy to generate high-quality embeddings for both general-purpose and task-specific applications.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "Hugging Face Embedding Models",
+          "url": "https://huggingface.co/models?pipeline_tag=feature-extraction"
+        },
+        {
+          "type": "video",
+          "title": "Hugging Face - Text embeddings & semantic search",
+          "url": "https://www.youtube.com/watch?v=OATCgQtNX2o"
+        }
+      ],
+      "status": "required",
+      "y": 2116.3782051585886,
+      "x": 134.93627316762456,
+      "parent_topic_id": "apVYIV4EyejPft25oAvdI"
+    },
+    {
+      "id": "WcjX6p-V-Rdd77EL8Ega9",
+      "label": "Purpose and Functionality",
+      "type": "subtopic",
+      "description": "# Purpose and Functionality\n\nA vector database is designed to store, manage, and retrieve high-dimensional vectors (embeddings) generated by AI models. Its primary purpose is to perform fast and efficient similarity searches, enabling applications to find data points that are semantically or visually similar to a given query. Unlike traditional databases, which handle structured data, vector databases excel at managing unstructured data like text, images, and audio by converting them into dense vector representations. They use indexing techniques, such as approximate nearest neighbor (ANN) algorithms, to quickly search large datasets and return relevant results. Vector databases are essential for applications like recommendation systems, semantic search, and content discovery, where understanding and retrieving similar items is crucial.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "What is a Vector Database? Top 12 Use Cases",
+          "url": "https://lakefs.io/blog/what-is-vector-databases/"
+        },
+        {
+          "type": "article",
+          "title": "Vector Databases: Intro, Use Cases",
+          "url": "https://www.v7labs.com/blog/vector-databases"
+        },
+        {
+          "type": "article",
+          "title": "When (Not) to Use Vector DB",
+          "url": "https://towardsdatascience.com/when-not-to-use-vector-db/?utm_source=roadmap&utm_medium=Referral&utm_campaign=TDS+roadmap+integration"
+        }
+      ],
+      "status": "required",
+      "y": 2358.7263937544244,
+      "x": 62.5,
+      "parent_topic_id": "tt9u3oFlsjEMfPyojuqpc"
+    },
+    {
+      "id": "dSd2C9lNl-ymmCRT9_ZC3",
+      "label": "Chroma",
+      "type": "subtopic",
+      "description": "# Chroma\n\nChroma is an open-source vector database and AI-native embedding database designed to handle and store large-scale embeddings and semantic vectors. It is used in applications that require fast, efficient similarity searches, such as natural language processing (NLP), machine learning (ML), and AI systems dealing with text, images, and other high-dimensional data.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "Chroma",
+          "url": "https://www.trychroma.com/"
+        },
+        {
+          "type": "article",
+          "title": "Chroma Tutorials",
+          "url": "https://lablab.ai/tech/chroma"
+        },
+        {
+          "type": "video",
+          "title": "Chroma - Chroma - Vector Database for LLM Applications",
+          "url": "https://youtu.be/Qs_y0lTJAp0?si=Z2-eSmhf6PKrEKCW"
+        }
+      ],
+      "status": "required",
+      "y": 2464.8371549138815,
+      "x": 73.27752658021024,
+      "parent_topic_id": "tt9u3oFlsjEMfPyojuqpc"
+    },
+    {
+      "id": "_Cf7S1DCvX7p1_3-tP3C3",
+      "label": "Pinecone",
+      "type": "subtopic",
+      "description": "# Pinecone\n\nPinecone is a managed vector database designed for efficient similarity search and real-time retrieval of high-dimensional data, such as embeddings. It allows developers to store, index, and query vector representations, making it easy to build applications like recommendation systems, semantic search, and AI-driven content discovery. Pinecone is scalable, handles large datasets, and provides fast, low-latency searches using optimized indexing techniques.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "Pinecone",
+          "url": "https://www.pinecone.io"
+        },
+        {
+          "type": "article",
+          "title": "Everything you need to know about Pinecone",
+          "url": "https://www.packtpub.com/article-hub/everything-you-need-to-know-about-pinecone-a-vector-database?srsltid=AfmBOorXsy9WImpULoLjd-42ERvTzj3pQb7C2EFgamWlRobyGJVZKKdz"
+        },
+        {
+          "type": "video",
+          "title": "Introducing Pinecone Serverless",
+          "url": "https://www.youtube.com/watch?v=iCuR6ihHQgc"
+        }
+      ],
+      "status": "required",
+      "y": 2464.8371549138815,
+      "x": 204.27752658021024,
+      "parent_topic_id": "tt9u3oFlsjEMfPyojuqpc"
+    },
+    {
+      "id": "VgUnrZGKVjAAO4n_llq5-",
+      "label": "Weaviate",
+      "type": "subtopic",
+      "description": "# Weaviate\n\nWeaviate is an open-source vector database that allows users to store, search, and manage high-dimensional vectors, often used for tasks like semantic search and recommendation systems. It enables efficient similarity searches by converting data (like text, images, or audio) into embeddings and indexing them for fast retrieval. Weaviate also supports integrating external data sources and schemas, making it easy to combine structured and unstructured data.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "Weaviate",
+          "url": "https://weaviate.io/"
+        },
+        {
+          "type": "video",
+          "title": "Advanced AI Agents with RAG",
+          "url": "https://www.youtube.com/watch?v=UoowC-hsaf0&list=PLTL2JUbrY6tVmVxY12e6vRDmY-maAXzR1"
+        }
+      ],
+      "status": "required",
+      "y": 2517.8371549138815,
+      "x": 73.27752658021024,
+      "parent_topic_id": "tt9u3oFlsjEMfPyojuqpc"
+    },
+    {
+      "id": "JurLbOO1Z8r6C3yUqRNwf",
+      "label": "FAISS",
+      "type": "subtopic",
+      "description": "# FAISS\n\nFAISS (Facebook AI Similarity Search) is a library developed by Facebook AI for efficient similarity search and clustering of dense vectors, particularly useful for large-scale datasets. It is optimized to handle embeddings (vector representations) and enables fast nearest neighbor search, allowing you to retrieve similar items from a large collection of vectors based on distance or similarity metrics like cosine similarity or Euclidean distance. FAISS is widely used in applications such as image and text retrieval, recommendation systems, and large-scale search systems where embeddings are used to represent items. It offers several indexing methods and can scale to billions of vectors, making it a powerful tool for handling real-time, large-scale similarity search problems efficiently.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "FAISS",
+          "url": "https://ai.meta.com/tools/faiss/"
+        },
+        {
+          "type": "article",
+          "title": "What Is Faiss (Facebook AI Similarity Search)?",
+          "url": "https://www.datacamp.com/blog/faiss-facebook-ai-similarity-search"
+        },
+        {
+          "type": "video",
+          "title": "FAISS Vector Library with LangChain and OpenAI",
+          "url": "https://www.youtube.com/watch?v=ZCSsIkyCZk4"
+        }
+      ],
+      "status": "required",
+      "y": 2517.8371549138815,
+      "x": 204.27752658021024,
+      "parent_topic_id": "tt9u3oFlsjEMfPyojuqpc"
+    },
+    {
+      "id": "rjaCNT3Li45kwu2gXckke",
+      "label": "LanceDB",
+      "type": "subtopic",
+      "description": "# LanceDB\n\nLanceDB is a vector database designed for efficient storage, retrieval, and management of embeddings. It enables users to perform fast similarity searches, particularly useful in applications like recommendation systems, semantic search, and AI-driven content retrieval. LanceDB focuses on scalability and speed, allowing large-scale datasets of embeddings to be indexed and queried quickly, which is essential for real-time AI applications. It integrates well with machine learning workflows, making it easier to deploy models that rely on vector-based data processing, and helps manage the complexities of handling high-dimensional vector data efficiently.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "LanceDB",
+          "url": "https://lancedb.com/"
+        },
+        {
+          "type": "official",
+          "title": "LanceDB Documentation",
+          "url": "https://docs.lancedb.com/enterprise/introduction"
+        },
+        {
+          "type": "opensource",
+          "title": "LanceDB on GitHub",
+          "url": "https://github.com/lancedb/lancedb"
+        }
+      ],
+      "status": "required",
+      "y": 2570.8371549138815,
+      "x": 73.27752658021024,
+      "parent_topic_id": "tt9u3oFlsjEMfPyojuqpc"
+    },
+    {
+      "id": "DwOAL5mOBgBiw-EQpAzQl",
+      "label": "Qdrant",
+      "type": "subtopic",
+      "description": "# Qdrant\n\nQdrant is an open-source vector database designed for efficient similarity search and real-time data retrieval. It specializes in storing and indexing high-dimensional vectors (embeddings) to enable fast and accurate searches across large datasets. Qdrant is particularly suited for applications like recommendation systems, semantic search, and AI-driven content discovery, where finding similar items quickly is essential. It supports advanced filtering, scalable indexing, and real-time updates, making it easy to integrate into machine learning workflows.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "Qdrant",
+          "url": "https://qdrant.tech/"
+        },
+        {
+          "type": "opensource",
+          "title": "Qdrant on GitHub",
+          "url": "https://github.com/qdrant/qdrant"
+        },
+        {
+          "type": "video",
+          "title": "Getting started with Qdrant",
+          "url": "https://www.youtube.com/watch?v=LRcZ9pbGnno"
+        }
+      ],
+      "status": "required",
+      "y": 2570.8371549138815,
+      "x": 204.27752658021024,
+      "parent_topic_id": "tt9u3oFlsjEMfPyojuqpc"
+    },
+    {
+      "id": "9kT7EEQsbeD2WDdN9ADx7",
+      "label": "Supabase",
+      "type": "subtopic",
+      "description": "# Supabase\n\nSupabase Vector is an extension of the Supabase platform, specifically designed for AI and machine learning applications that require vector operations. It leverages PostgreSQL's pgvector extension to provide efficient vector storage and similarity search capabilities. This makes Supabase Vector particularly useful for applications involving embeddings, semantic search, and recommendation systems. With Supabase Vector, developers can store and query high-dimensional vector data alongside regular relational data, all within the same PostgreSQL database.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "Supabase Vector",
+          "url": "https://supabase.com/docs/guides/ai"
+        },
+        {
+          "type": "video",
+          "title": "Supabase Vector: The Postgres Vector database",
+          "url": "https://www.youtube.com/watch?v=MDxEXKkxf2Q"
+        }
+      ],
+      "status": "required",
+      "y": 2624.8371549138815,
+      "x": 73.27752658021024,
+      "parent_topic_id": "tt9u3oFlsjEMfPyojuqpc"
+    },
+    {
+      "id": "j6bkm0VUgLkHdMDDJFiMC",
+      "label": "MongoDB Atlas",
+      "type": "subtopic",
+      "description": "# MongoDB Atlas\n\nMongoDB Atlas, traditionally known for its document database capabilities, now includes vector search functionality, making it a strong option as a vector database. This feature allows developers to store and query high-dimensional vector data alongside regular document data. With Atlas\u2019s vector search, users can perform similarity searches on embeddings of text, images, or other complex data, making it ideal for AI and machine learning applications like recommendation systems, image similarity search, and natural language processing tasks. The seamless integration of vector search within the MongoDB ecosystem allows developers to leverage familiar tools and interfaces while benefiting from advanced vector-based operations for sophisticated data analysis and retrieval.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "Vector Search in MongoDB Atlas",
+          "url": "https://www.mongodb.com/products/platform/atlas-vector-search"
+        }
+      ],
+      "status": "required",
+      "y": 2677.8371549138815,
+      "x": 73.27752658021024,
+      "parent_topic_id": "tt9u3oFlsjEMfPyojuqpc"
+    },
+    {
+      "id": "5TQnO9B4_LTHwqjI7iHB1",
+      "label": "Indexing Embeddings",
+      "type": "subtopic",
+      "description": "# Indexing Embeddings\n\nEmbeddings are stored in a vector database by first converting data, such as text, images, or audio, into high-dimensional vectors using machine learning models. These vectors, also called embeddings, capture the semantic relationships and patterns within the data. Once generated, each embedding is indexed in the vector database along with its associated metadata, such as the original data (e.g., text or image) or an identifier. The vector database then organizes these embeddings to support efficient similarity searches, typically using techniques like approximate nearest neighbor (ANN) search.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "Indexing & Embeddings",
+          "url": "https://developers.llamaindex.ai/python/framework/understanding/rag/indexing/"
+        },
+        {
+          "type": "video",
+          "title": "Vector Databases Simply Explained! (Embeddings & Indexes)",
+          "url": "https://www.youtube.com/watch?v=dN0lsF2cvm4"
+        }
+      ],
+      "status": "required",
+      "y": 2787.1963926350054,
+      "x": 72.71593368999282,
+      "parent_topic_id": "AeHkNU-uJ_gBdo5-xdpEu"
+    },
+    {
+      "id": "ZcbRPtgaptqKqWBgRrEBU",
+      "label": "Performing Similarity Search",
+      "type": "subtopic",
+      "description": "# Performing Similarity Search\n\nIn a similarity search, the process begins by converting the user\u2019s query (such as a piece of text or an image) into an embedding\u2014a vector representation that captures the query\u2019s semantic meaning. This embedding is generated using a pre-trained model, such as BERT for text or a neural network for images. Once the query is converted into a vector, it is compared to the embeddings stored in the vector database.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "What is Similarity Search & How Does it work?",
+          "url": "https://www.truefoundry.com/blog/similarity-search"
+        }
+      ],
+      "status": "required",
+      "y": 2840.1963926350054,
+      "x": 73.21593368999282,
+      "parent_topic_id": "AeHkNU-uJ_gBdo5-xdpEu"
+    },
+    {
+      "id": "GCn4LGNEtPI0NWYAZCRE-",
+      "label": "RAG Usecases",
+      "type": "subtopic",
+      "description": "# RAG Usecases\n\nRetrieval-Augmented Generation (RAG) enhances applications like chatbots, customer support, and content summarization by combining information retrieval with language generation. It retrieves relevant data from a knowledge base and uses it to generate accurate, context-aware responses, making it ideal for tasks such as question answering, document generation, and semantic search. RAG\u2019s ability to ground outputs in real-world information leads to more reliable and informative results, improving user experience across various domains.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "Retrieval augmented generation use cases: Transforming data into insights",
+          "url": "https://www.glean.com/blog/retrieval-augmented-generation-use-cases"
+        },
+        {
+          "type": "article",
+          "title": "Retrieval Augmented Generation (RAG) \u2013 5 Use Cases",
+          "url": "https://theblue.ai/blog/rag-news/"
+        },
+        {
+          "type": "article",
+          "title": "How to Train a Chatbot Using RAG and Custom Data",
+          "url": "https://towardsdatascience.com/how-to-train-a-chatbot-using-rag-and-custom-data/?utm_source=roadmap&utm_medium=Referral&utm_campaign=TDS+roadmap+integration"
+        },
+        {
+          "type": "video",
+          "title": "Introduction to RAG",
+          "url": "https://www.youtube.com/watch?v=LmiFeXH-kq8&list=PL-pTHQz4RcBbz78Z5QXsZhe9rHuCs1Jw-"
+        }
+      ],
+      "status": "required",
+      "y": 2018.167205684323,
+      "x": 839.7247553252009,
+      "parent_topic_id": "rTT2UnvqFO3GH6ThPLEjO"
+    },
+    {
+      "id": "qlBEXrbV88e_wAGRwO9hW",
+      "label": "RAG vs Fine-tuning",
+      "type": "subtopic",
+      "description": "# RAG vs Fine-tuning\n\nRAG (Retrieval-Augmented Generation) and fine-tuning are two approaches to enhancing language models, but they differ in methodology and use cases. Fine-tuning involves training a pre-trained model on a specific dataset to adapt it to a particular task, making it more accurate for that context but limited to the knowledge present in the training data. RAG, on the other hand, combines real-time information retrieval with generation, enabling the model to access up-to-date external data and produce contextually relevant responses. While fine-tuning is ideal for specialized, static tasks, RAG is better suited for dynamic tasks that require real-time, fact-based responses.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "RAG vs Fine Tuning: How to Choose the Right Method",
+          "url": "https://www.montecarlodata.com/blog-rag-vs-fine-tuning/"
+        },
+        {
+          "type": "article",
+          "title": "RAG vs Finetuning \u2014 Which Is the Best Tool to Boost Your LLM Application?",
+          "url": "https://towardsdatascience.com/rag-vs-finetuning-which-is-the-best-tool-to-boost-your-llm-application-94654b1eaba7"
+        },
+        {
+          "type": "video",
+          "title": "RAG vs Fine-tuning",
+          "url": "https://www.youtube.com/watch?v=00Q0G84kq3M"
+        }
+      ],
+      "status": "required",
+      "y": 2071.167205684323,
+      "x": 839.7247553252009,
+      "parent_topic_id": "rTT2UnvqFO3GH6ThPLEjO"
+    },
+    {
+      "id": "mX987wiZF7p3V_gExrPeX",
+      "label": "Chunking",
+      "type": "subtopic",
+      "description": "# Chunking\n\nThe chunking step in Retrieval-Augmented Generation (RAG) involves breaking down large documents or data sources into smaller, manageable chunks. This is done to ensure that the retriever can efficiently search through large volumes of data while staying within the token or input limits of the model. Each chunk, typically a paragraph or section, is converted into an embedding, and these embeddings are stored in a vector database. When a query is made, the retriever searches for the most relevant chunks rather than the entire document, enabling faster and more accurate retrieval.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "Understanding LangChain's RecursiveCharacterTextSplitter",
+          "url": "https://dev.to/eteimz/understanding-langchains-recursivecharactertextsplitter-2846"
+        },
+        {
+          "type": "article",
+          "title": "Chunking Strategies for LLM Applications",
+          "url": "https://www.pinecone.io/learn/chunking-strategies/"
+        },
+        {
+          "type": "article",
+          "title": "A Guide to Chunking Strategies for Retrieval Augmented Generation",
+          "url": "https://zilliz.com/learn/guide-to-chunking-strategies-for-rag"
+        }
+      ],
+      "status": "required",
+      "y": 2177.715898273103,
+      "x": 851.4069839913399,
+      "parent_topic_id": "lVhWhZGR558O-ljHobxIi"
+    },
+    {
+      "id": "grTcbzT7jKk_sIUwOTZTD",
+      "label": "Embedding",
+      "type": "subtopic",
+      "description": "# Embedding\n\nIn Retrieval-Augmented Generation (RAG), embeddings are essential for linking information retrieval with natural language generation. Embeddings represent both the user query and documents as dense vectors in a shared space, enabling the system to retrieve relevant information based on similarity. This retrieved information is then fed into a generative model, such as GPT, to produce contextually informed and accurate responses. By using embeddings, RAG enhances the model's ability to generate content grounded in external knowledge, making it effective for tasks like question answering and summarization.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "Understanding the role of embeddings in RAG LLMs",
+          "url": "https://www.aporia.com/learn/understanding-the-role-of-embeddings-in-rag-llms/"
+        },
+        {
+          "type": "article",
+          "title": "Mastering RAG: How to Select an Embedding Model",
+          "url": "https://www.rungalileo.io/blog/mastering-rag-how-to-select-an-embedding-model"
+        }
+      ],
+      "status": "required",
+      "y": 2230.715898273103,
+      "x": 851.4069839913398,
+      "parent_topic_id": "lVhWhZGR558O-ljHobxIi"
+    },
+    {
+      "id": "zZA1FBhf1y4kCoUZ-hM4H",
+      "label": "Vector Database",
+      "type": "subtopic",
+      "description": "# Vector Database\n\nWhen implementing Retrieval-Augmented Generation (RAG), a vector database is used to store and efficiently retrieve embeddings, which are vector representations of data like documents, images, or other knowledge sources. During the RAG process, when a query is made, the system converts it into an embedding and searches the vector database for the most relevant, similar embeddings (e.g., related documents or snippets). These retrieved pieces of information are then fed to a generative model, which uses them to produce a more accurate, context-aware response.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "How to Implement Graph RAG Using Knowledge Graphs and Vector Databases",
+          "url": "https://towardsdatascience.com/how-to-implement-graph-rag-using-knowledge-graphs-and-vector-databases-60bb69a22759"
+        },
+        {
+          "type": "article",
+          "title": "Retrieval Augmented Generation (RAG) with Vector Databases: Expanding AI Capabilities",
+          "url": "https://objectbox.io/retrieval-augmented-generation-rag-with-vector-databases-expanding-ai-capabilities/"
+        }
+      ],
+      "status": "required",
+      "y": 2283.715898273103,
+      "x": 851.4069839913398,
+      "parent_topic_id": "lVhWhZGR558O-ljHobxIi"
+    },
+    {
+      "id": "OCGCzHQM2LQyUWmiqe6E0",
+      "label": "Retrieval Process",
+      "type": "subtopic",
+      "description": "# Retrieval Process\n\nThe retrieval process in Retrieval-Augmented Generation (RAG) involves finding relevant information from a large dataset or knowledge base to support the generation of accurate, context-aware responses. When a query is received, the system first converts it into a vector (embedding) and uses this vector to search a database of pre-indexed embeddings, identifying the most similar or relevant data points. Techniques like approximate nearest neighbor (ANN) search are often used to speed up this process.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "What is Retrieval-Augmented Generation (RAG)?",
+          "url": "https://cloud.google.com/use-cases/retrieval-augmented-generation"
+        },
+        {
+          "type": "article",
+          "title": "What Is Retrieval-Augmented Generation, aka RAG?",
+          "url": "https://blogs.nvidia.com/blog/what-is-retrieval-augmented-generation/"
+        }
+      ],
+      "status": "required",
+      "y": 2336.715898273103,
+      "x": 851.4069839913398,
+      "parent_topic_id": "eOqCBgBTKM8CmY3nsWjre"
+    },
+    {
+      "id": "2jJnS9vRYhaS69d6OxrMh",
+      "label": "Generation",
+      "type": "subtopic",
+      "description": "# Generation\n\nGeneration refers to the process where a generative language model, such as GPT, creates a response based on the information retrieved during the retrieval phase. After relevant documents or data snippets are identified using embeddings, they are passed to the generative model, which uses this information to produce coherent, context-aware, and informative responses. The retrieved content helps the model stay grounded and factual, enhancing its ability to answer questions, provide summaries, or engage in dialogue by combining retrieved knowledge with its natural language generation capabilities. This synergy between retrieval and generation makes RAG systems effective for tasks that require detailed, accurate, and contextually relevant outputs.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "What is RAG (Retrieval-Augmented Generation)?",
+          "url": "https://aws.amazon.com/what-is/retrieval-augmented-generation/"
+        },
+        {
+          "type": "video",
+          "title": "Retrieval Augmented Generation (RAG) Explained in 8 Minutes!",
+          "url": "https://www.youtube.com/watch?v=HREbdmOSQ18"
+        }
+      ],
+      "status": "required",
+      "y": 2389.715898273103,
+      "x": 851.4069839913398,
+      "parent_topic_id": "eOqCBgBTKM8CmY3nsWjre"
+    },
+    {
+      "id": "WZVW8FQu6LyspSKm1C_sl",
+      "label": "Using SDKs Directly",
+      "type": "subtopic",
+      "description": "# Using SDKs Directly\n\nWhile tools like Langchain and LlamaIndex make it easy to implement RAG, you don't have to necessarily learn and use them. If you know about the different steps of implementing RAG, you can simply do it all yourself e.g., do the chunking using `@langchain/textsplitters` package, create embeddings using any LLM e.g., use OpenAI Embedding API through their SDK, save the embeddings to any vector database e.g. if you are using Supabase Vector DB, you can use their SDK, and similarly, you can use the relevant SDKs for the rest of the steps as well.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "Langchain Text Splitter Package",
+          "url": "https://www.npmjs.com/package/@langchain/textsplitters"
+        },
+        {
+          "type": "official",
+          "title": "OpenAI Embedding API",
+          "url": "https://platform.openai.com/docs/guides/embeddings"
+        },
+        {
+          "type": "official",
+          "title": "Supabase AI & Vector Documentation",
+          "url": "https://supabase.com/docs/guides/ai"
+        }
+      ],
+      "status": "required",
+      "y": 2514.3420928710716,
+      "x": 847.8356614935651,
+      "parent_topic_id": "eOqCBgBTKM8CmY3nsWjre"
+    },
+    {
+      "id": "ebXXEhNRROjbbof-Gym4p",
+      "label": "Langchain",
+      "type": "subtopic",
+      "description": "# Haystack\n\nLangchain\n=========\n\nHaystack is an open-source Python framework that helps you build search and question-answering agents fast. You connect your data sources, pick a language model, and set up pipelines that find the best answer to a user\u2019s query. Haystack handles tasks such as indexing documents, retrieving passages, running the model, and ranking results. It works with many back-ends like Elasticsearch, OpenSearch, FAISS, and Pinecone, so you can scale from a laptop to a cluster. You can add features like summarization, translation, and document chat by dropping extra nodes into the pipeline. The framework also offers REST APIs, a web UI, and clear tutorials, making it easy to test and deploy your agent in production.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "Haystack",
+          "url": "https://haystack.deepset.ai/"
+        },
+        {
+          "type": "official",
+          "title": "Haystack Overview",
+          "url": "https://docs.haystack.deepset.ai/docs/intro"
+        },
+        {
+          "type": "opensource",
+          "title": "deepset-ai/haystack",
+          "url": "https://github.com/deepset-ai/haystack"
+        }
+      ],
+      "status": "required",
+      "y": 2567.3420928710716,
+      "x": 847.8356614935651,
+      "parent_topic_id": "AeHkNU-uJ_gBdo5-xdpEu"
+    },
+    {
+      "id": "d0ontCII8KI8wfP-8Y45R",
+      "label": "Llama Index",
+      "type": "subtopic",
+      "description": "# RAGFlow\n\nRAGFlow is a framework designed to streamline the creation, evaluation, and deployment of Retrieval-Augmented Generation (RAG) pipelines. It provides tools and abstractions for building modular RAG systems, allowing developers to easily experiment with different components like data loaders, retrievers, and generators, and then assess their performance.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "RagFlow",
+          "url": "https://ragflow.io/"
+        },
+        {
+          "type": "opensource",
+          "title": "ragflow",
+          "url": "https://github.com/infiniflow/ragflow"
+        },
+        {
+          "type": "video",
+          "title": "RagFlow: Ultimate RAG Engine",
+          "url": "https://www.youtube.com/watch?v=ApA-7G7FGRc"
+        }
+      ],
+      "status": "required",
+      "y": 2567.3420928710716,
+      "x": 984.8356614935651,
+      "parent_topic_id": "AeHkNU-uJ_gBdo5-xdpEu"
+    },
+    {
+      "id": "c0RPhpD00VIUgF4HJgN2T",
+      "label": "Replicate",
+      "type": "subtopic",
+      "description": "# Qwen\n\nQwen is a series of large language models (LLMs) developed by Alibaba Group. These models are open-source, meaning their code and architecture are publicly available, allowing researchers and developers to use, study, and modify them for their own purposes. Qwen models are designed to perform various natural language processing tasks, such as text generation, translation, and question answering, and come in different sizes, allowing for flexibility based on computational resources and specific application requirements.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "Qwen",
+          "url": "https://chat.qwen.ai/"
+        },
+        {
+          "type": "article",
+          "title": "What is Qwen AI?",
+          "url": "https://zapier.com/blog/qwen/"
+        }
+      ],
+      "status": "required",
+      "y": 1098.8781089665497,
+      "x": 78.5,
+      "parent_topic_id": "8ndKHDJgL_gYwaXC7XMer"
+    },
+    {
+      "id": "778HsQzTuJ_3c9OSn5DmH",
+      "label": "Agents Usecases",
+      "type": "subtopic",
+      "description": "# Agents Use Cases\n\nAI Agents have a variety of use cases ranging from customer support, workflow automation, cybersecurity, finance, marketing, and sales, and more.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "Top 15 Use Cases Of AI Agents In Business",
+          "url": "https://www.ampcome.com/post/15-use-cases-of-ai-agents-in-business"
+        },
+        {
+          "type": "article",
+          "title": "A Brief Guide on AI Agents: Benefits and Use Cases",
+          "url": "https://www.codica.com/blog/brief-guide-on-ai-agents/"
+        },
+        {
+          "type": "article",
+          "title": "How to Build Effective AI Agents to Process Millions of Requests",
+          "url": "https://towardsdatascience.com/how-to-build-effective-ai-agents-to-process-millions-of-requests/?utm_source=roadmap&utm_medium=Referral&utm_campaign=TDS+roadmap+integration"
+        },
+        {
+          "type": "video",
+          "title": "The Complete Guide to Building AI Agents for Beginners",
+          "url": "https://youtu.be/MOyl58VF2ak?si=-QjRD_5y3iViprJX"
+        }
+      ],
+      "status": "required",
+      "y": 2527.2038885388165,
+      "x": 405.1180805793284,
+      "parent_topic_id": "eOqCBgBTKM8CmY3nsWjre"
+    },
+    {
+      "id": "voDKcKvXtyLzeZdx2g3Qn",
+      "label": "ReAct Prompting",
+      "type": "subtopic",
+      "description": "# ReAct Prompting\n\nReAct prompting is a technique that combines reasoning and action by guiding language models to think through a problem step-by-step and then take specific actions based on the reasoning. It encourages the model to break down tasks into logical steps (reasoning) and perform operations, such as calling APIs or retrieving information (actions), to reach a solution. This approach helps in scenarios where the model needs to process complex queries, interact with external systems, or handle tasks requiring a sequence of actions, improving the model's ability to provide accurate and context-aware responses.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "ReAct Prompting",
+          "url": "https://www.promptingguide.ai/techniques/react"
+        },
+        {
+          "type": "article",
+          "title": "ReAct Prompting: How We Prompt for High-Quality Results from LLMs",
+          "url": "https://www.width.ai/post/react-prompting"
+        }
+      ],
+      "status": "required",
+      "y": 2633.2038885388165,
+      "x": 405.1180805793284,
+      "parent_topic_id": "AeHkNU-uJ_gBdo5-xdpEu"
+    },
+    {
+      "id": "6xaRB34_g0HGt-y1dGYXR",
+      "label": "Manual Implementation",
+      "type": "subtopic",
+      "description": "# Manual Implementation of AI Agents\n\nManually implementing AI agents involves crafting their logic and behavior from the ground up, without relying heavily on pre-built frameworks or automated tools. This approach requires writing code to define how the agent perceives its environment, makes decisions, and takes actions, often involving explicit programming of algorithms for tasks like perception, planning, and learning. It offers maximum control and customization but demands a deep understanding of AI principles and software engineering.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "A practical guide to building agents - OpenAI",
+          "url": "https://cdn.openai.com/business-guides-and-resources/a-practical-guide-to-building-agents.pdf"
+        },
+        {
+          "type": "official",
+          "title": "Create custom subagents - Claude",
+          "url": "https://code.claude.com/docs/en/sub-agents"
+        }
+      ],
+      "status": "required",
+      "y": 2706.1704183412,
+      "x": 848.3202732289765,
+      "parent_topic_id": "AeHkNU-uJ_gBdo5-xdpEu"
+    },
+    {
+      "id": "Sm0Ne5Nx72hcZCdAcC0C2",
+      "label": "OpenAI Functions / Tools",
+      "type": "subtopic",
+      "description": "# OpenAI AgentKit\n\nOpenAI AgentKit is a framework designed to simplify the process of creating AI agents that can perform specific tasks by leveraging large language models (LLMs). It provides tools and abstractions for managing agent state, defining agent behavior, and connecting agents to various tools and resources, allowing developers to build more complex and capable AI systems without needing to manage all the low-level details.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "Introducing AgentKit",
+          "url": "https://openai.com/index/introducing-agentkit/"
+        },
+        {
+          "type": "official",
+          "title": "Build every step of agents on one platform",
+          "url": "https://openai.com/agent-platform/"
+        },
+        {
+          "type": "video",
+          "title": "OpenAI Agents SDK Tutorial (FULL SERIES)",
+          "url": "https://www.youtube.com/watch?v=gFcAfU3V1Zo"
+        }
+      ],
+      "status": "required",
+      "y": 2759.1704183412,
+      "x": 848.3202732289765,
+      "parent_topic_id": "AeHkNU-uJ_gBdo5-xdpEu"
+    },
+    {
+      "id": "mbp2NoL-VZ5hZIIblNBXt",
+      "label": "OpenAI Assistant API",
+      "type": "subtopic",
+      "description": "# Google ADK\n\nThe Google Agent Development Kit (ADK) is a framework designed to help developers build, test, and deploy AI agents. It provides tools and libraries that streamline the agent development process, offering features like agent orchestration, tool integration, and evaluation metrics. ADK aims to simplify the complexities of creating sophisticated AI agents capable of interacting with the real world.",
+      "resources": [
+        {
+          "type": "course",
+          "title": "ADK Crash Course - From Beginner To Expert",
+          "url": "https://codelabs.developers.google.com/onramp/instructions#0"
+        },
+        {
+          "type": "official",
+          "title": "Agent Development Kit",
+          "url": "https://google.github.io/adk-docs/"
+        },
+        {
+          "type": "official",
+          "title": "Overview of Agent Development Kit",
+          "url": "https://docs.cloud.google.com/agent-builder/agent-development-kit/overview"
+        }
+      ],
+      "status": "required",
+      "y": 2812.1704183412,
+      "x": 848.3202732289765,
+      "parent_topic_id": "AeHkNU-uJ_gBdo5-xdpEu"
+    },
+    {
+      "id": "sGR9qcro68KrzM8qWxcH8",
+      "label": "Multimodal AI Usecases",
+      "type": "subtopic",
+      "description": "# Multimodal AI Usecases\n\nMultimodal AI powers applications like visual question answering, content moderation, and enhanced search engines. It drives smarter virtual assistants and interactive AR apps, combining text, images, and audio for richer, more intuitive user experiences across e-commerce, accessibility, and entertainment.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "Hugging Face Multimodal Models",
+          "url": "https://huggingface.co/learn/computer-vision-course/en/unit4/multimodal-models/a_multimodal_world"
+        }
+      ],
+      "status": "required",
+      "y": 2942.715898273103,
+      "x": 65.4565453870415,
+      "parent_topic_id": "NYge7PNtfI-y6QWefXJ4d"
+    },
+    {
+      "id": "fzVq4hGoa2gdbIzoyY1Zp",
+      "label": "Image Understanding",
+      "type": "subtopic",
+      "description": "# Image Understanding\n\nMultimodal AI enhances image understanding by integrating visual data with other types of information, such as text or audio. By combining these inputs, AI models can interpret images more comprehensively, recognizing objects, scenes, and actions, while also understanding context and related concepts. For example, an AI system could analyze an image and generate descriptive captions, or provide explanations based on both visual content and accompanying text.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "Low or High Fidelity Image Understanding - OpenAI",
+          "url": "https://platform.openai.com/docs/guides/images"
+        }
+      ],
+      "status": "required",
+      "y": 3005.4007482223487,
+      "x": 72.99859239597538,
+      "parent_topic_id": "W7cKPt_UxcUgwp8J6hS4p"
+    },
+    {
+      "id": "49BWxYVFpIgZCCqsikH7l",
+      "label": "Image Generation",
+      "type": "subtopic",
+      "description": "# Image Generation\n\nImage generation is a process in artificial intelligence where models create new images based on input prompts or existing data. It involves using generative models like GANs (Generative Adversarial Networks), VAEs (Variational Autoencoders), or more recently, transformer-based models like DALL-E and Stable Diffusion.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "DALL-E",
+          "url": "https://openai.com/index/dall-e-2/"
+        },
+        {
+          "type": "article",
+          "title": "How DALL-E 2 Actually Works",
+          "url": "https://www.assemblyai.com/blog/how-dall-e-2-actually-works/"
+        },
+        {
+          "type": "video",
+          "title": "How AI Image Generators Work (Stable Diffusion / Dall-E)",
+          "url": "https://www.youtube.com/watch?v=1CIpzeNxIhU"
+        }
+      ],
+      "status": "required",
+      "y": 3058.4007482223487,
+      "x": 72.99859239597538,
+      "parent_topic_id": "W7cKPt_UxcUgwp8J6hS4p"
+    },
+    {
+      "id": "TxaZCtTCTUfwCxAJ2pmND",
+      "label": "Video Understanding",
+      "type": "subtopic",
+      "description": "# Video Understanding\n\nVideo understanding with multimodal AI involves analyzing and interpreting both visual and audio content to provide a more comprehensive understanding of videos. Common use cases include video summarization, where AI extracts key scenes and generates summaries; content moderation, where the system detects inappropriate visuals or audio; and video indexing for easier search and retrieval of specific moments within a video. Other applications include enhancing video-based recommendations, security surveillance, and interactive entertainment, where video and audio are processed together for real-time user interaction.",
+      "resources": [
+        {
+          "type": "opensource",
+          "title": "Awesome LLM for Video Understanding",
+          "url": "https://github.com/yunlong10/Awesome-LLMs-for-Video-Understanding"
+        },
+        {
+          "type": "article",
+          "title": "Video Understanding",
+          "url": "https://dl.acm.org/doi/10.1145/3503161.3551600"
+        }
+      ],
+      "status": "required",
+      "y": 3111.4007482223487,
+      "x": 72.99859239597538,
+      "parent_topic_id": "W7cKPt_UxcUgwp8J6hS4p"
+    },
+    {
+      "id": "mxQYB820447DC6kogyZIL",
+      "label": "Audio Processing",
+      "type": "subtopic",
+      "description": "# Audio Processing\n\nAudio processing in multimodal AI enables a wide range of use cases by combining sound with other data types, such as text, images, or video, to create more context-aware systems. Use cases include speech recognition paired with real-time transcription and visual analysis in meetings or video conferencing tools, voice-controlled virtual assistants that can interpret commands in conjunction with on-screen visuals, and multimedia content analysis where audio and visual elements are analyzed together for tasks like content moderation or video indexing.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "The State of Audio Processing",
+          "url": "https://appwrite.io/blog/post/state-of-audio-processing"
+        },
+        {
+          "type": "video",
+          "title": "Audio Signal Processing for Machine Learning",
+          "url": "https://www.youtube.com/watch?v=iCwMQJnKk2c"
+        }
+      ],
+      "status": "required",
+      "y": 3164.4007482223487,
+      "x": 72.99859239597538,
+      "parent_topic_id": "NYge7PNtfI-y6QWefXJ4d"
+    },
+    {
+      "id": "GCERpLz5BcRtWPpv-asUz",
+      "label": "Text-to-Speech",
+      "type": "subtopic",
+      "description": "# Text-to-Speech\n\nIn the context of multimodal AI, text-to-speech (TTS) technology converts written text into natural-sounding spoken language, allowing AI systems to communicate verbally. When integrated with other modalities, such as visual or interactive elements, TTS can enhance user experiences in applications like virtual assistants, educational tools, and accessibility features. For example, a multimodal AI could read aloud text from an on-screen document while highlighting relevant sections, or narrate information about objects recognized in an image. By combining TTS with other forms of data processing, multimodal AI creates more engaging, accessible, and interactive systems for users.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "What is Text-to-Speech?",
+          "url": "https://aws.amazon.com/polly/what-is-text-to-speech/"
+        },
+        {
+          "type": "article",
+          "title": "From Text to Speech: The Evolution of Synthetic Voices",
+          "url": "https://ignitetech.ai/about/blogs/text-speech-evolution-synthetic-voices"
+        }
+      ],
+      "status": "required",
+      "y": 3217.4007482223487,
+      "x": 72.99859239597538,
+      "parent_topic_id": "NYge7PNtfI-y6QWefXJ4d"
+    },
+    {
+      "id": "jQX10XKd_QM5wdQweEkVJ",
+      "label": "Speech-to-Text",
+      "type": "subtopic",
+      "description": "# Speech-to-Text\n\nIn the context of multimodal AI, speech-to-text technology converts spoken language into written text, enabling seamless integration with other data types like images and text. This allows AI systems to process audio input and combine it with visual or textual information, enhancing applications such as virtual assistants, interactive chatbots, and multimedia content analysis. For example, a multimodal AI can transcribe a video\u2019s audio while simultaneously analyzing on-screen visuals and text, providing richer and more context-aware insights.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "What is Speech to Text?",
+          "url": "https://aws.amazon.com/what-is/speech-to-text/"
+        },
+        {
+          "type": "article",
+          "title": "Turn Speech into Text using Google AI",
+          "url": "https://cloud.google.com/speech-to-text"
+        },
+        {
+          "type": "article",
+          "title": "How is Speech to Text Used?",
+          "url": "https://h2o.ai/wiki/speech-to-text/"
+        }
+      ],
+      "status": "required",
+      "y": 3270.4007482223487,
+      "x": 72.99859239597538,
+      "parent_topic_id": "NYge7PNtfI-y6QWefXJ4d"
+    },
+    {
+      "id": "CRrqa-dBw1LlOwVbrZhjK",
+      "label": "OpenAI Vision API",
+      "type": "subtopic",
+      "description": "# OpenAI Vision API\n\nThe OpenAI Vision API enables models to analyze and understand images, allowing them to identify objects, recognize text, and interpret visual content. It integrates image processing with natural language capabilities, enabling tasks like visual question answering, image captioning, and extracting information from photos. This API can be used for applications in accessibility, content moderation, and automation, providing a seamless way to combine visual understanding with text-based interactions.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "Vision",
+          "url": "https://platform.openai.com/docs/guides/vision"
+        },
+        {
+          "type": "video",
+          "title": "OpenAI Vision API Crash Course",
+          "url": "https://www.youtube.com/watch?v=ZjkS11DSeEk"
+        }
+      ],
+      "status": "required",
+      "y": 2930.9007482223487,
+      "x": 845.4985923959754,
+      "parent_topic_id": "W7cKPt_UxcUgwp8J6hS4p"
+    },
+    {
+      "id": "LKFwwjtcawJ4Z12X102Cb",
+      "label": "DALL-E API",
+      "type": "subtopic",
+      "description": "# DALL-E API\n\nThe DALL-E API is a tool provided by OpenAI that allows developers to integrate the DALL-E image generation model into applications. DALL-E is an AI model designed to generate images from textual descriptions, capable of producing highly detailed and creative visuals. The API enables users to provide a descriptive prompt, and the model generates corresponding images, opening up possibilities in fields like design, advertising, content creation, and art.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "OpenAI Image Generation",
+          "url": "https://platform.openai.com/docs/guides/images"
+        },
+        {
+          "type": "video",
+          "title": "DALL E API - Introduction (Generative AI Pictures from OpenAI)",
+          "url": "https://www.youtube.com/watch?v=Zr6vAWwjHN0"
+        }
+      ],
+      "status": "required",
+      "y": 2983.9007482223487,
+      "x": 845.4985923959754,
+      "parent_topic_id": "W7cKPt_UxcUgwp8J6hS4p"
+    },
+    {
+      "id": "OTBd6cPUayKaAM-fLWdSt",
+      "label": "Whisper API",
+      "type": "subtopic",
+      "description": "# Whisper API\n\nThe Whisper API by OpenAI enables developers to integrate speech-to-text capabilities into their applications. It uses OpenAI's Whisper model, a powerful speech recognition system, to convert spoken language into accurate, readable text. The API supports multiple languages and can handle various accents, making it ideal for tasks like transcription, voice commands, and automated captions. With the ability to process audio in real time or from pre-recorded files, the Whisper API simplifies adding robust speech recognition features to applications, enhancing accessibility and enabling new interactive experiences.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "OpenAI Whisper",
+          "url": "https://openai.com/index/whisper/"
+        },
+        {
+          "type": "opensource",
+          "title": "Whisper on GitHub",
+          "url": "https://github.com/openai/whisper"
+        }
+      ],
+      "status": "required",
+      "y": 3036.9007482223487,
+      "x": 845.4985923959754,
+      "parent_topic_id": "W7cKPt_UxcUgwp8J6hS4p"
+    },
+    {
+      "id": "EIDbwbdolR_qsNKVDla6V",
+      "label": "Hugging Face Models",
+      "type": "subtopic",
+      "description": "# Hugging Face Models\n\nHugging Face models are a collection of pre-trained machine learning models available through the Hugging Face platform, covering a wide range of tasks like natural language processing, computer vision, and audio processing. The platform includes models for tasks such as text classification, translation, summarization, question answering, and more, with popular models like BERT, GPT, T5, and CLIP. Hugging Face provides easy-to-use tools and APIs that allow developers to access, fine-tune, and deploy these models, fostering a collaborative community where users can share, modify, and contribute models to improve AI research and application development.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "Hugging Face Models",
+          "url": "https://huggingface.co/models"
+        },
+        {
+          "type": "video",
+          "title": "How to Use Pretrained Models from Hugging Face in a Few Lines of Code",
+          "url": "https://www.youtube.com/watch?v=ntz160EnWIc"
+        }
+      ],
+      "status": "required",
+      "y": 3089.9007482223487,
+      "x": 845.4985923959754,
+      "parent_topic_id": "W7cKPt_UxcUgwp8J6hS4p"
+    },
+    {
+      "id": "j9zD3pHysB1CBhLfLjhpD",
+      "label": "LangChain for Multimodal Apps",
+      "type": "subtopic",
+      "description": "# LangChain for Multimodal Apps\n\nLangChain is a framework designed to build applications that integrate multiple AI models, especially those focusing on language understanding, generation, and multimodal capabilities. For multimodal apps, LangChain facilitates seamless interaction between text, image, and even audio models, enabling developers to create complex workflows that can process and analyze different types of data.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "LangChain",
+          "url": "https://www.langchain.com/"
+        },
+        {
+          "type": "video",
+          "title": "Build a Multimodal GenAI App with LangChain and Gemini LLMs",
+          "url": "https://www.youtube.com/watch?v=bToMzuiOMhg"
+        }
+      ],
+      "status": "required",
+      "y": 3142.9007482223487,
+      "x": 845.4985923959754,
+      "parent_topic_id": "NYge7PNtfI-y6QWefXJ4d"
+    },
+    {
+      "id": "akQTCKuPRRelj2GORqvsh",
+      "label": "LlamaIndex for Multimodal Apps",
+      "type": "subtopic",
+      "description": "# LlamaIndex for Multi-modal Apps\n\nLlamaIndex enables multi-modal apps by linking language models (LLMs) to diverse data sources, including text and images. It indexes and retrieves information across formats, allowing LLMs to process and integrate data from multiple modalities. This supports applications like visual question answering, content summarization, and interactive systems by providing structured, context-aware inputs from various content types.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "LlamaIndex Multi-modal",
+          "url": "https://docs.llamaindex.ai/en/stable/use_cases/multimodal/"
+        },
+        {
+          "type": "video",
+          "title": "Multi-modal Retrieval Augmented Generation with LlamaIndex",
+          "url": "https://www.youtube.com/watch?v=35RlrrgYDyU"
+        }
+      ],
+      "status": "required",
+      "y": 3195.9007482223487,
+      "x": 845.4985923959754,
+      "parent_topic_id": "NYge7PNtfI-y6QWefXJ4d"
+    },
+    {
+      "id": "XcKeQfpTA5ITgdX51I4y-",
+      "label": "AI Code Editors",
+      "type": "subtopic",
+      "description": null,
+      "resources": [],
+      "status": "required",
+      "y": 3135.6475050579174,
+      "x": 423.1375395659161,
+      "parent_topic_id": "NYge7PNtfI-y6QWefXJ4d"
+    },
+    {
+      "id": "TifVhqFm1zXNssA8QR3SM",
+      "label": "Code Completion Tools",
+      "type": "subtopic",
+      "description": null,
+      "resources": [],
+      "status": "required",
+      "y": 3189.6475050579174,
+      "x": 423.1375395659161,
+      "parent_topic_id": "NYge7PNtfI-y6QWefXJ4d"
+    }
+  ]
+}

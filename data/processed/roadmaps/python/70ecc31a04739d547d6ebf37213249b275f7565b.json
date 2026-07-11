@@ -1,0 +1,1983 @@
+{
+  "roadmap_id": "python",
+  "commit_hash": "70ecc31a04739d547d6ebf37213249b275f7565b",
+  "topics": [
+    {
+      "id": "GISOFMKvnBys0O0IMpz2J",
+      "label": "Learn the Basics",
+      "type": "topic",
+      "description": "# Python\n\nPython is a high-level, interpreted, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation. Python is dynamically-typed and garbage-collected.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "Tutorial Series: How to Code in Python",
+          "url": "https://www.digitalocean.com/community/tutorials/how-to-write-your-first-python-3-program"
+        },
+        {
+          "type": "article",
+          "title": "Google's Python Class",
+          "url": "https://developers.google.com/edu/python"
+        },
+        {
+          "type": "video",
+          "title": "Learn Python - Full Course",
+          "url": "https://www.youtube.com/watch?v=4M87qBgpafk"
+        }
+      ],
+      "status": "required",
+      "y": 67.2304293708296,
+      "x": -243.16916540260297,
+      "sequence_row": 1,
+      "sequence_col": 1
+    },
+    {
+      "id": "JDDG4KfhtIlw1rkNCzUli",
+      "label": "Learn the Basics",
+      "type": "topic",
+      "description": null,
+      "resources": [],
+      "status": "required",
+      "y": 67.2304293708296,
+      "x": -243.16916540260297,
+      "sequence_row": 1,
+      "sequence_col": 2
+    },
+    {
+      "id": "VJSIbYJcy2MC6MOFBrqXi",
+      "label": "Data Structures & Algorithms",
+      "type": "topic",
+      "description": "# Data Structures and Algorithms\n\nA data structure is a named location that can be used to store and organize data. And, an algorithm is a collection of steps to solve a particular problem. Learning data structures and algorithms allow us to write efficient and optimized computer programs.",
+      "resources": [
+        {
+          "type": "roadmap",
+          "title": "Visit Dedicated DSA Roadmap",
+          "url": "https://roadmap.sh/datastructures-and-algorithms"
+        },
+        {
+          "type": "article",
+          "title": "Learn DS & Algorithms",
+          "url": "https://www.programiz.com/dsa"
+        },
+        {
+          "type": "video",
+          "title": "Data Structures Illustrated",
+          "url": "https://www.youtube.com/playlist?list=PLkZYeFmDuaN2-KUIv-mvbjfKszIGJ4FaY"
+        },
+        {
+          "type": "video",
+          "title": "DSA Python Playlist",
+          "url": "https://www.youtube.com/playlist?list=PLKYEe2WisBTFEr6laH5bR2J19j7sl5O8R"
+        }
+      ],
+      "status": "required",
+      "y": 216.70802158662212,
+      "x": -243.66916540260297,
+      "sequence_row": 2,
+      "sequence_col": 1
+    },
+    {
+      "id": "274uk28wzxn6EKWQzLpHs",
+      "label": "Modules",
+      "type": "topic",
+      "description": "# Modules\n\nModules refer to a file containing Python statements and definitions. A file containing Python code, for example: `example.py`, is called a module, and its module name would be example. We use modules to break down large programs into small manageable and organized files. Furthermore, modules provide reusability of code.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "Python Modules",
+          "url": "https://docs.python.org/3/tutorial/modules.html"
+        },
+        {
+          "type": "article",
+          "title": "Modules in Python",
+          "url": "https://www.programiz.com/python-programming/modules"
+        }
+      ],
+      "status": "required",
+      "y": 345.7304293708296,
+      "x": 130.3559210300732,
+      "sequence_row": 3,
+      "sequence_col": 2
+    },
+    {
+      "id": "aWHgAk959DPUZL46CeRiI",
+      "label": "Lambdas",
+      "type": "topic",
+      "description": "# Lambdas\n\nPython Lambda Functions are anonymous function means that the function is without a name. As we already know that the def keyword is used to define a normal function in Python. Similarly, the lambda keyword is used to define an anonymous function in Python.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "How to use Lambda functions",
+          "url": "https://realpython.com/python-lambda/"
+        },
+        {
+          "type": "video",
+          "title": "Python Lambda Functions",
+          "url": "https://www.youtube.com/watch?v=KR22jigJLok"
+        }
+      ],
+      "status": "required",
+      "y": 398.7304293708296,
+      "x": 130.3559210300732,
+      "sequence_row": 3,
+      "sequence_col": 3
+    },
+    {
+      "id": "qeCMw-sJ2FR4UxvU9DDzv",
+      "label": "Package Managers",
+      "type": "topic",
+      "description": "# Package Managers\n\nPackage managers allow you to manage the dependencies (external code written by you or someone else) that your project needs to work correctly. `PyPI` and `Pip` are the most common contenders but there are some other options available as well.",
+      "resources": [
+        {
+          "type": "opensource",
+          "title": "pypa/pipx",
+          "url": "https://github.com/pypa/pipx"
+        }
+      ],
+      "status": "required",
+      "y": 418.7304293708296,
+      "x": -461.23327447982547,
+      "sequence_row": 3,
+      "sequence_col": 1
+    },
+    {
+      "id": "pIluLJkySqn_gI_GykV6G",
+      "label": "Decorators",
+      "type": "topic",
+      "description": "# Decorators\n\nDecorator is a design pattern in Python that allows a user to add new functionality to an existing object without modifying its structure. Decorators are usually called before the definition of a function you want to decorate.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "Learn Decorators in Python",
+          "url": "https://pythonbasics.org/decorators/"
+        },
+        {
+          "type": "video",
+          "title": "Decorators in Python",
+          "url": "https://www.youtube.com/watch?v=FXUUSfJO_J4"
+        },
+        {
+          "type": "video",
+          "title": "Python Decorators in 1 Minute",
+          "url": "https://www.youtube.com/watch?v=BE-L7xu8pO4"
+        }
+      ],
+      "status": "required",
+      "y": 451.7304293708296,
+      "x": 130.3559210300732,
+      "sequence_row": 4,
+      "sequence_col": 2
+    },
+    {
+      "id": "_94NrQ3quc4t_PPOsFSN0",
+      "label": "Common Packages",
+      "type": "topic",
+      "description": "# Common Packages and Modules\n\nPython has a rich ecosystem of packages and modules that can be used to get the most out of the language. A package is essentially a directory that contains multiple modules and subpackages. A module is a single file that contains a collection of related functions, classes, and variables. Modules are the basic building blocks of Python code organization. A module can be thought of as a container that holds a set of related code.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "requests",
+          "url": "https://docs.python-requests.org/en/latest/"
+        },
+        {
+          "type": "official",
+          "title": "pathlib",
+          "url": "https://docs.python.org/3/library/pathlib.html"
+        },
+        {
+          "type": "official",
+          "title": "asyncio",
+          "url": "https://docs.python.org/3/library/asyncio.html"
+        },
+        {
+          "type": "official",
+          "title": "dataclasses",
+          "url": "https://docs.python.org/3/library/dataclasses.html"
+        },
+        {
+          "type": "official",
+          "title": "python-dotenv",
+          "url": "https://pypi.org/project/python-dotenv/"
+        },
+        {
+          "type": "official",
+          "title": "numpy",
+          "url": "https://numpy.org/doc/stable/"
+        },
+        {
+          "type": "official",
+          "title": "pandas",
+          "url": "https://pandas.pydata.org/docs/"
+        }
+      ],
+      "status": "required",
+      "y": 498.7304293708296,
+      "x": -621.1730553753519,
+      "sequence_row": 4,
+      "sequence_col": 1
+    },
+    {
+      "id": "aB1LSQjDEQb_BxueOcnxU",
+      "label": "Iterators",
+      "type": "topic",
+      "description": "# Iterators\n\nAn iterator is an object that contains a countable number of values. An iterator is an object that can be iterated upon, meaning that you can traverse through all the values. Technically, in Python, an iterator is an object which implements the iterator protocol, which consist of the methods **iter**() and **next**() .",
+      "resources": [
+        {
+          "type": "official",
+          "title": "Python Official Documentation on Iterators",
+          "url": "https://docs.python.org/3/tutorial/classes.html#iterators"
+        },
+        {
+          "type": "article",
+          "title": "Python Iterators",
+          "url": "https://www.programiz.com/python-programming/iterator"
+        },
+        {
+          "type": "article",
+          "title": "Iterators and Iterables in Python",
+          "url": "https://realpython.com/python-iterators-iterables/"
+        }
+      ],
+      "status": "required",
+      "y": 504.7304293708296,
+      "x": 130.3559210300732,
+      "sequence_row": 4,
+      "sequence_col": 3
+    },
+    {
+      "id": "7t6mJBsaFMWPi7o9fbhhq",
+      "label": "Regular Expressions",
+      "type": "topic",
+      "description": "# Regular Expressions\n\nA regular expression is a sequence of characters that specifies a search pattern in text. Usually such patterns are used by string-searching algorithms for \"find\" or \"find and replace\" operations on strings, or for input validation.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "Regular Expressions in Python",
+          "url": "https://docs.python.org/3/library/re.html"
+        },
+        {
+          "type": "article",
+          "title": "Python Regular Expressions",
+          "url": "https://developers.google.com/edu/python/regular-expressions"
+        },
+        {
+          "type": "article",
+          "title": "Python - Regular Expressions",
+          "url": "https://www.tutorialspoint.com/python/python_reg_expressions.htm"
+        }
+      ],
+      "status": "required",
+      "y": 557.7304293708296,
+      "x": 130.3559210300732,
+      "sequence_row": 5,
+      "sequence_col": 1
+    },
+    {
+      "id": "P_Di-XPSDITmU3xKQew8G",
+      "label": "Object Oriented Programming",
+      "type": "topic",
+      "description": "# OOP\n\nIn Python, object-oriented Programming (OOPs) is a programming paradigm that uses objects and classes in programming. It aims to implement real-world entities like inheritance, polymorphism, encapsulation, etc., in programming. The main concept of OOPs is to bind the data and the functions that work on that together as a single unit so that no other part of the code can access this data.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "Object Oriented Programming in Python",
+          "url": "https://realpython.com/python3-object-oriented-programming/"
+        },
+        {
+          "type": "video",
+          "title": "Object Oriented Programming (OOP) In Python - Beginner Crash Course",
+          "url": "https://www.youtube.com/watch?v=-pEs-Bss8Wc/"
+        },
+        {
+          "type": "video",
+          "title": "OOP in Python One Shot",
+          "url": "https://www.youtube.com/watch?v=Ej_02ICOIgs"
+        },
+        {
+          "type": "video",
+          "title": "Python OOP Tutorial",
+          "url": "https://www.youtube.com/watch?v=IbMDCwVm63M"
+        }
+      ],
+      "status": "required",
+      "y": 657.7304293708296,
+      "x": -248.16916540260297,
+      "sequence_row": 6,
+      "sequence_col": 3
+    },
+    {
+      "id": "4gtmtYWYRWqwLdZRL0XMg",
+      "label": "List Comprehensions",
+      "type": "topic",
+      "description": "# List Comprehensions\n\nList comprehensions are a concise way to create a list using a single line of code in Python. They are a powerful tool for creating and manipulating lists, and they can be used to simplify and shorten code.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "Python List Comprehensions",
+          "url": "https://docs.python.org/3/tutorial/datastructures.html#list-comprehensions"
+        },
+        {
+          "type": "article",
+          "title": "Python List Comprehensions Quiz",
+          "url": "https://realpython.com/quizzes/list-comprehension-python/"
+        }
+      ],
+      "status": "required",
+      "y": 668.7304293708296,
+      "x": -621.1730553753519,
+      "sequence_row": 6,
+      "sequence_col": 1
+    },
+    {
+      "id": "jnLIVRrWxcX3yq3Op91Vr",
+      "label": "Generator Expressions",
+      "type": "topic",
+      "description": "# Generator Expressions\n\nGenerator expressions are a concise way to create a generator using a single line of code in Python. They are similar to list comprehensions, but instead of creating a list, they create a generator object that produces the values on-demand, as they are needed. Generator expressions are a useful tool for efficiently producing large sequence of values, as they allow you to create the generator without creating the entire sequence in memory at once. This tends to use less memory, especially for large sequences.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "Python Official Documentation on Generator Expressions",
+          "url": "https://docs.python.org/3/tutorial/classes.html#generator-expressions"
+        },
+        {
+          "type": "article",
+          "title": "Python Generator Expressions",
+          "url": "https://www.pythontutorial.net/advanced-python/python-generator-expressions/"
+        },
+        {
+          "type": "article",
+          "title": "List Comprehensions in Python and Generator Expressions",
+          "url": "https://djangostars.com/blog/list-comprehensions-and-generator-expressions/"
+        }
+      ],
+      "status": "required",
+      "y": 721.7304293708296,
+      "x": -621.1730553753519,
+      "sequence_row": 6,
+      "sequence_col": 2
+    },
+    {
+      "id": "4GU5HNi3W8yFkImVY9ZpW",
+      "label": "Paradigms",
+      "type": "topic",
+      "description": "# Paradigms\n\nParadigms are fundamental styles or approaches to programming that dictate how a developer organizes and executes code. They define the structural logic of a program, offering different ways to solve problems by choosing how to represent data and functions. In Python, these paradigms\u2014such as object-oriented, procedural, and functional programming\u2014can be used individually or combined, allowing developers to choose the most effective strategy for the specific task at hand.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "Python Paradigms",
+          "url": "https://opensource.com/article/19/10/python-programming-paradigms"
+        },
+        {
+          "type": "video",
+          "title": "Learn Functional Programming - Python Course",
+          "url": "https://www.youtube.com/watch?v=5QZYGU0C2OA"
+        }
+      ],
+      "status": "required",
+      "y": 774.7304293708296,
+      "x": -621.1730553753519,
+      "sequence_row": 7,
+      "sequence_col": 1
+    },
+    {
+      "id": "KAXF2kUAOvtBZhY8G9rkI",
+      "label": "Context Manager",
+      "type": "topic",
+      "description": "# Context Manager\n\nContext Managers are a construct in Python that allows you to set up context for a block of code, and then automatically clean up or release resources when the block is exited. It is most commonly used with the `with` statement.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "Context Libraries",
+          "url": "https://docs.python.org/3/library/contextlib.html"
+        },
+        {
+          "type": "article",
+          "title": "Context Managers in Python",
+          "url": "https://www.freecodecamp.org/news/context-managers-in-python/"
+        },
+        {
+          "type": "article",
+          "title": "Context Managers",
+          "url": "https://book.pythontips.com/en/latest/context_managers.html"
+        }
+      ],
+      "status": "required",
+      "y": 827.7304293708296,
+      "x": -621.1730553753519,
+      "sequence_row": 7,
+      "sequence_col": 2
+    },
+    {
+      "id": "1PXApuUpPmJjgi12cmWo4",
+      "label": "Static Typing",
+      "type": "topic",
+      "description": "# Static Typing\n\nStatic typing can be a powerful tool to help you catch bugs before they happen. It can also help you understand the code you're working with, and make it easier to maintain and refactor.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "Static Typing in Python",
+          "url": "https://typing.readthedocs.io/en/latest/index.html"
+        }
+      ],
+      "status": "required",
+      "y": 918.6504012205187,
+      "x": 282.82694462464815,
+      "sequence_row": 8,
+      "sequence_col": 3
+    },
+    {
+      "id": "0-ShORjGnQlAdcwjtxdEB",
+      "label": "Learn a Framework",
+      "type": "topic",
+      "description": "# Python Frameworks\n\nFrameworks automate the common implementation of common solutions which gives the flexibility to the users to focus on the application logic instead of the basic routine processes. Frameworks make the life of web developers easier by giving them a structure for app development. They provide common patterns in a web application that are fast, reliable and easily maintainable.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "Pyscript: A Browser-Based Python Framework",
+          "url": "https://thenewstack.io/pyscript-a-browser-based-python-framework/"
+        }
+      ],
+      "status": "required",
+      "y": 922.73046875,
+      "x": -617.2332744798255,
+      "sequence_row": 8,
+      "sequence_col": 1
+    },
+    {
+      "id": "u4nRzWQ4zhDFMOrZ2I_uJ",
+      "label": "Concurrency",
+      "type": "topic",
+      "description": "# Concurrency\n\nConcurrency in Python allows multiple tasks to be executed simultaneously using different approaches. GIL (Global Interpreter Lock) limits thread execution, making multithreading less efficient for computational tasks, but suitable for I/O. Multiprocessing, using the multiprocessing module, allows multiple cores to be utilized, providing true parallelism. Asynchrony via asyncio is optimal for I/O operations, allowing thousands of connections to be processed simultaneously without blocking. The choice of approach depends on the nature of the task.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "Concurrent Execution",
+          "url": "https://docs.python.org/3/library/concurrency.html"
+        },
+        {
+          "type": "article",
+          "title": "Python Concurrency",
+          "url": "https://realpython.com/python-concurrency/"
+        },
+        {
+          "type": "article",
+          "title": "Python Multithreading: The Most Practical Intro",
+          "url": "https://roadmap.sh/python/multithreading"
+        }
+      ],
+      "status": "required",
+      "y": 922.73046875,
+      "x": -201.6003273267287,
+      "sequence_row": 8,
+      "sequence_col": 2
+    },
+    {
+      "id": "0F0ppU_ClIUKZ23Q6BVZp",
+      "label": "Code Formatting",
+      "type": "topic",
+      "description": "# Code Formatting\n\nPython code formatting is crucial for maintaining readability, consistency, and reducing errors. Black is a code formatter for Python. It is a tool that automatically formats Python code to adhere to the PEP 8 style guide. It is a great tool to use in your Python projects to ensure that your code is formatted consistently and correctly.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "Pylint for Python",
+          "url": "https://www.pylint.org/"
+        },
+        {
+          "type": "official",
+          "title": "Black Documentation",
+          "url": "https://black.readthedocs.io/en/stable/"
+        }
+      ],
+      "status": "required",
+      "y": 1046.9159442045684,
+      "x": 259.82694462464815,
+      "sequence_row": 9,
+      "sequence_col": 1
+    },
+    {
+      "id": "WQOYjuwKIWB2meea4JnsV",
+      "label": "Testing",
+      "type": "topic",
+      "description": "# Testing\n\nTesting in programming means checking if your code works as expected. It's a systematic way to find and fix errors (bugs) before your code goes live. Imagine building a beautiful house without checking if the walls are straight or the roof doesn't leak\u2014that's what coding without testing can feel like!",
+      "resources": [
+        {
+          "type": "official",
+          "title": "Unit Testing in Python",
+          "url": "https://docs.python.org/3/library/unittest.html"
+        },
+        {
+          "type": "article",
+          "title": "Python Testing Tutorial",
+          "url": "https://realpython.com/python-testing/"
+        }
+      ],
+      "status": "required",
+      "y": 1387.21519978213,
+      "x": 22.33083459739703,
+      "sequence_row": 10,
+      "sequence_col": 1
+    }
+  ],
+  "subtopics": [
+    {
+      "id": "6xRncUs3_vxVbDur567QA",
+      "label": "Basic Syntax",
+      "type": "subtopic",
+      "description": "# Basic Syntax\n\nSetup the environment for python and get started with the basics.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "Python Basics",
+          "url": "https://www.tutorialspoint.com/python/python_basic_syntax.htm"
+        },
+        {
+          "type": "article",
+          "title": "Learn X in Y Minutes / Python",
+          "url": "https://learnxinyminutes.com/docs/python/"
+        },
+        {
+          "type": "video",
+          "title": "Python for Beginners - Learn Python in 1 Hour",
+          "url": "https://www.youtube.com/watch?v=kqtD5dpn9C8"
+        }
+      ],
+      "status": "required",
+      "y": -11.214355272135947,
+      "x": -615.9741508977197,
+      "parent_topic_id": "GISOFMKvnBys0O0IMpz2J"
+    },
+    {
+      "id": "dEFLBGpiH6nbSMeR7ecaT",
+      "label": "Variables and Data Types",
+      "type": "subtopic",
+      "description": "# Variables\n\nVariables are used to store information to be referenced and manipulated in a computer program. They also provide a way of labeling data with a descriptive name, so our programs can be understood more clearly by the reader and ourselves. It is helpful to think of variables as containers that hold information. Their sole purpose is to label and store data in memory. This data can then be used throughout your program.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "Variables in Python",
+          "url": "https://realpython.com/python-variables"
+        },
+        {
+          "type": "article",
+          "title": "Python for Beginners: Data Types",
+          "url": "https://thenewstack.io/python-for-beginners-data-types/"
+        },
+        {
+          "type": "article",
+          "title": "Python Null (None): Guide to Missing Values and NoneType",
+          "url": "https://roadmap.sh/python/null"
+        },
+        {
+          "type": "video",
+          "title": "Python Variables and Data Types",
+          "url": "https://www.youtube.com/playlist?list=PLBlnK6fEyqRhN-sfWgCU1z_Qhakc1AGOn"
+        }
+      ],
+      "status": "required",
+      "y": 41.78564472786405,
+      "x": -615.9741508977197,
+      "parent_topic_id": "GISOFMKvnBys0O0IMpz2J"
+    },
+    {
+      "id": "NP1kjSk0ujU0Gx-ajNHlR",
+      "label": "Conditionals",
+      "type": "subtopic",
+      "description": "# Conditionals\n\nConditional Statements in Python perform different actions depending on whether a specific condition evaluates to true or false. Conditional Statements are handled by _if-elif-else_ statements and MATCH-CASE statements in Python.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "Conditional Statements in Python",
+          "url": "https://realpython.com/python-conditional-statements/"
+        },
+        {
+          "type": "article",
+          "title": "Python Conditional Statements",
+          "url": "https://www.guru99.com/if-loop-python-conditional-structures.html"
+        },
+        {
+          "type": "article",
+          "title": "Python Switch Statement 101: Match-case and alternatives",
+          "url": "https://roadmap.sh/python/switch"
+        },
+        {
+          "type": "article",
+          "title": "How to Use a Match Statement in Python",
+          "url": "https://learnpython.com/blog/python-match-case-statement/"
+        }
+      ],
+      "status": "required",
+      "y": 94.78564472786405,
+      "x": -615.9741508977197,
+      "parent_topic_id": "GISOFMKvnBys0O0IMpz2J"
+    },
+    {
+      "id": "R9DQNc0AyAQ2HLpP4HOk6",
+      "label": "Type Casting",
+      "type": "subtopic",
+      "description": "# Typecasting\n\nThe process of converting the value of one data type (integer, string, float, etc.) to another data type is called type conversion. Python has two types of type conversion: Implicit and Explicit.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "Type Conversion and Casting",
+          "url": "https://www.programiz.com/python-programming/type-conversion-and-casting"
+        }
+      ],
+      "status": "required",
+      "y": -38.7695706291704,
+      "x": 131.83083459739703,
+      "parent_topic_id": "GISOFMKvnBys0O0IMpz2J"
+    },
+    {
+      "id": "fNTb9y3zs1HPYclAmu_Wv",
+      "label": "Exceptions",
+      "type": "subtopic",
+      "description": "# Exceptions\n\nExceptions are runtime errors that occur during program execution in Python. Instead of immediately stopping the program, Python allows developers to handle these errors using `try`, `except`, `else`, and `finally` blocks. Proper exception handling helps manage unexpected situations such as invalid input, missing files, or network failures, improving program reliability and allowing applications to fail gracefully.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "Exceptions Documentation",
+          "url": "https://docs.python.org/3/tutorial/errors.html#exceptions"
+        },
+        {
+          "type": "article",
+          "title": "Python Exceptions: An Introduction",
+          "url": "https://realpython.com/python-exceptions/"
+        },
+        {
+          "type": "article",
+          "title": "Python Exception Handling",
+          "url": "https://www.programiz.com/python-programming/exception-handling"
+        },
+        {
+          "type": "video",
+          "title": "Exception Handling in Python",
+          "url": "https://www.youtube.com/watch?v=V_NXT2-QIlE"
+        }
+      ],
+      "status": "required",
+      "y": 14.230429370829597,
+      "x": 131.83083459739703,
+      "parent_topic_id": "GISOFMKvnBys0O0IMpz2J"
+    },
+    {
+      "id": "-DJgS6l2qngfwurExlmmT",
+      "label": "Functions, Builtin Functions",
+      "type": "subtopic",
+      "description": "# Functions\n\nIn programming, a function is a reusable block of code that executes a certain functionality when it is called. Functions are integral parts of every programming language because they help make your code more modular and reusable. In Python, we define a function with the `def` keyword, then write the function identifier (name) followed by parentheses and a colon.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "Built-in Functions in Python",
+          "url": "https://docs.python.org/3/library/functions.html"
+        },
+        {
+          "type": "article",
+          "title": "Defining Python Functions",
+          "url": "https://realpython.com/defining-your-own-python-function/"
+        },
+        {
+          "type": "article",
+          "title": "How to Return Multiple Values in Python (and When to Use Each Method)",
+          "url": "https://roadmap.sh/python/return-multiple-values"
+        }
+      ],
+      "status": "required",
+      "y": 67.2304293708296,
+      "x": 131.83083459739703,
+      "parent_topic_id": "GISOFMKvnBys0O0IMpz2J"
+    },
+    {
+      "id": "UT_SR7G-LYtzqooWrEtF1",
+      "label": "Lists",
+      "type": "subtopic",
+      "description": "# Lists in Python\n\nLists are fundamental data structures in Python used to store an ordered collection of items. These items can be of different data types (numbers, strings, or even other lists), and lists are mutable, meaning you can change their contents after they are created by adding, removing, or modifying elements. They are defined using square brackets `[]` and elements are separated by commas.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "Python Official Documentation on Listsc",
+          "url": "https://docs.python.org/3/tutorial/introduction.html#lists"
+        },
+        {
+          "type": "article",
+          "title": "Python for Beginners: Lists",
+          "url": "https://thenewstack.io/python-for-beginners-lists/"
+        },
+        {
+          "type": "article",
+          "title": "Python for Beginners: When and How to Use Tuples",
+          "url": "https://thenewstack.io/python-for-beginners-when-and-how-to-use-tuples/"
+        },
+        {
+          "type": "video",
+          "title": "Difference Between List, Tuple, Set and Dictionary in Python",
+          "url": "https://www.youtube.com/watch?v=n0krwG38SHI"
+        }
+      ],
+      "status": "required",
+      "y": 120.2304293708296,
+      "x": 132.83083459739703,
+      "parent_topic_id": "GISOFMKvnBys0O0IMpz2J"
+    },
+    {
+      "id": "i7xIGiXU-k5UIKHIhQPjE",
+      "label": "Tuples",
+      "type": "subtopic",
+      "description": "# Tuples\n\nA tuple is an ordered and immutable collection of elements in Python. Unlike lists, tuples cannot be modified after creation, making them useful for storing fixed data such as coordinates, configuration values, or records that should remain unchanged. Tuples support indexing, iteration, and unpacking, and because they are immutable, they can also be used as dictionary keys or returned safely from functions as multiple values.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "Tuples Documentation",
+          "url": "https://docs.python.org/3/tutorial/datastructures.html#tuples-and-sequences"
+        },
+        {
+          "type": "article",
+          "title": "When and How to Use Tuples",
+          "url": "https://thenewstack.io/python-for-beginners-when-and-how-to-use-tuples/"
+        },
+        {
+          "type": "article",
+          "title": "Python's tuple Data Type: A Deep Dive With Examples",
+          "url": "https://realpython.com/python-tuple/#getting-started-with-pythons-tuple-data-type"
+        },
+        {
+          "type": "video",
+          "title": "why are Tuples even a thing?",
+          "url": "https://www.youtube.com/watch?v=fR_D_KIAYrE"
+        }
+      ],
+      "status": "required",
+      "y": 120.2304293708296,
+      "x": 236.83083459739703,
+      "parent_topic_id": "274uk28wzxn6EKWQzLpHs"
+    },
+    {
+      "id": "soZFqivM3YBuljeX6PoaX",
+      "label": "Sets",
+      "type": "subtopic",
+      "description": "# Sets\n\nPython Set is an unordered collection of data types that is iterable, mutable, and has no duplicate elements. The order of elements in a set is undefined though it may consist of various elements. The major advantage of using a set, as opposed to a list, is that it has a highly optimized method for checking whether a specific element is contained in the set.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "Python Official Documentation on Sets",
+          "url": "https://docs.python.org/3/tutorial/datastructures.html#sets"
+        },
+        {
+          "type": "article",
+          "title": "An In-Depth Guide to Working with Python Sets",
+          "url": "https://learnpython.com/blog/python-sets/"
+        },
+        {
+          "type": "video",
+          "title": "Python Sets tutorial for Beginners",
+          "url": "https://www.youtube.com/watch?v=t9j8lCUGZXo"
+        }
+      ],
+      "status": "required",
+      "y": 120.2304293708296,
+      "x": 340.83083459739703,
+      "parent_topic_id": "274uk28wzxn6EKWQzLpHs"
+    },
+    {
+      "id": "bc9CL_HMT-R6nXO1eR-gP",
+      "label": "Dictionaries",
+      "type": "subtopic",
+      "description": "# Dictionaries\n\nIn Python, a dictionary is a built-in data type that allows you to store key-value pairs. Each key in the dictionary is unique, and each key is associated with a value. Starting from Python 3.7, dictionaries maintain the order of items as they were added.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "Dictionaries in Python",
+          "url": "https://docs.python.org/3/tutorial/datastructures.html#dictionaries"
+        },
+        {
+          "type": "article",
+          "title": "Dictionaries in Python",
+          "url": "https://realpython.com/python-dicts/"
+        },
+        {
+          "type": "article",
+          "title": "Hashmaps in Python: Master Implementation and Use Cases",
+          "url": "https://roadmap.sh/python/hashmap"
+        },
+        {
+          "type": "article",
+          "title": "Python KeyError Exceptions: Causes and Fixes",
+          "url": "https://roadmap.sh/python/keyerror"
+        }
+      ],
+      "status": "required",
+      "y": 173.2304293708296,
+      "x": 131.83083459739703,
+      "parent_topic_id": "GISOFMKvnBys0O0IMpz2J"
+    },
+    {
+      "id": "Dvy7BnNzK55qbh_SgOk8m",
+      "label": "Loops",
+      "type": "subtopic",
+      "description": "# Loops\n\nLoops are programming structures that allow you to execute a block of code repeatedly as long as a specific condition remains true or for a set number of iterations. In Python, the two primary types of loops are `for` loops, which are typically used to iterate over a sequence like a list, tuple, or string, and `while` loops, which continue running until a defined logical condition evaluates to false. These tools are essential for automating repetitive tasks and processing collections of data efficiently within your programs.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "Python \"while\" Loops (Indefinite Iteration)",
+          "url": "https://realpython.com/python-while-loop/"
+        },
+        {
+          "type": "article",
+          "title": "Python \"for\" Loops (Definite Iteration)",
+          "url": "https://realpython.com/python-for-loop/#the-guts-of-the-python-for-loop"
+        },
+        {
+          "type": "video",
+          "title": "Python For Loops",
+          "url": "https://www.youtube.com/watch?v=KWgYha0clzw"
+        }
+      ],
+      "status": "required",
+      "y": 147.78564472786405,
+      "x": -615.9741508977197,
+      "parent_topic_id": "GISOFMKvnBys0O0IMpz2J"
+    },
+    {
+      "id": "OPD4WdMO7q4gRZMcRCQh1",
+      "label": "Arrays and Linked Lists",
+      "type": "subtopic",
+      "description": "# Arrays and Linked lists\n\nArrays store elements in contiguous memory locations, resulting in easily calculable addresses for the elements stored and this allows faster access to an element at a specific index. Linked lists are less rigid in their storage structure and elements are usually not stored in contiguous locations, hence they need to be stored with additional tags giving a reference to the next element. This difference in the data storage scheme decides which data structure would be more suitable for a given situation.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "Arrays in Python",
+          "url": "https://www.edureka.co/blog/arrays-in-python/"
+        },
+        {
+          "type": "article",
+          "title": "Linked List Python",
+          "url": "https://realpython.com/linked-lists-python/"
+        },
+        {
+          "type": "video",
+          "title": "Array Data Structure | Illustrated Data Structures",
+          "url": "https://www.youtube.com/watch?v=QJNwK2uJyGs"
+        },
+        {
+          "type": "video",
+          "title": "Linked List Data Structure | Illustrated Data Structures",
+          "url": "https://www.youtube.com/watch?v=odW9FU8jPRQ"
+        }
+      ],
+      "status": "required",
+      "y": 316.7304293708296,
+      "x": -243.66916540260297,
+      "parent_topic_id": "JDDG4KfhtIlw1rkNCzUli"
+    },
+    {
+      "id": "0NlRczh6ZEaFLlT6LORWz",
+      "label": "Heaps, Stacks and Queues",
+      "type": "subtopic",
+      "description": "# Heaps, Stacks, and Queues\n\nHeaps, stacks, and queues are fundamental data structures used to organize and manage data efficiently based on specific rules of access. A stack follows the Last-In, First-Out (LIFO) principle, where the last element added is the first one removed, similar to a stack of plates. A queue operates on a First-In, First-Out (FIFO) basis, where the first element added is the first one removed, much like people waiting in a line. A heap is a specialized tree-based structure that maintains a specific order, typically allowing for the quick retrieval of either the smallest or largest element, making it ideal for priority-based tasks.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "Heaps, Stacks, Queues",
+          "url": "https://stephanosterburg.gitbook.io/scrapbook/coding/coding-interview/data-structures/heaps-stacks-queues"
+        },
+        {
+          "type": "article",
+          "title": "How to Implement Python Stack?",
+          "url": "https://realpython.com/how-to-implement-python-stack/"
+        },
+        {
+          "type": "article",
+          "title": "Python Stacks, Queues, and Priority Queues in Practice",
+          "url": "https://realpython.com/queue-in-python/"
+        }
+      ],
+      "status": "required",
+      "y": 422.7304293708296,
+      "x": -243.66916540260297,
+      "parent_topic_id": "VJSIbYJcy2MC6MOFBrqXi"
+    },
+    {
+      "id": "DG4fi1e5ec2BVckPLsTJS",
+      "label": "Hash Tables",
+      "type": "subtopic",
+      "description": "# HashMaps\n\nHashMap, HashTable, Map, Dictionary, or Associative are all the names of the same data structure. It is a data structure that implements a set abstract data type, a structure that can map keys to values.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "Hashmaps in Python: Master Implementation and Use Cases",
+          "url": "https://roadmap.sh/python/hashmap"
+        },
+        {
+          "type": "article",
+          "title": "Build a Hash Table in Python",
+          "url": "https://realpython.com/python-hash-table/"
+        },
+        {
+          "type": "article",
+          "title": "Hash Tables and Hashmaps in Python",
+          "url": "https://www.edureka.co/blog/hash-tables-and-hashmaps-in-python/"
+        },
+        {
+          "type": "video",
+          "title": "Hash Table Data Structure | Illustrated Data Structures",
+          "url": "https://www.youtube.com/watch?v=jalSiaIi8j4"
+        }
+      ],
+      "status": "required",
+      "y": 369.7304293708296,
+      "x": -243.66916540260297,
+      "parent_topic_id": "VJSIbYJcy2MC6MOFBrqXi"
+    },
+    {
+      "id": "uJIqgsqUbE62Tyo3K75Qx",
+      "label": "Binary Search Tree",
+      "type": "subtopic",
+      "description": "# Binary Search Trees\n\nA binary search tree, also called an ordered or sorted binary tree, is a rooted binary tree data structure with the key of each internal node being greater than all the keys in the respective node's left subtree and less than the ones in its right subtree",
+      "resources": [
+        {
+          "type": "article",
+          "title": "Binary search in Python 101: Implementation and use cases",
+          "url": "https://roadmap.sh/python/binary-search"
+        },
+        {
+          "type": "article",
+          "title": "How to Implement Binary Search Tree in Python",
+          "url": "https://web.archive.org/web/20230601181553/https://www.section.io/engineering-education/implementing-binary-search-tree-using-python/"
+        },
+        {
+          "type": "article",
+          "title": "Binary Search Tree in Python",
+          "url": "https://www.pythonforbeginners.com/data-structures/binary-search-tree-in-python"
+        },
+        {
+          "type": "video",
+          "title": "Tree Data Structure | Illustrated Data Structures",
+          "url": "https://www.youtube.com/watch?v=S2W3SXGPVyU"
+        }
+      ],
+      "status": "required",
+      "y": 475.7304293708296,
+      "x": -243.66916540260297,
+      "parent_topic_id": "P_Di-XPSDITmU3xKQew8G"
+    },
+    {
+      "id": "kLBgy_nxxjE8SxdVi04bq",
+      "label": "Recursion",
+      "type": "subtopic",
+      "description": "# Recursion\n\nRecursion is a method of solving a computational problem where the solution depends on solutions to smaller instances of the same problem. Recursion solves such recursive problems by using functions that call themselves from within their own code.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "Recursion in Python: An Introduction",
+          "url": "https://realpython.com/python-recursion/"
+        }
+      ],
+      "status": "required",
+      "y": 528.7304293708296,
+      "x": -243.66916540260297,
+      "parent_topic_id": "P_Di-XPSDITmU3xKQew8G"
+    },
+    {
+      "id": "vvTmjcWCVclOPY4f_5uB0",
+      "label": "Sorting Algorithms",
+      "type": "subtopic",
+      "description": "# Sorting Algorithms\n\nSorting refers to arranging data in a particular format. Sorting algorithm specifies the way to arrange data in a particular order. Most common orders are in numerical or lexicographical order. The importance of sorting lies in the fact that data searching can be optimized to a very high level, if data is stored in a sorted manner.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "Sorting Algorithms in Python",
+          "url": "https://realpython.com/sorting-algorithms-python/"
+        },
+        {
+          "type": "article",
+          "title": "Python - Sorting Algorithms",
+          "url": "https://www.tutorialspoint.com/python_data_structure/python_sorting_algorithms.htm"
+        }
+      ],
+      "status": "required",
+      "y": 581.7304293708296,
+      "x": -243.66916540260297,
+      "parent_topic_id": "P_Di-XPSDITmU3xKQew8G"
+    },
+    {
+      "id": "kIuns7FOwapwtFLKo1phQ",
+      "label": "Arrays and Linked Lists",
+      "type": "subtopic",
+      "description": null,
+      "resources": [],
+      "status": "required",
+      "y": 316.7304293708296,
+      "x": -243.66916540260297,
+      "parent_topic_id": "VJSIbYJcy2MC6MOFBrqXi"
+    },
+    {
+      "id": "rSfg5M65LyZldhrdWOr90",
+      "label": "Heaps, Stacks and Queues",
+      "type": "subtopic",
+      "description": null,
+      "resources": [],
+      "status": "required",
+      "y": 422.7304293708296,
+      "x": -243.66916540260297,
+      "parent_topic_id": "VJSIbYJcy2MC6MOFBrqXi"
+    },
+    {
+      "id": "0-m8jVuDKE8hX1QorKGTM",
+      "label": "Hash Tables",
+      "type": "subtopic",
+      "description": null,
+      "resources": [],
+      "status": "required",
+      "y": 369.7304293708296,
+      "x": -243.66916540260297,
+      "parent_topic_id": "VJSIbYJcy2MC6MOFBrqXi"
+    },
+    {
+      "id": "7NZlydjm4432vLY1InBS7",
+      "label": "Binary Search Tree",
+      "type": "subtopic",
+      "description": null,
+      "resources": [],
+      "status": "required",
+      "y": 475.7304293708296,
+      "x": -243.66916540260297,
+      "parent_topic_id": "P_Di-XPSDITmU3xKQew8G"
+    },
+    {
+      "id": "94KnPMQdNTOwQkUv37tAk",
+      "label": "Recursion",
+      "type": "subtopic",
+      "description": null,
+      "resources": [],
+      "status": "required",
+      "y": 528.7304293708296,
+      "x": -243.66916540260297,
+      "parent_topic_id": "P_Di-XPSDITmU3xKQew8G"
+    },
+    {
+      "id": "YNptpfK9qv2ovmkUXLkJT",
+      "label": "Sorting Algorithms",
+      "type": "subtopic",
+      "description": null,
+      "resources": [],
+      "status": "required",
+      "y": 581.7304293708296,
+      "x": -243.66916540260297,
+      "parent_topic_id": "P_Di-XPSDITmU3xKQew8G"
+    },
+    {
+      "id": "08XifLQ20c4FKI_4AWNBQ",
+      "label": "Builtin",
+      "type": "subtopic",
+      "description": "# Builtin Modules\n\nPython has a rich standard library of built-in modules that provide a wide range of functionality. Some of the most commonly used built-in modules include: sys, os, math, datetime, random, re, itertools, etc.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "Python Module Index",
+          "url": "https://docs.python.org/3/py-modindex.html"
+        },
+        {
+          "type": "article",
+          "title": "Python Modules",
+          "url": "https://www.digitalocean.com/community/tutorials/python-modules"
+        },
+        {
+          "type": "article",
+          "title": "Python - Built-In Modules",
+          "url": "https://www.knowledgehut.com/tutorials/python-tutorial/python-built-in-modules"
+        }
+      ],
+      "status": "required",
+      "y": 263.9180561596926,
+      "x": 130.3559210300732,
+      "parent_topic_id": "274uk28wzxn6EKWQzLpHs"
+    },
+    {
+      "id": "l7k0qTYe42wYBTlT2-1cy",
+      "label": "Custom",
+      "type": "subtopic",
+      "description": "# Custom Modules\n\nModules refer to a file containing Python statements and definitions. A file containing Python code, for example: `example.py`, is called a module, and its module name would be example. We use modules to break down large programs into small manageable and organized files. Furthermore, modules provide reusability of code.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "Python Modules",
+          "url": "https://docs.python.org/3/tutorial/modules.html"
+        },
+        {
+          "type": "article",
+          "title": "Modules in Python",
+          "url": "https://www.programiz.com/python-programming/modules"
+        },
+        {
+          "type": "article",
+          "title": "Python Modules and Packages",
+          "url": "https://realpython.com/python-modules-packages/"
+        }
+      ],
+      "status": "required",
+      "y": 263.9180561596926,
+      "x": 249.3559210300732,
+      "parent_topic_id": "274uk28wzxn6EKWQzLpHs"
+    },
+    {
+      "id": "AqwzR8dZKLQIoj_6KKZ3t",
+      "label": "Classes",
+      "type": "subtopic",
+      "description": "# Classes\n\nA class is a user-defined blueprint or prototype from which objects are created. Classes provide a means of bundling data and functionality together. Creating a new class creates a new type of object, allowing new instances of that type to be made. Each class instance can have attributes attached to it for maintaining its state. Class instances can also have methods (defined by their class) for modifying their state.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "Classes in Python",
+          "url": "https://docs.python.org/3/tutorial/classes.html"
+        },
+        {
+          "type": "video",
+          "title": "Python OOP Tutorial",
+          "url": "https://www.youtube.com/watch?v=ZDa-Z5JzLYM&list=PL-osiE80TeTsqhIuOqKhwlXsIBIdSeYtc"
+        }
+      ],
+      "status": "required",
+      "y": 734.7304293708296,
+      "x": -202.66916540260297,
+      "parent_topic_id": "7t6mJBsaFMWPi7o9fbhhq"
+    },
+    {
+      "id": "S0FLE70szSVUPI0CDEQK7",
+      "label": "Inheritance",
+      "type": "subtopic",
+      "description": "# Inheritance\n\nInheritance is a fundamental concept in object-oriented programming where a new class (the child class or subclass) is derived from an existing class (the parent class or superclass). The child class inherits attributes and methods from the parent class, allowing for code reuse and the creation of hierarchical relationships between classes. This promotes a more organized and maintainable codebase by establishing a clear structure and reducing redundancy.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "Python Official Documentation on Inheritance",
+          "url": "https://docs.python.org/3/tutorial/classes.html#inheritance"
+        }
+      ],
+      "status": "required",
+      "y": 787.7304293708296,
+      "x": -202.66916540260297,
+      "parent_topic_id": "P_Di-XPSDITmU3xKQew8G"
+    },
+    {
+      "id": "zAS4YiEJ6VPsyABrkIG8i",
+      "label": "Methods, Dunder",
+      "type": "subtopic",
+      "description": "# Methods and Dunder Methods\n\nMethods are functions defined within a class that describe the behaviors or actions an object can perform. Dunder methods, short for \"double underscore\" methods, are special built-in methods\u2014such as `__init__` or `__str__`\u2014that allow you to define how your objects interact with Python\u2019s built-in operations and syntax. By implementing these methods, you can customize how objects are initialized, represented as strings, compared, or used with mathematical operators.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "Method vs Function in Python",
+          "url": "https://www.tutorialspoint.com/difference-between-method-and-function-in-python"
+        },
+        {
+          "type": "article",
+          "title": "Python - Magic or Dunder Methods",
+          "url": "https://www.tutorialsteacher.com/python/magic-methods-in-python"
+        }
+      ],
+      "status": "required",
+      "y": 840.7304293708296,
+      "x": -202.66916540260297,
+      "parent_topic_id": "u4nRzWQ4zhDFMOrZ2I_uJ"
+    },
+    {
+      "id": "1dfOTOGsOk5XE3bnZs8Ht",
+      "label": "PyPI",
+      "type": "subtopic",
+      "description": "# PyPI\n\nPyPI, typically pronounced pie-pee-eye, is a repository containing several hundred thousand packages. These range from trivial Hello, World implementations to advanced deep learning libraries.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "PyPI Website",
+          "url": "https://pypi.org/"
+        },
+        {
+          "type": "article",
+          "title": "How to Publish an Open-Source Python Package to PyPI",
+          "url": "https://realpython.com/pypi-publish-python-package/"
+        },
+        {
+          "type": "video",
+          "title": "Getting Started with Pip and PyPI in Python",
+          "url": "https://www.youtube.com/watch?v=bPSfNKvhooA"
+        }
+      ],
+      "status": "required",
+      "y": 222.7304293708296,
+      "x": -461.23327447982547,
+      "parent_topic_id": "qeCMw-sJ2FR4UxvU9DDzv"
+    },
+    {
+      "id": "iVhQnp6hpgVZDNJ0XoVra",
+      "label": "Pip",
+      "type": "subtopic",
+      "description": "# Pip\n\nThe standard package manager for Python is pip. It allows you to install and manage packages that aren\u2019t part of the Python standard library.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "pip Documentation",
+          "url": "https://pip.pypa.io/en/stable/installation/"
+        },
+        {
+          "type": "article",
+          "title": "Using Pythons pip to Manage Your Projects Dependencies",
+          "url": "https://realpython.com/what-is-pip/"
+        }
+      ],
+      "status": "required",
+      "y": 222.7304293708296,
+      "x": -357.23327447982547,
+      "parent_topic_id": "VJSIbYJcy2MC6MOFBrqXi"
+    },
+    {
+      "id": "uh67D1u-Iv5cZamRgFEJg",
+      "label": "Conda",
+      "type": "subtopic",
+      "description": "# Conda\n\nConda is an open source package management system and environment management system that runs on Windows, macOS, and Linux. Conda quickly installs, runs and updates packages and their dependencies. Conda easily creates, saves, loads and switches between environments on your local computer. It was created for Python programs, but it can package and distribute software for any language.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "Conda Documentation",
+          "url": "https://docs.conda.io/en/latest/"
+        }
+      ],
+      "status": "required",
+      "y": 275.7304293708296,
+      "x": -461.23327447982547,
+      "parent_topic_id": "qeCMw-sJ2FR4UxvU9DDzv"
+    },
+    {
+      "id": "uXd2B01GVBEQNXQE8RATT",
+      "label": "Poetry",
+      "type": "subtopic",
+      "description": "# Poetry\n\nPoetry is a dependency management and packaging tool that simplifies the process of handling libraries and project builds in a single configuration file. It manages virtual environments automatically and uses a lock file to ensure that every developer on a project uses the exact same version of every dependency. It provides a unified workflow for managing complex project structures.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "Poetry Docs",
+          "url": "https://python-poetry.org/docs/"
+        },
+        {
+          "type": "video",
+          "title": "Python Poetry - Basics",
+          "url": "https://www.youtube.com/watch?v=Ji2XDxmXSOM"
+        }
+      ],
+      "status": "required",
+      "y": 328.7304293708296,
+      "x": -461.23327447982547,
+      "parent_topic_id": "qeCMw-sJ2FR4UxvU9DDzv"
+    },
+    {
+      "id": "DHtskqATeAVKgaazdhXKD",
+      "label": "Pyramid",
+      "type": "subtopic",
+      "description": "# Pyramid\n\nPyramid is a general, open source, web application development framework built in python. It allows python developer to create web applications with ease. Pyramid is backed by the enterprise knowledge Management System KARL (a George Soros project).",
+      "resources": [
+        {
+          "type": "official",
+          "title": "Pyramid Website",
+          "url": "https://trypyramid.com/"
+        },
+        {
+          "type": "official",
+          "title": "Pyramid Documentation",
+          "url": "https://trypyramid.com/documentation.html"
+        },
+        {
+          "type": "article",
+          "title": "Pyramid Framework Introduction",
+          "url": "https://www.tutorialspoint.com/python_web_development_libraries/python_web_development_libraries_pyramid_framework.htm"
+        }
+      ],
+      "status": "required",
+      "y": 1081.842978409371,
+      "x": -605.0754215575712,
+      "parent_topic_id": "0-ShORjGnQlAdcwjtxdEB"
+    },
+    {
+      "id": "7zcpXN3krnS3tMRWVNIVe",
+      "label": "Plotly Dash",
+      "type": "subtopic",
+      "description": "# Plotly Dash\n\nPlotly Dash is a Python framework that allows you to build analytical web applications. It's a high-level library that enables you to create interactive, web-based data visualization dashboards without requiring extensive knowledge of web development.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "Plotly Dash Documentation",
+          "url": "https://dash.plotly.com/"
+        },
+        {
+          "type": "official",
+          "title": "20 Minutes Tutorial",
+          "url": "http://dash.plotly.com/tutorial"
+        }
+      ],
+      "status": "required",
+      "y": 1028.842978409371,
+      "x": -605.0754215575712,
+      "parent_topic_id": "0-ShORjGnQlAdcwjtxdEB"
+    },
+    {
+      "id": "InUJIGmTnf0X4cSoLuCEQ",
+      "label": "gevent",
+      "type": "subtopic",
+      "description": "# gevent\n\ngevent is a Python library that provides a high-level interface to the event loop. It is based on non-blocking IO (libevent/libev) and lightweight greenlets. Non-blocking IO means requests waiting for network IO won't block other requests; greenlets mean we can continue to write code in synchronous style.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "gevent Website",
+          "url": "http://www.gevent.org/"
+        },
+        {
+          "type": "opensource",
+          "title": "gevent/gevent",
+          "url": "https://github.com/gevent/gevent"
+        },
+        {
+          "type": "article",
+          "title": "gevent For the Working Python Developer",
+          "url": "https://sdiehl.github.io/gevent-tutorial/"
+        }
+      ],
+      "status": "required",
+      "y": 1028.7821121205188,
+      "x": -457.82311768204903,
+      "parent_topic_id": "0-ShORjGnQlAdcwjtxdEB"
+    },
+    {
+      "id": "IBVAvFtN4mnIPbIuyUvEb",
+      "label": "aiohttp",
+      "type": "subtopic",
+      "description": "# AIOHTTP\n\naiohttp is a Python 3.5+ library that provides a simple and powerful asynchronous HTTP client and server implementation.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "aiohttp docs",
+          "url": "https://docs.aiohttp.org/en/stable/"
+        },
+        {
+          "type": "article",
+          "title": "Creating a RESTful API with Python and aiohttp",
+          "url": "https://tutorialedge.net/python/create-rest-api-python-aiohttp/"
+        },
+        {
+          "type": "video",
+          "title": "Python Asyncio, Requests, Aiohttp | Make faster API Calls",
+          "url": "https://www.youtube.com/watch?v=nFn4_nA_yk8"
+        }
+      ],
+      "status": "required",
+      "y": 1028.7821121205188,
+      "x": -352.4492068228141,
+      "parent_topic_id": "0-ShORjGnQlAdcwjtxdEB"
+    },
+    {
+      "id": "zey2C6BdzsHJAlb_K3qrP",
+      "label": "Tornado",
+      "type": "subtopic",
+      "description": "# Tornado\n\nTornado is a scalable, non-blocking web server and web application framework written in Python. It was developed for use by FriendFeed; the company was acquired by Facebook in 2009 and Tornado was open-sourced soon after.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "Tornado Website",
+          "url": "https://www.tornadoweb.org/"
+        },
+        {
+          "type": "article",
+          "title": "A Step-by-Step Tutorial on Python Tornado",
+          "url": "https://phrase.com/blog/posts/tornado-web-framework-i18n/"
+        },
+        {
+          "type": "video",
+          "title": "Tornado Python Framework",
+          "url": "https://www.youtube.com/watch?v=-gJ21qzpieA"
+        }
+      ],
+      "status": "required",
+      "y": 1081.7821121205188,
+      "x": -457.82311768204903,
+      "parent_topic_id": "0-ShORjGnQlAdcwjtxdEB"
+    },
+    {
+      "id": "9RGpqsj9jHz0_-r7EvRcw",
+      "label": "Sanic",
+      "type": "subtopic",
+      "description": "# Sanic\n\nSanic is a Python 3.8+ web server and web framework designed for speed. It fully supports the `async`/`await` syntax introduced in Python 3.5, allowing you to write non-blocking request handlers that can handle thousands of concurrent connections efficiently. Unlike traditional synchronous frameworks, Sanic uses `uvloop` under the hood for its event loop, making it one of the fastest Python web frameworks available. It supports features like Blueprints for route grouping, WebSockets, middleware, streaming responses, and a built-in static file server, making it a strong choice for building high-performance APIs and real-time applications.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "Sanic Official Website",
+          "url": "https://sanic.dev/en/"
+        },
+        {
+          "type": "official",
+          "title": "Sanic User Guide \u2013 Getting Started",
+          "url": "https://sanic.dev/en/guide/getting-started.html"
+        },
+        {
+          "type": "opensource",
+          "title": "Sanic on GitHub",
+          "url": "https://github.com/sanic-org/sanic"
+        },
+        {
+          "type": "video",
+          "title": "Sanic Python Framework Tutorial (Tech With Tim)",
+          "url": "https://www.youtube.com/watch?v=w4UQkgxKuaI"
+        }
+      ],
+      "status": "required",
+      "y": 1081.7821121205188,
+      "x": -352.4492068228141,
+      "parent_topic_id": "0-ShORjGnQlAdcwjtxdEB"
+    },
+    {
+      "id": "XeQSmvAsGSTi8dd7QVHxn",
+      "label": "Fast API",
+      "type": "subtopic",
+      "description": "# FastAPI\n\nFastAPI is a modern Python web framework used for building APIs with high performance and automatic documentation. It leverages Python type hints for request validation, serialization, and editor support, making API development faster and less error-prone. FastAPI is commonly used for backend services, microservices, and machine learning model deployment due to its speed and ease of use.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "FastAPI Documentation",
+          "url": "https://fastapi.tiangolo.com/"
+        },
+        {
+          "type": "video",
+          "title": "Create an API with Fast-API (Full 19 Hour Course)",
+          "url": "https://www.youtube.com/watch?v=0sOvCWFmrtA"
+        }
+      ],
+      "status": "required",
+      "y": 1224.64342674736,
+      "x": -600.8947642441506,
+      "parent_topic_id": "0-ShORjGnQlAdcwjtxdEB"
+    },
+    {
+      "id": "x1V8GjdjANTnhP6YXMbgC",
+      "label": "Django",
+      "type": "subtopic",
+      "description": "# Django\n\nDjango is a free and open-source, Python-based web framework that follows the model\u2013template\u2013views architectural pattern. It is maintained by the Django Software Foundation, an independent organization established in the US as a 501 non-profit",
+      "resources": [
+        {
+          "type": "roadmap",
+          "title": "Visit the Dedicated Django Roadmap",
+          "url": "https://roadmap.sh/django"
+        },
+        {
+          "type": "official",
+          "title": "Getting Started",
+          "url": "https://www.djangoproject.com/start/"
+        },
+        {
+          "type": "article",
+          "title": "Is Django Synchronous or Asynchronous?",
+          "url": "https://stackoverflow.com/questions/58548089/django-is-synchronous-or-asynchronous"
+        },
+        {
+          "type": "video",
+          "title": "Python Django Tutorial for Beginners",
+          "url": "https://www.youtube.com/watch?v=rHux0gMZ3Eg"
+        }
+      ],
+      "status": "required",
+      "y": 1224.64342674736,
+      "x": -488.39476424415045,
+      "parent_topic_id": "0-ShORjGnQlAdcwjtxdEB"
+    },
+    {
+      "id": "HKsGyRzntjh1UbRZSWh_4",
+      "label": "Flask",
+      "type": "subtopic",
+      "description": "# Flask\n\nFlask is a micro web framework written in Python. It is classified as a microframework because it does not require particular tools or libraries. It has no database abstraction layer, form validation, or any other components where pre-existing third-party libraries provide common functions. Instead, it provides flexibility by requiring you to choose and integrate the best libraries for your project's needs.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "Flask Website",
+          "url": "https://flask.palletsprojects.com/"
+        },
+        {
+          "type": "official",
+          "title": "Flask Tutorial",
+          "url": "https://flask.palletsprojects.com/en/3.0.x/tutorial/"
+        }
+      ],
+      "status": "required",
+      "y": 1224.64342674736,
+      "x": -362.89476424415045,
+      "parent_topic_id": "0-ShORjGnQlAdcwjtxdEB"
+    },
+    {
+      "id": "bS7WeVKm2kEElu3sBKcIC",
+      "label": "GIL",
+      "type": "subtopic",
+      "description": "# GIL\n\nGIL is a mechanism that allows only one thread to execute Python code at a time. This limitation is related to memory management in CPython and can reduce the efficiency of multithreaded applications on multi-core systems.",
+      "resources": [
+        {
+          "type": "article",
+          "title": "What is GIL?",
+          "url": "https://realpython.com/python-gil/"
+        },
+        {
+          "type": "article",
+          "title": "Python Multithreading: The Most Practical Intro",
+          "url": "https://roadmap.sh/python/multithreading"
+        }
+      ],
+      "status": "required",
+      "y": 1123.7962000920706,
+      "x": -201.6003273267287,
+      "parent_topic_id": "u4nRzWQ4zhDFMOrZ2I_uJ"
+    },
+    {
+      "id": "UIx0XYaOgXXlYbbQtjiPq",
+      "label": "Threading",
+      "type": "subtopic",
+      "description": "# Threading\n\n[Multithreading](https://roadmap.sh/python/multithreading) allows multiple threads within a single process. However, because of GIL, threads cannot run in parallel on different cores, which makes multithreading suitable for I/O tasks (e.g., network requests) but not for computational tasks.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "Python Threading Library",
+          "url": "https://docs.python.org/3/library/threading.html"
+        },
+        {
+          "type": "article",
+          "title": "Python Multithreading: The Most Practical Intro",
+          "url": "https://roadmap.sh/python/multithreading"
+        },
+        {
+          "type": "article",
+          "title": "Introduction to Threading in Python",
+          "url": "https://realpython.com/intro-to-python-threading/"
+        }
+      ],
+      "status": "required",
+      "y": 1176.7962000920706,
+      "x": -201.6003273267287,
+      "parent_topic_id": "u4nRzWQ4zhDFMOrZ2I_uJ"
+    },
+    {
+      "id": "HSY5OUc_M5S6OcFXPRtkx",
+      "label": "Multiprocessing",
+      "type": "subtopic",
+      "description": "# Multiprocessing\n\nMultiprocessing utilizes multiple processes, each with its own GIL. This allows full utilization of multiple processor cores, which is effective for computationally intensive tasks. Python's multiprocessing module supports creating processes and exchanging data between them.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "Python Documentation",
+          "url": "https://docs.python.org/3/library/multiprocessing.html"
+        },
+        {
+          "type": "article",
+          "title": "Python Multithreading: The Most Practical Intro",
+          "url": "https://roadmap.sh/python/multithreading"
+        },
+        {
+          "type": "article",
+          "title": "Multiprocessing in Python with Example",
+          "url": "https://www.digitalocean.com/community/tutorials/python-multiprocessing-example"
+        },
+        {
+          "type": "article",
+          "title": "Multiprocessing in Python",
+          "url": "https://realpython.com/python-multiprocessing/"
+        }
+      ],
+      "status": "required",
+      "y": 1017.7962000920706,
+      "x": -201.6003273267287,
+      "parent_topic_id": "u4nRzWQ4zhDFMOrZ2I_uJ"
+    },
+    {
+      "id": "Mow7RvropbC4ZGDpcGZmw",
+      "label": "Asynchrony",
+      "type": "subtopic",
+      "description": "# Asynchrony\n\nAsynchronous programming, supported by asyncio, allows code to be executed without blocking, using async and await. This is especially useful for I/O tasks such as networking or file manipulation, allowing thousands of connections to be handled without blocking the main thread.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "Python AsyncIO library",
+          "url": "https://docs.python.org/3/library/asyncio.html"
+        },
+        {
+          "type": "article",
+          "title": "Async IO in Python: A Complete Walkthrough",
+          "url": "https://realpython.com/async-io-python/"
+        }
+      ],
+      "status": "required",
+      "y": 1070.7962000920706,
+      "x": -201.6003273267287,
+      "parent_topic_id": "u4nRzWQ4zhDFMOrZ2I_uJ"
+    },
+    {
+      "id": "p3Frfs6oxpuciUzeCEsvb",
+      "label": "uv",
+      "type": "subtopic",
+      "description": "# uv\n\nuv is an \"extremely fast\" python package installer and resolver.",
+      "resources": [
+        {
+          "type": "opensource",
+          "title": "astral-sh/uv",
+          "url": "https://github.com/astral-sh/uv"
+        },
+        {
+          "type": "article",
+          "title": "@UV for Python",
+          "url": "https://www.youtube.com/watch?v=qh98qOND6MI&t"
+        }
+      ],
+      "status": "required",
+      "y": 275.7304293708296,
+      "x": -357.23327447982547,
+      "parent_topic_id": "qeCMw-sJ2FR4UxvU9DDzv"
+    },
+    {
+      "id": "GHKAY9gOykEbxkEeR30wL",
+      "label": "pyproject.toml",
+      "type": "subtopic",
+      "description": "# pyproject.toml\n\nThis file is used to define the project configuration and dependencies. It is a configuration file that contains metadata about the project, such as its name, version, dependencies, and build settings. The `pyproject.toml` file is used by tools like `poetry` and `flit` to manage Python projects and their dependencies.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "Writing pyproject.toml files",
+          "url": "https://packaging.python.org/en/latest/guides/writing-pyproject-toml/"
+        }
+      ],
+      "status": "required",
+      "y": 565.0807887739926,
+      "x": -611.7332744798255,
+      "parent_topic_id": "_94NrQ3quc4t_PPOsFSN0"
+    },
+    {
+      "id": "IWq-tfkz-pSC1ztZl60vM",
+      "label": "Pipenv",
+      "type": "subtopic",
+      "description": "# pipenv\n\nPipeline Environment (pipenv) is a tool that aims to bring the best of all packaging worlds (bundled, requirements.txt, [setup.py](https://docs.python.org/3.11/distutils/setupscript.html), setup.cfg, etc.) to the Python world. It automatically creates and manages a virtualenv for your projects, as well as adds/removes packages from your Pipfile as you install/uninstall packages. It also generates the ever-important Pipfile.lock, which is used to produce deterministic builds.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "Pipenv Documentation",
+          "url": "https://pipenv.pypa.io/en/latest/"
+        }
+      ],
+      "status": "required",
+      "y": 763.1504012205187,
+      "x": 77.79817070787664,
+      "parent_topic_id": "7t6mJBsaFMWPi7o9fbhhq"
+    },
+    {
+      "id": "_IXXTSwQOgYzYIUuKVWNE",
+      "label": "virtualenv",
+      "type": "subtopic",
+      "description": "# virtualenv\n\n`virtualenv` is a tool to create isolated Python environments. It creates a folder which contains all the necessary executables to use the packages that a Python project would need.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "Virtual Environments",
+          "url": "https://virtualenv.pypa.io/en/latest/"
+        }
+      ],
+      "status": "required",
+      "y": 816.1504012205187,
+      "x": 77.79817070787664,
+      "parent_topic_id": "1PXApuUpPmJjgi12cmWo4"
+    },
+    {
+      "id": "N5VaKMbgQ0V_BC5tadV65",
+      "label": "pyenv",
+      "type": "subtopic",
+      "description": "# pyenv\n\npyenv is a tool for managing multiple versions of the Python programming language on Unix-like systems. It works by setting environment variables to point to the directory where the desired version of Python is installed. This allows you to switch between different versions of Python without having to modify your system's default Python installation.",
+      "resources": [
+        {
+          "type": "opensource",
+          "title": "pyenv/pyenv",
+          "url": "https://github.com/pyenv/pyenv"
+        }
+      ],
+      "status": "required",
+      "y": 869.1504012205187,
+      "x": 77.79817070787664,
+      "parent_topic_id": "1PXApuUpPmJjgi12cmWo4"
+    },
+    {
+      "id": "W3VALz5evFo1qqkQbMN1R",
+      "label": "Pydantic",
+      "type": "subtopic",
+      "description": "# Pydantic\n\nPydantic is a Python library for data validation and settings management using Python type annotations. It enforces type hints at runtime and provides clear, user-friendly error messages when data is invalid. Pydantic is widely used in FastAPI for request body parsing, and in CLI and configuration tools for parsing environment variables and config files via `BaseSettings`. At its core, you define a model by subclassing `BaseModel` and annotating fields with types \u2014 Pydantic handles all coercion, validation, and serialization automatically.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "Pydantic Documentation",
+          "url": "https://docs.pydantic.dev/latest/"
+        },
+        {
+          "type": "article",
+          "title": "Pydantic: Simplifying Data Validation in Python \u2013 Real Python",
+          "url": "https://realpython.com/python-pydantic/"
+        },
+        {
+          "type": "article",
+          "title": "Pydantic V2 Migration Guide",
+          "url": "https://docs.pydantic.dev/latest/migration/"
+        },
+        {
+          "type": "video",
+          "title": "Pydantic Tutorial \u2013 Complete Python Data Validation (ArjanCodes)",
+          "url": "https://www.youtube.com/watch?v=XIdQ6gO3Anc"
+        }
+      ],
+      "status": "required",
+      "y": 842.7304293708296,
+      "x": 282.82694462464815,
+      "parent_topic_id": "1PXApuUpPmJjgi12cmWo4"
+    },
+    {
+      "id": "gIcJ3bUVQXqO1Wx4gUKd5",
+      "label": "mypy",
+      "type": "subtopic",
+      "description": "# mypy\n\nmypy is an optional static type checker for Python that aims to combine the benefits of dynamic (or \"duck\") typing and static typing. Mypy combines the expressive power and convenience of Python with a powerful type system and compile-time type checking. Mypy type checks standard Python programs; run them using any Python VM with basically no runtime overhead.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "mypy documentation",
+          "url": "https://mypy-lang.org/"
+        },
+        {
+          "type": "opensource",
+          "title": "python/mypy",
+          "url": "https://github.com/python/mypy"
+        }
+      ],
+      "status": "required",
+      "y": 683.7304293708296,
+      "x": 282.82694462464815,
+      "parent_topic_id": "7t6mJBsaFMWPi7o9fbhhq"
+    },
+    {
+      "id": "1q9HWgu9jDTK757hTNOmE",
+      "label": "pyright",
+      "type": "subtopic",
+      "description": "# pyright\n\npyright is a static type checker for Python. It is a Microsoft product and is written in TypeScript. It is a language server that uses the Language Server Protocol (LSP) to communicate with the editor. It is a good alternative to mypy and pytype.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "Pyright Documentation",
+          "url": "https://microsoft.github.io/pyright/"
+        }
+      ],
+      "status": "required",
+      "y": 736.7304293708296,
+      "x": 282.82694462464815,
+      "parent_topic_id": "1PXApuUpPmJjgi12cmWo4"
+    },
+    {
+      "id": "9mFR_ueXbIB2IrkqU2s85",
+      "label": "pyre",
+      "type": "subtopic",
+      "description": "# pyrefly\n\npyrefly is a static type checker for Python. It is a tool that helps you find type errors in your Python code. Pyre is designed to be fast, scalable, and easy to use. It is used at Facebook to help developers catch type errors before they make it to production.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "pyrefly Documentation",
+          "url": "https://pyrefly.org"
+        }
+      ],
+      "status": "required",
+      "y": 789.7304293708296,
+      "x": 282.82694462464815,
+      "parent_topic_id": "1PXApuUpPmJjgi12cmWo4"
+    },
+    {
+      "id": "6cB0pvUO1-gvCtgqozP-Q",
+      "label": "ruff",
+      "type": "subtopic",
+      "description": "# ruff\n\nRuff is a fast Python linter and code quality tool written in Rust that combines the functionality of multiple linting and formatting tools into a single, high-performance utility. It helps detect errors, enforce coding standards, and improve code quality while running significantly faster than traditional Python linters.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "Ruff documentation",
+          "url": "https://docs.astral.sh/ruff/"
+        }
+      ],
+      "status": "required",
+      "y": 1098.8447698764166,
+      "x": 67.77353876747918,
+      "parent_topic_id": "0F0ppU_ClIUKZ23Q6BVZp"
+    },
+    {
+      "id": "DS6nuAUhUYcqiJDmQisKM",
+      "label": "black",
+      "type": "subtopic",
+      "description": "# black\n\nBlack is a python code formatter that automatically formats code according to a consistent style. By removing formatting decisions from developers, Black helps maintain uniform codebases, improves readability, and reduces time spent on style discussions during code reviews.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "Getting Started with Black",
+          "url": "https://black.readthedocs.io/en/stable/getting_started.html"
+        },
+        {
+          "type": "official",
+          "title": "Black Documentation",
+          "url": "https://black.readthedocs.io/en/stable/"
+        }
+      ],
+      "status": "required",
+      "y": 1045.8447698764166,
+      "x": 67.77353876747918,
+      "parent_topic_id": "0F0ppU_ClIUKZ23Q6BVZp"
+    },
+    {
+      "id": "tsh_vbhzKz1-H9Vh69tsK",
+      "label": "yapf",
+      "type": "subtopic",
+      "description": "# yapf\n\nyapf is a formatter for Python files. It is a tool that automatically formats Python code to conform to the PEP 8 style guide. It is similar to black but has more configuration options.",
+      "resources": [
+        {
+          "type": "opensource",
+          "title": "google/yapf",
+          "url": "https://github.com/google/yapf"
+        }
+      ],
+      "status": "required",
+      "y": 992.8447698764166,
+      "x": 67.77353876747918,
+      "parent_topic_id": "0F0ppU_ClIUKZ23Q6BVZp"
+    },
+    {
+      "id": "maYNuTKYyZndxk1z29-UY",
+      "label": "Sphinx",
+      "type": "subtopic",
+      "description": "# sphinx\n\nSphinx is a tool that makes it easy to create intelligent and beautiful documentation, written by Georg Brandl and licensed under the BSD license.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "Sphinx Website",
+          "url": "https://www.sphinx-doc.org/en/master/"
+        }
+      ],
+      "status": "required",
+      "y": 1176.7962000920706,
+      "x": 280.6043153709654,
+      "parent_topic_id": "0F0ppU_ClIUKZ23Q6BVZp"
+    },
+    {
+      "id": "aVclygxoA9ePU5IxaORSH",
+      "label": "doctest",
+      "type": "subtopic",
+      "description": "# Doctest\n\nPython\u2019s standard library comes equipped with a test framework module called doctest. The doctest module programmatically searches Python code for pieces of text within comments that look like interactive Python sessions. Then, the module executes those sessions to confirm that the code referenced by a doctest runs as expected.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "Doctest Module",
+          "url": "https://docs.python.org/3/library/doctest.html"
+        },
+        {
+          "type": "article",
+          "title": "How To Write Doctests in Python",
+          "url": "https://www.digitalocean.com/community/tutorials/how-to-write-doctests-in-python"
+        }
+      ],
+      "status": "required",
+      "y": 1408.9552389677524,
+      "x": 266.57585484459395,
+      "parent_topic_id": "WQOYjuwKIWB2meea4JnsV"
+    },
+    {
+      "id": "SSnzpijHLO5_l7DNEoMfx",
+      "label": "nose",
+      "type": "subtopic",
+      "description": null,
+      "resources": [],
+      "status": "required",
+      "y": 1302.9552389677524,
+      "x": 337.57585484459395,
+      "parent_topic_id": "0F0ppU_ClIUKZ23Q6BVZp"
+    },
+    {
+      "id": "3FDwJpesfelEyJrNWtm0V",
+      "label": "pytest",
+      "type": "subtopic",
+      "description": "# pytest\n\npytest is a mature full-featured Python testing tool that helps you write better programs.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "Pytest Docs",
+          "url": "https://docs.pytest.org/"
+        },
+        {
+          "type": "article",
+          "title": "Pytest Tutorial",
+          "url": "https://www.tutorialspoint.com/pytest/index.htm"
+        },
+        {
+          "type": "article",
+          "title": "Effective Python Testing With Pytest",
+          "url": "https://realpython.com/pytest-python-testing/"
+        },
+        {
+          "type": "video",
+          "title": "Pytest Tutorial \u2013 How to Test Python Code",
+          "url": "https://www.youtube.com/watch?v=cHYq1MRoyI0"
+        }
+      ],
+      "status": "required",
+      "y": 1461.9552389677524,
+      "x": 266.57585484459395,
+      "parent_topic_id": "WQOYjuwKIWB2meea4JnsV"
+    },
+    {
+      "id": "b4he_RO17C3ScNeUd6v2b",
+      "label": "unittest / pyUnit",
+      "type": "subtopic",
+      "description": "# PyUnit / Unittest\n\nPyUnit is an easy way to create unit testing programs and UnitTests with Python. (Note that [docs.python.org](http://docs.python.org) uses the name \"unittest\", which is also the module name.)",
+      "resources": [
+        {
+          "type": "article",
+          "title": "How To Use unittest to Write a Test Case for a Function in Python",
+          "url": "https://www.digitalocean.com/community/tutorials/how-to-use-unittest-to-write-a-test-case-for-a-function-in-python"
+        },
+        {
+          "type": "article",
+          "title": "A Gentle Introduction to Unit Testing in Python",
+          "url": "https://machinelearningmastery.com/a-gentle-introduction-to-unit-testing-in-python/"
+        }
+      ],
+      "status": "required",
+      "y": 1355.9552389677524,
+      "x": 266.57585484459395,
+      "parent_topic_id": "WQOYjuwKIWB2meea4JnsV"
+    },
+    {
+      "id": "o1wi39VnjnFfWIC8XcuAK",
+      "label": "typing",
+      "type": "subtopic",
+      "description": "# Typing\n\nThe `typing` module provides support for type hints in Python, allowing developers to specify expected data types for variables, function parameters, and return values. Type hints improve code readability, enable better editor support and static analysis, and help catch potential bugs early without changing how Python executes programs at runtime.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "Typing Module",
+          "url": "https://docs.python.org/3/library/typing.html"
+        }
+      ],
+      "status": "required",
+      "y": 630.7304293708296,
+      "x": 282.82694462464815,
+      "parent_topic_id": "7t6mJBsaFMWPi7o9fbhhq"
+    },
+    {
+      "id": "jPFOiwbqfaGshaGDBWb5x",
+      "label": "tox",
+      "type": "subtopic",
+      "description": "# Tox\n\nTox is a tool for automating test environment management and testing against multiple interpreter configurations. It is particularly useful for Python codebase that need to support multiple versions of Python.",
+      "resources": [
+        {
+          "type": "official",
+          "title": "Tox Documentation",
+          "url": "https://tox.wiki/en/"
+        }
+      ],
+      "status": "required",
+      "y": 1302.9552389677524,
+      "x": 266.57585484459395,
+      "parent_topic_id": "WQOYjuwKIWB2meea4JnsV"
+    }
+  ]
+}

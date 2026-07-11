@@ -1,0 +1,1082 @@
+{
+  "roadmap_id": "data-analyst",
+  "commit_hash": "70ecc31a04739d547d6ebf37213249b275f7565b",
+  "topics": [
+    {
+      "id": "3xp2fogAVmwXQhdzhZDWR",
+      "label": "Introduction",
+      "type": "topic",
+      "description": "# Introduction\n\nData analytics is the practice of examining raw data to draw conclusions and support decision-making. It combines statistical methods, programming tools, and domain knowledge to extract meaning from structured and unstructured data. Data analysts work across industries to help organizations understand what has happened, why it happened, and what might happen next.\n\nVisit the following resources to learn more:\n\n- [@article@What Does a Data Analyst Do?](https://roadmap.sh/data-analyst/what-does-a-data-analyst-do)\n- [@article@Data Analyst Career Path: My Pro Advice](https://roadmap.sh/data-analyst/career-path)\n- [@article@How to Become a Data Analyst with No Experience: My Advice](https://roadmap.sh/data-analyst/how-to-become)\n- [@article@Top 11 Data Science Skills to Master in 2026](https://roadmap.sh/ai-data-scientist/tools)",
+      "status": "required",
+      "y": 4.707303502152058,
+      "x": -326.321810236714,
+      "sequence_row": 1,
+      "sequence_col": 1
+    },
+    {
+      "id": "Lsapbmg-eMIYJAHpV97nO",
+      "label": "Types of Data Analytics",
+      "type": "topic",
+      "description": "# Types of Data Analytics\n\nData analytics is divided into four types based on the questions they answer: descriptive, diagnostic, predictive, and prescriptive. Each type builds on the previous, moving from understanding what happened to recommending what to do. Knowing which type of analysis a problem requires shapes the tools and techniques used.\n\nVisit the following resources to learn more:\n\n- [@article@The 4 Types of Data Analysis: Ultimate Guide](https://careerfoundry.com/en/blog/data-analytics/different-types-of-data-analysis/)\n- [@video@Descriptive vs Diagnostic vs Predictive vs Prescriptive Analytics: What's the Difference?](https://www.youtube.com/watch?v=QoEpC7jUb9k)\n- [@video@Types of Data Analytics](https://www.youtube.com/watch?v=lsZnSgxMwBA)",
+      "status": "required",
+      "y": 4.707303502152058,
+      "x": 93.13989797603216,
+      "sequence_row": 1,
+      "sequence_col": 2
+    },
+    {
+      "id": "sgXIjVTbwdwdYoaxN3XBM",
+      "label": "Analysis / Reporting with Excel",
+      "type": "topic",
+      "description": "# Excel\n\nExcel is a powerful tool utilized by data analysts worldwide to store, manipulate, and analyze data. It offers a vast array of features such as pivot tables, graphs and a powerful suite of formulas and functions to help sift through large sets of data. A data analyst uses Excel to perform a wide range of tasks, from simple data entry and cleaning, to more complex statistical analysis and predictive modeling. Proficiency in Excel is often a key requirement for a data analyst, as its versatility and ubiquity make it an indispensable tool in the field of data analysis.\n\nVisit the following resources to learn more:\n\n- [@course@Microsoft Excel Course](https://support.microsoft.com/en-us/office/excel-video-training-9bc05390-e94c-46af-a5b3-d7c22f6990bb)",
+      "status": "required",
+      "y": 109.34268220704786,
+      "x": -713.5,
+      "sequence_row": 2,
+      "sequence_col": 1
+    },
+    {
+      "id": "i2uEcaO4bJhcZ5ayRs2CQ",
+      "label": "Learn a Programming Lang.",
+      "type": "topic",
+      "description": "# Learn a Programming Language\n\nProgramming extends the analytical capabilities of a data analyst beyond what spreadsheet tools can handle. Python and R are the two most common languages used in data analysis for data manipulation, statistical modeling, and visualization. Choosing one and learning it well is the foundation for working with large datasets and building repeatable analyses.\n\nVisit the following resources to learn more:\n\n- [@article@Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/)\n- [@article@How to Become a Data Analyst with No Experience: My Advice](https://roadmap.sh/data-analyst/how-to-become)",
+      "status": "required",
+      "y": 441,
+      "x": -87.42542199337953,
+      "sequence_row": 3,
+      "sequence_col": 1
+    },
+    {
+      "id": "M1QtGTLyygIjePoCfvjve",
+      "label": "Data Manipulation Libraries",
+      "type": "topic",
+      "description": "# Data Manipulation Libraries\n\nData manipulation libraries are essential tools in data science and analytics, enabling efficient handling, transformation, and analysis of large datasets. Python, a popular language for data science, offers several powerful libraries for this purpose. Pandas is a highly versatile library that provides data structures like DataFrames, which allow for easy manipulation and analysis of tabular data. NumPy, another fundamental library, offers support for large, multi-dimensional arrays and matrices, along with a collection of mathematical functions to operate on these arrays. Together, Pandas and NumPy form the backbone of data manipulation in Python, facilitating tasks such as data cleaning, merging, reshaping, and statistical analysis, thus streamlining the data preparation process for machine learning and other data-driven applications.\n\nVisit the following resources to learn more:\n\n- [@article@Pandas](https://pandas.pydata.org/)\n- [@article@NumPy](https://numpy.org/)\n- [@article@Top Python Libraries for Data Science](https://www.simplilearn.com/top-python-libraries-for-data-science-article)",
+      "status": "required",
+      "y": 494.8426822070478,
+      "x": -87.42542199337953,
+      "sequence_row": 3,
+      "sequence_col": 2
+    },
+    {
+      "id": "l1SnPc4EMqGdaIAhIQfrT",
+      "label": "Data Visualisation Libraries",
+      "type": "topic",
+      "description": "# Data Visualisation Libraries\n\nData visualization libraries allow analysts to create charts, graphs, and interactive plots from code. Python's Matplotlib and ggplot2 in R are the foundational libraries, while Seaborn provides a higher-level interface for statistical graphics. These libraries give analysts more control and flexibility than spreadsheet charting tools.",
+      "status": "required",
+      "y": 547.8426822070478,
+      "x": -87.42542199337953,
+      "sequence_row": 4,
+      "sequence_col": 1
+    },
+    {
+      "id": "_sjXCLHHTbZromJYn6fnu",
+      "label": "Data Collection",
+      "type": "topic",
+      "description": "# Data Collection\n\nData collection in analysis involves pulling data from the relevant sources into the analytical environment. Sources include databases queried with SQL, CSV files loaded from disk, APIs called programmatically, and web scraping for publicly available data. Each source has different access methods, formats, and reliability characteristics.\n\nVisit the following resources to learn more:\n\n- [@article@What is Data Collection?](https://www.databricks.com/blog/what-is-data-collection)\n- [@article@Data Collection](https://en.wikipedia.org/wiki/Data_collection)",
+      "status": "required",
+      "y": 716.8426822070478,
+      "x": -161.92542199337953,
+      "sequence_row": 5,
+      "sequence_col": 1
+    },
+    {
+      "id": "E6cpb6kvluJM8OGuDcFBT",
+      "label": "Data Cleanup",
+      "type": "topic",
+      "description": "# Data Cleanup\n\nData cleanup is the process of identifying and resolving quality issues in a dataset before analysis. Raw data from real-world sources almost always contains errors, missing values, duplicates, and inconsistencies. Thorough cleaning ensures that analysis results reflect reality rather than artifacts of data collection.\n\nVisit the following resources to learn more:\n\n- [@article@Data Cleaning](https://www.tableau.com/learn/articles/what-is-data-cleaning#:~:text=tools%20and%20software-,What%20is%20data%20cleaning%3F,to%20be%20duplicated%20or%20mislabeled.)",
+      "status": "required",
+      "y": 854.5814615179639,
+      "x": -161.92542199337953,
+      "sequence_row": 6,
+      "sequence_col": 1
+    },
+    {
+      "id": "il6KQXVPGBza5libN38ib",
+      "label": "Descriptive Analysis",
+      "type": "topic",
+      "description": "# Descriptive Analysis\n\nDescriptive analysis summarizes the main features of a dataset using statistics and visualizations. It answers basic questions about the data: what are the typical values, how spread out are they, and what does the distribution look like. Descriptive analysis is always the first step before any more advanced analytical work.\n\nVisit the following resources to learn more:\n\n- [@article@Descriptive Analytics: What They Are and Related Terms](https://www.investopedia.com/terms/d/descriptive-analytics.asp)\n- [@video@What are Descriptive Analytics?](https://www.youtube.com/watch?v=DlFqQy10aCs)",
+      "status": "required",
+      "y": 1147.5814615179638,
+      "x": -402.821810236714,
+      "sequence_row": 7,
+      "sequence_col": 1
+    },
+    {
+      "id": "2g19zjEASJw2ve57hxpr0",
+      "label": "Data Visualisation",
+      "type": "topic",
+      "description": "# Data Visualisation\n\nData visualisation is the process of representing data graphically to communicate patterns, trends, and insights. Effective visualisation requires choosing the right chart type for the data, designing for clarity, and tailoring the presentation to the audience. Tools range from Excel and BI platforms to Python and R libraries.\n\nVisit the following resources to learn more:\n\n- [@article@What is Data Visualization?](https://www.ibm.com/think/topics/data-visualization)\n- [@article@Top 11 Data Science Skills to Master in 2026](https://roadmap.sh/ai-data-scientist/skills)",
+      "status": "required",
+      "y": 1147.5814615179638,
+      "x": 22.118578138237808,
+      "sequence_row": 7,
+      "sequence_col": 2
+    },
+    {
+      "id": "TeewVruErSsD4VLXcaDxp",
+      "label": "Statistical Analysis",
+      "type": "topic",
+      "description": "# Statistical Analysis\n\nStatistical analysis applies formal mathematical methods to data to test hypotheses, measure relationships, and draw inferences. Core techniques include hypothesis testing, correlation analysis, and regression modeling. Statistical rigor ensures that findings are not the result of random variation.\n\nVisit the following resources to learn more:\n\n- [@article@Understanding Statistical Analysis](https://www.simplilearn.com/what-is-statistical-analysis-article)\n- [@video@Statistical Analysis](https://www.youtube.com/watch?v=XjMBZE1DuBY)",
+      "status": "required",
+      "y": 1330.7503022792923,
+      "x": -402.821810236714,
+      "sequence_row": 8,
+      "sequence_col": 1
+    },
+    {
+      "id": "f4GuzeokP9w_gwtOquP0g",
+      "label": "Machine Learning",
+      "type": "topic",
+      "description": "# Machine Learning\n\nMachine learning is the field of building systems that learn from data to make predictions or decisions. For data analysts, understanding ML provides tools to tackle problems that go beyond traditional statistical methods, such as classifying text, detecting anomalies, and building recommendation systems. Analysts typically apply ML algorithms rather than build them from scratch.\n\nVisit the following resources to learn more:\n\n- [@roadmap@Visit the Dedicated Machine Learning Roadmap](https://roadmap.sh/machine-learning)",
+      "status": "required",
+      "y": 1556.4045877729018,
+      "x": -376.821810236714,
+      "sequence_row": 9,
+      "sequence_col": 1
+    },
+    {
+      "id": "_aUQZWUhFRvNu0MZ8CPit",
+      "label": "Big Data Technologies",
+      "type": "topic",
+      "description": "# Big Data Technologies\n\nBig data technologies handle datasets that are too large or complex for traditional tools to process. The defining characteristics of big data are often described as volume, velocity, and variety. Distributed processing frameworks like Hadoop and Spark allow computation to be spread across clusters of machines.\n\nVisit the following resources to learn more:\n\n- [@article@Big Data Analytics](https://www.ibm.com/think/topics/big-data-analytics)",
+      "status": "required",
+      "y": 1725.9045877729018,
+      "x": 80.49718479195076,
+      "sequence_row": 10,
+      "sequence_col": 1
+    },
+    {
+      "id": "SiYUdtYMDImRPmV2_XPkH",
+      "label": "Deep Learning (Optional)",
+      "type": "topic",
+      "description": "# Deep Learning (Optional)\n\nDeep learning is a subset of machine learning that uses neural networks with many layers to learn representations from large amounts of data. It excels at tasks like image recognition, natural language processing, and speech recognition. For data analysts, deep learning is an advanced optional topic that extends capabilities for unstructured data problems.\n\nVisit the following resources to learn more:\n\n- [@roadmap@Visit the Dedicated Machine Learning Roadmap](https://roadmap.sh/machine-learning)\n- [@article@Deep Learning for Data Analysis](https://www.ibm.com/think/topics/deep-learning)",
+      "status": "required",
+      "y": 2015.2505657648562,
+      "x": -434.3814218617622,
+      "sequence_row": 11,
+      "sequence_col": 1
+    }
+  ],
+  "subtopics": [
+    {
+      "id": "yCnn-NfSxIybUQ2iTuUGq",
+      "label": "What is Data Analytics",
+      "type": "subtopic",
+      "description": "# What is Data Analytics\n\nData analytics is the process of collecting, cleaning, transforming, and analyzing data to discover useful information, identify patterns, and support decisions. It spans a wide range of activities from basic reporting to predictive modeling. The goal is to turn raw data into actionable insights.\n\nVisit the following resources to learn more:\n\n- [@course@Introduction to Data Analytics](https://www.coursera.org/learn/introduction-to-data-analytics)\n- [@article@What Does a Data Analyst Do?](https://roadmap.sh/data-analyst/what-does-a-data-analyst-do)\n- [@article@Data Science Lifecycle 101: A Beginners' Ultimate Guide](https://roadmap.sh/ai-data-scientist/lifecycle)\n- [@article@Data Analyst vs. Business Analyst Roles: How to Choose](https://roadmap.sh/data-analyst/vs-business-analyst)",
+      "status": "required",
+      "y": -50.03927645622106,
+      "x": 93.13989797603216,
+      "parent_topic_id": "3xp2fogAVmwXQhdzhZDWR"
+    },
+    {
+      "id": "hWDh0ooidbqZb000ENVok",
+      "label": "Descriptive Analytics",
+      "type": "subtopic",
+      "description": "# Descriptive Analytics\n\nDescriptive analytics summarizes historical data to answer the question \"what happened?\" It produces reports, dashboards, and summaries that describe past performance. Examples include monthly sales reports, website traffic summaries, and customer demographic breakdowns.\n\nVisit the following resources to learn more:\n\n- [@article@Descriptive Analytics: What They Are and Related Terms](https://www.investopedia.com/terms/d/descriptive-analytics.asp)\n- [@video@What are Descriptive Analytics?](https://www.youtube.com/watch?v=DlFqQy10aCs)",
+      "status": "required",
+      "y": 85.96072354377894,
+      "x": 93.13989797603216,
+      "parent_topic_id": "Lsapbmg-eMIYJAHpV97nO"
+    },
+    {
+      "id": "j7DA2J3speSaBsZAV4M0v",
+      "label": "Diagnostic Analytics",
+      "type": "subtopic",
+      "description": "# Diagnostic Analytics\n\nDiagnostic analytics examines data to answer \"why did it happen?\" It goes beyond describing outcomes to identifying the causes and contributing factors behind them. Techniques include drill-down analysis, data discovery, correlations, and filtering to isolate the drivers of a specific result.\n\nVisit the following resources to learn more:\n\n- [@article@What is Diagnostic Analytics?](https://amplitude.com/explore/analytics/what-diagnostic-analytics)\n- [@video@What is Diagnostic Analytics? | Understanding Data-Driven Decision Making](https://www.youtube.com/watch?v=ikZjeAC1yJ0)",
+      "status": "required",
+      "y": 138.96072354377895,
+      "x": 93.13989797603216,
+      "parent_topic_id": "Lsapbmg-eMIYJAHpV97nO"
+    },
+    {
+      "id": "3WZORRCwme3HsaKew23Z5",
+      "label": "Predictive Analytics",
+      "type": "subtopic",
+      "description": "# Predictive Analytics\n\nPredictive analytics uses historical data and statistical models to forecast future outcomes. It answers the question \"what is likely to happen?\" Techniques include regression, time series analysis, and machine learning models trained on past data to predict future behavior or events.\n\nVisit the following resources to learn more:\n\n- [@article@What is Predictive Analytics? - Google](https://cloud.google.com/learn/what-is-predictive-analytics)\n- [@video@What is Predictive Analytics?](https://www.youtube.com/watch?v=cVibCHRSxB0)",
+      "status": "required",
+      "y": 191.96072354377895,
+      "x": 93.13989797603216,
+      "parent_topic_id": "Lsapbmg-eMIYJAHpV97nO"
+    },
+    {
+      "id": "DFMR-0MbmVCCrJu0I9JWG",
+      "label": "Prescriptive Analytics",
+      "type": "subtopic",
+      "description": "# Prescriptive Analytics\n\nPrescriptive analytics recommends actions to achieve a desired outcome, answering \"what should we do?\" It builds on predictive analytics by combining forecasts with optimization and decision logic. Examples include recommendation engines, dynamic pricing systems, and supply chain optimization tools.\n\nVisit the following resources to learn more:\n\n- [@article@What is Prescriptive Analysis?](https://www.investopedia.com/terms/p/prescriptive-analytics.asp)\n- [@video@Examples of Prescriptive Analysis](https://www.youtube.com/watch?v=NOo8Nc9zG20)",
+      "status": "required",
+      "y": 244.96072354377895,
+      "x": 93.13989797603216,
+      "parent_topic_id": "Lsapbmg-eMIYJAHpV97nO"
+    },
+    {
+      "id": "R12sArWVpbIs_PHxBqVaR",
+      "label": "Key Concepts of Data",
+      "type": "subtopic",
+      "description": "# Introduction to Key Concepts for Data Analysts\n\nData analysis is the process of inspecting, cleansing, transforming, and modeling data to discover useful information and support decision-making. In the broadest sense, data can be classified into various types like nominal, ordinal, interval and ratio, each with a specific role and analysis technique. Higher-dimensional data types like time-series, panel data, and multi-dimensional arrays are also critical. On the other hand, data quality and data management are key concepts to ensure clean and reliable datasets. With an understanding of these fundamental concepts, a data analyst can transform raw data into meaningful insights.",
+      "status": "required",
+      "y": 112.34268220704786,
+      "x": -327.321810236714,
+      "parent_topic_id": "3xp2fogAVmwXQhdzhZDWR"
+    },
+    {
+      "id": "mDUSpexdq3ITV6qokwSJl",
+      "label": "Collection",
+      "type": "subtopic",
+      "description": "# Collection\n\nData collection is the process of gathering raw data from various sources for analysis. Sources can include databases, spreadsheets, APIs, web scraping, surveys, and sensor data. The quality and completeness of collected data directly affects the quality of any analysis downstream.\n\nVisit the following resources to learn more:\n\n- [@article@Data Collection Methods](https://www.questionpro.com/blog/data-collection-methods/)\n- [@article@What is data collection?](https://www.simplilearn.com/what-is-data-collection-article)",
+      "status": "required",
+      "y": 173.84268220704786,
+      "x": -319.143620473428,
+      "parent_topic_id": "3xp2fogAVmwXQhdzhZDWR"
+    },
+    {
+      "id": "nC7tViln4UyQFYP_-fyjB",
+      "label": "Cleanup",
+      "type": "subtopic",
+      "description": "# Cleanup\n\nData cleanup (or data cleaning) is the process of identifying and correcting errors, inconsistencies, and missing values in a dataset. Common tasks include handling null values, removing duplicates, fixing formatting issues, and standardizing categories. Clean data is a prerequisite for accurate analysis.\n\nVisit the following resources to learn more:\n\n- [@article@Top 10 Ways to Clean Your Data](https://support.microsoft.com/en-gb/office/top-ten-ways-to-clean-your-data-2844b620-677c-47a7-ac3e-c2e157d1db19)\n- [@video@Master Data Cleaning Essentials on Excel in Just 10 Minutes](https://www.youtube.com/watch?v=jxq4-KSB_OA)",
+      "status": "required",
+      "y": 173.84268220704786,
+      "x": -191.14362047342797,
+      "parent_topic_id": "3xp2fogAVmwXQhdzhZDWR"
+    },
+    {
+      "id": "XFnw4_dQYSzm96-srWa7X",
+      "label": "Exploration",
+      "type": "subtopic",
+      "description": "# Exploration\n\nData exploration, or exploratory data analysis (EDA), is the process of examining a dataset to understand its structure, distributions, and relationships before formal analysis. It involves computing summary statistics, creating visualizations, and identifying patterns, outliers, and anomalies. EDA guides the choice of analytical methods and helps surface unexpected findings.\n\nVisit the following resources to learn more:\n\n- [@video@How to do Data Exploration](https://www.youtube.com/watch?v=OY4eQrekQvs)",
+      "status": "required",
+      "y": 226.84268220704786,
+      "x": -319.143620473428,
+      "parent_topic_id": "3xp2fogAVmwXQhdzhZDWR"
+    },
+    {
+      "id": "jowh4CFLQiFzKaaElyCuQ",
+      "label": "Visualisation",
+      "type": "subtopic",
+      "description": "# Visualisation\n\nData visualisation is the representation of data in graphical or visual form. Charts, graphs, and dashboards make patterns and relationships in data easier to perceive and communicate than tables of numbers alone. Effective visualisation is both analytical (for exploring data) and communicative (for presenting findings to others).\n\nVisit the following resources to learn more:\n\n- [@article@Data Visualization Beginner's Guide](https://www.tableau.com/en-gb/learn/articles/data-visualization)\n- [@video@Top 11 Data Science Skills to Master in 2026](https://roadmap.sh/ai-data-scientist/skills)",
+      "status": "required",
+      "y": 226.84268220704786,
+      "x": -191.14362047342797,
+      "parent_topic_id": "3xp2fogAVmwXQhdzhZDWR"
+    },
+    {
+      "id": "2pUq-7hu5EjGpowz98YoV",
+      "label": "Statistical Analysis",
+      "type": "subtopic",
+      "description": "# Statistical Analysis\n\nStatistical analysis applies mathematical techniques to summarize, interpret, and draw inferences from data. Core methods include descriptive statistics, hypothesis testing, correlation analysis, and regression. Statistical rigor ensures that conclusions drawn from data are valid and not the result of chance.\n\nVisit the following resources to learn more:\n\n- [@article@Understanding Statistical Analysis](https://www.simplilearn.com/what-is-statistical-analysis-article)\n- [@video@Statistical Analysis](https://www.youtube.com/watch?v=XjMBZE1DuBY)",
+      "status": "required",
+      "y": 279.84268220704786,
+      "x": -319.143620473428,
+      "parent_topic_id": "3xp2fogAVmwXQhdzhZDWR"
+    },
+    {
+      "id": "U55hwR0HRCIz2cveVR8FZ",
+      "label": "Machine Learning",
+      "type": "subtopic",
+      "description": "# Machine Learning\n\nMachine learning is a branch of artificial intelligence where systems learn patterns from data and make predictions or decisions without being explicitly programmed for each task. For data analysts, ML provides tools like classification, clustering, and regression models that automate pattern recognition at scale. Understanding the basics of ML extends what an analyst can do beyond traditional statistical methods.\n\nVisit the following resources to learn more:\n\n- [@roadmap@Visit the Dedicated Machine Learning Roadmap Roadmap](https://roadmap.sh/machine-learning)\n- [@article@What is Machine Learning (ML)?](https://www.ibm.com/topics/machine-learning)\n- [@article@Data Science vs Machine Learning: How are they different?](https://roadmap.sh/ai-data-scientist/vs-machine-learning)\n- [@video@What is Machine Learning?](https://www.youtube.com/watch?v=9gGnTQTYNaE)",
+      "status": "required",
+      "y": 332.84268220704786,
+      "x": -319.143620473428,
+      "parent_topic_id": "i2uEcaO4bJhcZ5ayRs2CQ"
+    },
+    {
+      "id": "wME4MSldOWlMB54ekpReS",
+      "label": "IF",
+      "type": "subtopic",
+      "description": "# If\n\nThe IF function in Excel is a crucial tool for data analysts, enabling them to create conditional statements, clean and validate data, perform calculations based on specific conditions, create custom metrics, apply conditional formatting, automate tasks, and generate dynamic reports. Data analysts use IF to categorize data, handle missing values, calculate bonuses or custom metrics, highlight trends, and enhance visualizations, ultimately facilitating informed decision-making through data analysis.\n\nVisit the following resources to learn more:\n\n- [@article@IF Function](https://support.microsoft.com/en-gb/office/if-function-69aed7c9-4e8a-4755-a9bc-aa8bbff73be2)\n- [@article@Excel IF Function](https://exceljet.net/functions/if-function)",
+      "status": "required",
+      "y": 166.8426822070478,
+      "x": -703.143620473428,
+      "parent_topic_id": "sgXIjVTbwdwdYoaxN3XBM"
+    },
+    {
+      "id": "yBlJrNo9eO470dLp6OaQZ",
+      "label": "DATEDIF",
+      "type": "subtopic",
+      "description": "# DATEDIF\n\n`DATEDIF` calculates the difference between two dates in days, months, or years. It is useful for computing ages, tenures, and durations. Despite being an undocumented legacy function, it remains widely used in practice for date arithmetic.\n\nVisit the following resources to learn more:\n\n- [@article@DATEDIF function](https://support.microsoft.com/en-gb/office/datedif-function-25dba1a4-2812-480b-84dd-8b32a451b35c)\n- [@article@How to use DATEDIF in Excel](https://www.excel-easy.com/examples/datedif.html)",
+      "status": "required",
+      "y": 167.8426822070478,
+      "x": -569.5,
+      "parent_topic_id": "sgXIjVTbwdwdYoaxN3XBM"
+    },
+    {
+      "id": "9sIP-jpNjtA1JPCBjTf-H",
+      "label": "VLOOKUP / HLOOKUP",
+      "type": "subtopic",
+      "description": "# VLOOKUP / HLOOKUP\n\n`VLOOKUP` searches for a value in the first column of a table and returns a value from a specified column in the same row. `HLOOKUP` does the same horizontally, searching across the first row. Both are used to merge data from different tables, though they have been largely replaced by `XLOOKUP` in modern Excel.\n\nVisit the following resources to learn more:\n\n- [@article@VLOOKUP Function](https://support.microsoft.com/en-gb/office/vlookup-function-0bbc8083-26fe-4963-8ab8-93a18ad188a1)\n- [@article@HLOOKUP Function](https://support.microsoft.com/en-gb/office/hlookup-function-a3034eec-b719-4ba3-bb65-e1ad662ed95f)",
+      "status": "required",
+      "y": 219.8426822070478,
+      "x": -703.5,
+      "parent_topic_id": "sgXIjVTbwdwdYoaxN3XBM"
+    },
+    {
+      "id": "dke_pySrqYZZ7K3rprnIT",
+      "label": "REPLACE / SUBSTITUTE",
+      "type": "subtopic",
+      "description": "# REPLACE / SUBSTITUTE\n\n`REPLACE` replaces a portion of a text string based on position and length. `SUBSTITUTE` replaces all occurrences of a specific substring with another string. Both are used for text cleaning and standardization in Excel.\n\nVisit the following resources to learn more:\n\n- [@article@Replace Function](https://support.microsoft.com/en-us/office/replace-function-8d799074-2425-4a8a-84bc-82472868878a)\n- [@article@Substitute Function](https://support.microsoft.com/en-us/office/substitute-function-6434944e-a904-4336-a9b0-1e58df3bc332)",
+      "status": "required",
+      "y": 272.8426822070478,
+      "x": -703.5,
+      "parent_topic_id": "sgXIjVTbwdwdYoaxN3XBM"
+    },
+    {
+      "id": "YReKRRgE_2dWfGGdBQqbf",
+      "label": "UPPER / LOWER / PROPER",
+      "type": "subtopic",
+      "description": "# UPPER / LOWER / PROPER\n\n`UPPER` converts text to all uppercase, `LOWER` to all lowercase, and `PROPER` capitalizes the first letter of each word. These functions are used to standardize text formatting in datasets, especially when combining data from multiple sources with inconsistent casing.\n\nVisit the following resources to learn more:\n\n- [@article@UPPER Function](https://support.microsoft.com/en-gb/office/upper-function-c11f29b3-d1a3-4537-8df6-04d0049963d6)\n- [@article@LOWER Function](https://support.microsoft.com/en-gb/office/lower-function-3f21df02-a80c-44b2-afaf-81358f9fdeb4)\n- [@article@PROPER Function](https://support.microsoft.com/en-gb/office/proper-function-52a5a283-e8b2-49be-8506-b2887b889f94)",
+      "status": "required",
+      "y": 325.8426822070478,
+      "x": -703.5,
+      "parent_topic_id": "sgXIjVTbwdwdYoaxN3XBM"
+    },
+    {
+      "id": "SIiIfcy-jeiRoDlxw385V",
+      "label": "CONCAT",
+      "type": "subtopic",
+      "description": "# CONCAT\n\n`CONCAT` joins two or more text strings into one. It is the modern replacement for the `&` operator and the older `CONCATENATE` function. `CONCAT` is used to combine name fields, build labels, and merge data from multiple columns.\n\nVisit the following resources to learn more:\n\n- [@article@CONCAT Function](https://support.microsoft.com/en-gb/office/concat-function-9b1a9a3f-94ff-41af-9736-694cbd6b4ca2)\n- [@article@Excel CONCAT Function](https://www.w3schools.com/excel/excel_concat.php)",
+      "status": "required",
+      "y": 378.8426822070478,
+      "x": -703.143620473428,
+      "parent_topic_id": "sgXIjVTbwdwdYoaxN3XBM"
+    },
+    {
+      "id": "D5Q6o6ydr1j51kB0ASFPE",
+      "label": "TRIM",
+      "type": "subtopic",
+      "description": "# Trim\n\nTrim is considered a basic yet vital function within the scope of data analysis. It plays an integral role in preparing and cleansing the dataset, which is key to analytical accuracy. Trim allows data analysts to streamline dataset by removing extra spaces, enhancing the data quality. Furthermore, Trim functions can help in reducing the errors, enhancing the efficiency of data modelling and ensuring reliable data insight generation. Understanding Trim function is thus an essential part of a data analyst's toolbox.\n\nVisit the following resources to learn more:\n\n- [@article@TRIM Function](https://corporatefinanceinstitute.com/resources/excel/trim-function/)\n- [@article@Excel TRIM Function](https://support.microsoft.com/en-gb/office/trim-function-410388fa-c5df-49c6-b16c-9e5630b479f9)",
+      "status": "required",
+      "y": 378.8426822070478,
+      "x": -569.5,
+      "parent_topic_id": "sgXIjVTbwdwdYoaxN3XBM"
+    },
+    {
+      "id": "FDYunL9KJkR_tHEcUV2iC",
+      "label": "AVERAGE",
+      "type": "subtopic",
+      "description": "# Average\n\nThe average, also often referred to as the mean, is one of the most commonly used mathematical calculations in data analysis. It provides a simple, useful measure of a set of data. For a data analyst, understanding how to calculate and interpret averages is fundamental. Basic functions, including the average, are integral components in data analysis that are used to summarize and understand complex data sets. Though conceptually simple, the power of average lies in its utility in a range of analyses - from forecasting models to understanding trends and patterns in the dataset.\n\nVisit the following resources to learn more:\n\n- [@article@AVERAGE Function](https://support.microsoft.com/en-gb/office/average-function-047bac88-d466-426c-a32b-8f33eb960cf6)\n- [@article@Excel AVERAGE function](https://www.w3schools.com/excel/excel_average.php)",
+      "status": "required",
+      "y": 431.8426822070478,
+      "x": -703.143620473428,
+      "parent_topic_id": "sgXIjVTbwdwdYoaxN3XBM"
+    },
+    {
+      "id": "uAdxP1ZkgzcU8JcWjvw6d",
+      "label": "COUNT",
+      "type": "subtopic",
+      "description": "# Count\n\nThe Count function in data analysis is one of the most fundamental tasks that a Data Analyst gets to handle. This function is a simple yet powerful tool that aids in understanding the underlying data by providing the count or frequency of occurrences of unique elements in data sets. The relevance of count comes into play in various scenarios \u2013 from understanding the popularity of a certain category to analyzing customer activity, and much more. This basic function offers crucial insights into data, making it an essential skill in the toolkit of any data analyst.\n\nVisit the following resources to learn more:\n\n- [@article@COUNT Function](https://support.microsoft.com/en-gb/office/count-function-a59cd7fc-b623-4d93-87a4-d23bf411294c)\n- [@video@How to Count Cells in Microsoft Excel (COUNT, COUNTA, COUNTIF, COUNTIFS Functions)](https://www.youtube.com/watch?v=5RFLncJuMng)",
+      "status": "required",
+      "y": 432.8426822070478,
+      "x": -569.5,
+      "parent_topic_id": "sgXIjVTbwdwdYoaxN3XBM"
+    },
+    {
+      "id": "_FO80Cm2iAD_bThmnsEgp",
+      "label": "SUM",
+      "type": "subtopic",
+      "description": "# Sum\n\nSum is one of the most fundamental operations in data analysis. As a data analyst, the ability to quickly and accurately summarize numerical data is key to draw meaningful insights from large data sets. The operation can be performed using various software and programming languages such as Excel, SQL, Python, R etc., each providing distinct methods to compute sums. Understanding the 'sum' operation is critical for tasks such as trend analysis, forecasting, budgeting, and essentially any operation involving quantitative data.\n\nVisit the following resources to learn more:\n\n- [@article@SUM Function](https://support.microsoft.com/en-gb/office/sum-function-043e1c7d-7726-4e80-8f32-07b23e057f89)\n- [@video@How to use the SUM function in excel](https://www.youtube.com/watch?v=-u-9f3QrdAQ)",
+      "status": "required",
+      "y": 484.8426822070478,
+      "x": -703.143620473428,
+      "parent_topic_id": "sgXIjVTbwdwdYoaxN3XBM"
+    },
+    {
+      "id": "F3-cr5onkWqKKPRdxu8lV",
+      "label": "MIN / MAX",
+      "type": "subtopic",
+      "description": "# Min / Max Function\n\nUnderstanding the minimum and maximum values in your dataset is critical in data analysis. These basic functions, often referred to as Min-Max functions, are statistical tools that data analysts use to inspect the distribution of a particular dataset. By identifying the lowest and highest values, data analysts can gain insight into the range of the dataset, identify possible outliers, and understand the data's variability. Beyond their use in descriptive statistics, Min-Max functions also play a vital role in data normalization, shaping the accuracy of predictive models in Machine Learning and AI fields.\n\nVisit the following resources to learn more:\n\n- [@article@MIN Function](https://support.microsoft.com/en-gb/office/min-function-61635d12-920f-4ce2-a70f-96f202dcc152)\n- [@article@MAX Function](https://support.microsoft.com/en-gb/office/max-function-e0012414-9ac8-4b34-9a47-73e662c08098)",
+      "status": "required",
+      "y": 485.8426822070478,
+      "x": -569.5,
+      "parent_topic_id": "sgXIjVTbwdwdYoaxN3XBM"
+    },
+    {
+      "id": "Vk3JErqxpnPY44iyfkLMl",
+      "label": "Charting",
+      "type": "subtopic",
+      "description": "# Charting\n\nExcel charts turn tabular data into visual representations like bar charts, line charts, pie charts, and scatter plots. Charts are created directly from selected data and can be formatted and embedded in reports and dashboards. Knowing which chart type suits different data and messages is an important analytical skill.\n\nVisit the following resources to learn more:\n\n- [@article@Create a chart from start to finish](https://support.microsoft.com/en-gb/office/create-a-chart-from-start-to-finish-0baf399e-dd61-4e18-8a73-b3fd5d5680c2)\n- [@video@Excel Charts and Graphs Tutorial](https://www.youtube.com/watch?v=eHtZrIb0oWY)",
+      "status": "required",
+      "y": 418.3426822070478,
+      "x": -327.321810236714,
+      "parent_topic_id": "i2uEcaO4bJhcZ5ayRs2CQ"
+    },
+    {
+      "id": "2DDJUFr0AJTVR2Whj8zub",
+      "label": "Pivot Tables",
+      "type": "subtopic",
+      "description": "# Pivot Tables\n\nPivot tables are one of Excel's most powerful features for summarizing and analyzing large datasets. They allow data to be grouped, filtered, and aggregated across multiple dimensions without writing formulas. Pivot tables are used to quickly explore data and build summary reports by dragging and dropping fields.\n\nVisit the following resources to learn more:\n\n- [@article@Create a Pivot Table](https://support.microsoft.com/en-gb/office/create-a-pivottable-to-analyze-worksheet-data-a9a84538-bfe9-40a9-a8e9-f99134456576)\n- [@article@Pivot Tables in Excel](https://www.excel-easy.com/data-analysis/pivot-tables.html)\n- [@video@How to Create a Pivot Table in Excel](https://www.youtube.com/watch?v=PdJzy956wo4)",
+      "status": "required",
+      "y": 471.3426822070478,
+      "x": -327.321810236714,
+      "parent_topic_id": "M1QtGTLyygIjePoCfvjve"
+    },
+    {
+      "id": "g_EBQizZsIe-vn8ir6FTv",
+      "label": "R",
+      "type": "subtopic",
+      "description": "# R\n\nR is a powerful language profoundly used by data analysts and statisticians across the globe. Offering a wide array of statistical and graphical techniques, R proves to be an excellent tool for data manipulation, statistical modeling and visualization. With its comprehensive collection of packages and built-in functions for data analysis, R allows data analysts to perform complex exploratory data analysis, build sophisticated models and create stunning visualizations. Moreover, given its open-source nature, R consistently advances with contributions from the worldwide statistical community.\n\nVisit the following resources to learn more:\n\n- [@official@R Website](https://www.r-project.org/about.html)\n- [@video@R vs Python | Which is Better for Data Analysis?](https://www.youtube.com/watch?v=1gdKC5O0Pwc)",
+      "status": "required",
+      "y": 369.60000000000014,
+      "x": 120.57457800662047,
+      "parent_topic_id": "i2uEcaO4bJhcZ5ayRs2CQ"
+    },
+    {
+      "id": "8OXmF2Gn6TYJotBRvDjqA",
+      "label": "Pandas",
+      "type": "subtopic",
+      "description": null,
+      "status": "required",
+      "y": 441,
+      "x": 236.13989797603216,
+      "parent_topic_id": "M1QtGTLyygIjePoCfvjve"
+    },
+    {
+      "id": "uGkXxdMXUMY-3fQFS1jK8",
+      "label": "Matplotlib",
+      "type": "subtopic",
+      "description": null,
+      "status": "required",
+      "y": 547.8426822070478,
+      "x": 236.49718479195076,
+      "parent_topic_id": "l1SnPc4EMqGdaIAhIQfrT"
+    },
+    {
+      "id": "y__UHXe2DD-IB7bvMF1-X",
+      "label": "Dplyr",
+      "type": "subtopic",
+      "description": null,
+      "status": "required",
+      "y": 494.8426822070478,
+      "x": 236.13989797603216,
+      "parent_topic_id": "M1QtGTLyygIjePoCfvjve"
+    },
+    {
+      "id": "E0hIgQEeZlEidr4HtUFrL",
+      "label": "Ggplot2",
+      "type": "subtopic",
+      "description": null,
+      "status": "required",
+      "y": 600.8426822070478,
+      "x": 236.49718479195076,
+      "parent_topic_id": "l1SnPc4EMqGdaIAhIQfrT"
+    },
+    {
+      "id": "tYPeLCxbqvMFlTkCGjdHg",
+      "label": "Databases",
+      "type": "subtopic",
+      "description": "# Databases\n\nDatabases are structured storage systems that hold organized data accessible via query languages like SQL. Data analysts connect to databases to extract relevant subsets of data for analysis. Understanding basic SQL and database concepts is necessary for working with most organizational data.\n\nVisit the following resources to learn more:\n\n- [@roadmap@Visit Dedicated SQL Roadmap](https://roadmap.sh/sql)\n- [@roadmap@Visit Dedicated PostgreSQL Roadmap](https://roadmap.sh/postgresql-dba)",
+      "status": "required",
+      "y": 664.9740268980099,
+      "x": -445.31525874602266,
+      "parent_topic_id": "_sjXCLHHTbZromJYn6fnu"
+    },
+    {
+      "id": "iWOK0mRY-hAGxMnHYJ0tt",
+      "label": "CSV Files",
+      "type": "subtopic",
+      "description": "# CSV Files\n\nCSV (Comma-Separated Values) files are plain text files where each row represents a record and columns are separated by commas. They are the most common format for exchanging tabular data between systems and tools. CSV files are easy to read into Pandas, R, and Excel, but require care when handling special characters, encoding, and missing values.\n\nVisit the following resources to learn more:\n\n- [@article@What is a CSV file: A comprehensive guide](https://flatfile.com/blog/what-is-a-csv-file-guide-to-uses-and-benefits/)\n- [@video@Understanding CSV Files](https://www.youtube.com/watch?v=UofTplCVkYI)",
+      "status": "required",
+      "y": 717.9740268980099,
+      "x": -445.31525874602266,
+      "parent_topic_id": "_sjXCLHHTbZromJYn6fnu"
+    },
+    {
+      "id": "4DFcXSSHxg5wv0uXLIRij",
+      "label": "APIs",
+      "type": "subtopic",
+      "description": "# APIs and Data Collection\n\nApplication Programming Interfaces, better known as APIs, play a fundamental role in the work of data analysts, particularly in the process of data collection. APIs are sets of protocols, routines, and tools that enable different software applications to communicate with each other. In data analysis, APIs are used extensively to collect, exchange, and manipulate data from different sources in a secure and efficient manner. This data collection process is paramount in shaping the insights derived by the analysts.\n\nVisit the following resources to learn more:\n\n- [@roadmap@Visit the Dedicated API Design Roadmap](https://roadmap.sh/api-design)\n- [@article@What is an API?](https://aws.amazon.com/what-is/api/)\n- [@article@A Beginner's Guide to APIs](https://www.postman.com/what-is-an-api/)",
+      "status": "required",
+      "y": 770.9740268980099,
+      "x": -445.31525874602266,
+      "parent_topic_id": "_sjXCLHHTbZromJYn6fnu"
+    },
+    {
+      "id": "qQ64ZhSlbbWu9pP8KTE67",
+      "label": "Web Scraping",
+      "type": "subtopic",
+      "description": "# Web Scraping\n\nWeb scraping plays a significant role in collecting unique datasets for data analysis. In the realm of a data analyst's tasks, web scraping refers to the method of extracting information from websites and converting it into a structured usable format like a CSV, Excel spreadsheet, or even into databases. This technique allows data analysts to gather large sets of data from the internet, which otherwise could be time-consuming if done manually. The capability of web scraping and parsing data effectively can give data analysts a competitive edge in their data analysis process, from unlocking in-depth, insightful information to making data-driven decisions.\n\nVisit the following resources to learn more:\n\n- [@article@What is Web Scraping & What is it used for?](https://www.parsehub.com/blog/what-is-web-scraping/)\n- [@video@What is Web Scraping?](https://www.youtube.com/watch?v=dlj_QL-ENJM)",
+      "status": "required",
+      "y": 823.9740268980099,
+      "x": -445.31525874602266,
+      "parent_topic_id": "_sjXCLHHTbZromJYn6fnu"
+    },
+    {
+      "id": "X9WmfHOks82BIAzs6abqO",
+      "label": "Handling Missing Data",
+      "type": "subtopic",
+      "description": "# Handling Missing Data\n\nMissing data occurs when values are absent in a dataset, which can distort analysis if not handled carefully. Common strategies include removing rows with missing values, imputing with the mean, median, or a predicted value, and flagging missingness as its own category. The right approach depends on how much data is missing and why.\n\nVisit the following resources to learn more:\n\n- [@article@How to Handle Missing Data Values While Data Cleaning](https://insightsoftware.com/blog/how-to-handle-missing-data-values-while-data-cleaning/)\n- [@article@Handling Missing Data in Data Preprocessing and Cleaning](https://medium.com/@yennhi95zz/handling-missing-data-in-data-preprocessing-and-cleaning-methods-and-examples-19a893336b2a)",
+      "status": "required",
+      "y": 801.5814615179639,
+      "x": 92.7005592047509,
+      "parent_topic_id": "E6cpb6kvluJM8OGuDcFBT"
+    },
+    {
+      "id": "Xltm7B-8TZ1-igLjVJXoR",
+      "label": "Removing Duplicates",
+      "type": "subtopic",
+      "description": "# Removing Duplicates\n\nDuplicate records occur when the same entity appears more than once in a dataset, often due to data entry errors or merging multiple sources. Removing duplicates ensures that counts, sums, and other aggregations are not inflated. Pandas provides `drop_duplicates()` and Excel provides a built-in remove duplicates tool for this.\n\nVisit the following resources to learn more:\n\n- [@article@Handling Duplicate Values and Outliers in a dataset](https://medium.com/@ayushmandurgapal/handling-duplicate-values-and-outliers-in-a-dataset-b00ce130818e)\n- [@video@How To Remove Duplicates in a Dataset and Find Unique Values](https://www.youtube.com/watch?v=KBzYrvjUsps)",
+      "status": "required",
+      "y": 854.5814615179639,
+      "x": 92.7005592047509,
+      "parent_topic_id": "E6cpb6kvluJM8OGuDcFBT"
+    },
+    {
+      "id": "-rQ8h_6NFxEOhxXgo7LHo",
+      "label": "Finding Outliers",
+      "type": "subtopic",
+      "description": "# Finding Outliers\n\nOutliers are data points that differ significantly from the rest of the dataset. They can result from data entry errors, measurement anomalies, or genuine extreme values. Detecting outliers using statistical methods (z-scores, IQR) or visualization (box plots, scatter plots) is necessary before deciding whether to remove, transform, or investigate them further.\n\nVisit the following resources to learn more:\n\n- [@article@Outliers](https://www.mathsisfun.com/data/outliers.html)",
+      "status": "required",
+      "y": 907.5814615179639,
+      "x": 92.7005592047509,
+      "parent_topic_id": "E6cpb6kvluJM8OGuDcFBT"
+    },
+    {
+      "id": "t_BRtEharsrOZxoyX0OzV",
+      "label": "Data Transformation",
+      "type": "subtopic",
+      "description": "# Data Transformation\n\nData Transformation, also known as Data Wrangling, is an essential part of a Data Analyst's role. This process involves the conversion of data from a raw format into another format to make it more appropriate and valuable for a variety of downstream purposes such as analytics. Data Analysts transform data to make the data more suitable for analysis, ensure accuracy, and to improve data quality. The right transformation techniques can give the data a structure, multiply its value, and enhance the accuracy of the analytics performed by serving meaningful results.\n\nVisit the following resources to learn more:\n\n- [@article@What is data transformation?](https://www.qlik.com/us/data-management/data-transformation)",
+      "status": "required",
+      "y": 960.5814615179639,
+      "x": 92.7005592047509,
+      "parent_topic_id": "E6cpb6kvluJM8OGuDcFBT"
+    },
+    {
+      "id": "TucngXKNptbeo3PtdJHX8",
+      "label": "Pandas",
+      "type": "subtopic",
+      "description": "# Pandas\n\nPandas is used extensively for data cleanup tasks: loading raw data, filling or dropping missing values, removing duplicates, renaming columns, filtering rows, and converting data types. Its DataFrame API provides a comprehensive set of methods for every stage of the cleanup workflow, making it the go-to tool for Python-based data preparation.\n\nVisit the following resources to learn more:\n\n- [@official@Pandas](https://pandas.pydata.org/)\n- [@video@NumPy vs Pandas](https://www.youtube.com/watch?v=KHoEbRH46Zk)",
+      "status": "required",
+      "y": 1060.5814615179638,
+      "x": 92.7005592047509,
+      "parent_topic_id": "2g19zjEASJw2ve57hxpr0"
+    },
+    {
+      "id": "v8TfY-b4W5ygOv7r-syHq",
+      "label": "Dplyr",
+      "type": "subtopic",
+      "description": "# Dplyr\n\nDplyr provides the primary toolkit for data transformation in R. Functions like `mutate()`, `filter()`, `select()`, `arrange()`, and `summarise()` cover the most common transformation tasks. Combined with the pipe operator, dplyr code reads clearly as a sequence of transformation steps applied to a dataset.\n\nVisit the following resources to learn more:\n\n- [@official@dplyr](https://dplyr.tidyverse.org/)\n- [@video@Dplyr Essentials](https://www.youtube.com/watch?v=Gvhkp-Yw65U)",
+      "status": "required",
+      "y": 1060.5814615179638,
+      "x": 211.7005592047509,
+      "parent_topic_id": "2g19zjEASJw2ve57hxpr0"
+    },
+    {
+      "id": "2ldO-_ZnIg364Eo8Jyfgr",
+      "label": "Dispersion",
+      "type": "subtopic",
+      "description": "# Dispersion\n\nDispersion measures how spread out values are in a dataset. High dispersion means values vary widely; low dispersion means they cluster close to the center. Range, variance, and standard deviation are the primary measures of dispersion.\n\nVisit the following resources to learn more:\n\n- [@article@What is dispersion?](https://www.investopedia.com/terms/d/dispersion.asp)\n- [@video@Statistics 101 - Measures of Dispersion](https://www.youtube.com/watch?v=goXdWMZxlqM)",
+      "status": "required",
+      "y": 735.9740268980099,
+      "x": -711.321810236714,
+      "parent_topic_id": "il6KQXVPGBza5libN38ib"
+    },
+    {
+      "id": "Fyqg3MRcwY7g-Q3gjiqwK",
+      "label": "Distribution Space",
+      "type": "subtopic",
+      "description": "# Distribution Space\n\nDistribution space refers to the full range of values a variable takes and how frequently each value or range of values occurs. Understanding distribution shape (symmetric, skewed, bimodal) informs which statistical methods are appropriate. Tools like histograms and density plots are used to visualize distributions.\n\nVisit the following resources to learn more:\n\n- [@article@Shapes of Distributions: Definitions, Examples](https://www.statisticshowto.com/shapes-of-distributions/)",
+      "status": "required",
+      "y": 907.9740268980099,
+      "x": -503.321810236714,
+      "parent_topic_id": "il6KQXVPGBza5libN38ib"
+    },
+    {
+      "id": "923KGEUG9ofBm7dYkkrxz",
+      "label": "Mean",
+      "type": "subtopic",
+      "description": "# Mean\n\nThe mean is the arithmetic average of a set of values, calculated by summing all values and dividing by the count. It is the most commonly used measure of central tendency but is sensitive to outliers. When data is skewed, the median is often a better representation of the typical value.\n\nVisit the following resources to learn more:\n\n- [@article@Measures of Central Tendency](https://statistics.laerd.com/statistical-guides/measures-central-tendency-mean-mode-median.php)\n- [@article@Central Tendency | Understanding the Mean, Median & Mode](https://www.scribbr.co.uk/stats/measures-of-central-tendency/)",
+      "status": "required",
+      "y": 963.4045877729018,
+      "x": -697.321810236714,
+      "parent_topic_id": "il6KQXVPGBza5libN38ib"
+    },
+    {
+      "id": "qdXoikVh2xkJkOQNKcyvb",
+      "label": "Median",
+      "type": "subtopic",
+      "description": "# Median\n\nMedian signifies the middle value in a data set when arranged in ascending or descending order. As a data analyst, understanding, calculating, and interpreting the median is crucial. It is especially helpful when dealing with outliers in a dataset as the median is less sensitive to extreme values. Thus, providing a more realistic 'central' value for skewed distributions. This measure is a reliable reflection of the dataset and is widely used in fields like real estate, economics, and finance for data interpretation and decision-making.\n\nVisit the following resources to learn more:\n\n- [@article@How to find the median value](https://www.mathsisfun.com/median.html)\n- [@article@Median: What It Is and How to Calculate It](https://www.investopedia.com/terms/m/median.asp)",
+      "status": "required",
+      "y": 963.4045877729018,
+      "x": -613.321810236714,
+      "parent_topic_id": "il6KQXVPGBza5libN38ib"
+    },
+    {
+      "id": "fY8zVG2tVbmtx5OhY7hj-",
+      "label": "Mode",
+      "type": "subtopic",
+      "description": "# Mode\n\nThe mode is the value that appears most frequently in a dataset. It is the only measure of central tendency applicable to categorical data. A dataset can have no mode, one mode, or multiple modes (bimodal or multimodal).\n\nVisit the following resources to learn more:\n\n- [@article@Mode: What is it and how to calculate it](https://www.investopedia.com/terms/m/mode.asp)\n- [@article@Mean Median Mode Formula](https://www.cuemath.com/mean-median-mode-formula/)",
+      "status": "required",
+      "y": 1016.4045877729018,
+      "x": -697.321810236714,
+      "parent_topic_id": "il6KQXVPGBza5libN38ib"
+    },
+    {
+      "id": "yn1sstYMO9du3rpfQqNs9",
+      "label": "Average",
+      "type": "subtopic",
+      "description": null,
+      "status": "required",
+      "y": 1016.4045877729018,
+      "x": -613.321810236714,
+      "parent_topic_id": "il6KQXVPGBza5libN38ib"
+    },
+    {
+      "id": "tSxtyJhL5wjU0XJcjsJmm",
+      "label": "Range",
+      "type": "subtopic",
+      "description": "# Range\n\nRange is the simplest measure of dispersion, calculated as the difference between the maximum and minimum values in a dataset. It gives a quick sense of how wide the data spans but is sensitive to outliers. For a more robust measure, interquartile range (IQR) is preferred.\n\nVisit the following resources to learn more:\n\n- [@article@How to Find the Range of a Data Set](https://www.scribbr.co.uk/stats/range-statistics/)",
+      "status": "required",
+      "y": 796.4045877729018,
+      "x": -702.321810236714,
+      "parent_topic_id": "il6KQXVPGBza5libN38ib"
+    },
+    {
+      "id": "ict4JkoVM-AzPbp9bDztg",
+      "label": "Variance",
+      "type": "subtopic",
+      "description": "# Variance\n\nVariance measures the average squared deviation of each value from the mean. It quantifies how much the data points differ from the average. A higher variance indicates greater spread. Variance is the basis for standard deviation and many inferential statistical tests.\n\nVisit the following resources to learn more:\n\n- [@article@What is Variance?](https://www.investopedia.com/terms/v/variance.asp)\n- [@article@How to Calculate Variance](https://www.scribbr.co.uk/stats/variance-meaning/)",
+      "status": "required",
+      "y": 796.4045877729018,
+      "x": -609.321810236714,
+      "parent_topic_id": "il6KQXVPGBza5libN38ib"
+    },
+    {
+      "id": "MXIP8ekH4YtczODKM_G_l",
+      "label": "Standard Deviation",
+      "type": "subtopic",
+      "description": "# Standard Deviation\n\nStandard deviation is the square root of variance and expresses dispersion in the same units as the original data. It is the most commonly used measure of spread. A low standard deviation means values are clustered near the mean; a high one means they are more spread out.\n\nVisit the following resources to learn more:\n\n- [@article@Standard Deviation Formula and Uses vs. Variance](https://www.investopedia.com/terms/s/standarddeviation.asp)\n- [@video@Standard Deviation](https://www.youtube.com/watch?v=esskJJF8pCc)",
+      "status": "required",
+      "y": 849.4045877729018,
+      "x": -701.321810236714,
+      "parent_topic_id": "il6KQXVPGBza5libN38ib"
+    },
+    {
+      "id": "VfcCRRqwLxkYpIX0ZKNNX",
+      "label": "Skewness",
+      "type": "subtopic",
+      "description": "# Skewness\n\nSkewness is a crucial statistical concept driven by data analysis and is a significant parameter in understanding the distribution shape of a dataset. In essence, skewness provides a measure to define the extent and direction of asymmetry in data. A positive skewness indicates a distribution with an asymmetric tail extending towards more positive values, while a negative skew indicates a distribution with an asymmetric tail extending towards more negative values. For a data analyst, recognizing and analyzing skewness is essential as it can greatly influence model selection, prediction accuracy, and interpretation of results.\n\nVisit the following resources to learn more:\n\n- [@article@Skewed Data](https://www.mathsisfun.com/data/skewness.html)",
+      "status": "required",
+      "y": 963.4045877729018,
+      "x": -494.2994407952491,
+      "parent_topic_id": "il6KQXVPGBza5libN38ib"
+    },
+    {
+      "id": "PqGO8AU1zE2ZdtqrIrOkZ",
+      "label": "Kurtosis",
+      "type": "subtopic",
+      "description": "# Kurtosis\n\nKurtosis measures the heaviness of a distribution's tails compared to a normal distribution. High kurtosis (leptokurtic) means more values in the tails and a sharper peak; low kurtosis (platykurtic) means thinner tails and a flatter peak. It is used alongside skewness to assess whether data approximates a normal distribution.\n\nVisit the following resources to learn more:\n\n- [@article@Kurtosis: Definition, Types, and Importance](https://www.investopedia.com/terms/k/kurtosis.asp)\n- [@video@What is Kurtosis?](https://www.youtube.com/watch?v=AsxEDBhESJg)",
+      "status": "required",
+      "y": 1016.4045877729018,
+      "x": -494.2994407952491,
+      "parent_topic_id": "il6KQXVPGBza5libN38ib"
+    },
+    {
+      "id": "BJTVa4ur_bJB7mMtD2-hQ",
+      "label": "Central Tendency",
+      "type": "subtopic",
+      "description": "# Central Tendency\n\nMeasures of central tendency describe the center or typical value of a dataset. The three main measures are mean (arithmetic average), median (middle value), and mode (most frequent value). The choice between them depends on the data's distribution and whether outliers are present.\n\nVisit the following resources to learn more:\n\n- [@article@Measures of central tendency](https://www.abs.gov.au/statistics/understanding-statistics/statistical-terms-and-concepts/measures-central-tendency)\n- [@video@Understanding Central Tendency](https://www.youtube.com/watch?v=n_sSVhHBdj4)",
+      "status": "required",
+      "y": 907.9740268980099,
+      "x": -711.321810236714,
+      "parent_topic_id": "il6KQXVPGBza5libN38ib"
+    },
+    {
+      "id": "Sz2Y8HLbSmDjSKAJztDql",
+      "label": "Tableau",
+      "type": "subtopic",
+      "description": "# Tableau\n\nTableau is a leading business intelligence and data visualization platform. It allows analysts to connect to data sources and build interactive dashboards and visualizations with a drag-and-drop interface. Tableau is widely used in business settings for self-service analytics and sharing insights with non-technical stakeholders.\n\nVisit the following resources to learn more:\n\n- [@official@Tableau](https://www.tableau.com/en-gb)\n- [@video@What is Tableau?](https://www.youtube.com/watch?v=NLCzpPRCc7U)",
+      "status": "required",
+      "y": 1290.4045877729018,
+      "x": 22.118578138237808,
+      "parent_topic_id": "2g19zjEASJw2ve57hxpr0"
+    },
+    {
+      "id": "SJLeose5vZU8w_18C8_t0",
+      "label": "Power BI",
+      "type": "subtopic",
+      "description": "# Power BI\n\nPower BI is Microsoft's business intelligence platform for creating interactive reports and dashboards. It integrates tightly with the Microsoft ecosystem, including Excel, Azure, and SQL Server. Power BI is widely adopted in organizations already using Microsoft tools for reporting and data sharing across teams.\n\nVisit the following resources to learn more:\n\n- [@official@Power BI](https://www.microsoft.com/en-us/power-platform/products/power-bi)\n- [@video@Power BI for beginners](https://www.youtube.com/watch?v=NNSHu0rkew8)",
+      "status": "required",
+      "y": 1343.4045877729018,
+      "x": 22.118578138237808,
+      "parent_topic_id": "2g19zjEASJw2ve57hxpr0"
+    },
+    {
+      "id": "tvDdXwaRPsUSTqJGaLS3P",
+      "label": "Matplotlib",
+      "type": "subtopic",
+      "description": "# Matplotlib\n\nMatplotlib is Python's foundational plotting library. It supports a wide range of chart types and gives detailed control over every visual element. While more verbose than higher-level libraries, Matplotlib is the base on which many other Python visualization tools are built and is essential for custom or publication-quality plots.\n\nVisit the following resources to learn more:\n\n- [@official@Matplotlib](https://matplotlib.org/)\n- [@video@Learn Matplotlib in 6 minutes](https://www.youtube.com/watch?v=nzKy9GY12yo)",
+      "status": "required",
+      "y": 1289.4045877729018,
+      "x": 140.6185781382378,
+      "parent_topic_id": "2g19zjEASJw2ve57hxpr0"
+    },
+    {
+      "id": "-cJb8gEBvdVFf7FlgG3Ud",
+      "label": "Seaborn",
+      "type": "subtopic",
+      "description": "# Seaborn\n\nSeaborn is a Python visualization library built on top of Matplotlib that provides a higher-level interface for statistical graphics. It simplifies the creation of complex plots like heatmaps, pair plots, and distribution comparisons. Seaborn is well suited for exploring relationships in datasets with minimal boilerplate.\n\nVisit the following resources to learn more:\n\n- [@official@Seaborn](https://seaborn.pydata.org/)\n- [@video@Seaborn Tutorial : Seaborn Full Course](https://www.youtube.com/watch?v=6GUZXDef2U0)",
+      "status": "required",
+      "y": 1342.4045877729018,
+      "x": 140.6185781382378,
+      "parent_topic_id": "2g19zjEASJw2ve57hxpr0"
+    },
+    {
+      "id": "n3M49lgNPn28hm7kzki-a",
+      "label": "ggplot2",
+      "type": "subtopic",
+      "description": "# ggplot2\n\nggplot2 is R's most popular visualization library, based on the Grammar of Graphics framework. Plots are built by layering geometric elements (points, lines, bars) on top of aesthetic mappings (x, y, color, size). It produces clean, professional-looking charts with minimal code and is the standard for data visualization in R.\n\nVisit the following resources to learn more:\n\n- [@article@ggplot2 website](https://ggplot2.tidyverse.org/)\n- [@video@Make beautiful graphs in R](https://www.youtube.com/watch?v=qnw1xDnt_Ec)",
+      "status": "required",
+      "y": 1289.4045877729018,
+      "x": 245.678189763286,
+      "parent_topic_id": "2g19zjEASJw2ve57hxpr0"
+    },
+    {
+      "id": "EVk1H-QLtTlpG7lVEenDt",
+      "label": "Bar Charts",
+      "type": "subtopic",
+      "description": "# Bar Charts\n\nBar charts display categorical data with rectangular bars whose lengths represent values. They are used to compare quantities across different categories. Horizontal bar charts work well for long category names; vertical bar charts (column charts) are standard for time-based comparisons.\n\nVisit the following resources to learn more:\n\n- [@article@A Complete Guide to Bar Charts](https://www.atlassian.com/data/charts/bar-chart-complete-guide)\n- [@video@What is a Bar Chart?](https://www.youtube.com/watch?v=WTVdncVCvKo)",
+      "status": "required",
+      "y": 1456.4045877729018,
+      "x": 24,
+      "parent_topic_id": "_aUQZWUhFRvNu0MZ8CPit"
+    },
+    {
+      "id": "v9T0DX56jFNhUz9nzubzS",
+      "label": "Line Chart",
+      "type": "subtopic",
+      "description": "# Line Chart\n\nData visualization is a crucial skill for every Data Analyst and the Line Chart is one of the most commonly used chart types in this field. Line charts act as powerful tools for summarizing and interpreting complex datasets. Through attractive and interactive design, these charts allow for clear and efficient communication of patterns, trends, and outliers in the data. This makes them valuable for data analysts when presenting data spanning over a period of time, forecasting trends or demonstrating relationships between different data sets.\n\nVisit the following resources to learn more:\n\n- [@article@Line Graph: Definition, Types, Parts, Uses, and Examples](https://www.investopedia.com/terms/l/line-graph.asp)\n- [@video@What is a line graph?](https://www.youtube.com/watch?v=rw-MxkzymEw)",
+      "status": "required",
+      "y": 1509.4045877729018,
+      "x": 24,
+      "parent_topic_id": "_aUQZWUhFRvNu0MZ8CPit"
+    },
+    {
+      "id": "A5YQv7D4qRcskdZ64XldH",
+      "label": "Scatter Plot",
+      "type": "subtopic",
+      "description": "# Scatter Plot\n\nA scatter plot, a crucial aspect of data visualization, is a mathematical diagram using Cartesian coordinates to represent values from two different variables. As a data analyst, understanding and interpreting scatter plots can be instrumental in identifying correlations and trends within a dataset, drawing meaningful insights, and showcasing these findings in a clear, visual manner. In addition, scatter plots are paramount in predictive analytics as they reveal patterns which can be used to predict future occurrences.\n\nVisit the following resources to learn more:\n\n- [@article@Mastering Scatter Plots](https://www.atlassian.com/data/charts/what-is-a-scatter-plot)\n- [@video@Scatter Graphs: What are they and how to plot them](https://www.youtube.com/watch?v=Vyg9qmBsgAc)",
+      "status": "required",
+      "y": 1562.4045877729018,
+      "x": 24,
+      "parent_topic_id": "_aUQZWUhFRvNu0MZ8CPit"
+    },
+    {
+      "id": "muFy-C2agCX9vR_NU7UZF",
+      "label": "Funnel Charts",
+      "type": "subtopic",
+      "description": "# Funnel Charts\n\nFunnel charts display values decreasing progressively across stages of a process, such as a sales pipeline or user conversion flow. Each stage is represented as a narrowing bar. They highlight where the largest drop-offs occur in a sequential process.\n\nVisit the following resources to learn more:\n\n- [@article@What is a Funnel Chart?](https://www.atlassian.com/data/charts/funnel-chart-complete-guide)\n- [@video@Explain your data with a funnel chart](https://www.youtube.com/watch?v=AwFB9Qg96Ek)",
+      "status": "required",
+      "y": 1615.4045877729018,
+      "x": 24,
+      "parent_topic_id": "_aUQZWUhFRvNu0MZ8CPit"
+    },
+    {
+      "id": "FEyBFZLaGJqTC-IUEcOVS",
+      "label": "Histograms",
+      "type": "subtopic",
+      "description": "# Histograms\n\nHistograms display the distribution of a numeric variable by grouping values into bins and showing the frequency of each bin. They reveal the shape, center, and spread of the data. Histograms are the standard first chart to create when exploring a new numeric variable.\n\nVisit the following resources to learn more:\n\n- [@article@How a histogram works to display data](https://www.investopedia.com/terms/h/histogram.asp)\n- [@article@What is a histogram](https://www.mathsisfun.com/data/histograms.html)",
+      "status": "required",
+      "y": 1457.4045877729018,
+      "x": 184.678189763286,
+      "parent_topic_id": "_aUQZWUhFRvNu0MZ8CPit"
+    },
+    {
+      "id": "329BrtmXjXNLfi1SFfdeo",
+      "label": "Stacked Charts",
+      "type": "subtopic",
+      "description": "# Stacked Chart\n\nA stacked chart is an essential tool for a data analyst in the field of data visualization. This type of chart presents quantitative data in a visually appealing manner and allows users to easily compare different categories while still being able to compare the total sizes. These charts are highly effective when trying to measure part-to-whole relationships, displaying accumulated totals over time or when presenting data with multiple variables. Data analysts often use stacked charts to detect patterns, trends and anomalies which can aid in strategic decision making.\n\nVisit the following resources to learn more:\n\n- [@article@What is a Stacked Chart?](https://www.spotfire.com/glossary/what-is-a-stacked-chart)\n- [@article@A Complete Guide to Stacked Bar Charts](https://www.atlassian.com/data/charts/stacked-bar-chart-complete-guide)",
+      "status": "required",
+      "y": 1510.4045877729018,
+      "x": 184.678189763286,
+      "parent_topic_id": "_aUQZWUhFRvNu0MZ8CPit"
+    },
+    {
+      "id": "G8resQXEVEHCaQfDlt3nj",
+      "label": "Heatmap",
+      "type": "subtopic",
+      "description": "# Heatmap\n\nA heatmap uses color intensity to represent the magnitude of values in a matrix. It is commonly used to visualize correlation matrices, frequency tables, and geographic data. Heatmaps make it easy to spot patterns and relationships across two categorical dimensions.\n\nVisit the following resources to learn more:\n\n- [@article@A Complete Guide to Heatmaps](https://www.hotjar.com/heatmaps/)\n- [@article@What is a Heatmap?](https://www.atlassian.com/data/charts/heatmap-complete-guide)",
+      "status": "required",
+      "y": 1563.4045877729018,
+      "x": 184.678189763286,
+      "parent_topic_id": "_aUQZWUhFRvNu0MZ8CPit"
+    },
+    {
+      "id": "K9xwm_Vpdup9ujYqlD9F3",
+      "label": "Pie Charts",
+      "type": "subtopic",
+      "description": "# Pie Charts\n\nPie charts show the proportional composition of a whole by dividing a circle into slices. They are best used for a small number of categories (typically fewer than five) where the relative sizes are meaningfully different. Pie charts are often criticized for being harder to interpret accurately than bar charts for the same data.\n\nVisit the following resources to learn more:\n\n- [@article@A Complete Guide to Pie Charts](https://www.atlassian.com/data/charts/pie-chart-complete-guide)\n- [@video@What is a Pie Chart](https://www.youtube.com/watch?v=GjJdZaQrItg)",
+      "status": "required",
+      "y": 1616.4045877729018,
+      "x": 184.678189763286,
+      "parent_topic_id": "_aUQZWUhFRvNu0MZ8CPit"
+    },
+    {
+      "id": "Xygwu0m5TeYT6S_8FKKXh",
+      "label": "Hypothesis Testing",
+      "type": "subtopic",
+      "description": "# Hypothesis Testing\n\nHypothesis testing is a statistical method for evaluating whether observed data provides enough evidence to support or reject a claim about a population. It involves defining a null hypothesis, choosing a significance level, computing a test statistic, and comparing it to a critical value or p-value. Common tests include t-tests, chi-square tests, and ANOVA.\n\nVisit the following resources to learn more:\n\n- [@article@Hypothesis Testing - 4 Step](https://www.investopedia.com/terms/h/hypothesistesting.asp)",
+      "status": "required",
+      "y": 1277.270762802686,
+      "x": -714.8814218617622,
+      "parent_topic_id": "TeewVruErSsD4VLXcaDxp"
+    },
+    {
+      "id": "murioZ0NdrTix_lqSGz-8",
+      "label": "Correlation Analysis",
+      "type": "subtopic",
+      "description": "# Correlation Analysis\n\nCorrelation analysis measures the strength and direction of the relationship between two numeric variables. The Pearson correlation coefficient ranges from -1 (perfect negative relationship) to +1 (perfect positive relationship), with 0 indicating no linear relationship. Correlation does not imply causation, and further analysis is needed to understand underlying relationships.\n\nVisit the following resources to learn more:\n\n- [@article@Correlation](https://www.mathsisfun.com/data/correlation.html)\n- [@article@What is correlation analysis?](https://blog.flexmr.net/correlation-analysis-definition-exploration)",
+      "status": "required",
+      "y": 1330.270762802686,
+      "x": -714.8814218617622,
+      "parent_topic_id": "TeewVruErSsD4VLXcaDxp"
+    },
+    {
+      "id": "lTycWscyFPi-BtkNg9cdm",
+      "label": "Regression",
+      "type": "subtopic",
+      "description": "# Regression\n\nRegression models the relationship between a dependent variable and one or more independent variables. Simple linear regression fits a line to describe how one variable changes with another. Multiple regression extends this to several predictors. Regression is used for prediction, forecasting, and understanding which factors influence an outcome.\n\nVisit the following resources to learn more:\n\n- [@article@Regression: Definition, Analysis, Calculation, and Example](https://www.investopedia.com/terms/r/regression.asp)\n- [@article@A Refresher on Regression Analysis - Harvard](https://hbr.org/2015/11/a-refresher-on-regression-analysis)",
+      "status": "required",
+      "y": 1383.270762802686,
+      "x": -714.8814218617622,
+      "parent_topic_id": "TeewVruErSsD4VLXcaDxp"
+    },
+    {
+      "id": "mCUW07rx74_dUNi7OGVlj",
+      "label": "Visualizing Distributions",
+      "type": "subtopic",
+      "description": "# Visualizing Distributions\n\nVisualizing distributions helps analysts understand the shape, spread, and outliers of a variable more intuitively than summary statistics alone. Common visualizations include histograms, density plots, box plots, and violin plots. These charts reveal whether data is normally distributed, skewed, or multi-modal.\n\nVisit the following resources to learn more:\n\n- [@video@Visualising Distributions in Power BI](https://www.youtube.com/watch?v=rOemr3sz2vw)",
+      "status": "required",
+      "y": 1178.5814615179638,
+      "x": -714.8814218617622,
+      "parent_topic_id": "il6KQXVPGBza5libN38ib"
+    },
+    {
+      "id": "XdBwqLoYYiLJNlWPBEDUj",
+      "label": "Reinforcement Learning",
+      "type": "subtopic",
+      "description": "# Reinforcement Learning\n\nReinforcement learning is a type of machine learning where an agent learns to make decisions by interacting with an environment and receiving rewards or penalties. Unlike supervised learning, it does not require labeled training data. It is used in robotics, game-playing AI, and dynamic optimization problems.\n\nVisit the following resources to learn more:\n\n- [@article@What is reinforcement learning](https://aws.amazon.com/what-is/reinforcement-learning/#:~:text=Reinforcement%20learning%20(RL)%20is%20a,use%20to%20achieve%20their%20goals.)\n- [@article@What is reinforcement learning - IBM](https://www.ibm.com/topics/reinforcement-learning)",
+      "status": "required",
+      "y": 1551.270762802686,
+      "x": -722.3814218617622,
+      "parent_topic_id": "f4GuzeokP9w_gwtOquP0g"
+    },
+    {
+      "id": "FntL9E2yVAYwIrlANDNKE",
+      "label": "Unsupervised Learning",
+      "type": "subtopic",
+      "description": "# Unsupervised Learning\n\nUnsupervised learning finds patterns in data without labeled training examples. Common techniques include clustering (grouping similar data points together) and dimensionality reduction (compressing data while preserving structure). K-Means and PCA are widely used unsupervised methods in data analysis.\n\nVisit the following resources to learn more:\n\n- [@article@What is Unsupervised Learning?](https://cloud.google.com/discover/what-is-unsupervised-learning)",
+      "status": "required",
+      "y": 1604.270762802686,
+      "x": -722.3814218617622,
+      "parent_topic_id": "f4GuzeokP9w_gwtOquP0g"
+    },
+    {
+      "id": "FIYCkGXofKMsXmsqHSMh9",
+      "label": "Supervised Learning",
+      "type": "subtopic",
+      "description": "# Supervised Learning\n\nSupervised learning trains models on labeled data, where each example has an input and a known output. The model learns a mapping from inputs to outputs that generalizes to new examples. Classification and regression are the two main tasks in supervised learning.\n\nVisit the following resources to learn more:\n\n- [@article@What is Supervised Learning?](https://cloud.google.com/discover/what-is-supervised-learning)",
+      "status": "required",
+      "y": 1657.270762802686,
+      "x": -722.3814218617622,
+      "parent_topic_id": "f4GuzeokP9w_gwtOquP0g"
+    },
+    {
+      "id": "vHDm_9Lh4EqvXNYSOBaqZ",
+      "label": "Decision Trees",
+      "type": "subtopic",
+      "description": "# Decision Trees\n\nA decision tree is a supervised learning algorithm that splits data into branches based on feature values to reach a prediction. It is interpretable because the decision logic can be visualized and explained. Decision trees are the foundation for ensemble methods like Random Forests and Gradient Boosting.\n\nVisit the following resources to learn more:\n\n- [@article@What is machine learning for analytics?](https://www.oracle.com/business-analytics/what-is-machine-learning-for-analytics/)\n- [@article@The Role of Machine Learning in Data Analysis](https://www.ironhack.com/gb/blog/the-role-of-machine-learning-in-data-analysis)",
+      "status": "required",
+      "y": 1765.270762802686,
+      "x": -722.3814218617622,
+      "parent_topic_id": "f4GuzeokP9w_gwtOquP0g"
+    },
+    {
+      "id": "zbUw5PyVsdccbgDTRHg7d",
+      "label": "Naive Byes",
+      "type": "subtopic",
+      "description": "# Naive Byes\n\nNaive Bayes is a probabilistic classification algorithm based on Bayes' theorem, with the assumption that features are independent of each other given the class. Despite this simplifying assumption, it performs well in practice for text classification, spam detection, and other categorical problems. It is fast to train and works well with small datasets.\n\nVisit the following resources to learn more:\n\n- [@article@What are Na\u00efve Bayes classifiers?](https://www.ibm.com/topics/naive-bayes)\n- [@article@Naive Bayes](https://scikit-learn.org/stable/modules/naive_bayes.html)",
+      "status": "required",
+      "y": 1818.270762802686,
+      "x": -723.8814218617622,
+      "parent_topic_id": "SiYUdtYMDImRPmV2_XPkH"
+    },
+    {
+      "id": "h2xF5bZeUByDgsAi4dga2",
+      "label": "K-Means Clustering",
+      "type": "subtopic",
+      "description": "# K-Means Clustering\n\nK-Means is an unsupervised clustering algorithm that partitions data into K groups by iteratively assigning points to the nearest cluster centroid and updating the centroids. It is simple and scalable but requires specifying K in advance and is sensitive to outliers and initial centroid placement. It is used for customer segmentation, anomaly detection, and data compression.\n\nVisit the following resources to learn more:\n\n- [@article@K-Means Clustering](https://en.wikipedia.org/wiki/K-means_clustering)\n- [@article@K-Means](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html)",
+      "status": "required",
+      "y": 1871.270762802686,
+      "x": -722.3814218617622,
+      "parent_topic_id": "SiYUdtYMDImRPmV2_XPkH"
+    },
+    {
+      "id": "7ikA373qH88HBx5irCgIH",
+      "label": "Model Evaluation Techniques",
+      "type": "subtopic",
+      "description": "# Model Evaluation Techniques\n\nModel evaluation measures how well a machine learning model performs on unseen data. Common metrics include accuracy, precision, recall, F1 score for classification, and mean squared error for regression. Techniques like cross-validation and train/test splits ensure that evaluation reflects real-world performance rather than overfitting to training data.\n\nVisit the following resources to learn more:\n\n- [@article@What is Model Evaluation](https://domino.ai/data-science-dictionary/model-evaluation)",
+      "status": "required",
+      "y": 1639.270762802686,
+      "x": -453.821810236714,
+      "parent_topic_id": "f4GuzeokP9w_gwtOquP0g"
+    },
+    {
+      "id": "m1IfG2sEedUxMXrv_B8GW",
+      "label": "Big Data Concepts",
+      "type": "subtopic",
+      "description": "# Big Data Concepts\n\nBig data concepts describe the properties and challenges of working with very large datasets. The three Vs (volume, velocity, variety) capture the main dimensions: how much data there is, how fast it arrives, and how many formats it comes in. Understanding these concepts helps in choosing appropriate storage and processing technologies.\n\nVisit the following resources to learn more:\n\n- [@article@An Introduction to Big Data Concepts and Terminology](https://www.digitalocean.com/community/tutorials/an-introduction-to-big-data-concepts-and-terminology)\n- [@article@An Introduction to Big Data Concepts](https://www.suse.com/c/rancher_blog/an-introduction-to-big-data-concepts/)",
+      "status": "required",
+      "y": 1814.270762802686,
+      "x": 80.49718479195076,
+      "parent_topic_id": "_aUQZWUhFRvNu0MZ8CPit"
+    },
+    {
+      "id": "SStzU_iXSvI_9QWbvGNou",
+      "label": "KNN",
+      "type": "subtopic",
+      "description": "# KNN\n\nK-Nearest Neighbors (KNN) is a simple supervised learning algorithm that classifies a data point based on the majority class of its K nearest neighbors in the feature space. It requires no training phase but is slow at prediction time for large datasets. KNN is also used for regression by averaging the values of the nearest neighbors.\n\nVisit the following resources to learn more:\n\n- [@article@What is the k-nearest neighbors (KNN) algorithm?](https://www.ibm.com/topics/knn#:~:text=The%20k%2Dnearest%20neighbors%20KNN,used%20in%20machine%20learning%20today.)\n- [@article@Nearest Neighbors](https://scikit-learn.org/stable/modules/neighbors.html)",
+      "status": "required",
+      "y": 1818.270762802686,
+      "x": -561.8814218617622,
+      "parent_topic_id": "SiYUdtYMDImRPmV2_XPkH"
+    },
+    {
+      "id": "ofOQKAIu4rezWmgZeE-KT",
+      "label": "Logistic Regression",
+      "type": "subtopic",
+      "description": "# Logistic Regression\n\nLogistic regression is a supervised classification algorithm that models the probability of a binary outcome using a sigmoid function. Despite its name, it is a classification method, not a regression one. It is widely used for binary classification tasks like churn prediction, fraud detection, and medical diagnosis.\n\nVisit the following resources to learn more:\n\n- [@article@Everything you need to know about Logistic Regression](https://www.spiceworks.com/tech/artificial-intelligence/articles/what-is-logistic-regression/)\n- [@article@Logistic Regression for Machine Learning](https://machinelearningmastery.com/logistic-regression-for-machine-learning/)",
+      "status": "required",
+      "y": 1925.270762802686,
+      "x": -722.3814218617622,
+      "parent_topic_id": "SiYUdtYMDImRPmV2_XPkH"
+    },
+    {
+      "id": "Fwwve0j-KDfc605IIgmil",
+      "label": "Parallel Processing",
+      "type": "subtopic",
+      "description": "# Parallel Processing\n\nParallel processing divides a computation into tasks that run simultaneously across multiple processors or machines. It is the core technique that makes big data processing feasible, as tasks that would take hours on a single machine can complete in minutes when distributed. Spark and Hadoop both use parallelism to handle large-scale data.\n\nVisit the following resources to learn more:\n\n- [@article@What Is Parallel Processing?](https://www.spiceworks.com/tech/iot/articles/what-is-parallel-processing/)\n- [@article@How Parallel Computing Works](https://computer.howstuffworks.com/parallel-processing.htm)",
+      "status": "required",
+      "y": 2083.5075991775,
+      "x": 82.61857813823781,
+      "parent_topic_id": "_aUQZWUhFRvNu0MZ8CPit"
+    },
+    {
+      "id": "wECWIRMlWNoTxz5eKwaSf",
+      "label": "Hadoop",
+      "type": "subtopic",
+      "description": "# Hadoop\n\nApache Hadoop is an open-source framework for distributed storage and processing of large datasets across clusters. It consists of HDFS for storage and MapReduce for computation. While largely superseded by Spark for processing, Hadoop's ecosystem, including HDFS and YARN, remains foundational in many big data environments.\n\nVisit the following resources to learn more:\n\n- [@official@Apache Hadoop](https://hadoop.apache.org/)\n- [@article@What Is Hadoop?](https://www.databricks.com/glossary/hadoop)",
+      "status": "required",
+      "y": 1974.2505657648564,
+      "x": 82.07457800662047,
+      "parent_topic_id": "_aUQZWUhFRvNu0MZ8CPit"
+    },
+    {
+      "id": "vaiigToDh4522rtWamuSM",
+      "label": "Spark",
+      "type": "subtopic",
+      "description": "# Spark\n\nApache Spark is a distributed data processing engine for large-scale batch and streaming workloads. It processes data in memory across a cluster, making it significantly faster than MapReduce for iterative computations. Spark supports Python (PySpark), Scala, SQL, and provides libraries for machine learning (MLlib) and graph processing.\n\nVisit the following resources to learn more:\n\n- [@official@Apache Spark](https://spark.apache.org/)\n- [@opensource@apache/spark](https://github.com/apache/spark)",
+      "status": "required",
+      "y": 1974.2505657648564,
+      "x": 215.49718479195076,
+      "parent_topic_id": "_aUQZWUhFRvNu0MZ8CPit"
+    },
+    {
+      "id": "fqCAH4Enc4AAJHoSkk2Pe",
+      "label": "MPI",
+      "type": "subtopic",
+      "description": "# MPI\n\nMPI (Message Passing Interface) is a standard for parallel programming across distributed memory systems. It allows processes on different machines to communicate and coordinate. MPI is used in high-performance computing (HPC) environments for scientific simulations and large-scale numerical computations.\n\nVisit the following resources to learn more:\n\n- [@official@Message Passing Interface Forum](https://www.mpi-forum.org/)\n- [@article@Microsoft MPI](https://learn.microsoft.com/en-us/message-passing-interface/microsoft-mpi)",
+      "status": "required",
+      "y": 2136.5075991775,
+      "x": 82.07457800662047,
+      "parent_topic_id": "_aUQZWUhFRvNu0MZ8CPit"
+    },
+    {
+      "id": "eAM9orCNwzqh34uvGBVm8",
+      "label": "MapReduce",
+      "type": "subtopic",
+      "description": "# MapReduce\n\nMapReduce is a programming model for processing large datasets in parallel. The map phase transforms input data into key-value pairs, and the reduce phase aggregates them into a final result. It was the original processing model for Hadoop and, while largely replaced by Spark, the map-reduce paradigm still underlies many distributed data processing patterns.\n\nVisit the following resources to learn more:\n\n- [@article@MapReduce](https://www.databricks.com/glossary/mapreduce)\n- [@article@What is Apache MapReduce?](https://www.ibm.com/topics/mapreduce)",
+      "status": "required",
+      "y": 2136.5075991775,
+      "x": 188.49718479195076,
+      "parent_topic_id": "_aUQZWUhFRvNu0MZ8CPit"
+    },
+    {
+      "id": "gGHsKcS92StK5FolzmVvm",
+      "label": "Neural Networks",
+      "type": "subtopic",
+      "description": "# Neural Networks\n\nNeural networks are machine learning models inspired by the structure of the brain, consisting of layers of interconnected nodes (neurons) that transform inputs into outputs. They learn by adjusting connection weights during training to minimize prediction error. Neural networks are the foundation of deep learning and power most modern AI applications.\n\nVisit the following resources to learn more:\n\n- [@article@What is a Neural Network?](https://aws.amazon.com/what-is/neural-network/)\n- [@article@Explained: Neural networks](https://news.mit.edu/2017/explained-neural-networks-deep-learning-0414)",
+      "status": "required",
+      "y": 1881.2505657648564,
+      "x": -434.3814218617622,
+      "parent_topic_id": "SiYUdtYMDImRPmV2_XPkH"
+    },
+    {
+      "id": "XlCv2OirEfuBFa4ranyyE",
+      "label": "CNNs",
+      "type": "subtopic",
+      "description": "# CNNs\n\nConvolutional Neural Networks (CNNs) are a type of deep neural network designed for processing grid-structured data like images. They use convolutional layers to automatically learn spatial features such as edges, textures, and shapes. CNNs are the standard architecture for image classification, object detection, and computer vision tasks.\n\nVisit the following resources to learn more:\n\n- [@article@What are convolutional neural networks?](https://www.ibm.com/topics/convolutional-neural-networks)\n- [@video@What are Convolutional Neural Networks (CNNs)?](https://www.youtube.com/watch?v=QzY57FaENXg)",
+      "status": "required",
+      "y": 1828.2505657648564,
+      "x": -432.5,
+      "parent_topic_id": "SiYUdtYMDImRPmV2_XPkH"
+    },
+    {
+      "id": "Gocm98_tRg5BGxKcP-7zg",
+      "label": "RNN",
+      "type": "subtopic",
+      "description": "# RNN\n\nRecurrent Neural Networks (RNNs) are a type of neural network designed for sequential data, where the output at each step depends on previous steps. They maintain a hidden state that carries information from earlier in the sequence. RNNs and their variants (LSTM, GRU) are used for time series forecasting, text generation, and language modeling.\n\nVisit the following resources to learn more:\n\n- [@article@What is a Recurrent Neural Network (RNN)?](https://www.ibm.com/topics/recurrent-neural-networks)\n- [@article@Recurrent Neural Networks Cheat-sheet](https://stanford.edu/~shervine/teaching/cs-230/cheatsheet-recurrent-neural-networks)",
+      "status": "required",
+      "y": 1828.2505657648564,
+      "x": -297.8814218617622,
+      "parent_topic_id": "SiYUdtYMDImRPmV2_XPkH"
+    },
+    {
+      "id": "FJ4Sx477FWxyDsQr0R8rl",
+      "label": "Tensorflow",
+      "type": "subtopic",
+      "description": "# Tensor Flow\n\nTensorFlow, developed by Google Brain Team, has become a crucial tool in the realm of data analytics, particularly within the field of deep learning. It's an open-source platform for machine learning, offering a comprehensive and flexible ecosystem of tools, libraries, and community resources. As a data analyst, understanding and implementing TensorFlow for deep learning models allows us to identify complex patterns and make insightful predictions which standard analysis could miss. It's in-demand skill that enhances our ability to generate accurate insights from colossal and complicated structured or unstructured data sets.\n\nVisit the following resources to learn more:\n\n- [@official@Tensorflow](https://www.tensorflow.org/)\n- [@official@Tensorflow Documentation](https://www.tensorflow.org/learn)\n- [@video@Tensorflow in 100 seconds](https://www.youtube.com/watch?v=i8NETqtGHms)",
+      "status": "required",
+      "y": 2068.250565764856,
+      "x": -720.8814218617622,
+      "parent_topic_id": "SiYUdtYMDImRPmV2_XPkH"
+    },
+    {
+      "id": "LJSqfz6aYJbCe_bK8EWI1",
+      "label": "Pytorch",
+      "type": "subtopic",
+      "description": "# Pytorch\n\nPyTorch is an open-source deep learning framework developed by Meta. It uses dynamic computation graphs, making it flexible and intuitive for research and experimentation. PyTorch has become the preferred framework in academic research and is increasingly used in production deployments. It is the other dominant deep learning framework alongside TensorFlow.\n\nVisit the following resources to learn more:\n\n- [@official@PyTorch](https://pytorch.org/)\n- [@official@PyTorch Documentation](https://pytorch.org/docs/stable/index.html)\n- [@video@PyTorch in 100 seconds](https://www.youtube.com/watch?v=ORMx45xqWkA)",
+      "status": "required",
+      "y": 2122.250565764856,
+      "x": -720.8814218617622,
+      "parent_topic_id": "SiYUdtYMDImRPmV2_XPkH"
+    },
+    {
+      "id": "bHPJ6yOHtUq5EjJBSrJUE",
+      "label": "Image Recognition",
+      "type": "subtopic",
+      "description": "# Image Recognition\n\nImage recognition is the task of identifying objects, scenes, or attributes in images. Deep learning models, particularly CNNs, have achieved human-level performance on standard image recognition benchmarks. Practicing image recognition involves training models on labeled image datasets and evaluating their accuracy on unseen images.\n\nVisit the following resources to learn more:\n\n- [@article@What is Image Recognition?](https://www.techtarget.com/searchenterpriseai/definition/image-recognition)\n- [@article@Image Recognition: Definition, Algorithms & Uses](https://www.v7labs.com/blog/image-recognition-guide)",
+      "status": "required",
+      "y": 2150.250565764856,
+      "x": -434.3814218617622,
+      "parent_topic_id": "SiYUdtYMDImRPmV2_XPkH"
+    },
+    {
+      "id": "DFv-eiYDicF4cA4jgVk9_",
+      "label": "Natural Language Processing",
+      "type": "subtopic",
+      "description": "# Natural Language Processing\n\nNatural Language Processing (NLP) is the field of enabling computers to understand, interpret, and generate human language. Tasks include text classification, sentiment analysis, named entity recognition, and machine translation. Deep learning models, especially transformers, have dramatically improved NLP performance and are the basis for tools like large language models.\n\nVisit the following resources to learn more:\n\n- [@article@What is NLP?](https://aws.amazon.com/what-is/nlp/)\n- [@article@Natural Language Processing](https://www.deeplearning.ai/resources/natural-language-processing/)",
+      "status": "required",
+      "y": 2203.250565764856,
+      "x": -434.3814218617622,
+      "parent_topic_id": "SiYUdtYMDImRPmV2_XPkH"
+    },
+    {
+      "id": "iTmtpXe7dR4XKslgpsk2q",
+      "label": "Data Storage Solutions",
+      "type": "subtopic",
+      "description": "# Data Storage Solutions\n\nBig data storage solutions are designed to hold large volumes of structured, semi-structured, and unstructured data reliably. Options include distributed file systems like HDFS, object stores like S3, and columnar databases optimized for analytics. The choice depends on access patterns, data format, and the processing framework being used.\n\nVisit the following resources to learn more:\n\n- [@roadmap@Visit Dedicated SQL Roadmap](https://roadmap.sh/sql)\n- [@roadmap@Visit Dedicated PostgreSQL Roadmap](https://roadmap.sh/postgresql-dba)",
+      "status": "required",
+      "y": 1867.270762802686,
+      "x": 80.49718479195076,
+      "parent_topic_id": "_aUQZWUhFRvNu0MZ8CPit"
+    }
+  ]
+}

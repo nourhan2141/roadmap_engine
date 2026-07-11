@@ -18,4 +18,4 @@ ENV PATH="/app/.venv/bin:$PATH"
 EXPOSE 7860
 
 # Run the FastAPI application
-CMD ["uvicorn", "src.roadmap_engine.main:app", "--host", "0.0.0.0", "--port", "7860"]
+CMD sh -c "uvicorn src.roadmap_engine.main:app --host 0.0.0.0 --port ${PORT:-7860}"

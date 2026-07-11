@@ -1,3 +1,11 @@
+---
+title: Roadmap Engine
+emoji: 🗺️
+colorFrom: blue
+colorTo: green
+sdk: docker
+app_port: 7860
+---
 # Roadmap Engine API
 
 The Roadmap Engine is a backend service powered by **FastAPI** that provides comprehensive learning roadmaps and personalized learning plans for various technical domains (Frontend, Backend, DevOps, AI/ML, and more).
